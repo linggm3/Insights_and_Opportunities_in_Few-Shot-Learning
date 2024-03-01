@@ -1,0 +1,245 @@
+测试集20个类别，每个类别10张图片
+测试集各类别: ['hourglass', 'bookshop', 'golden_retriever', 'dalmatian', 'ant', 'malamute', 'African_hunting_dog', 'black-footed_ferret', 'school_bus', 'scoreboard', 'nematode', 'electric_guitar', 'trifle', 'vase', 'mixing_bowl', 'cuirass', 'theater_curtain', 'crate', 'lion', 'king_crab']
+测试集各类别: ['n03544143', 'n02871525', 'n02099601', 'n02110341', 'n02219486', 'n02110063', 'n02116738', 'n02443484', 'n04146614', 'n04149813', 'n01930112', 'n03272010', 'n07613480', 'n04522168', 'n03775546', 'n03146219', 'n04418357', 'n03127925', 'n02129165', 'n01981276']
+n03544143:['n0354414300001181.jpg', 'n0354414300001152.jpg', 'n0354414300000774.jpg', 'n0354414300001224.jpg', 'n0354414300000767.jpg', 'n0354414300000011.jpg', 'n0354414300000652.jpg', 'n0354414300001133.jpg', 'n0354414300001116.jpg', 'n0354414300001154.jpg']
+n02871525:['n0287152500001147.jpg', 'n0287152500000227.jpg', 'n0287152500000187.jpg', 'n0287152500000343.jpg', 'n0287152500000028.jpg', 'n0287152500000914.jpg', 'n0287152500000270.jpg', 'n0287152500000156.jpg', 'n0287152500000874.jpg', 'n0287152500001160.jpg']
+n02099601:['n0209960100001239.jpg', 'n0209960100000010.jpg', 'n0209960100000589.jpg', 'n0209960100001019.jpg', 'n0209960100000839.jpg', 'n0209960100000229.jpg', 'n0209960100000552.jpg', 'n0209960100000335.jpg', 'n0209960100000222.jpg', 'n0209960100000780.jpg']
+n02110341:['n0211034100000294.jpg', 'n0211034100000534.jpg', 'n0211034100000010.jpg', 'n0211034100000669.jpg', 'n0211034100000108.jpg', 'n0211034100001207.jpg', 'n0211034100000663.jpg', 'n0211034100000504.jpg', 'n0211034100000049.jpg', 'n0211034100000251.jpg']
+n02219486:['n0221948600000854.jpg', 'n0221948600000272.jpg', 'n0221948600000128.jpg', 'n0221948600000343.jpg', 'n0221948600000427.jpg', 'n0221948600001016.jpg', 'n0221948600000081.jpg', 'n0221948600000096.jpg', 'n0221948600000241.jpg', 'n0221948600001232.jpg']
+n02110063:['n0211006300000149.jpg', 'n0211006300000103.jpg', 'n0211006300000839.jpg', 'n0211006300001146.jpg', 'n0211006300000856.jpg', 'n0211006300001168.jpg', 'n0211006300001113.jpg', 'n0211006300000480.jpg', 'n0211006300000703.jpg', 'n0211006300000417.jpg']
+n02116738:['n0211673800000118.jpg', 'n0211673800000970.jpg', 'n0211673800001272.jpg', 'n0211673800000672.jpg', 'n0211673800001167.jpg', 'n0211673800000949.jpg', 'n0211673800000213.jpg', 'n0211673800001260.jpg', 'n0211673800000528.jpg', 'n0211673800000543.jpg']
+n02443484:['n0244348400000248.jpg', 'n0244348400000031.jpg', 'n0244348400000950.jpg', 'n0244348400001231.jpg', 'n0244348400000581.jpg', 'n0244348400000169.jpg', 'n0244348400000413.jpg', 'n0244348400000667.jpg', 'n0244348400000714.jpg', 'n0244348400000075.jpg']
+n04146614:['n0414661400000115.jpg', 'n0414661400000113.jpg', 'n0414661400000688.jpg', 'n0414661400000641.jpg', 'n0414661400000087.jpg', 'n0414661400000417.jpg', 'n0414661400001103.jpg', 'n0414661400000446.jpg', 'n0414661400000561.jpg', 'n0414661400000621.jpg']
+n04149813:['n0414981300000554.jpg', 'n0414981300000275.jpg', 'n0414981300000023.jpg', 'n0414981300001200.jpg', 'n0414981300001218.jpg', 'n0414981300000231.jpg', 'n0414981300000399.jpg', 'n0414981300000322.jpg', 'n0414981300000276.jpg', 'n0414981300000421.jpg']
+n01930112:['n0193011200000991.jpg', 'n0193011200000278.jpg', 'n0193011200000241.jpg', 'n0193011200000094.jpg', 'n0193011200000044.jpg', 'n0193011200000555.jpg', 'n0193011200000883.jpg', 'n0193011200000502.jpg', 'n0193011200000652.jpg', 'n0193011200000961.jpg']
+n03272010:['n0327201000000582.jpg', 'n0327201000000541.jpg', 'n0327201000000269.jpg', 'n0327201000000214.jpg', 'n0327201000000595.jpg', 'n0327201000000861.jpg', 'n0327201000001249.jpg', 'n0327201000000844.jpg', 'n0327201000000904.jpg', 'n0327201000000498.jpg']
+n07613480:['n0761348000001046.jpg', 'n0761348000000355.jpg', 'n0761348000000296.jpg', 'n0761348000000803.jpg', 'n0761348000000602.jpg', 'n0761348000000618.jpg', 'n0761348000001076.jpg', 'n0761348000001297.jpg', 'n0761348000000723.jpg', 'n0761348000000401.jpg']
+n04522168:['n0452216800000790.jpg', 'n0452216800000523.jpg', 'n0452216800001136.jpg', 'n0452216800000318.jpg', 'n0452216800000123.jpg', 'n0452216800000510.jpg', 'n0452216800000136.jpg', 'n0452216800000236.jpg', 'n0452216800000541.jpg', 'n0452216800000597.jpg']
+n03775546:['n0377554600000506.jpg', 'n0377554600000176.jpg', 'n0377554600000914.jpg', 'n0377554600000078.jpg', 'n0377554600000753.jpg', 'n0377554600001296.jpg', 'n0377554600000850.jpg', 'n0377554600001236.jpg', 'n0377554600000691.jpg', 'n0377554600000762.jpg']
+n03146219:['n0314621900001258.jpg', 'n0314621900000115.jpg', 'n0314621900000843.jpg', 'n0314621900000520.jpg', 'n0314621900001223.jpg', 'n0314621900000078.jpg', 'n0314621900001083.jpg', 'n0314621900000529.jpg', 'n0314621900000794.jpg', 'n0314621900000103.jpg']
+n04418357:['n0441835700000746.jpg', 'n0441835700000603.jpg', 'n0441835700001119.jpg', 'n0441835700000212.jpg', 'n0441835700000045.jpg', 'n0441835700000822.jpg', 'n0441835700000741.jpg', 'n0441835700000559.jpg', 'n0441835700000954.jpg', 'n0441835700000174.jpg']
+n03127925:['n0312792500001294.jpg', 'n0312792500000250.jpg', 'n0312792500000951.jpg', 'n0312792500000166.jpg', 'n0312792500000375.jpg', 'n0312792500000048.jpg', 'n0312792500000252.jpg', 'n0312792500000410.jpg', 'n0312792500000483.jpg', 'n0312792500000215.jpg']
+n02129165:['n0212916500000101.jpg', 'n0212916500000744.jpg', 'n0212916500000566.jpg', 'n0212916500000319.jpg', 'n0212916500000043.jpg', 'n0212916500000317.jpg', 'n0212916500001021.jpg', 'n0212916500000512.jpg', 'n0212916500000077.jpg', 'n0212916500000494.jpg']
+n01981276:['n0198127600001128.jpg', 'n0198127600000169.jpg', 'n0198127600000711.jpg', 'n0198127600000242.jpg', 'n0198127600001044.jpg', 'n0198127600001042.jpg', 'n0198127600000888.jpg', 'n0198127600001126.jpg', 'n0198127600000724.jpg', 'n0198127600000488.jpg']
+
+n0354414300001181.jpg,label=hourglass,output=hourglass,True
+n0354414300001152.jpg,label=hourglass,output=hourglass,True
+n0354414300000774.jpg,label=hourglass,output=hourglass,True
+n0354414300001224.jpg,label=hourglass,output=hourglass,True
+n0354414300000767.jpg,label=hourglass,output=hourglass,True
+n0354414300000011.jpg,label=hourglass,output=hourglass,True
+n0354414300000652.jpg,label=hourglass,output=hourglass,True
+n0354414300001133.jpg,label=hourglass,output=hourglass,True
+n0354414300001116.jpg,label=hourglass,output=hourglass,True
+n0354414300001154.jpg,label=hourglass,output=hourglass,True
+
+n0287152500001147.jpg,label=bookshop,output=bookshop,True
+n0287152500000227.jpg,label=bookshop,output=bookshop,True
+n0287152500000187.jpg,label=bookshop,output=bookshop,True
+n0287152500000343.jpg,label=bookshop,output=bookshop,True
+n0287152500000028.jpg,label=bookshop,output=bookshop,True
+n0287152500000914.jpg,label=bookshop,output=bookshop,True
+n0287152500000270.jpg,label=bookshop,output=bookshop,True
+n0287152500000156.jpg,label=bookshop,output=bookshop,True
+n0287152500000874.jpg,label=bookshop,output=bookshop,True
+n0287152500001160.jpg,label=bookshop,output=The correct answer is bookshop.,True
+
+n0209960100001239.jpg,label=golden_retriever,output=hourglass,False
+n0209960100000010.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000589.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100001019.jpg,label=golden_retriever,output=hourglass,False
+n0209960100000839.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000229.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000552.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000335.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000222.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000780.jpg,label=golden_retriever,output=golden retriever,True
+
+n0211034100000294.jpg,label=dalmatian,output=The correct answer is dalmatian.,True
+n0211034100000534.jpg,label=dalmatian,output=The correct answer is dalmatian.,True
+n0211034100000010.jpg,label=dalmatian,output=hourglass,False
+n0211034100000669.jpg,label=dalmatian,output=hourglass,False
+n0211034100000108.jpg,label=dalmatian,output=The correct answer is dalmatian.,True
+n0211034100001207.jpg,label=dalmatian,output=The correct answer is dalmatian.,True
+n0211034100000663.jpg,label=dalmatian,output=The correct answer is dalmatian.,True
+n0211034100000504.jpg,label=dalmatian,output=hourglass,False
+n0211034100000049.jpg,label=dalmatian,output=The correct answer is dalmatian.,True
+n0211034100000251.jpg,label=dalmatian,output=The correct answer is dalmatian.,True
+
+n0221948600000854.jpg,label=ant,output=ant,True
+n0221948600000272.jpg,label=ant,output=hourglass,False
+n0221948600000128.jpg,label=ant,output=ant,True
+n0221948600000343.jpg,label=ant,output=hourglass,False
+n0221948600000427.jpg,label=ant,output=ant,True
+n0221948600001016.jpg,label=ant,output=ant,True
+n0221948600000081.jpg,label=ant,output=hourglass,False
+n0221948600000096.jpg,label=ant,output=hourglass,False
+n0221948600000241.jpg,label=ant,output=hourglass,False
+n0221948600001232.jpg,label=ant,output=ant,True
+
+n0211006300000149.jpg,label=malamute,output=The correct answer is malamute.,True
+n0211006300000103.jpg,label=malamute,output=hourglass,False
+n0211006300000839.jpg,label=malamute,output=hourglass,False
+n0211006300001146.jpg,label=malamute,output=The correct answer is malamute.,True
+n0211006300000856.jpg,label=malamute,output=malamute,True
+n0211006300001168.jpg,label=malamute,output=hourglass,False
+n0211006300001113.jpg,label=malamute,output=hourglass,False
+n0211006300000480.jpg,label=malamute,output=The correct answer is hourglass.,False
+n0211006300000703.jpg,label=malamute,output=The correct answer is malamute.,True
+n0211006300000417.jpg,label=malamute,output=The correct answer is malamute.,True
+
+n0211673800000118.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000970.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800001272.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000672.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800001167.jpg,label=African_hunting_dog,output=The correct answer is dalmatian.,False
+n0211673800000949.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000213.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800001260.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000528.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000543.jpg,label=African_hunting_dog,output=African hunting dog,True
+
+n0244348400000248.jpg,label=black-footed_ferret,output=hourglass,False
+n0244348400000031.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000950.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001231.jpg,label=black-footed_ferret,output=hourglass,False
+n0244348400000581.jpg,label=black-footed_ferret,output=The correct answer is black-footed_ferret.,True
+n0244348400000169.jpg,label=black-footed_ferret,output=The correct answer is black-footed_ferret.,True
+n0244348400000413.jpg,label=black-footed_ferret,output=The correct answer is black-footed_ferret.,True
+n0244348400000667.jpg,label=black-footed_ferret,output=The correct answer is black-footed_ferret.,True
+n0244348400000714.jpg,label=black-footed_ferret,output=hourglass,False
+n0244348400000075.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0414661400000115.jpg,label=school_bus,output=school_bus,True
+n0414661400000113.jpg,label=school_bus,output=school_bus,True
+n0414661400000688.jpg,label=school_bus,output=school_bus,True
+n0414661400000641.jpg,label=school_bus,output=school_bus,True
+n0414661400000087.jpg,label=school_bus,output=school_bus,True
+n0414661400000417.jpg,label=school_bus,output=school_bus,True
+n0414661400001103.jpg,label=school_bus,output=school_bus,True
+n0414661400000446.jpg,label=school_bus,output=school_bus,True
+n0414661400000561.jpg,label=school_bus,output=school_bus,True
+n0414661400000621.jpg,label=school_bus,output=school_bus,True
+
+n0414981300000554.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000275.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000023.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001200.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001218.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000231.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000399.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000322.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000276.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000421.jpg,label=scoreboard,output=scoreboard,True
+
+n0193011200000991.jpg,label=nematode,output=hourglass,False
+n0193011200000278.jpg,label=nematode,output=nematode,True
+n0193011200000241.jpg,label=nematode,output=hourglass,False
+n0193011200000094.jpg,label=nematode,output=nematode,True
+n0193011200000044.jpg,label=nematode,output=hourglass,False
+n0193011200000555.jpg,label=nematode,output=hourglass,False
+n0193011200000883.jpg,label=nematode,output=hourglass,False
+n0193011200000502.jpg,label=nematode,output=hourglass,False
+n0193011200000652.jpg,label=nematode,output=The correct answer is hourglass.,False
+n0193011200000961.jpg,label=nematode,output=hourglass,False
+
+n0327201000000582.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000541.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000269.jpg,label=electric_guitar,output=electric guitar,True
+n0327201000000214.jpg,label=electric_guitar,output=electric guitar,True
+n0327201000000595.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000861.jpg,label=electric_guitar,output=electric guitar,True
+n0327201000001249.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000844.jpg,label=electric_guitar,output=electric guitar,True
+n0327201000000904.jpg,label=electric_guitar,output=hourglass,False
+n0327201000000498.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0761348000001046.jpg,label=trifle,output=trifle,True
+n0761348000000355.jpg,label=trifle,output=trifle,True
+n0761348000000296.jpg,label=trifle,output=trifle,True
+n0761348000000803.jpg,label=trifle,output=mixing_bowl,False
+n0761348000000602.jpg,label=trifle,output=trifle,True
+n0761348000000618.jpg,label=trifle,output=trifle,True
+n0761348000001076.jpg,label=trifle,output=trifle,True
+n0761348000001297.jpg,label=trifle,output=trifle,True
+n0761348000000723.jpg,label=trifle,output=trifle,True
+n0761348000000401.jpg,label=trifle,output=trifle,True
+
+n0452216800000790.jpg,label=vase,output=vase,True
+n0452216800000523.jpg,label=vase,output=vase,True
+n0452216800001136.jpg,label=vase,output=vase,True
+n0452216800000318.jpg,label=vase,output=vase,True
+n0452216800000123.jpg,label=vase,output=vase,True
+n0452216800000510.jpg,label=vase,output=vase,True
+n0452216800000136.jpg,label=vase,output=vase,True
+n0452216800000236.jpg,label=vase,output=vase,True
+n0452216800000541.jpg,label=vase,output=vase,True
+n0452216800000597.jpg,label=vase,output=vase,True
+
+n0377554600000506.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000176.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000914.jpg,label=mixing_bowl,output=vase,False
+n0377554600000078.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000753.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001296.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000850.jpg,label=mixing_bowl,output=hourglass,False
+n0377554600001236.jpg,label=mixing_bowl,output=hourglass,False
+n0377554600000691.jpg,label=mixing_bowl,output=hourglass,False
+n0377554600000762.jpg,label=mixing_bowl,output=mixing_bowl,True
+
+n0314621900001258.jpg,label=cuirass,output=The correct answer is cuirass.,True
+n0314621900000115.jpg,label=cuirass,output=cuirass,True
+n0314621900000843.jpg,label=cuirass,output=cuirass,True
+n0314621900000520.jpg,label=cuirass,output=cuirass,True
+n0314621900001223.jpg,label=cuirass,output=cuirass,True
+n0314621900000078.jpg,label=cuirass,output=The correct answer is cuirass.,True
+n0314621900001083.jpg,label=cuirass,output=cuirass,True
+n0314621900000529.jpg,label=cuirass,output=cuirass,True
+n0314621900000794.jpg,label=cuirass,output=cuirass,True
+n0314621900000103.jpg,label=cuirass,output=cuirass,True
+
+n0441835700000746.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000603.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001119.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000212.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000045.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000822.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000741.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000559.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000954.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000174.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0312792500001294.jpg,label=crate,output=hourglass,False
+n0312792500000250.jpg,label=crate,output=Crate,True
+n0312792500000951.jpg,label=crate,output=Crate,True
+n0312792500000166.jpg,label=crate,output=theater_curtain,False
+n0312792500000375.jpg,label=crate,output=hourglass,False
+n0312792500000048.jpg,label=crate,output=The correct answer is bookshop.,False
+n0312792500000252.jpg,label=crate,output=bookshop,False
+n0312792500000410.jpg,label=crate,output=Crate,True
+n0312792500000483.jpg,label=crate,output=theater curtain,False
+n0312792500000215.jpg,label=crate,output=Crate,True
+
+n0212916500000101.jpg,label=lion,output=lion,True
+n0212916500000744.jpg,label=lion,output=lion,True
+n0212916500000566.jpg,label=lion,output=lion,True
+n0212916500000319.jpg,label=lion,output=lion,True
+n0212916500000043.jpg,label=lion,output=lion,True
+n0212916500000317.jpg,label=lion,output=lion,True
+n0212916500001021.jpg,label=lion,output=lion,True
+n0212916500000512.jpg,label=lion,output=lion,True
+n0212916500000077.jpg,label=lion,output=hourglass,False
+n0212916500000494.jpg,label=lion,output=lion,True
+
+n0198127600001128.jpg,label=king_crab,output=hourglass,False
+n0198127600000169.jpg,label=king_crab,output=hourglass,False
+n0198127600000711.jpg,label=king_crab,output=The correct answer is hourglass.,False
+n0198127600000242.jpg,label=king_crab,output=hourglass,False
+n0198127600001044.jpg,label=king_crab,output=The correct answer is 'king_crab'.,True
+n0198127600001042.jpg,label=king_crab,output=king_crab,True
+n0198127600000888.jpg,label=king_crab,output=hourglass,False
+n0198127600001126.jpg,label=king_crab,output=hourglass,False
+n0198127600000724.jpg,label=king_crab,output=hourglass,False
+n0198127600000488.jpg,label=king_crab,output=hourglass,False
+
+acc:  0.76

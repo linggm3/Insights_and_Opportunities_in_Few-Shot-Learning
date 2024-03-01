@@ -1,0 +1,245 @@
+测试集20个类别，每个类别10张图片
+测试集各类别: ['golden_retriever', 'king_crab', 'crate', 'bookshop', 'school_bus', 'theater_curtain', 'mixing_bowl', 'electric_guitar', 'malamute', 'ant', 'hourglass', 'lion', 'trifle', 'vase', 'African_hunting_dog', 'black-footed_ferret', 'dalmatian', 'scoreboard', 'nematode', 'cuirass']
+测试集各类别: ['n02099601', 'n01981276', 'n03127925', 'n02871525', 'n04146614', 'n04418357', 'n03775546', 'n03272010', 'n02110063', 'n02219486', 'n03544143', 'n02129165', 'n07613480', 'n04522168', 'n02116738', 'n02443484', 'n02110341', 'n04149813', 'n01930112', 'n03146219']
+n02099601:['n0209960100000742.jpg', 'n0209960100000458.jpg', 'n0209960100000628.jpg', 'n0209960100000852.jpg', 'n0209960100001117.jpg', 'n0209960100000833.jpg', 'n0209960100000775.jpg', 'n0209960100000776.jpg', 'n0209960100000686.jpg', 'n0209960100000905.jpg']
+n01981276:['n0198127600000084.jpg', 'n0198127600001271.jpg', 'n0198127600000274.jpg', 'n0198127600001110.jpg', 'n0198127600000640.jpg', 'n0198127600000437.jpg', 'n0198127600001215.jpg', 'n0198127600001272.jpg', 'n0198127600000317.jpg', 'n0198127600000043.jpg']
+n03127925:['n0312792500000530.jpg', 'n0312792500001285.jpg', 'n0312792500000790.jpg', 'n0312792500000804.jpg', 'n0312792500000667.jpg', 'n0312792500000962.jpg', 'n0312792500000467.jpg', 'n0312792500000982.jpg', 'n0312792500000846.jpg', 'n0312792500001207.jpg']
+n02871525:['n0287152500001007.jpg', 'n0287152500000380.jpg', 'n0287152500000364.jpg', 'n0287152500000124.jpg', 'n0287152500000987.jpg', 'n0287152500000856.jpg', 'n0287152500000975.jpg', 'n0287152500001112.jpg', 'n0287152500000143.jpg', 'n0287152500000903.jpg']
+n04146614:['n0414661400000520.jpg', 'n0414661400000492.jpg', 'n0414661400000459.jpg', 'n0414661400000837.jpg', 'n0414661400000126.jpg', 'n0414661400000340.jpg', 'n0414661400000959.jpg', 'n0414661400000816.jpg', 'n0414661400001157.jpg', 'n0414661400000431.jpg']
+n04418357:['n0441835700000506.jpg', 'n0441835700000017.jpg', 'n0441835700000180.jpg', 'n0441835700000482.jpg', 'n0441835700000223.jpg', 'n0441835700000043.jpg', 'n0441835700000322.jpg', 'n0441835700000675.jpg', 'n0441835700000855.jpg', 'n0441835700000147.jpg']
+n03775546:['n0377554600001281.jpg', 'n0377554600000184.jpg', 'n0377554600000167.jpg', 'n0377554600001285.jpg', 'n0377554600000925.jpg', 'n0377554600000274.jpg', 'n0377554600001073.jpg', 'n0377554600000985.jpg', 'n0377554600000223.jpg', 'n0377554600000019.jpg']
+n03272010:['n0327201000001167.jpg', 'n0327201000000630.jpg', 'n0327201000000537.jpg', 'n0327201000001269.jpg', 'n0327201000001095.jpg', 'n0327201000000775.jpg', 'n0327201000000719.jpg', 'n0327201000000631.jpg', 'n0327201000000582.jpg', 'n0327201000000650.jpg']
+n02110063:['n0211006300000865.jpg', 'n0211006300000531.jpg', 'n0211006300000536.jpg', 'n0211006300000112.jpg', 'n0211006300000781.jpg', 'n0211006300001247.jpg', 'n0211006300001052.jpg', 'n0211006300000886.jpg', 'n0211006300000515.jpg', 'n0211006300000931.jpg']
+n02219486:['n0221948600001088.jpg', 'n0221948600000287.jpg', 'n0221948600000711.jpg', 'n0221948600000690.jpg', 'n0221948600000281.jpg', 'n0221948600000545.jpg', 'n0221948600000750.jpg', 'n0221948600000969.jpg', 'n0221948600000335.jpg', 'n0221948600000207.jpg']
+n03544143:['n0354414300001146.jpg', 'n0354414300000435.jpg', 'n0354414300000957.jpg', 'n0354414300001098.jpg', 'n0354414300000624.jpg', 'n0354414300000982.jpg', 'n0354414300000053.jpg', 'n0354414300001066.jpg', 'n0354414300000928.jpg', 'n0354414300000669.jpg']
+n02129165:['n0212916500000947.jpg', 'n0212916500000550.jpg', 'n0212916500000460.jpg', 'n0212916500001030.jpg', 'n0212916500000276.jpg', 'n0212916500000346.jpg', 'n0212916500001220.jpg', 'n0212916500000105.jpg', 'n0212916500000427.jpg', 'n0212916500001282.jpg']
+n07613480:['n0761348000000881.jpg', 'n0761348000000686.jpg', 'n0761348000001157.jpg', 'n0761348000000742.jpg', 'n0761348000000002.jpg', 'n0761348000000025.jpg', 'n0761348000001019.jpg', 'n0761348000000380.jpg', 'n0761348000000590.jpg', 'n0761348000000473.jpg']
+n04522168:['n0452216800000776.jpg', 'n0452216800001124.jpg', 'n0452216800000500.jpg', 'n0452216800000611.jpg', 'n0452216800000524.jpg', 'n0452216800001226.jpg', 'n0452216800001213.jpg', 'n0452216800000067.jpg', 'n0452216800000149.jpg', 'n0452216800000198.jpg']
+n02116738:['n0211673800000608.jpg', 'n0211673800000793.jpg', 'n0211673800001097.jpg', 'n0211673800000496.jpg', 'n0211673800000765.jpg', 'n0211673800000263.jpg', 'n0211673800000820.jpg', 'n0211673800001102.jpg', 'n0211673800000935.jpg', 'n0211673800000192.jpg']
+n02443484:['n0244348400000367.jpg', 'n0244348400000577.jpg', 'n0244348400000440.jpg', 'n0244348400000417.jpg', 'n0244348400000866.jpg', 'n0244348400000872.jpg', 'n0244348400000714.jpg', 'n0244348400000761.jpg', 'n0244348400000285.jpg', 'n0244348400000727.jpg']
+n02110341:['n0211034100000457.jpg', 'n0211034100001275.jpg', 'n0211034100000912.jpg', 'n0211034100000988.jpg', 'n0211034100000933.jpg', 'n0211034100000280.jpg', 'n0211034100000236.jpg', 'n0211034100001044.jpg', 'n0211034100001175.jpg', 'n0211034100000820.jpg']
+n04149813:['n0414981300000242.jpg', 'n0414981300000713.jpg', 'n0414981300000921.jpg', 'n0414981300001026.jpg', 'n0414981300000594.jpg', 'n0414981300001096.jpg', 'n0414981300000786.jpg', 'n0414981300000209.jpg', 'n0414981300001072.jpg', 'n0414981300001300.jpg']
+n01930112:['n0193011200000387.jpg', 'n0193011200000542.jpg', 'n0193011200000870.jpg', 'n0193011200000640.jpg', 'n0193011200001270.jpg', 'n0193011200000681.jpg', 'n0193011200000429.jpg', 'n0193011200000152.jpg', 'n0193011200000221.jpg', 'n0193011200000393.jpg']
+n03146219:['n0314621900000920.jpg', 'n0314621900000285.jpg', 'n0314621900000085.jpg', 'n0314621900000532.jpg', 'n0314621900000413.jpg', 'n0314621900001245.jpg', 'n0314621900001041.jpg', 'n0314621900000943.jpg', 'n0314621900000512.jpg', 'n0314621900001282.jpg']
+
+n0209960100000742.jpg,label=golden_retriever,output=man riding pedicab in city,False
+n0209960100000458.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000628.jpg,label=golden_retriever,output=Dalmatian,False
+n0209960100000852.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001117.jpg,label=golden_retriever,output=Golden retriever,True
+n0209960100000833.jpg,label=golden_retriever,output=cow,False
+n0209960100000775.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000776.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000686.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000905.jpg,label=golden_retriever,output=dog,False
+
+n0198127600000084.jpg,label=king_crab,output=King crab,True
+n0198127600001271.jpg,label=king_crab,output=King crab,True
+n0198127600000274.jpg,label=king_crab,output=King crab,True
+n0198127600001110.jpg,label=king_crab,output=King crab,True
+n0198127600000640.jpg,label=king_crab,output=King crab,True
+n0198127600000437.jpg,label=king_crab,output=King crab,True
+n0198127600001215.jpg,label=king_crab,output=King crab,True
+n0198127600001272.jpg,label=king_crab,output=crayfish,False
+n0198127600000317.jpg,label=king_crab,output=King crab,True
+n0198127600000043.jpg,label=king_crab,output=King crab,True
+
+n0312792500000530.jpg,label=crate,output=generator,False
+n0312792500001285.jpg,label=crate,output=crate,True
+n0312792500000790.jpg,label=crate,output=crane,False
+n0312792500000804.jpg,label=crate,output=crane,False
+n0312792500000667.jpg,label=crate,output=crate,True
+n0312792500000962.jpg,label=crate,output=crates,True
+n0312792500000467.jpg,label=crate,output=crates,True
+n0312792500000982.jpg,label=crate,output=crates,True
+n0312792500000846.jpg,label=crate,output=crane,False
+n0312792500001207.jpg,label=crate,output=crate,True
+
+n0287152500001007.jpg,label=bookshop,output=bookshop,True
+n0287152500000380.jpg,label=bookshop,output=bookshop,True
+n0287152500000364.jpg,label=bookshop,output=bookshop,True
+n0287152500000124.jpg,label=bookshop,output=bookshop,True
+n0287152500000987.jpg,label=bookshop,output=bookshop,True
+n0287152500000856.jpg,label=bookshop,output=bookshop,True
+n0287152500000975.jpg,label=bookshop,output=bookshop,True
+n0287152500001112.jpg,label=bookshop,output=bookshop,True
+n0287152500000143.jpg,label=bookshop,output=man,False
+n0287152500000903.jpg,label=bookshop,output=bookshop,True
+
+n0414661400000520.jpg,label=school_bus,output=school_bus,True
+n0414661400000492.jpg,label=school_bus,output=school_bus,True
+n0414661400000459.jpg,label=school_bus,output=school_bus,True
+n0414661400000837.jpg,label=school_bus,output=school_bus,True
+n0414661400000126.jpg,label=school_bus,output=school_bus,True
+n0414661400000340.jpg,label=school_bus,output=school_bus,True
+n0414661400000959.jpg,label=school_bus,output=school_bus,True
+n0414661400000816.jpg,label=school_bus,output=school_bus,True
+n0414661400001157.jpg,label=school_bus,output=School bus,True
+n0414661400000431.jpg,label=school_bus,output=school_bus,True
+
+n0441835700000506.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000017.jpg,label=theater_curtain,output=Theater Curtain,True
+n0441835700000180.jpg,label=theater_curtain,output=theater curtain,True
+n0441835700000482.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000223.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000043.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000322.jpg,label=theater_curtain,output=crane,False
+n0441835700000675.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000855.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000147.jpg,label=theater_curtain,output=Theater Curtain,True
+
+n0377554600001281.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000184.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000167.jpg,label=mixing_bowl,output=hourglass,False
+n0377554600001285.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000925.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000274.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001073.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000985.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000223.jpg,label=mixing_bowl,output=cookie,False
+n0377554600000019.jpg,label=mixing_bowl,output=mixing_bowl,True
+
+n0327201000001167.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000630.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000537.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001269.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001095.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000775.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000719.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000631.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000582.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000650.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0211006300000865.jpg,label=malamute,output=malamute,True
+n0211006300000531.jpg,label=malamute,output=malamute,True
+n0211006300000536.jpg,label=malamute,output=Akita,False
+n0211006300000112.jpg,label=malamute,output=Dalmatian,False
+n0211006300000781.jpg,label=malamute,output=malamute,True
+n0211006300001247.jpg,label=malamute,output=dog,False
+n0211006300001052.jpg,label=malamute,output=malamute,True
+n0211006300000886.jpg,label=malamute,output=malamute,True
+n0211006300000515.jpg,label=malamute,output=malamute,True
+n0211006300000931.jpg,label=malamute,output=Malamute,True
+
+n0221948600001088.jpg,label=ant,output=cranberry,False
+n0221948600000287.jpg,label=ant,output=African_hunting_dog,False
+n0221948600000711.jpg,label=ant,output=ant,True
+n0221948600000690.jpg,label=ant,output=ant,True
+n0221948600000281.jpg,label=ant,output=ant,True
+n0221948600000545.jpg,label=ant,output=ant,True
+n0221948600000750.jpg,label=ant,output=ant,True
+n0221948600000969.jpg,label=ant,output=ant,True
+n0221948600000335.jpg,label=ant,output=ant,True
+n0221948600000207.jpg,label=ant,output=ant,True
+
+n0354414300001146.jpg,label=hourglass,output=hourglass,True
+n0354414300000435.jpg,label=hourglass,output=hourglass,True
+n0354414300000957.jpg,label=hourglass,output=hourglass,True
+n0354414300001098.jpg,label=hourglass,output=hourglass,True
+n0354414300000624.jpg,label=hourglass,output=parrot,False
+n0354414300000982.jpg,label=hourglass,output=hourglass,True
+n0354414300000053.jpg,label=hourglass,output=hourglass,True
+n0354414300001066.jpg,label=hourglass,output=hourglass,True
+n0354414300000928.jpg,label=hourglass,output=hourglass,True
+n0354414300000669.jpg,label=hourglass,output=hourglass,True
+
+n0212916500000947.jpg,label=lion,output=African_hunting_dog,False
+n0212916500000550.jpg,label=lion,output=African_hunting_dog,False
+n0212916500000460.jpg,label=lion,output=Lion,True
+n0212916500001030.jpg,label=lion,output=Lion,True
+n0212916500000276.jpg,label=lion,output=African_hunting_dog,False
+n0212916500000346.jpg,label=lion,output=African_hunting_dog,False
+n0212916500001220.jpg,label=lion,output=Lion,True
+n0212916500000105.jpg,label=lion,output=Lion,True
+n0212916500000427.jpg,label=lion,output=Lion,True
+n0212916500001282.jpg,label=lion,output=Lion,True
+
+n0761348000000881.jpg,label=trifle,output=trifle,True
+n0761348000000686.jpg,label=trifle,output=trifle,True
+n0761348000001157.jpg,label=trifle,output=trifle,True
+n0761348000000742.jpg,label=trifle,output=trifle,True
+n0761348000000002.jpg,label=trifle,output=trifle,True
+n0761348000000025.jpg,label=trifle,output=trifle,True
+n0761348000001019.jpg,label=trifle,output=trifle,True
+n0761348000000380.jpg,label=trifle,output=mixing_bowl,False
+n0761348000000590.jpg,label=trifle,output=birthday cake,False
+n0761348000000473.jpg,label=trifle,output=trifle,True
+
+n0452216800000776.jpg,label=vase,output=sunflower,False
+n0452216800001124.jpg,label=vase,output=vase,True
+n0452216800000500.jpg,label=vase,output=vase,True
+n0452216800000611.jpg,label=vase,output=vase,True
+n0452216800000524.jpg,label=vase,output=vase,True
+n0452216800001226.jpg,label=vase,output=vase,True
+n0452216800001213.jpg,label=vase,output=Vase,True
+n0452216800000067.jpg,label=vase,output=vase,True
+n0452216800000149.jpg,label=vase,output=vase,True
+n0452216800000198.jpg,label=vase,output=vase,True
+
+n0211673800000608.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000793.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001097.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000496.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000765.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000263.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000820.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001102.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000935.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000192.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+n0244348400000367.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000577.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000440.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000417.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000866.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000872.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000714.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000761.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000285.jpg,label=black-footed_ferret,output=black-footed ferret,True
+n0244348400000727.jpg,label=black-footed_ferret,output=African_hunting_dog,False
+
+n0211034100000457.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001275.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000912.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000988.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000933.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000280.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000236.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001044.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001175.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000820.jpg,label=dalmatian,output=dalmatian,True
+
+n0414981300000242.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000713.jpg,label=scoreboard,output=baseball glove,False
+n0414981300000921.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001026.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000594.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001096.jpg,label=scoreboard,output=clock,False
+n0414981300000786.jpg,label=scoreboard,output=crane,False
+n0414981300000209.jpg,label=scoreboard,output=Scoreboard,True
+n0414981300001072.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001300.jpg,label=scoreboard,output=lion,False
+
+n0193011200000387.jpg,label=nematode,output=Nematode,True
+n0193011200000542.jpg,label=nematode,output=hourglass,False
+n0193011200000870.jpg,label=nematode,output=mixing_bowl,False
+n0193011200000640.jpg,label=nematode,output=crane,False
+n0193011200001270.jpg,label=nematode,output=nematode,True
+n0193011200000681.jpg,label=nematode,output=Nematode,True
+n0193011200000429.jpg,label=nematode,output=Nematode,True
+n0193011200000152.jpg,label=nematode,output=worm,False
+n0193011200000221.jpg,label=nematode,output=Nematode,True
+n0193011200000393.jpg,label=nematode,output=worms,False
+
+n0314621900000920.jpg,label=cuirass,output=cuirass,True
+n0314621900000285.jpg,label=cuirass,output=cuirass,True
+n0314621900000085.jpg,label=cuirass,output=cuirass,True
+n0314621900000532.jpg,label=cuirass,output=cuirass,True
+n0314621900000413.jpg,label=cuirass,output=hourglass,False
+n0314621900001245.jpg,label=cuirass,output=cuirass,True
+n0314621900001041.jpg,label=cuirass,output=cuirass,True
+n0314621900000943.jpg,label=cuirass,output=cuirass,True
+n0314621900000512.jpg,label=cuirass,output=cuirass,True
+n0314621900001282.jpg,label=cuirass,output=cuirass,True
+
+acc:  0.815

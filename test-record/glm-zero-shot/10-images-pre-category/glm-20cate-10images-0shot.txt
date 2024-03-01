@@ -1,0 +1,245 @@
+测试集20个类别，每个类别10张图片
+测试集各类别: ['trifle', 'nematode', 'hourglass', 'lion', 'ant', 'scoreboard', 'school_bus', 'theater_curtain', 'bookshop', 'malamute', 'cuirass', 'electric_guitar', 'African_hunting_dog', 'crate', 'dalmatian', 'mixing_bowl', 'golden_retriever', 'vase', 'king_crab', 'black-footed_ferret']
+测试集各类别: ['n07613480', 'n01930112', 'n03544143', 'n02129165', 'n02219486', 'n04149813', 'n04146614', 'n04418357', 'n02871525', 'n02110063', 'n03146219', 'n03272010', 'n02116738', 'n03127925', 'n02110341', 'n03775546', 'n02099601', 'n04522168', 'n01981276', 'n02443484']
+n07613480:['n0761348000000590.jpg', 'n0761348000000444.jpg', 'n0761348000000227.jpg', 'n0761348000000424.jpg', 'n0761348000000894.jpg', 'n0761348000000353.jpg', 'n0761348000000935.jpg', 'n0761348000000574.jpg', 'n0761348000000042.jpg', 'n0761348000000861.jpg']
+n01930112:['n0193011200000652.jpg', 'n0193011200001051.jpg', 'n0193011200001288.jpg', 'n0193011200001143.jpg', 'n0193011200000555.jpg', 'n0193011200000206.jpg', 'n0193011200000307.jpg', 'n0193011200001140.jpg', 'n0193011200000549.jpg', 'n0193011200000980.jpg']
+n03544143:['n0354414300000454.jpg', 'n0354414300001245.jpg', 'n0354414300001009.jpg', 'n0354414300000484.jpg', 'n0354414300000553.jpg', 'n0354414300000785.jpg', 'n0354414300000451.jpg', 'n0354414300000924.jpg', 'n0354414300001123.jpg', 'n0354414300000993.jpg']
+n02129165:['n0212916500001138.jpg', 'n0212916500001229.jpg', 'n0212916500000584.jpg', 'n0212916500000178.jpg', 'n0212916500000503.jpg', 'n0212916500001103.jpg', 'n0212916500000267.jpg', 'n0212916500000873.jpg', 'n0212916500001298.jpg', 'n0212916500000578.jpg']
+n02219486:['n0221948600000248.jpg', 'n0221948600000238.jpg', 'n0221948600000966.jpg', 'n0221948600000632.jpg', 'n0221948600000488.jpg', 'n0221948600001154.jpg', 'n0221948600001108.jpg', 'n0221948600000689.jpg', 'n0221948600000015.jpg', 'n0221948600000566.jpg']
+n04149813:['n0414981300001214.jpg', 'n0414981300000579.jpg', 'n0414981300000997.jpg', 'n0414981300001034.jpg', 'n0414981300000119.jpg', 'n0414981300000844.jpg', 'n0414981300000540.jpg', 'n0414981300000787.jpg', 'n0414981300001089.jpg', 'n0414981300000814.jpg']
+n04146614:['n0414661400000191.jpg', 'n0414661400000594.jpg', 'n0414661400000663.jpg', 'n0414661400000454.jpg', 'n0414661400000651.jpg', 'n0414661400000897.jpg', 'n0414661400000589.jpg', 'n0414661400000455.jpg', 'n0414661400001150.jpg', 'n0414661400000143.jpg']
+n04418357:['n0441835700000892.jpg', 'n0441835700000400.jpg', 'n0441835700000734.jpg', 'n0441835700000252.jpg', 'n0441835700001235.jpg', 'n0441835700000640.jpg', 'n0441835700000350.jpg', 'n0441835700001065.jpg', 'n0441835700000606.jpg', 'n0441835700000612.jpg']
+n02871525:['n0287152500000534.jpg', 'n0287152500000637.jpg', 'n0287152500000893.jpg', 'n0287152500000531.jpg', 'n0287152500000433.jpg', 'n0287152500001286.jpg', 'n0287152500001066.jpg', 'n0287152500000704.jpg', 'n0287152500000597.jpg', 'n0287152500000498.jpg']
+n02110063:['n0211006300000650.jpg', 'n0211006300000520.jpg', 'n0211006300001155.jpg', 'n0211006300001029.jpg', 'n0211006300000420.jpg', 'n0211006300000496.jpg', 'n0211006300001128.jpg', 'n0211006300000074.jpg', 'n0211006300001267.jpg', 'n0211006300000663.jpg']
+n03146219:['n0314621900000111.jpg', 'n0314621900000221.jpg', 'n0314621900000838.jpg', 'n0314621900000635.jpg', 'n0314621900000370.jpg', 'n0314621900001043.jpg', 'n0314621900001281.jpg', 'n0314621900000481.jpg', 'n0314621900000943.jpg', 'n0314621900000220.jpg']
+n03272010:['n0327201000000853.jpg', 'n0327201000000363.jpg', 'n0327201000001182.jpg', 'n0327201000001285.jpg', 'n0327201000001234.jpg', 'n0327201000001053.jpg', 'n0327201000001030.jpg', 'n0327201000001249.jpg', 'n0327201000000216.jpg', 'n0327201000001134.jpg']
+n02116738:['n0211673800000631.jpg', 'n0211673800001268.jpg', 'n0211673800000950.jpg', 'n0211673800000198.jpg', 'n0211673800000931.jpg', 'n0211673800000897.jpg', 'n0211673800000864.jpg', 'n0211673800000820.jpg', 'n0211673800001014.jpg', 'n0211673800000349.jpg']
+n03127925:['n0312792500000540.jpg', 'n0312792500000360.jpg', 'n0312792500000522.jpg', 'n0312792500001204.jpg', 'n0312792500000859.jpg', 'n0312792500000747.jpg', 'n0312792500000463.jpg', 'n0312792500000079.jpg', 'n0312792500001116.jpg', 'n0312792500000653.jpg']
+n02110341:['n0211034100000264.jpg', 'n0211034100000635.jpg', 'n0211034100001148.jpg', 'n0211034100000724.jpg', 'n0211034100000784.jpg', 'n0211034100000568.jpg', 'n0211034100000616.jpg', 'n0211034100001134.jpg', 'n0211034100000398.jpg', 'n0211034100000969.jpg']
+n03775546:['n0377554600000473.jpg', 'n0377554600000042.jpg', 'n0377554600000997.jpg', 'n0377554600000256.jpg', 'n0377554600000106.jpg', 'n0377554600000202.jpg', 'n0377554600001233.jpg', 'n0377554600000572.jpg', 'n0377554600001179.jpg', 'n0377554600000482.jpg']
+n02099601:['n0209960100000992.jpg', 'n0209960100001060.jpg', 'n0209960100000669.jpg', 'n0209960100000253.jpg', 'n0209960100001263.jpg', 'n0209960100000470.jpg', 'n0209960100000580.jpg', 'n0209960100000848.jpg', 'n0209960100001222.jpg', 'n0209960100001290.jpg']
+n04522168:['n0452216800000668.jpg', 'n0452216800000361.jpg', 'n0452216800000026.jpg', 'n0452216800000475.jpg', 'n0452216800000223.jpg', 'n0452216800000377.jpg', 'n0452216800000614.jpg', 'n0452216800001183.jpg', 'n0452216800000637.jpg', 'n0452216800000255.jpg']
+n01981276:['n0198127600000582.jpg', 'n0198127600000790.jpg', 'n0198127600000951.jpg', 'n0198127600000550.jpg', 'n0198127600000921.jpg', 'n0198127600000524.jpg', 'n0198127600000545.jpg', 'n0198127600001271.jpg', 'n0198127600000991.jpg', 'n0198127600000225.jpg']
+n02443484:['n0244348400000884.jpg', 'n0244348400000031.jpg', 'n0244348400000616.jpg', 'n0244348400000199.jpg', 'n0244348400000798.jpg', 'n0244348400000114.jpg', 'n0244348400000635.jpg', 'n0244348400000833.jpg', 'n0244348400000459.jpg', 'n0244348400000352.jpg']
+
+n0761348000000590.jpg,label=trifle,output=The correct answer is trifle,True
+n0761348000000444.jpg,label=trifle,output=trifle,True
+n0761348000000227.jpg,label=trifle,output=trifle,True
+n0761348000000424.jpg,label=trifle,output=trifle,True
+n0761348000000894.jpg,label=trifle,output=trifle,True
+n0761348000000353.jpg,label=trifle,output=trifle,True
+n0761348000000935.jpg,label=trifle,output=trifle,True
+n0761348000000574.jpg,label=trifle,output=trifle,True
+n0761348000000042.jpg,label=trifle,output=trifle,True
+n0761348000000861.jpg,label=trifle,output=trifle,True
+
+n0193011200000652.jpg,label=nematode,output=nematode,True
+n0193011200001051.jpg,label=nematode,output=nematode,True
+n0193011200001288.jpg,label=nematode,output=The image is not clearly identifiable, so it's hard to determine its category from the provided options.,False
+n0193011200001143.jpg,label=nematode,output=nematode,True
+n0193011200000555.jpg,label=nematode,output=nematode,True
+n0193011200000206.jpg,label=nematode,output=nematode,True
+n0193011200000307.jpg,label=nematode,output=nematode,True
+n0193011200001140.jpg,label=nematode,output=nematode,True
+n0193011200000549.jpg,label=nematode,output=The correct answer is hourglass.,False
+n0193011200000980.jpg,label=nematode,output=nematode,True
+
+n0354414300000454.jpg,label=hourglass,output=hourglass,True
+n0354414300001245.jpg,label=hourglass,output=hourglass,True
+n0354414300001009.jpg,label=hourglass,output=hourglass,True
+n0354414300000484.jpg,label=hourglass,output=hourglass,True
+n0354414300000553.jpg,label=hourglass,output=hourglass,True
+n0354414300000785.jpg,label=hourglass,output=hourglass,True
+n0354414300000451.jpg,label=hourglass,output=hourglass,True
+n0354414300000924.jpg,label=hourglass,output=hourglass,True
+n0354414300001123.jpg,label=hourglass,output=hourglass,True
+n0354414300000993.jpg,label=hourglass,output=hourglass,True
+
+n0212916500001138.jpg,label=lion,output=The category label for the image is "lion".,True
+n0212916500001229.jpg,label=lion,output=The correct category label for this image is "Animals".,False
+n0212916500000584.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000178.jpg,label=lion,output=lion,True
+n0212916500000503.jpg,label=lion,output=The correct category is lion.,True
+n0212916500001103.jpg,label=lion,output=lion,True
+n0212916500000267.jpg,label=lion,output=lion,True
+n0212916500000873.jpg,label=lion,output=The image is of a lion in a tree.,True
+n0212916500001298.jpg,label=lion,output=lion,True
+n0212916500000578.jpg,label=lion,output=lion,True
+
+n0221948600000248.jpg,label=ant,output=leaf,False
+n0221948600000238.jpg,label=ant,output=flower,False
+n0221948600000966.jpg,label=ant,output=vase,False
+n0221948600000632.jpg,label=ant,output=animal,False
+n0221948600000488.jpg,label=ant,output=ant,True
+n0221948600001154.jpg,label=ant,output=The correct category is flower.,False
+n0221948600001108.jpg,label=ant,output=ant,True
+n0221948600000689.jpg,label=ant,output=flower,False
+n0221948600000015.jpg,label=ant,output=ant,True
+n0221948600000566.jpg,label=ant,output=ant,True
+
+n0414981300001214.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000579.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000997.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001034.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000119.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000844.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000540.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000787.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001089.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000814.jpg,label=scoreboard,output=scoreboard,True
+
+n0414661400000191.jpg,label=school_bus,output=school_bus,True
+n0414661400000594.jpg,label=school_bus,output=school_bus,True
+n0414661400000663.jpg,label=school_bus,output=school_bus,True
+n0414661400000454.jpg,label=school_bus,output=school_bus,True
+n0414661400000651.jpg,label=school_bus,output=school_bus,True
+n0414661400000897.jpg,label=school_bus,output=school_bus,True
+n0414661400000589.jpg,label=school_bus,output=school_bus,True
+n0414661400000455.jpg,label=school_bus,output=school_bus,True
+n0414661400001150.jpg,label=school_bus,output=school_bus,True
+n0414661400000143.jpg,label=school_bus,output=school_bus,True
+
+n0441835700000892.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000400.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000734.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000252.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001235.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000640.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000350.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001065.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000606.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000612.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0287152500000534.jpg,label=bookshop,output=bookshop,True
+n0287152500000637.jpg,label=bookshop,output=bookshop,True
+n0287152500000893.jpg,label=bookshop,output=bookshop,True
+n0287152500000531.jpg,label=bookshop,output=bookshop,True
+n0287152500000433.jpg,label=bookshop,output=bookshop,True
+n0287152500001286.jpg,label=bookshop,output=bookshop,True
+n0287152500001066.jpg,label=bookshop,output=bookshop,True
+n0287152500000704.jpg,label=bookshop,output=bookshop,True
+n0287152500000597.jpg,label=bookshop,output=bookshop,True
+n0287152500000498.jpg,label=bookshop,output=bookshop,True
+
+n0211006300000650.jpg,label=malamute,output=The correct category is dog.,False
+n0211006300000520.jpg,label=malamute,output=husky,False
+n0211006300001155.jpg,label=malamute,output=husky,False
+n0211006300001029.jpg,label=malamute,output=husky,False
+n0211006300000420.jpg,label=malamute,output=husky,False
+n0211006300000496.jpg,label=malamute,output=husky,False
+n0211006300001128.jpg,label=malamute,output=husky,False
+n0211006300000074.jpg,label=malamute,output=husky,False
+n0211006300001267.jpg,label=malamute,output=dog,False
+n0211006300000663.jpg,label=malamute,output=husky,False
+
+n0314621900000111.jpg,label=cuirass,output=cuirass,True
+n0314621900000221.jpg,label=cuirass,output=armor,False
+n0314621900000838.jpg,label=cuirass,output=cuirass,True
+n0314621900000635.jpg,label=cuirass,output=cuirass,True
+n0314621900000370.jpg,label=cuirass,output=cuirass,True
+n0314621900001043.jpg,label=cuirass,output=cuirass,True
+n0314621900001281.jpg,label=cuirass,output=cuirass,True
+n0314621900000481.jpg,label=cuirass,output=cuirass,True
+n0314621900000943.jpg,label=cuirass,output=cuirass,True
+n0314621900000220.jpg,label=cuirass,output=armor,False
+
+n0327201000000853.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000363.jpg,label=electric_guitar,output=electric guitar,True
+n0327201000001182.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001285.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001234.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001053.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001030.jpg,label=electric_guitar,output=electric guitar,True
+n0327201000001249.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000216.jpg,label=electric_guitar,output=The image is not labeled with any categories from the provided list.,False
+n0327201000001134.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0211673800000631.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800001268.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000950.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000198.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000931.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000897.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000864.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000820.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800001014.jpg,label=African_hunting_dog,output=African hunting dog,True
+n0211673800000349.jpg,label=African_hunting_dog,output=African hunting dog,True
+
+n0312792500000540.jpg,label=crate,output=crate,True
+n0312792500000360.jpg,label=crate,output=crate,True
+n0312792500000522.jpg,label=crate,output=Crate,True
+n0312792500001204.jpg,label=crate,output=The correct category label for this image is 'crate'.,True
+n0312792500000859.jpg,label=crate,output=crate,True
+n0312792500000747.jpg,label=crate,output=crate,True
+n0312792500000463.jpg,label=crate,output=Crate,True
+n0312792500000079.jpg,label=crate,output=Crate,True
+n0312792500001116.jpg,label=crate,output=theater_curtain,False
+n0312792500000653.jpg,label=crate,output=crate,True
+
+n0211034100000264.jpg,label=dalmatian,output=dog,False
+n0211034100000635.jpg,label=dalmatian,output=dog,False
+n0211034100001148.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000724.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000784.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000568.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000616.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001134.jpg,label=dalmatian,output=dog,False
+n0211034100000398.jpg,label=dalmatian,output=dog,False
+n0211034100000969.jpg,label=dalmatian,output=dog,False
+
+n0377554600000473.jpg,label=mixing_bowl,output=baking,False
+n0377554600000042.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000997.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000256.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000106.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000202.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001233.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000572.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001179.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000482.jpg,label=mixing_bowl,output=cooking,False
+
+n0209960100000992.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100001060.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000669.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000253.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100001263.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000470.jpg,label=golden_retriever,output=dog,False
+n0209960100000580.jpg,label=golden_retriever,output=dog,False
+n0209960100000848.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100001222.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100001290.jpg,label=golden_retriever,output=dog,False
+
+n0452216800000668.jpg,label=vase,output=vase,True
+n0452216800000361.jpg,label=vase,output=vase,True
+n0452216800000026.jpg,label=vase,output=vase,True
+n0452216800000475.jpg,label=vase,output=vase,True
+n0452216800000223.jpg,label=vase,output=vase,True
+n0452216800000377.jpg,label=vase,output=vase,True
+n0452216800000614.jpg,label=vase,output=vase,True
+n0452216800001183.jpg,label=vase,output=vase,True
+n0452216800000637.jpg,label=vase,output=vase,True
+n0452216800000255.jpg,label=vase,output=vase,True
+
+n0198127600000582.jpg,label=king_crab,output=animal,False
+n0198127600000790.jpg,label=king_crab,output=The correct category is "food".,False
+n0198127600000951.jpg,label=king_crab,output=crab,False
+n0198127600000550.jpg,label=king_crab,output=crab,False
+n0198127600000921.jpg,label=king_crab,output=The category label for the image is "food".,False
+n0198127600000524.jpg,label=king_crab,output=The correct category is "food".,False
+n0198127600000545.jpg,label=king_crab,output=crab,False
+n0198127600001271.jpg,label=king_crab,output=The correct category is 'king crab'.,True
+n0198127600000991.jpg,label=king_crab,output=seafood,False
+n0198127600000225.jpg,label=king_crab,output=The correct category label for this image is "food".,False
+
+n0244348400000884.jpg,label=black-footed_ferret,output=The correct category label for this image is "black-footed_ferret".,True
+n0244348400000031.jpg,label=black-footed_ferret,output=The correct category is black-footed_ferret.,True
+n0244348400000616.jpg,label=black-footed_ferret,output=The correct answer is black-footed ferret.,True
+n0244348400000199.jpg,label=black-footed_ferret,output=animal,False
+n0244348400000798.jpg,label=black-footed_ferret,output=The correct category label for this image is black-footed_ferret.,True
+n0244348400000114.jpg,label=black-footed_ferret,output=animal,False
+n0244348400000635.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000833.jpg,label=black-footed_ferret,output=The correct category label for this image is black-footed_ferret.,True
+n0244348400000459.jpg,label=black-footed_ferret,output=The correct category is black-footed_ferret.,True
+n0244348400000352.jpg,label=black-footed_ferret,output=animal,False
+
+acc:  0.775
