@@ -1,0 +1,97 @@
+支持集的类别: ['school_bus', 'hourglass', 'scoreboard', 'African_hunting_dog', 'golden_retriever']
+测试集各类别: ['n04146614', 'n03544143', 'n04149813', 'n02116738', 'n02099601']
+支持集各图片:
+n04146614:['n0414661400000002.jpg']
+n03544143:['n0354414300000895.jpg']
+n04149813:['n0414981300000306.jpg']
+n02116738:['n0211673800001091.jpg']
+n02099601:['n0209960100000377.jpg']
+测试集各图片:
+n04146614:['n0414661400000687.jpg', 'n0414661400000612.jpg', 'n0414661400000390.jpg', 'n0414661400000521.jpg', 'n0414661400000024.jpg', 'n0414661400000579.jpg', 'n0414661400000706.jpg', 'n0414661400001080.jpg', 'n0414661400000444.jpg', 'n0414661400000205.jpg', 'n0414661400001057.jpg', 'n0414661400000401.jpg', 'n0414661400000438.jpg', 'n0414661400000751.jpg', 'n0414661400000221.jpg']
+n03544143:['n0354414300000769.jpg', 'n0354414300000176.jpg', 'n0354414300001073.jpg', 'n0354414300000238.jpg', 'n0354414300000763.jpg', 'n0354414300000456.jpg', 'n0354414300000669.jpg', 'n0354414300000097.jpg', 'n0354414300000695.jpg', 'n0354414300000272.jpg', 'n0354414300000089.jpg', 'n0354414300001117.jpg', 'n0354414300000825.jpg', 'n0354414300000712.jpg', 'n0354414300000936.jpg']
+n04149813:['n0414981300000772.jpg', 'n0414981300001208.jpg', 'n0414981300000457.jpg', 'n0414981300000024.jpg', 'n0414981300000182.jpg', 'n0414981300000595.jpg', 'n0414981300001127.jpg', 'n0414981300000407.jpg', 'n0414981300000500.jpg', 'n0414981300000948.jpg', 'n0414981300000571.jpg', 'n0414981300000572.jpg', 'n0414981300001194.jpg', 'n0414981300000348.jpg', 'n0414981300001070.jpg']
+n02116738:['n0211673800000930.jpg', 'n0211673800001255.jpg', 'n0211673800000212.jpg', 'n0211673800000622.jpg', 'n0211673800001159.jpg', 'n0211673800000906.jpg', 'n0211673800001058.jpg', 'n0211673800001218.jpg', 'n0211673800000243.jpg', 'n0211673800000980.jpg', 'n0211673800000859.jpg', 'n0211673800000893.jpg', 'n0211673800001253.jpg', 'n0211673800000629.jpg', 'n0211673800001292.jpg']
+n02099601:['n0209960100000990.jpg', 'n0209960100000187.jpg', 'n0209960100000252.jpg', 'n0209960100001089.jpg', 'n0209960100000170.jpg', 'n0209960100000427.jpg', 'n0209960100000936.jpg', 'n0209960100000074.jpg', 'n0209960100001010.jpg', 'n0209960100000301.jpg', 'n0209960100000985.jpg', 'n0209960100001123.jpg', 'n0209960100000179.jpg', 'n0209960100000505.jpg', 'n0209960100000388.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000002.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775234&Signature=O5OGhilQ2%2FQiknpy4T%2FDUS11h2U%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'hourglass', 'scoreboard', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'school_bus'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0354414300000895.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775235&Signature=d0FR5mPnWQ2piM3Qeq%2B1w8nHvQA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'hourglass', 'scoreboard', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'hourglass'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414981300000306.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775237&Signature=rAqtMsLlhGm6pIM9ybmxKRRCUyE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'hourglass', 'scoreboard', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'scoreboard'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800001091.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775238&Signature=7fP8BPJV%2FhQXn34bXrAYTnVLCN4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'hourglass', 'scoreboard', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'African_hunting_dog'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100000377.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775240&Signature=NgwOguGYSwqFKulcnuwtOHUzHsM%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'hourglass', 'scoreboard', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'golden retriever'}]
+
+n0414661400000687.jpg,label=school_bus,output=school_bus,True
+n0414661400000612.jpg,label=school_bus,output=school_bus,True
+n0414661400000390.jpg,label=school_bus,output=school_bus,True
+n0414661400000521.jpg,label=school_bus,output=school_bus,True
+n0414661400000024.jpg,label=school_bus,output=school_bus,True
+n0414661400000579.jpg,label=school_bus,output=school_bus,True
+n0414661400000706.jpg,label=school_bus,output=school_bus,True
+n0414661400001080.jpg,label=school_bus,output=school_bus,True
+n0414661400000444.jpg,label=school_bus,output=school_bus,True
+n0414661400000205.jpg,label=school_bus,output=school_bus,True
+n0414661400001057.jpg,label=school_bus,output=school_bus,True
+n0414661400000401.jpg,label=school_bus,output=school_bus,True
+n0414661400000438.jpg,label=school_bus,output=school_bus,True
+n0414661400000751.jpg,label=school_bus,output=school_bus,True
+n0414661400000221.jpg,label=school_bus,output=school_bus,True
+
+n0354414300000769.jpg,label=hourglass,output=hourglass,True
+n0354414300000176.jpg,label=hourglass,output=hourglass,True
+n0354414300001073.jpg,label=hourglass,output=hourglass,True
+n0354414300000238.jpg,label=hourglass,output=hourglass,True
+n0354414300000763.jpg,label=hourglass,output=hourglass,True
+n0354414300000456.jpg,label=hourglass,output=hourglass,True
+n0354414300000669.jpg,label=hourglass,output=hourglass,True
+n0354414300000097.jpg,label=hourglass,output=hourglass,True
+n0354414300000695.jpg,label=hourglass,output=hourglass,True
+n0354414300000272.jpg,label=hourglass,output=hourglass,True
+n0354414300000089.jpg,label=hourglass,output=hourglass,True
+n0354414300001117.jpg,label=hourglass,output=hourglass,True
+n0354414300000825.jpg,label=hourglass,output=hourglass,True
+n0354414300000712.jpg,label=hourglass,output=hourglass,True
+n0354414300000936.jpg,label=hourglass,output=hourglass,True
+
+n0414981300000772.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001208.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000457.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000024.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000182.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000595.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001127.jpg,label=scoreboard,output=The correct category label for the given image is scoreboard.,True
+n0414981300000407.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000500.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000948.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000571.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000572.jpg,label=scoreboard,output=The image appears to depict an hourglass.,False
+n0414981300001194.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000348.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001070.jpg,label=scoreboard,output=scoreboard,True
+
+n0211673800000930.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001255.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000212.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000622.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001159.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000906.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001058.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001218.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000243.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000980.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000859.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000893.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001253.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000629.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001292.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+n0209960100000990.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000187.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000252.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100001089.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000170.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000427.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000936.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000074.jpg,label=golden_retriever,output=The correct category label for the given image is golden retriever.,True
+n0209960100001010.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000301.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000985.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100001123.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000179.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000505.jpg,label=golden_retriever,output=golden retriever,True
+n0209960100000388.jpg,label=golden_retriever,output=golden retriever,True
+
+acc:  0.9866666666666667

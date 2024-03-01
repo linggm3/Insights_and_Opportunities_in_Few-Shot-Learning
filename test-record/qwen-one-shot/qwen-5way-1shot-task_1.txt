@@ -1,0 +1,97 @@
+支持集的类别: ['black-footed_ferret', 'vase', 'cuirass', 'school_bus', 'bookshop']
+测试集各类别: ['n02443484', 'n04522168', 'n03146219', 'n04146614', 'n02871525']
+支持集各图片:
+n02443484:['n0244348400000387.jpg']
+n04522168:['n0452216800000808.jpg']
+n03146219:['n0314621900000352.jpg']
+n04146614:['n0414661400000932.jpg']
+n02871525:['n0287152500001217.jpg']
+测试集各图片:
+n02443484:['n0244348400000270.jpg', 'n0244348400000724.jpg', 'n0244348400000369.jpg', 'n0244348400001247.jpg', 'n0244348400000311.jpg', 'n0244348400000630.jpg', 'n0244348400001228.jpg', 'n0244348400000570.jpg', 'n0244348400000198.jpg', 'n0244348400001148.jpg', 'n0244348400000617.jpg', 'n0244348400000611.jpg', 'n0244348400001125.jpg', 'n0244348400000034.jpg', 'n0244348400001199.jpg']
+n04522168:['n0452216800001218.jpg', 'n0452216800000020.jpg', 'n0452216800000562.jpg', 'n0452216800001213.jpg', 'n0452216800000517.jpg', 'n0452216800000713.jpg', 'n0452216800000596.jpg', 'n0452216800000631.jpg', 'n0452216800000655.jpg', 'n0452216800000363.jpg', 'n0452216800000611.jpg', 'n0452216800000365.jpg', 'n0452216800000288.jpg', 'n0452216800000097.jpg', 'n0452216800001266.jpg']
+n03146219:['n0314621900001147.jpg', 'n0314621900000020.jpg', 'n0314621900000990.jpg', 'n0314621900000846.jpg', 'n0314621900001279.jpg', 'n0314621900000695.jpg', 'n0314621900000416.jpg', 'n0314621900000498.jpg', 'n0314621900001094.jpg', 'n0314621900001083.jpg', 'n0314621900001182.jpg', 'n0314621900001030.jpg', 'n0314621900000006.jpg', 'n0314621900000817.jpg', 'n0314621900000207.jpg']
+n04146614:['n0414661400000123.jpg', 'n0414661400000297.jpg', 'n0414661400001074.jpg', 'n0414661400000472.jpg', 'n0414661400000052.jpg', 'n0414661400000078.jpg', 'n0414661400000166.jpg', 'n0414661400000488.jpg', 'n0414661400000987.jpg', 'n0414661400000595.jpg', 'n0414661400000362.jpg', 'n0414661400000028.jpg', 'n0414661400000015.jpg', 'n0414661400000446.jpg', 'n0414661400000805.jpg']
+n02871525:['n0287152500000780.jpg', 'n0287152500000357.jpg', 'n0287152500001286.jpg', 'n0287152500000731.jpg', 'n0287152500000493.jpg', 'n0287152500000208.jpg', 'n0287152500000143.jpg', 'n0287152500000707.jpg', 'n0287152500000684.jpg', 'n0287152500000450.jpg', 'n0287152500000439.jpg', 'n0287152500001057.jpg', 'n0287152500001210.jpg', 'n0287152500000120.jpg', 'n0287152500000036.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400000387.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'vase', 'cuirass', 'school_bus', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'black-footed_ferret'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800000808.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'vase', 'cuirass', 'school_bus', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'vase'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000352.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'vase', 'cuirass', 'school_bus', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'cuirass'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000932.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'vase', 'cuirass', 'school_bus', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'school_bus'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500001217.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'vase', 'cuirass', 'school_bus', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'bookshop'}]}]
+
+n0244348400000270.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000724.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000369.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001247.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000311.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000630.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001228.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000570.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000198.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001148.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000617.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000611.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001125.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000034.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001199.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0452216800001218.jpg,label=vase,output=vase,True
+n0452216800000020.jpg,label=vase,output=vase,True
+n0452216800000562.jpg,label=vase,output=vase,True
+n0452216800001213.jpg,label=vase,output=vase,True
+n0452216800000517.jpg,label=vase,output=vase,True
+n0452216800000713.jpg,label=vase,output=vase,True
+n0452216800000596.jpg,label=vase,output=vase,True
+n0452216800000631.jpg,label=vase,output=vase,True
+n0452216800000655.jpg,label=vase,output=vase,True
+n0452216800000363.jpg,label=vase,output=vase,True
+n0452216800000611.jpg,label=vase,output=vase,True
+n0452216800000365.jpg,label=vase,output=twenty-six,False
+n0452216800000288.jpg,label=vase,output=vase,True
+n0452216800000097.jpg,label=vase,output=vase,True
+n0452216800001266.jpg,label=vase,output=vase,True
+
+n0314621900001147.jpg,label=cuirass,output=cuirass,True
+n0314621900000020.jpg,label=cuirass,output=cuirass,True
+n0314621900000990.jpg,label=cuirass,output=cuirass,True
+n0314621900000846.jpg,label=cuirass,output=cuirass,True
+n0314621900001279.jpg,label=cuirass,output=vase,False
+n0314621900000695.jpg,label=cuirass,output=vase,False
+n0314621900000416.jpg,label=cuirass,output=black-footed_ferret,False
+n0314621900000498.jpg,label=cuirass,output=cuirass,True
+n0314621900001094.jpg,label=cuirass,output=cuirass,True
+n0314621900001083.jpg,label=cuirass,output=black-footed_ferret,False
+n0314621900001182.jpg,label=cuirass,output=vase,False
+n0314621900001030.jpg,label=cuirass,output=cuirass,True
+n0314621900000006.jpg,label=cuirass,output=cuirass,True
+n0314621900000817.jpg,label=cuirass,output=cuirass,True
+n0314621900000207.jpg,label=cuirass,output=cuirass,True
+
+n0414661400000123.jpg,label=school_bus,output=school_bus,True
+n0414661400000297.jpg,label=school_bus,output=school_bus,True
+n0414661400001074.jpg,label=school_bus,output=school_bus,True
+n0414661400000472.jpg,label=school_bus,output=school_bus,True
+n0414661400000052.jpg,label=school_bus,output=school_bus,True
+n0414661400000078.jpg,label=school_bus,output=school_bus,True
+n0414661400000166.jpg,label=school_bus,output=school_bus,True
+n0414661400000488.jpg,label=school_bus,output=school_bus,True
+n0414661400000987.jpg,label=school_bus,output=school_bus,True
+n0414661400000595.jpg,label=school_bus,output=school_bus,True
+n0414661400000362.jpg,label=school_bus,output=school_bus,True
+n0414661400000028.jpg,label=school_bus,output=school_bus,True
+n0414661400000015.jpg,label=school_bus,output=school_bus,True
+n0414661400000446.jpg,label=school_bus,output=school_bus,True
+n0414661400000805.jpg,label=school_bus,output=school_bus,True
+
+n0287152500000780.jpg,label=bookshop,output=bookstore,False
+n0287152500000357.jpg,label=bookshop,output=bookshop,True
+n0287152500001286.jpg,label=bookshop,output=vase,False
+n0287152500000731.jpg,label=bookshop,output=bookshop,True
+n0287152500000493.jpg,label=bookshop,output=bookshop,True
+n0287152500000208.jpg,label=bookshop,output=bookshop,True
+n0287152500000143.jpg,label=bookshop,output=bookshop,True
+n0287152500000707.jpg,label=bookshop,output=bookshop,True
+n0287152500000684.jpg,label=bookshop,output=bookshop,True
+n0287152500000450.jpg,label=bookshop,output=bookshop,True
+n0287152500000439.jpg,label=bookshop,output=bookshop,True
+n0287152500001057.jpg,label=bookshop,output=vase,False
+n0287152500001210.jpg,label=bookshop,output=bookshop,True
+n0287152500000120.jpg,label=bookshop,output=vase,False
+n0287152500000036.jpg,label=bookshop,output=bookshop,True
+
+acc:  0.8666666666666667

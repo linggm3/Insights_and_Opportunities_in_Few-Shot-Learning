@@ -1,0 +1,97 @@
+支持集的类别: ['crate', 'lion', 'theater_curtain', 'king_crab', 'dalmatian']
+测试集各类别: ['n03127925', 'n02129165', 'n04418357', 'n01981276', 'n02110341']
+支持集各图片:
+n03127925:['n0312792500000487.jpg']
+n02129165:['n0212916500001274.jpg']
+n04418357:['n0441835700000806.jpg']
+n01981276:['n0198127600001138.jpg']
+n02110341:['n0211034100001052.jpg']
+测试集各图片:
+n03127925:['n0312792500001262.jpg', 'n0312792500001243.jpg', 'n0312792500001183.jpg', 'n0312792500001295.jpg', 'n0312792500001149.jpg', 'n0312792500000853.jpg', 'n0312792500000407.jpg', 'n0312792500000791.jpg', 'n0312792500001244.jpg', 'n0312792500000341.jpg', 'n0312792500000702.jpg', 'n0312792500001108.jpg', 'n0312792500000733.jpg', 'n0312792500000104.jpg', 'n0312792500000265.jpg']
+n02129165:['n0212916500000221.jpg', 'n0212916500000955.jpg', 'n0212916500000199.jpg', 'n0212916500000643.jpg', 'n0212916500000544.jpg', 'n0212916500000428.jpg', 'n0212916500000347.jpg', 'n0212916500000868.jpg', 'n0212916500000453.jpg', 'n0212916500000365.jpg', 'n0212916500000335.jpg', 'n0212916500001042.jpg', 'n0212916500001081.jpg', 'n0212916500000223.jpg', 'n0212916500000546.jpg']
+n04418357:['n0441835700000594.jpg', 'n0441835700001013.jpg', 'n0441835700000591.jpg', 'n0441835700000939.jpg', 'n0441835700000462.jpg', 'n0441835700000298.jpg', 'n0441835700001234.jpg', 'n0441835700000472.jpg', 'n0441835700001193.jpg', 'n0441835700000081.jpg', 'n0441835700001242.jpg', 'n0441835700000240.jpg', 'n0441835700000343.jpg', 'n0441835700000254.jpg', 'n0441835700001202.jpg']
+n01981276:['n0198127600000713.jpg', 'n0198127600000357.jpg', 'n0198127600000522.jpg', 'n0198127600000237.jpg', 'n0198127600000449.jpg', 'n0198127600000770.jpg', 'n0198127600000310.jpg', 'n0198127600000956.jpg', 'n0198127600000791.jpg', 'n0198127600000205.jpg', 'n0198127600000443.jpg', 'n0198127600000467.jpg', 'n0198127600001117.jpg', 'n0198127600000225.jpg', 'n0198127600001034.jpg']
+n02110341:['n0211034100000282.jpg', 'n0211034100000130.jpg', 'n0211034100000962.jpg', 'n0211034100000615.jpg', 'n0211034100001220.jpg', 'n0211034100001275.jpg', 'n0211034100000418.jpg', 'n0211034100000576.jpg', 'n0211034100000166.jpg', 'n0211034100000116.jpg', 'n0211034100000056.jpg', 'n0211034100000059.jpg', 'n0211034100000351.jpg', 'n0211034100000928.jpg', 'n0211034100000359.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0312792500000487.jpg'}, {'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'lion', 'theater_curtain', 'king_crab', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'The image is of **a crate** containing multiple wooden blocks.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0212916500001274.jpg'}, {'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'lion', 'theater_curtain', 'king_crab', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'The image features two majestic lions.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000806.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'lion', 'theater_curtain', 'king_crab', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'This image showcases a theater curtain in vibrant red coloration.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600001138.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'lion', 'theater_curtain', 'king_crab', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'In this image, someone sits comfortably next to an impressive king crab.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100001052.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'lion', 'theater_curtain', 'king_crab', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'A Dalmatian dog lies down outside on grass.'}]}]
+
+n0312792500001262.jpg,label=crate,output=(crate),True
+n0312792500001243.jpg,label=crate,output=(crate),True
+n0312792500001183.jpg,label=crate,output=(crate),True
+n0312792500001295.jpg,label=crate,output=(crate),True
+n0312792500001149.jpg,label=crate,output=(crate),True
+n0312792500000853.jpg,label=crate,output=(dalmanite),False
+n0312792500000407.jpg,label=crate,output=(crate),True
+n0312792500000791.jpg,label=crate,output=(crate),True
+n0312792500001244.jpg,label=crate,output=(crate),True
+n0312792500000341.jpg,label=crate,output=(crate),True
+n0312792500000702.jpg,label=crate,output=(crate),True
+n0312792500001108.jpg,label=crate,output=(dalmatian),False
+n0312792500000733.jpg,label=crate,output=(crate),True
+n0312792500000104.jpg,label=crate,output=(crate),True
+n0312792500000265.jpg,label=crate,output=(crate),True
+
+n0212916500000221.jpg,label=lion,output=(lion),True
+n0212916500000955.jpg,label=lion,output=(lion),True
+n0212916500000199.jpg,label=lion,output=(lion),True
+n0212916500000643.jpg,label=lion,output=lion,True
+n0212916500000544.jpg,label=lion,output=(lion),True
+n0212916500000428.jpg,label=lion,output=(lion),True
+n0212916500000347.jpg,label=lion,output=(lion),True
+n0212916500000868.jpg,label=lion,output=(lion),True
+n0212916500000453.jpg,label=lion,output=(lion),True
+n0212916500000365.jpg,label=lion,output=(lion),True
+n0212916500000335.jpg,label=lion,output=(lion),True
+n0212916500001042.jpg,label=lion,output=(lion),True
+n0212916500001081.jpg,label=lion,output=(lion),True
+n0212916500000223.jpg,label=lion,output=(lion),True
+n0212916500000546.jpg,label=lion,output=(lion),True
+
+n0441835700000594.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001013.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000591.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000939.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000462.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000298.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001234.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000472.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001193.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000081.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001242.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000240.jpg,label=theater_curtain,output=cave,False
+n0441835700000343.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000254.jpg,label=theater_curtain,output=(lion),False
+n0441835700001202.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0198127600000713.jpg,label=king_crab,output=(king_crab),True
+n0198127600000357.jpg,label=king_crab,output=crab,False
+n0198127600000522.jpg,label=king_crab,output=(king_crab),True
+n0198127600000237.jpg,label=king_crab,output=(dalmatian),False
+n0198127600000449.jpg,label=king_crab,output=(dalmatian),False
+n0198127600000770.jpg,label=king_crab,output=(king_crab),True
+n0198127600000310.jpg,label=king_crab,output=(king_crab),True
+n0198127600000956.jpg,label=king_crab,output=(king_crab),True
+n0198127600000791.jpg,label=king_crab,output=(king_crab),True
+n0198127600000205.jpg,label=king_crab,output=(king_crab),True
+n0198127600000443.jpg,label=king_crab,output=(king_crab),True
+n0198127600000467.jpg,label=king_crab,output=(king_crab),True
+n0198127600001117.jpg,label=king_crab,output=(king_crab),True
+n0198127600000225.jpg,label=king_crab,output=King Crab,True
+n0198127600001034.jpg,label=king_crab,output=(蟹),False
+
+n0211034100000282.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000130.jpg,label=dalmatian,output=Dalmatians,True
+n0211034100000962.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000615.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100001220.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001275.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000418.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000576.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000166.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000116.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000056.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000059.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000351.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000928.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000359.jpg,label=dalmatian,output=Dalmatian,True
+
+acc:  0.8933333333333333

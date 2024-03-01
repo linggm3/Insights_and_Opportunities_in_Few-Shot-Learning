@@ -1,0 +1,97 @@
+支持集的类别: ['cuirass', 'scoreboard', 'vase', 'golden_retriever', 'bookshop']
+测试集各类别: ['n03146219', 'n04149813', 'n04522168', 'n02099601', 'n02871525']
+支持集各图片:
+n03146219:['n0314621900000856.jpg']
+n04149813:['n0414981300001229.jpg']
+n04522168:['n0452216800000124.jpg']
+n02099601:['n0209960100000598.jpg']
+n02871525:['n0287152500000808.jpg']
+测试集各图片:
+n03146219:['n0314621900000829.jpg', 'n0314621900001217.jpg', 'n0314621900001184.jpg', 'n0314621900000831.jpg', 'n0314621900001070.jpg', 'n0314621900001207.jpg', 'n0314621900000902.jpg', 'n0314621900000247.jpg', 'n0314621900001122.jpg', 'n0314621900000092.jpg', 'n0314621900000686.jpg', 'n0314621900000784.jpg', 'n0314621900000178.jpg', 'n0314621900000967.jpg', 'n0314621900000626.jpg']
+n04149813:['n0414981300000274.jpg', 'n0414981300000198.jpg', 'n0414981300000021.jpg', 'n0414981300000099.jpg', 'n0414981300000533.jpg', 'n0414981300000506.jpg', 'n0414981300000725.jpg', 'n0414981300000393.jpg', 'n0414981300000931.jpg', 'n0414981300000195.jpg', 'n0414981300000275.jpg', 'n0414981300000526.jpg', 'n0414981300001290.jpg', 'n0414981300000660.jpg', 'n0414981300000982.jpg']
+n04522168:['n0452216800000024.jpg', 'n0452216800000572.jpg', 'n0452216800000077.jpg', 'n0452216800000600.jpg', 'n0452216800000023.jpg', 'n0452216800001254.jpg', 'n0452216800000542.jpg', 'n0452216800001130.jpg', 'n0452216800000266.jpg', 'n0452216800001215.jpg', 'n0452216800000659.jpg', 'n0452216800000433.jpg', 'n0452216800001013.jpg', 'n0452216800000872.jpg', 'n0452216800000892.jpg']
+n02099601:['n0209960100000122.jpg', 'n0209960100000136.jpg', 'n0209960100000642.jpg', 'n0209960100000992.jpg', 'n0209960100000104.jpg', 'n0209960100001251.jpg', 'n0209960100000562.jpg', 'n0209960100001215.jpg', 'n0209960100001131.jpg', 'n0209960100001284.jpg', 'n0209960100000335.jpg', 'n0209960100000331.jpg', 'n0209960100000266.jpg', 'n0209960100001072.jpg', 'n0209960100001103.jpg']
+n02871525:['n0287152500000362.jpg', 'n0287152500000524.jpg', 'n0287152500001039.jpg', 'n0287152500000181.jpg', 'n0287152500000084.jpg', 'n0287152500001142.jpg', 'n0287152500000381.jpg', 'n0287152500000537.jpg', 'n0287152500000562.jpg', 'n0287152500000400.jpg', 'n0287152500001160.jpg', 'n0287152500000866.jpg', 'n0287152500000686.jpg', 'n0287152500000967.jpg', 'n0287152500000754.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900000856.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706728536&Signature=QAEqXBcOQSDU60C5lFo7pciCuxU%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'scoreboard', 'vase', 'golden_retriever', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category label for the image is '**cuirass**'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414981300001229.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706728537&Signature=6Af63PkEHxS2Lso6G8KqxZLkqaw%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'scoreboard', 'vase', 'golden_retriever', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category label for the image is '**scoreboard**'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800000124.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706728539&Signature=jrMmV%2Fm9xqSUmQotyqGvLRoIy8M%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'scoreboard', 'vase', 'golden_retriever', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category label for the image is '**vase**'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100000598.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706728541&Signature=fM7VHsRMAOU4hMMFZH1GuZx6RFM%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'scoreboard', 'vase', 'golden_retriever', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category label for the image is '**golden_retriever**'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000808.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706728544&Signature=TjXQtFuNSEk571vGgwrF1ZsAmFc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'scoreboard', 'vase', 'golden_retriever', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category label for the image is '**bookshop**'."}]
+
+n0314621900000829.jpg,label=cuirass,output=The correct category label for the image is '**cuirass**'.,True
+n0314621900001217.jpg,label=cuirass,output=The correct category label for the image is '**cuirass**'.,True
+n0314621900001184.jpg,label=cuirass,output=The correct category label for the image is '**cuirass**'.,True
+n0314621900000831.jpg,label=cuirass,output=The correct category label for the image is '**cuirass**'.,True
+n0314621900001070.jpg,label=cuirass,output=The image does not have an exact category label associated with it based on the provided options.,False
+n0314621900001207.jpg,label=cuirass,output=The correct category label for the image is '**vase**'.,False
+n0314621900000902.jpg,label=cuirass,output=The correct category label for the image is '**scoreboard**'.,False
+n0314621900000247.jpg,label=cuirass,output=The accurate category label representing the given image is '**cuirass**'.,True
+n0314621900001122.jpg,label=cuirass,output=The accurate category label representing the given image is '**cuirass**'.,True
+n0314621900000092.jpg,label=cuirass,output=The accurate category label representing the given image is '**vase**'.,False
+n0314621900000686.jpg,label=cuirass,output=The accurate category label representing the given image is '**cuirass**'.,True
+n0314621900000784.jpg,label=cuirass,output=The accurate category label representing the given image is '**cuirass**'.,True
+n0314621900000178.jpg,label=cuirass,output=The correct category label for the image is '**cuirass**'.,True
+n0314621900000967.jpg,label=cuirass,output=The correct category label for the image is '**cuirass**'.,True
+n0314621900000626.jpg,label=cuirass,output=The image does not have any clear indicators to associate it with the categories provided. Therefore, I cannot determine an accurate category label based on the information available.,False
+
+n0414981300000274.jpg,label=scoreboard,output=The correct category label for the image is '**scoreboard**'.,True
+n0414981300000198.jpg,label=scoreboard,output=The accurate category label representing the given image is '**scoreboard**'.,True
+n0414981300000021.jpg,label=scoreboard,output=The correct category label for the image is '**scoreboard**'.,True
+n0414981300000099.jpg,label=scoreboard,output=The correct category label for the image is '**scoreboard**'.,True
+n0414981300000533.jpg,label=scoreboard,output=The correct category label for the image is '**scoreboard**'.,True
+n0414981300000506.jpg,label=scoreboard,output=The accurate category label representing the given image is '**scoreboard**'.,True
+n0414981300000725.jpg,label=scoreboard,output=The correct category label for the image is '**scoreboard**'.,True
+n0414981300000393.jpg,label=scoreboard,output=The accurate category label representing the given image is '**scoreboard**'.,True
+n0414981300000931.jpg,label=scoreboard,output=The correct category label for the image is '**scoreboard**'.,True
+n0414981300000195.jpg,label=scoreboard,output=The correct category label for the image is '**scoreboard**'.,True
+n0414981300000275.jpg,label=scoreboard,output=The image does not clearly depict any of the categories listed above. Therefore, it cannot be accurately labeled with one of the provided options.,False
+n0414981300000526.jpg,label=scoreboard,output=The image appears to be a scoreboard or similar structure, so the correct category label would be '**scoreboard**'.,True
+n0414981300001290.jpg,label=scoreboard,output=The image does not have any clear indicators to associate it with one of the categories listed above. Therefore, I cannot determine an exact category based on the provided annotations alone.,False
+n0414981300000660.jpg,label=scoreboard,output=The image appears to be a scoreboard, so the accurate category label representing the given image is '**scoreboard**'.,True
+n0414981300000982.jpg,label=scoreboard,output=The accurate category label representing the given image is '**scoreboard**'.,True
+
+n0452216800000024.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000572.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000077.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000600.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000023.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800001254.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000542.jpg,label=vase,output=The accurate category label representing the given image is '**vase**'.,True
+n0452216800001130.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000266.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800001215.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000659.jpg,label=vase,output=The accurate category label representing the given image is '**vase**'.,True
+n0452216800000433.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800001013.jpg,label=vase,output=The accurate category label representing the given image is '**vase**'.,True
+n0452216800000872.jpg,label=vase,output=The correct category label for the image is '**vase**'.,True
+n0452216800000892.jpg,label=vase,output=The accurate category label representing the given image is '**vase**'.,True
+
+n0209960100000122.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+n0209960100000136.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+n0209960100000642.jpg,label=golden_retriever,output=The correct category label for the image is '**golden_retriever**'.,True
+n0209960100000992.jpg,label=golden_retriever,output=The correct category label for the image is '**golden_retriever**'.,True
+n0209960100000104.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+n0209960100001251.jpg,label=golden_retriever,output=The correct category label for the image is '**golden_retriever**'.,True
+n0209960100000562.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+n0209960100001215.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+n0209960100001131.jpg,label=golden_retriever,output=The correct category label for the image is '**golden_retriever**'.,True
+n0209960100001284.jpg,label=golden_retriever,output=The correct category label for the image is '**golden_retriever**'.,True
+n0209960100000335.jpg,label=golden_retriever,output=The correct category label for the image is '**golden_retriever**'.,True
+n0209960100000331.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+n0209960100000266.jpg,label=golden_retriever,output=The correct category label for the image is '**golden_retriever**'.,True
+n0209960100001072.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+n0209960100001103.jpg,label=golden_retriever,output=The accurate category label representing the given image is '**golden_retriever**'.,True
+
+n0287152500000362.jpg,label=bookshop,output=The correct category label for the image is '**bookshop**'.,True
+n0287152500000524.jpg,label=bookshop,output=The correct category label for the image is '**bookshop**'.,True
+n0287152500001039.jpg,label=bookshop,output=The correct category label for the image is '**vase**'.,False
+n0287152500000181.jpg,label=bookshop,output=The image does not have any clear indicators to determine the exact category it belongs to among the provided options.,False
+n0287152500000084.jpg,label=bookshop,output=The correct category label for the image is '**bookshop**'.,True
+n0287152500001142.jpg,label=bookshop,output=The image appears to depict an indoor setting, possibly a bookshop or library, but without more contextual information, it's challenging to determine the exact category.,True
+n0287152500000381.jpg,label=bookshop,output=The correct category label for the image is '**bookshop**'.,True
+n0287152500000537.jpg,label=bookshop,output=The correct category label for the image is '**bookshop**'.,True
+n0287152500000562.jpg,label=bookshop,output=The image does not contain any clear visual cues to confidently associate it with one of the categories provided.,False
+n0287152500000400.jpg,label=bookshop,output=The correct category label for the image is '**bookshop**'.,True
+n0287152500001160.jpg,label=bookshop,output=The correct category label for the image is '**vase**'.,False
+n0287152500000866.jpg,label=bookshop,output=The image does not contain any clear visual cues to confidently associate it with one of the provided categories.,False
+n0287152500000686.jpg,label=bookshop,output=The correct category label for the image is '**bookshop**'.,True
+n0287152500000967.jpg,label=bookshop,output=The image does not contain any clear indication or representation of a 'cuirass', 'scoreboard', 'vase', 'golden_retriever', or 'bookshop'. Hence, it's challenging to determine an exact category based on the provided labels.,True
+n0287152500000754.jpg,label=bookshop,output=The image does not contain any information related to cuirass, scoreboard, vase, golden retriever, or bookshop. Therefore, it's challenging to determine an accurate category label based on the provided options.,True
+
+acc:  0.84

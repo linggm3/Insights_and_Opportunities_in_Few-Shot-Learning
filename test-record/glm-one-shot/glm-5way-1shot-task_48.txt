@@ -1,0 +1,97 @@
+支持集的类别: ['crate', 'theater_curtain', 'trifle', 'black-footed_ferret', 'malamute']
+测试集各类别: ['n03127925', 'n04418357', 'n07613480', 'n02443484', 'n02110063']
+支持集各图片:
+n03127925:['n0312792500000151.jpg']
+n04418357:['n0441835700000130.jpg']
+n07613480:['n0761348000000436.jpg']
+n02443484:['n0244348400000436.jpg']
+n02110063:['n0211006300001094.jpg']
+测试集各图片:
+n03127925:['n0312792500000205.jpg', 'n0312792500001019.jpg', 'n0312792500000395.jpg', 'n0312792500000886.jpg', 'n0312792500000037.jpg', 'n0312792500000839.jpg', 'n0312792500000744.jpg', 'n0312792500001168.jpg', 'n0312792500000154.jpg', 'n0312792500000531.jpg', 'n0312792500000723.jpg', 'n0312792500000925.jpg', 'n0312792500001088.jpg', 'n0312792500001165.jpg', 'n0312792500000124.jpg']
+n04418357:['n0441835700000557.jpg', 'n0441835700000304.jpg', 'n0441835700000077.jpg', 'n0441835700001238.jpg', 'n0441835700001070.jpg', 'n0441835700000117.jpg', 'n0441835700000140.jpg', 'n0441835700000015.jpg', 'n0441835700000942.jpg', 'n0441835700001123.jpg', 'n0441835700000615.jpg', 'n0441835700001079.jpg', 'n0441835700000040.jpg', 'n0441835700000724.jpg', 'n0441835700001207.jpg']
+n07613480:['n0761348000000178.jpg', 'n0761348000000084.jpg', 'n0761348000000197.jpg', 'n0761348000001105.jpg', 'n0761348000000748.jpg', 'n0761348000001125.jpg', 'n0761348000000164.jpg', 'n0761348000000283.jpg', 'n0761348000000257.jpg', 'n0761348000000411.jpg', 'n0761348000000057.jpg', 'n0761348000000624.jpg', 'n0761348000000778.jpg', 'n0761348000000085.jpg', 'n0761348000001187.jpg']
+n02443484:['n0244348400000466.jpg', 'n0244348400001176.jpg', 'n0244348400000080.jpg', 'n0244348400001287.jpg', 'n0244348400000770.jpg', 'n0244348400000601.jpg', 'n0244348400001037.jpg', 'n0244348400001174.jpg', 'n0244348400000488.jpg', 'n0244348400000861.jpg', 'n0244348400001228.jpg', 'n0244348400000259.jpg', 'n0244348400000964.jpg', 'n0244348400000678.jpg', 'n0244348400001226.jpg']
+n02110063:['n0211006300000886.jpg', 'n0211006300000999.jpg', 'n0211006300000927.jpg', 'n0211006300000856.jpg', 'n0211006300000323.jpg', 'n0211006300000455.jpg', 'n0211006300001254.jpg', 'n0211006300001039.jpg', 'n0211006300000260.jpg', 'n0211006300000335.jpg', 'n0211006300000110.jpg', 'n0211006300000487.jpg', 'n0211006300001164.jpg', 'n0211006300000214.jpg', 'n0211006300000106.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500000151.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775094&Signature=K5vEX%2BS41ljQacozyWuvtA0envY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'theater_curtain', 'trifle', 'black-footed_ferret', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'crate'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0441835700000130.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775095&Signature=GSesDqSP9QYytgEeoDnt1qkxek8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'theater_curtain', 'trifle', 'black-footed_ferret', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'theater_curtain'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000000436.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775097&Signature=%2F5jaDu86gTFn4c3F6j%2FRz3byPwY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'theater_curtain', 'trifle', 'black-footed_ferret', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'trifle'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000436.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775098&Signature=3x1jWVTXIAGtWQVv%2BaTUhaRKLr0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'theater_curtain', 'trifle', 'black-footed_ferret', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'black-footed_ferret'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211006300001094.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775099&Signature=2q84MJRcpN4vFJsjWmh2mxEPLOU%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'theater_curtain', 'trifle', 'black-footed_ferret', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'malamute'}]
+
+n0312792500000205.jpg,label=crate,output=crate,True
+n0312792500001019.jpg,label=crate,output=crate,True
+n0312792500000395.jpg,label=crate,output=crate,True
+n0312792500000886.jpg,label=crate,output=crate,True
+n0312792500000037.jpg,label=crate,output=crate,True
+n0312792500000839.jpg,label=crate,output=crate,True
+n0312792500000744.jpg,label=crate,output=crate,True
+n0312792500001168.jpg,label=crate,output=crate,True
+n0312792500000154.jpg,label=crate,output=crate,True
+n0312792500000531.jpg,label=crate,output=crate,True
+n0312792500000723.jpg,label=crate,output=crate,True
+n0312792500000925.jpg,label=crate,output=crate,True
+n0312792500001088.jpg,label=crate,output=crate,True
+n0312792500001165.jpg,label=crate,output=crate,True
+n0312792500000124.jpg,label=crate,output=crate,True
+
+n0441835700000557.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000304.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000077.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001238.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001070.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000117.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000140.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000015.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000942.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001123.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000615.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001079.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000040.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000724.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001207.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0761348000000178.jpg,label=trifle,output=trifle,True
+n0761348000000084.jpg,label=trifle,output=trifle,True
+n0761348000000197.jpg,label=trifle,output=trifle,True
+n0761348000001105.jpg,label=trifle,output=trifle,True
+n0761348000000748.jpg,label=trifle,output=trifle,True
+n0761348000001125.jpg,label=trifle,output=trifle,True
+n0761348000000164.jpg,label=trifle,output=trifle,True
+n0761348000000283.jpg,label=trifle,output=trifle,True
+n0761348000000257.jpg,label=trifle,output=trifle,True
+n0761348000000411.jpg,label=trifle,output=trifle,True
+n0761348000000057.jpg,label=trifle,output=trifle,True
+n0761348000000624.jpg,label=trifle,output=trifle,True
+n0761348000000778.jpg,label=trifle,output=trifle,True
+n0761348000000085.jpg,label=trifle,output=trifle,True
+n0761348000001187.jpg,label=trifle,output=trifle,True
+
+n0244348400000466.jpg,label=black-footed_ferret,output=The correct category label for the given image is 'crate'.,False
+n0244348400001176.jpg,label=black-footed_ferret,output=The image is most closely associated with the category label 'black-footed_ferret'.,True
+n0244348400000080.jpg,label=black-footed_ferret,output=theater_curtain,False
+n0244348400001287.jpg,label=black-footed_ferret,output=crate,False
+n0244348400000770.jpg,label=black-footed_ferret,output=crate,False
+n0244348400000601.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001037.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001174.jpg,label=black-footed_ferret,output=crate,False
+n0244348400000488.jpg,label=black-footed_ferret,output=The correct category label for the provided image is 'crate'.,False
+n0244348400000861.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001228.jpg,label=black-footed_ferret,output=theater_curtain,False
+n0244348400000259.jpg,label=black-footed_ferret,output=crate,False
+n0244348400000964.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000678.jpg,label=black-footed_ferret,output=crate,False
+n0244348400001226.jpg,label=black-footed_ferret,output=The correct category label for the given image is 'theater_curtain'.,False
+
+n0211006300000886.jpg,label=malamute,output=malamute,True
+n0211006300000999.jpg,label=malamute,output=malamute,True
+n0211006300000927.jpg,label=malamute,output=malamute,True
+n0211006300000856.jpg,label=malamute,output=malamute,True
+n0211006300000323.jpg,label=malamute,output=malamute,True
+n0211006300000455.jpg,label=malamute,output=malamute,True
+n0211006300001254.jpg,label=malamute,output=malamute,True
+n0211006300001039.jpg,label=malamute,output=malamute,True
+n0211006300000260.jpg,label=malamute,output=malamute,True
+n0211006300000335.jpg,label=malamute,output=malamute,True
+n0211006300000110.jpg,label=malamute,output=malamute,True
+n0211006300000487.jpg,label=malamute,output=malamute,True
+n0211006300001164.jpg,label=malamute,output=malamute,True
+n0211006300000214.jpg,label=malamute,output=malamute,True
+n0211006300000106.jpg,label=malamute,output=malamute,True
+
+acc:  0.8666666666666667

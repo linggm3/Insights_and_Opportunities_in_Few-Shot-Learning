@@ -1,0 +1,97 @@
+支持集的类别: ['mixing_bowl', 'bookshop', 'scoreboard', 'ant', 'king_crab']
+测试集各类别: ['n03775546', 'n02871525', 'n04149813', 'n02219486', 'n01981276']
+支持集各图片:
+n03775546:['n0377554600001084.jpg']
+n02871525:['n0287152500001121.jpg']
+n04149813:['n0414981300000278.jpg']
+n02219486:['n0221948600000717.jpg']
+n01981276:['n0198127600000915.jpg']
+测试集各图片:
+n03775546:['n0377554600001194.jpg', 'n0377554600001209.jpg', 'n0377554600000779.jpg', 'n0377554600001090.jpg', 'n0377554600001188.jpg', 'n0377554600001203.jpg', 'n0377554600001294.jpg', 'n0377554600001213.jpg', 'n0377554600001164.jpg', 'n0377554600000775.jpg', 'n0377554600001045.jpg', 'n0377554600000138.jpg', 'n0377554600001136.jpg', 'n0377554600000132.jpg', 'n0377554600000482.jpg']
+n02871525:['n0287152500000185.jpg', 'n0287152500000644.jpg', 'n0287152500001040.jpg', 'n0287152500000379.jpg', 'n0287152500000342.jpg', 'n0287152500000353.jpg', 'n0287152500000124.jpg', 'n0287152500001284.jpg', 'n0287152500000785.jpg', 'n0287152500000992.jpg', 'n0287152500000790.jpg', 'n0287152500000907.jpg', 'n0287152500001112.jpg', 'n0287152500000045.jpg', 'n0287152500001103.jpg']
+n04149813:['n0414981300000866.jpg', 'n0414981300000385.jpg', 'n0414981300000107.jpg', 'n0414981300000508.jpg', 'n0414981300000957.jpg', 'n0414981300000701.jpg', 'n0414981300000264.jpg', 'n0414981300000571.jpg', 'n0414981300000958.jpg', 'n0414981300000159.jpg', 'n0414981300000779.jpg', 'n0414981300000347.jpg', 'n0414981300001264.jpg', 'n0414981300000513.jpg', 'n0414981300000311.jpg']
+n02219486:['n0221948600000911.jpg', 'n0221948600000517.jpg', 'n0221948600000868.jpg', 'n0221948600000131.jpg', 'n0221948600000306.jpg', 'n0221948600000329.jpg', 'n0221948600000546.jpg', 'n0221948600001089.jpg', 'n0221948600000302.jpg', 'n0221948600000098.jpg', 'n0221948600000791.jpg', 'n0221948600000489.jpg', 'n0221948600000007.jpg', 'n0221948600000697.jpg', 'n0221948600001024.jpg']
+n01981276:['n0198127600001044.jpg', 'n0198127600001294.jpg', 'n0198127600000108.jpg', 'n0198127600000972.jpg', 'n0198127600000312.jpg', 'n0198127600000518.jpg', 'n0198127600000422.jpg', 'n0198127600000608.jpg', 'n0198127600001297.jpg', 'n0198127600001289.jpg', 'n0198127600000057.jpg', 'n0198127600000220.jpg', 'n0198127600001243.jpg', 'n0198127600000743.jpg', 'n0198127600000767.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0377554600001084.jpg'}, {'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'bookshop', 'scoreboard', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'mixing_bowl'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500001121.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'bookshop', 'scoreboard', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'bookshop'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414981300000278.jpg'}, {'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'bookshop', 'scoreboard', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'scoreboard'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0221948600000717.jpg'}, {'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'bookshop', 'scoreboard', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'ant'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600000915.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'bookshop', 'scoreboard', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'king_crab'"}]}]
+
+n0377554600001194.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001209.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000779.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001090.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001188.jpg,label=mixing_bowl,output='dictionary',False
+n0377554600001203.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001294.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001213.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001164.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000775.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001045.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000138.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001136.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000132.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000482.jpg,label=mixing_bowl,output=mixing_bowl,True
+
+n0287152500000185.jpg,label=bookshop,output='mixing_bowl',False
+n0287152500000644.jpg,label=bookshop,output='mixing_bowl',False
+n0287152500001040.jpg,label=bookshop,output=bookshop,True
+n0287152500000379.jpg,label=bookshop,output=bookshop,True
+n0287152500000342.jpg,label=bookshop,output=bookshop,True
+n0287152500000353.jpg,label=bookshop,output=bookshop,True
+n0287152500000124.jpg,label=bookshop,output='bookshop',True
+n0287152500001284.jpg,label=bookshop,output='restaurant',False
+n0287152500000785.jpg,label=bookshop,output=bookshop,True
+n0287152500000992.jpg,label=bookshop,output=bookshop,True
+n0287152500000790.jpg,label=bookshop,output='restaurant',False
+n0287152500000907.jpg,label=bookshop,output=bookshop,True
+n0287152500001112.jpg,label=bookshop,output='bookshop',True
+n0287152500000045.jpg,label=bookshop,output='bookshop',True
+n0287152500001103.jpg,label=bookshop,output='teacher',False
+
+n0414981300000866.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000385.jpg,label=scoreboard,output='mixing_bowl',False
+n0414981300000107.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000508.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000957.jpg,label=scoreboard,output='the single category label of the image is scoreboard'.,True
+n0414981300000701.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000264.jpg,label=scoreboard,output='tiger',False
+n0414981300000571.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000958.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000159.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000779.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000347.jpg,label=scoreboard,output='scoreboard',True
+n0414981300001264.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000513.jpg,label=scoreboard,output='tennis_ball',False
+n0414981300000311.jpg,label=scoreboard,output='scoreboard',True
+
+n0221948600000911.jpg,label=ant,output=(ant),True
+n0221948600000517.jpg,label=ant,output=(ant),True
+n0221948600000868.jpg,label=ant,output='dragonfly',False
+n0221948600000131.jpg,label=ant,output=(ant),True
+n0221948600000306.jpg,label=ant,output=(mixing_bowl),False
+n0221948600000329.jpg,label=ant,output=(mixing_bowl),False
+n0221948600000546.jpg,label=ant,output=(ant),True
+n0221948600001089.jpg,label=ant,output=(ant),True
+n0221948600000302.jpg,label=ant,output='ant',True
+n0221948600000098.jpg,label=ant,output=(ant),True
+n0221948600000791.jpg,label=ant,output=(ant),True
+n0221948600000489.jpg,label=ant,output=(leaf),False
+n0221948600000007.jpg,label=ant,output='insect',False
+n0221948600000697.jpg,label=ant,output='redwood',False
+n0221948600001024.jpg,label=ant,output='insect',False
+
+n0198127600001044.jpg,label=king_crab,output=(ant),False
+n0198127600001294.jpg,label=king_crab,output=lobster,False
+n0198127600000108.jpg,label=king_crab,output=(mixing_bowl),False
+n0198127600000972.jpg,label=king_crab,output=(king_crab),True
+n0198127600000312.jpg,label=king_crab,output=crab,False
+n0198127600000518.jpg,label=king_crab,output=(king_crab),True
+n0198127600000422.jpg,label=king_crab,output=(king_crab),True
+n0198127600000608.jpg,label=king_crab,output=(mixing_bowl),False
+n0198127600001297.jpg,label=king_crab,output=(king_crab),True
+n0198127600001289.jpg,label=king_crab,output=(king_crab),True
+n0198127600000057.jpg,label=king_crab,output=(king_crab),True
+n0198127600000220.jpg,label=king_crab,output=(king_crab),True
+n0198127600001243.jpg,label=king_crab,output=(mixing_bowl),False
+n0198127600000743.jpg,label=king_crab,output=(mixing_bowl),False
+n0198127600000767.jpg,label=king_crab,output=(mixing_bowl),False
+
+acc:  0.68

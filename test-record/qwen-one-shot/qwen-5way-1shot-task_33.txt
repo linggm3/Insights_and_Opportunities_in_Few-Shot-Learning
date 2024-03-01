@@ -1,0 +1,97 @@
+支持集的类别: ['dalmatian', 'cuirass', 'nematode', 'trifle', 'mixing_bowl']
+测试集各类别: ['n02110341', 'n03146219', 'n01930112', 'n07613480', 'n03775546']
+支持集各图片:
+n02110341:['n0211034100000073.jpg']
+n03146219:['n0314621900000329.jpg']
+n01930112:['n0193011200001107.jpg']
+n07613480:['n0761348000000863.jpg']
+n03775546:['n0377554600001017.jpg']
+测试集各图片:
+n02110341:['n0211034100000864.jpg', 'n0211034100000426.jpg', 'n0211034100001235.jpg', 'n0211034100000818.jpg', 'n0211034100000638.jpg', 'n0211034100000684.jpg', 'n0211034100001222.jpg', 'n0211034100000088.jpg', 'n0211034100000663.jpg', 'n0211034100000914.jpg', 'n0211034100000392.jpg', 'n0211034100000409.jpg', 'n0211034100000566.jpg', 'n0211034100001137.jpg', 'n0211034100000784.jpg']
+n03146219:['n0314621900001250.jpg', 'n0314621900000649.jpg', 'n0314621900000773.jpg', 'n0314621900000851.jpg', 'n0314621900000394.jpg', 'n0314621900000618.jpg', 'n0314621900001006.jpg', 'n0314621900000222.jpg', 'n0314621900001010.jpg', 'n0314621900000498.jpg', 'n0314621900000769.jpg', 'n0314621900001180.jpg', 'n0314621900001206.jpg', 'n0314621900000261.jpg', 'n0314621900001223.jpg']
+n01930112:['n0193011200000108.jpg', 'n0193011200000546.jpg', 'n0193011200000555.jpg', 'n0193011200000695.jpg', 'n0193011200001196.jpg', 'n0193011200000233.jpg', 'n0193011200001153.jpg', 'n0193011200000375.jpg', 'n0193011200000136.jpg', 'n0193011200000409.jpg', 'n0193011200000480.jpg', 'n0193011200000622.jpg', 'n0193011200000683.jpg', 'n0193011200000745.jpg', 'n0193011200000661.jpg']
+n07613480:['n0761348000001073.jpg', 'n0761348000001114.jpg', 'n0761348000001137.jpg', 'n0761348000000091.jpg', 'n0761348000000257.jpg', 'n0761348000000489.jpg', 'n0761348000000936.jpg', 'n0761348000000632.jpg', 'n0761348000000689.jpg', 'n0761348000001167.jpg', 'n0761348000000445.jpg', 'n0761348000000327.jpg', 'n0761348000000760.jpg', 'n0761348000000978.jpg', 'n0761348000000256.jpg']
+n03775546:['n0377554600000872.jpg', 'n0377554600001288.jpg', 'n0377554600000590.jpg', 'n0377554600000179.jpg', 'n0377554600001227.jpg', 'n0377554600001255.jpg', 'n0377554600000816.jpg', 'n0377554600001154.jpg', 'n0377554600001013.jpg', 'n0377554600001127.jpg', 'n0377554600001131.jpg', 'n0377554600000567.jpg', 'n0377554600000699.jpg', 'n0377554600000446.jpg', 'n0377554600000036.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000073.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'cuirass', 'nematode', 'trifle', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'dalmatian'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000329.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'cuirass', 'nematode', 'trifle', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'cuirass'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200001107.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'cuirass', 'nematode', 'trifle', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'nematode'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000000863.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'cuirass', 'nematode', 'trifle', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'trifle'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0377554600001017.jpg'}, {'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'cuirass', 'nematode', 'trifle', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'mixing_bowl'"}]}]
+
+n0211034100000864.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000426.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001235.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000818.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000638.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000684.jpg,label=dalmatian,output='restaurant',False
+n0211034100001222.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000088.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000663.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000914.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000392.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000409.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000566.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001137.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000784.jpg,label=dalmatian,output='dalmatian',True
+
+n0314621900001250.jpg,label=cuirass,output='cuirass',True
+n0314621900000649.jpg,label=cuirass,output='cuirass',True
+n0314621900000773.jpg,label=cuirass,output='revolutionary war uniform',False
+n0314621900000851.jpg,label=cuirass,output='retro soldiers',False
+n0314621900000394.jpg,label=cuirass,output='suit',False
+n0314621900000618.jpg,label=cuirass,output='cuirass',True
+n0314621900001006.jpg,label=cuirass,output='regimental guard',False
+n0314621900000222.jpg,label=cuirass,output='cuirass',True
+n0314621900001010.jpg,label=cuirass,output='cuirass',True
+n0314621900000498.jpg,label=cuirass,output='cuirass',True
+n0314621900000769.jpg,label=cuirass,output='cuirass',True
+n0314621900001180.jpg,label=cuirass,output='cuirass',True
+n0314621900001206.jpg,label=cuirass,output='cuirass',True
+n0314621900000261.jpg,label=cuirass,output=cuirass,True
+n0314621900001223.jpg,label=cuirass,output='cuirass',True
+
+n0193011200000108.jpg,label=nematode,output='nematode',True
+n0193011200000546.jpg,label=nematode,output='nematode',True
+n0193011200000555.jpg,label=nematode,output='nematode',True
+n0193011200000695.jpg,label=nematode,output='nematode',True
+n0193011200001196.jpg,label=nematode,output='nematode',True
+n0193011200000233.jpg,label=nematode,output='nematode',True
+n0193011200001153.jpg,label=nematode,output='nematode',True
+n0193011200000375.jpg,label=nematode,output='nematode',True
+n0193011200000136.jpg,label=nematode,output='nematode',True
+n0193011200000409.jpg,label=nematode,output='nematode',True
+n0193011200000480.jpg,label=nematode,output='nematode',True
+n0193011200000622.jpg,label=nematode,output='regulator',False
+n0193011200000683.jpg,label=nematode,output='nematode',True
+n0193011200000745.jpg,label=nematode,output='nematode',True
+n0193011200000661.jpg,label=nematode,output=(dalmatian),False
+
+n0761348000001073.jpg,label=trifle,output=(trifle),True
+n0761348000001114.jpg,label=trifle,output=(trifle),True
+n0761348000001137.jpg,label=trifle,output=(trifle),True
+n0761348000000091.jpg,label=trifle,output=trifle,True
+n0761348000000257.jpg,label=trifle,output=(trifle),True
+n0761348000000489.jpg,label=trifle,output='reindeer hot chocolate',False
+n0761348000000936.jpg,label=trifle,output=trifle,True
+n0761348000000632.jpg,label=trifle,output=(trifle),True
+n0761348000000689.jpg,label=trifle,output=(trifle),True
+n0761348000001167.jpg,label=trifle,output=(trifle),True
+n0761348000000445.jpg,label=trifle,output=trifle,True
+n0761348000000327.jpg,label=trifle,output=(trifle),True
+n0761348000000760.jpg,label=trifle,output=cake,False
+n0761348000000978.jpg,label=trifle,output=(trifle),True
+n0761348000000256.jpg,label=trifle,output='refrigerator cake',False
+
+n0377554600000872.jpg,label=mixing_bowl,output='rectangular dish',False
+n0377554600001288.jpg,label=mixing_bowl,output='refrigerator',False
+n0377554600000590.jpg,label=mixing_bowl,output=dalmatian,False
+n0377554600000179.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001227.jpg,label=mixing_bowl,output='red bowl black circle white dots',False
+n0377554600001255.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000816.jpg,label=mixing_bowl,output='rectangular dish',False
+n0377554600001154.jpg,label=mixing_bowl,output='red bowl',False
+n0377554600001013.jpg,label=mixing_bowl,output=(dalmatian),False
+n0377554600001127.jpg,label=mixing_bowl,output='rectangular bowl',False
+n0377554600001131.jpg,label=mixing_bowl,output='retro measuring cups',False
+n0377554600000567.jpg,label=mixing_bowl,output='reflective green bowl',False
+n0377554600000699.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000446.jpg,label=mixing_bowl,output='refrigerator',False
+n0377554600000036.jpg,label=mixing_bowl,output='bowl',False
+
+acc:  0.7066666666666667

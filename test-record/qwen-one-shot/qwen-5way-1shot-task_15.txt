@@ -1,0 +1,97 @@
+支持集的类别: ['dalmatian', 'trifle', 'vase', 'theater_curtain', 'school_bus']
+测试集各类别: ['n02110341', 'n07613480', 'n04522168', 'n04418357', 'n04146614']
+支持集各图片:
+n02110341:['n0211034100000835.jpg']
+n07613480:['n0761348000000760.jpg']
+n04522168:['n0452216800000838.jpg']
+n04418357:['n0441835700000922.jpg']
+n04146614:['n0414661400000437.jpg']
+测试集各图片:
+n02110341:['n0211034100000427.jpg', 'n0211034100000550.jpg', 'n0211034100001015.jpg', 'n0211034100001220.jpg', 'n0211034100001221.jpg', 'n0211034100000702.jpg', 'n0211034100001191.jpg', 'n0211034100000374.jpg', 'n0211034100000182.jpg', 'n0211034100000188.jpg', 'n0211034100000470.jpg', 'n0211034100000901.jpg', 'n0211034100001050.jpg', 'n0211034100000768.jpg', 'n0211034100001233.jpg']
+n07613480:['n0761348000000511.jpg', 'n0761348000000083.jpg', 'n0761348000001111.jpg', 'n0761348000000489.jpg', 'n0761348000000881.jpg', 'n0761348000000472.jpg', 'n0761348000000073.jpg', 'n0761348000000689.jpg', 'n0761348000000707.jpg', 'n0761348000001176.jpg', 'n0761348000001067.jpg', 'n0761348000001215.jpg', 'n0761348000000245.jpg', 'n0761348000000443.jpg', 'n0761348000000926.jpg']
+n04522168:['n0452216800000564.jpg', 'n0452216800000811.jpg', 'n0452216800000179.jpg', 'n0452216800000526.jpg', 'n0452216800000473.jpg', 'n0452216800000523.jpg', 'n0452216800000755.jpg', 'n0452216800000678.jpg', 'n0452216800000015.jpg', 'n0452216800001281.jpg', 'n0452216800000461.jpg', 'n0452216800000808.jpg', 'n0452216800000583.jpg', 'n0452216800000441.jpg', 'n0452216800001195.jpg']
+n04418357:['n0441835700000252.jpg', 'n0441835700001227.jpg', 'n0441835700000728.jpg', 'n0441835700000030.jpg', 'n0441835700001162.jpg', 'n0441835700000323.jpg', 'n0441835700000401.jpg', 'n0441835700001257.jpg', 'n0441835700001261.jpg', 'n0441835700000940.jpg', 'n0441835700000442.jpg', 'n0441835700000359.jpg', 'n0441835700000474.jpg', 'n0441835700000340.jpg', 'n0441835700001001.jpg']
+n04146614:['n0414661400000745.jpg', 'n0414661400000407.jpg', 'n0414661400000019.jpg', 'n0414661400001115.jpg', 'n0414661400001153.jpg', 'n0414661400001255.jpg', 'n0414661400000696.jpg', 'n0414661400001131.jpg', 'n0414661400000115.jpg', 'n0414661400000651.jpg', 'n0414661400000226.jpg', 'n0414661400000462.jpg', 'n0414661400000707.jpg', 'n0414661400000795.jpg', 'n0414661400000036.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000835.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'trifle', 'vase', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'dalmatian'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000000760.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'trifle', 'vase', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'trifle'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800000838.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'trifle', 'vase', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'vese'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000922.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'trifle', 'vase', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'theater_curtain'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000437.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'trifle', 'vase', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'school_bus'"}]}]
+
+n0211034100000427.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000550.jpg,label=dalmatian,output='dalmatian',True
+n0211034100001015.jpg,label=dalmatian,output='mattress',False
+n0211034100001220.jpg,label=dalmatian,output='dalmatian',True
+n0211034100001221.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000702.jpg,label=dalmatian,output='dalmatian',True
+n0211034100001191.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000374.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000182.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000188.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000470.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000901.jpg,label=dalmatian,output='dalmatian',True
+n0211034100001050.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000768.jpg,label=dalmatian,output='dalmatian',True
+n0211034100001233.jpg,label=dalmatian,output='dalmatian',True
+
+n0761348000000511.jpg,label=trifle,output='trifle',True
+n0761348000000083.jpg,label=trifle,output='trifle',True
+n0761348000001111.jpg,label=trifle,output='mini desserts',False
+n0761348000000489.jpg,label=trifle,output='milkshake',False
+n0761348000000881.jpg,label=trifle,output='trifle',True
+n0761348000000472.jpg,label=trifle,output='recipe',False
+n0761348000000073.jpg,label=trifle,output='trifle',True
+n0761348000000689.jpg,label=trifle,output='mousse',False
+n0761348000000707.jpg,label=trifle,output='red vase',False
+n0761348000001176.jpg,label=trifle,output='trifle',True
+n0761348000001067.jpg,label=trifle,output=trifle,True
+n0761348000001215.jpg,label=trifle,output='trifle',True
+n0761348000000245.jpg,label=trifle,output='trifle',True
+n0761348000000443.jpg,label=trifle,output='trifle',True
+n0761348000000926.jpg,label=trifle,output='trifle',True
+
+n0452216800000564.jpg,label=vase,output='retro vase',True
+n0452216800000811.jpg,label=vase,output='retro vase',True
+n0452216800000179.jpg,label=vase,output='vase',True
+n0452216800000526.jpg,label=vase,output=vase,True
+n0452216800000473.jpg,label=vase,output='vase',True
+n0452216800000523.jpg,label=vase,output=vase,True
+n0452216800000755.jpg,label=vase,output='reserved blue vase',True
+n0452216800000678.jpg,label=vase,output=vase,True
+n0452216800000015.jpg,label=vase,output='red lantern',False
+n0452216800001281.jpg,label=vase,output='retangular_vase',True
+n0452216800000461.jpg,label=vase,output=vase,True
+n0452216800000808.jpg,label=vase,output='vase',True
+n0452216800000583.jpg,label=vase,output=vase,True
+n0452216800000441.jpg,label=vase,output=vase,True
+n0452216800001195.jpg,label=vase,output='recipe',False
+
+n0441835700000252.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700001227.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700000728.jpg,label=theater_curtain,output='red wave',False
+n0441835700000030.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700001162.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700000323.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700000401.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700001257.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700001261.jpg,label=theater_curtain,output='music',False
+n0441835700000940.jpg,label=theater_curtain,output='musician',False
+n0441835700000442.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700000359.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700000474.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700000340.jpg,label=theater_curtain,output='man signing book',False
+n0441835700001001.jpg,label=theater_curtain,output='theater_curtain',True
+
+n0414661400000745.jpg,label=school_bus,output='school_bus',True
+n0414661400000407.jpg,label=school_bus,output='school_bus',True
+n0414661400000019.jpg,label=school_bus,output='school_bus',True
+n0414661400001115.jpg,label=school_bus,output='school_bus',True
+n0414661400001153.jpg,label=school_bus,output='school_bus',True
+n0414661400001255.jpg,label=school_bus,output='school_bus',True
+n0414661400000696.jpg,label=school_bus,output='school_bus',True
+n0414661400001131.jpg,label=school_bus,output='school_bus',True
+n0414661400000115.jpg,label=school_bus,output='school_bus',True
+n0414661400000651.jpg,label=school_bus,output='school_bus',True
+n0414661400000226.jpg,label=school_bus,output='school_bus',True
+n0414661400000462.jpg,label=school_bus,output='school_bus',True
+n0414661400000707.jpg,label=school_bus,output='school_bus',True
+n0414661400000795.jpg,label=school_bus,output='school_bus',True
+n0414661400000036.jpg,label=school_bus,output='school_bus',True
+
+acc:  0.84

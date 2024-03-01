@@ -1,0 +1,97 @@
+支持集的类别: ['king_crab', 'nematode', 'ant', 'bookshop', 'school_bus']
+测试集各类别: ['n01981276', 'n01930112', 'n02219486', 'n02871525', 'n04146614']
+支持集各图片:
+n01981276:['n0198127600000141.jpg']
+n01930112:['n0193011200001184.jpg']
+n02219486:['n0221948600000703.jpg']
+n02871525:['n0287152500000291.jpg']
+n04146614:['n0414661400000697.jpg']
+测试集各图片:
+n01981276:['n0198127600000285.jpg', 'n0198127600000460.jpg', 'n0198127600000265.jpg', 'n0198127600000556.jpg', 'n0198127600000683.jpg', 'n0198127600000981.jpg', 'n0198127600000370.jpg', 'n0198127600000403.jpg', 'n0198127600000233.jpg', 'n0198127600001057.jpg', 'n0198127600000730.jpg', 'n0198127600000874.jpg', 'n0198127600000875.jpg', 'n0198127600000553.jpg', 'n0198127600000296.jpg']
+n01930112:['n0193011200000517.jpg', 'n0193011200001215.jpg', 'n0193011200000995.jpg', 'n0193011200000518.jpg', 'n0193011200000573.jpg', 'n0193011200000546.jpg', 'n0193011200000379.jpg', 'n0193011200000867.jpg', 'n0193011200000777.jpg', 'n0193011200000275.jpg', 'n0193011200000827.jpg', 'n0193011200001240.jpg', 'n0193011200000630.jpg', 'n0193011200000198.jpg', 'n0193011200000141.jpg']
+n02219486:['n0221948600001089.jpg', 'n0221948600000795.jpg', 'n0221948600000652.jpg', 'n0221948600001065.jpg', 'n0221948600000854.jpg', 'n0221948600000591.jpg', 'n0221948600000896.jpg', 'n0221948600000197.jpg', 'n0221948600000234.jpg', 'n0221948600000186.jpg', 'n0221948600000474.jpg', 'n0221948600000109.jpg', 'n0221948600000179.jpg', 'n0221948600001134.jpg', 'n0221948600001287.jpg']
+n02871525:['n0287152500001054.jpg', 'n0287152500000273.jpg', 'n0287152500000726.jpg', 'n0287152500000145.jpg', 'n0287152500000992.jpg', 'n0287152500001086.jpg', 'n0287152500000439.jpg', 'n0287152500001284.jpg', 'n0287152500000771.jpg', 'n0287152500000701.jpg', 'n0287152500000932.jpg', 'n0287152500000077.jpg', 'n0287152500000923.jpg', 'n0287152500001117.jpg', 'n0287152500000518.jpg']
+n04146614:['n0414661400000173.jpg', 'n0414661400000045.jpg', 'n0414661400000620.jpg', 'n0414661400000666.jpg', 'n0414661400000542.jpg', 'n0414661400000246.jpg', 'n0414661400000061.jpg', 'n0414661400000078.jpg', 'n0414661400000501.jpg', 'n0414661400000584.jpg', 'n0414661400000913.jpg', 'n0414661400000772.jpg', 'n0414661400000144.jpg', 'n0414661400001222.jpg', 'n0414661400000014.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600000141.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724640&Signature=C2gYUZixkhy%2FeOGQZ54Nx7h4K04%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'nematode', 'ant', 'bookshop', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'king_crab'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200001184.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724641&Signature=8lYUFQ%2BUi31LGeBb9bSn%2FaprpB0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'nematode', 'ant', 'bookshop', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'nematode'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000703.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724643&Signature=hk%2B%2Fk1bJGk0%2BnEvccRQd8ffQ5MI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'nematode', 'ant', 'bookshop', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'ant'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000291.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724645&Signature=kqhbzmCWbcZT63OS07CXhulWl5Q%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'nematode', 'ant', 'bookshop', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'bookshop'. \nLearn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'nematode', 'ant', 'bookshop', 'school_bus']. Focus solely on associating each image with its correct category.\nThe correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000697.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724650&Signature=Eu7DsjP8oQd096xWurJTS5iVSdA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'nematode', 'ant', 'bookshop', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}]
+
+n0198127600000285.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000460.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000265.jpg,label=king_crab,output=The image does not have a clear category label that matches any of the provided options.,False
+n0198127600000556.jpg,label=king_crab,output=The image does not contain any clear evidence or context to associate it with one of the provided categories.,False
+n0198127600000683.jpg,label=king_crab,output=The image appears to depict a king crab, so the expected output would be 'king_crab'.,True
+n0198127600000981.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000370.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000403.jpg,label=king_crab,output=The image does not have an exact category label among the provided options. However, based on visual inspection, it could be inferred as 'food' or 'dish'.,False
+n0198127600000233.jpg,label=king_crab,output=The image does not contain any categories labeled as 'king_crab', 'nematode', 'ant', 'bookshop', or 'school_bus'. Hence, no specific category can be determined from the provided labels.,True
+n0198127600001057.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000730.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000874.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000875.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000553.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000296.jpg,label=king_crab,output=The image is most closely related to the category 'king_crab'.,True
+
+n0193011200000517.jpg,label=nematode,output=The image does not clearly depict any of the provided categories. Therefore, it's challenging to determine an accurate label based on the information provided.,False
+n0193011200001215.jpg,label=nematode,output=The image does not have an exact match to any of the provided categories.,False
+n0193011200000995.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000518.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000573.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000546.jpg,label=nematode,output=The image does not have a clear representation of any of the provided categories. However, if we were to make an educated guess based on the shapes and patterns present, it could potentially resemble some form of marine life or organism.,False
+n0193011200000379.jpg,label=nematode,output=The image appears to resemble a nematode or worm-like creature. Therefore, the correct category label representing the given image would be 'nematode'.,True
+n0193011200000867.jpg,label=nematode,output=The correct category label representing the given image is 'ant'.,False
+n0193011200000777.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000275.jpg,label=nematode,output=The image does not clearly depict any of the provided categories, so it's challenging to determine an accurate label without additional context or information.,False
+n0193011200000827.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200001240.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000630.jpg,label=nematode,output=The image does not have clear features to confidently associate it with any of the provided categories. However, based on the limited visibility, one might consider 'nematode' as a potential choice due to its elongated shape.,True
+n0193011200000198.jpg,label=nematode,output=The image does not have a clear representation of any of the provided categories. Therefore, it's challenging to determine an accurate category label based solely on the image provided.,False
+n0193011200000141.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+
+n0221948600001089.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000795.jpg,label=ant,output=The correct category label representing the given image is 'nematode'.,False
+n0221948600000652.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001065.jpg,label=ant,output=The image does not have an exact match to any of the provided categories.,False
+n0221948600000854.jpg,label=ant,output=The image does not contain any of the categories listed in the options provided.,False
+n0221948600000591.jpg,label=ant,output=The correct category label representing the given image is 'school_bus'.,False
+n0221948600000896.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000197.jpg,label=ant,output=The image does not have an exact match to any of the provided categories.,False
+n0221948600000234.jpg,label=ant,output=The image does not have an exact match to any of the provided categories.,False
+n0221948600000186.jpg,label=ant,output=The image contains an ant. Hence, the correct category label for the image is 'ant'.,True
+n0221948600000474.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000109.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000179.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001134.jpg,label=ant,output=The image does not have any clear indicators to associate it with one of the provided categories. Therefore, I cannot determine an accurate category label based on the information available.,False
+n0221948600001287.jpg,label=ant,output=The image appears to depict an ant, so the correct category label would be 'ant'.,True
+
+n0287152500001054.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000273.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000726.jpg,label=bookshop,output=The image does not contain any clear visual cues to confidently associate it with one of the categories provided.,False
+n0287152500000145.jpg,label=bookshop,output=The image does not contain any information related to 'king_crab', 'nematode', 'ant', or 'school_bus'. Hence, no specific category label can be assigned based on the provided options.,False
+n0287152500000992.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001086.jpg,label=bookshop,output=The image does not have any clear indicators to confidently associate it with one of the categories provided.,False
+n0287152500000439.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001284.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000771.jpg,label=bookshop,output=The image does not have any clear indicators to associate it with the categories provided.,False
+n0287152500000701.jpg,label=bookshop,output=The image does not have any clear indicators to associate it with the categories provided.,False
+n0287152500000932.jpg,label=bookshop,output=The image does not contain any clear visual cues to confidently associate it with one of the provided categories.,False
+n0287152500000077.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000923.jpg,label=bookshop,output=The image does not have an accurate category label from the provided options.,False
+n0287152500001117.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000518.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+
+n0414661400000173.jpg,label=school_bus,output=The image is most closely related to the category 'school_bus'.,True
+n0414661400000045.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000620.jpg,label=school_bus,output=The image is most closely related to the category label 'school_bus'.,True
+n0414661400000666.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000542.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000246.jpg,label=school_bus,output=The image does not contain any information to determine an accurate category label.,False
+n0414661400000061.jpg,label=school_bus,output=The image appears to depict a yellow school bus. Therefore, the correct category label representing the given image would be 'school_bus'.,True
+n0414661400000078.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000501.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000584.jpg,label=school_bus,output=The image contains buses parked in an area surrounded by trees. Hence, the correct category label representing the given image is 'school_bus'.,True
+n0414661400000913.jpg,label=school_bus,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0414661400000772.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000144.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001222.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000014.jpg,label=school_bus,output=The image does not have any clear indication of being related to 'king_crab', 'nematode', 'ant', 'bookshop', or 'school_bus'. Therefore, it's challenging to determine an exact category based on the provided options.,True
+
+acc:  0.6666666666666666

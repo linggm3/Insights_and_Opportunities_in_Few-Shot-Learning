@@ -1,0 +1,97 @@
+支持集的类别: ['African_hunting_dog', 'bookshop', 'mixing_bowl', 'cuirass', 'nematode']
+测试集各类别: ['n02116738', 'n02871525', 'n03775546', 'n03146219', 'n01930112']
+支持集各图片:
+n02116738:['n0211673800001047.jpg']
+n02871525:['n0287152500000163.jpg']
+n03775546:['n0377554600000078.jpg']
+n03146219:['n0314621900000261.jpg']
+n01930112:['n0193011200000647.jpg']
+测试集各图片:
+n02116738:['n0211673800000769.jpg', 'n0211673800000181.jpg', 'n0211673800000869.jpg', 'n0211673800000664.jpg', 'n0211673800001229.jpg', 'n0211673800000086.jpg', 'n0211673800000417.jpg', 'n0211673800000872.jpg', 'n0211673800000125.jpg', 'n0211673800000093.jpg', 'n0211673800000488.jpg', 'n0211673800000496.jpg', 'n0211673800000698.jpg', 'n0211673800000466.jpg', 'n0211673800001294.jpg']
+n02871525:['n0287152500000250.jpg', 'n0287152500000002.jpg', 'n0287152500001028.jpg', 'n0287152500000745.jpg', 'n0287152500000380.jpg', 'n0287152500001117.jpg', 'n0287152500000847.jpg', 'n0287152500000633.jpg', 'n0287152500000740.jpg', 'n0287152500000977.jpg', 'n0287152500000115.jpg', 'n0287152500000582.jpg', 'n0287152500000197.jpg', 'n0287152500001046.jpg', 'n0287152500000393.jpg']
+n03775546:['n0377554600000574.jpg', 'n0377554600000244.jpg', 'n0377554600000511.jpg', 'n0377554600000951.jpg', 'n0377554600000119.jpg', 'n0377554600000878.jpg', 'n0377554600000466.jpg', 'n0377554600000588.jpg', 'n0377554600000324.jpg', 'n0377554600001270.jpg', 'n0377554600000529.jpg', 'n0377554600000849.jpg', 'n0377554600000384.jpg', 'n0377554600000944.jpg', 'n0377554600001057.jpg']
+n03146219:['n0314621900000140.jpg', 'n0314621900000554.jpg', 'n0314621900000260.jpg', 'n0314621900000190.jpg', 'n0314621900000617.jpg', 'n0314621900000376.jpg', 'n0314621900000245.jpg', 'n0314621900000822.jpg', 'n0314621900000074.jpg', 'n0314621900000017.jpg', 'n0314621900001264.jpg', 'n0314621900001238.jpg', 'n0314621900001077.jpg', 'n0314621900000247.jpg', 'n0314621900001030.jpg']
+n01930112:['n0193011200000544.jpg', 'n0193011200000258.jpg', 'n0193011200000602.jpg', 'n0193011200000867.jpg', 'n0193011200000829.jpg', 'n0193011200000888.jpg', 'n0193011200000732.jpg', 'n0193011200000916.jpg', 'n0193011200000930.jpg', 'n0193011200001255.jpg', 'n0193011200000982.jpg', 'n0193011200000287.jpg', 'n0193011200000793.jpg', 'n0193011200000255.jpg', 'n0193011200000660.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800001047.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775512&Signature=nwzgYilSAv1A0nopj%2Ff3rnEr0F4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'bookshop', 'mixing_bowl', 'cuirass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'African_hunting_dog'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000163.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775514&Signature=LJflrdpK9e1E7c2UK%2BHtLukyCJk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'bookshop', 'mixing_bowl', 'cuirass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'bookshop'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000078.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775515&Signature=B6xjarnVSU9%2FSbaRF6GEq6wD%2Fl4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'bookshop', 'mixing_bowl', 'cuirass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'mixing_bowl'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900000261.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775517&Signature=gFe5KYaGrjZ9eI2Xg4mCv3hqbsE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'bookshop', 'mixing_bowl', 'cuirass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000647.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775519&Signature=tmBXMQY1iaBLF%2BfDn2EEYHKLRsY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'bookshop', 'mixing_bowl', 'cuirass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'nematode'."}]
+
+n0211673800000769.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000181.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000869.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000664.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001229.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000086.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000417.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000872.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000125.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000093.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000488.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000496.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000698.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000466.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001294.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+
+n0287152500000250.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000002.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001028.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000745.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000380.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500001117.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000847.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000633.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000740.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000977.jpg,label=bookshop,output=The image does not clearly depict any animal or object that can be directly labeled as one of the categories provided. Therefore, it's challenging to determine an exact category based on the image alone.,False
+n0287152500000115.jpg,label=bookshop,output=The image appears to be of a building or storefront. Therefore, the most appropriate category label for this image would be 'bookshop'.,True
+n0287152500000582.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000197.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001046.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000393.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+
+n0377554600000574.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000244.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000511.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000951.jpg,label=mixing_bowl,output=The image corresponds to the category label 'mixing_bowl'.,True
+n0377554600000119.jpg,label=mixing_bowl,output=The image is most closely related to the category 'mixing_bowl'.,True
+n0377554600000878.jpg,label=mixing_bowl,output=The image does not contain any clear evidence or context to associate it with the categories provided.,False
+n0377554600000466.jpg,label=mixing_bowl,output=The image appears to be a bowl, so the correct category label would be 'mixing_bowl'.,True
+n0377554600000588.jpg,label=mixing_bowl,output=The image appears to be an indoor setting with a yellow bowl placed on a table covered with a checkered cloth.,False
+n0377554600000324.jpg,label=mixing_bowl,output=The image does not fall under any of the provided categories.,False
+n0377554600001270.jpg,label=mixing_bowl,output=The image is most closely related to the category label 'mixing_bowl'.,True
+n0377554600000529.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000849.jpg,label=mixing_bowl,output=The image does not have an exact category label that matches the provided options. However, based on the appearance, it could be described as a generic bowl or container.,False
+n0377554600000384.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000944.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001057.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+
+n0314621900000140.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000554.jpg,label=cuirass,output=The accurate category label representing the given image is 'African_hunting_dog'.,False
+n0314621900000260.jpg,label=cuirass,output=The accurate category label representing the given image is 'bookshop'.,False
+n0314621900000190.jpg,label=cuirass,output=The accurate category label representing the given image is 'African_hunting_dog'.,False
+n0314621900000617.jpg,label=cuirass,output=The image does not fall under any of the provided categories.,False
+n0314621900000376.jpg,label=cuirass,output=The image does not have an accurate category label among the provided options.,False
+n0314621900000245.jpg,label=cuirass,output=The correct category label representing the given image is 'bookshop'.,False
+n0314621900000822.jpg,label=cuirass,output=The accurate category label representing the given image is 'bookshop'.,False
+n0314621900000074.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000017.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900001264.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900001238.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900001077.jpg,label=cuirass,output=The accurate category label representing the given image is 'bookshop'.,False
+n0314621900000247.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900001030.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+
+n0193011200000544.jpg,label=nematode,output=The accurate category label representing the given image is 'African_hunting_dog'.,False
+n0193011200000258.jpg,label=nematode,output=The correct category label representing the given image is 'African_hunting_dog'.,False
+n0193011200000602.jpg,label=nematode,output=The accurate category label representing the given image is 'African_hunting_dog'.,False
+n0193011200000867.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000829.jpg,label=nematode,output=The correct category label representing the given image is 'African_hunting_dog'.,False
+n0193011200000888.jpg,label=nematode,output=The accurate category label representing the given image is 'African_hunting_dog'.,False
+n0193011200000732.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000916.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000930.jpg,label=nematode,output=The accurate category label representing the given image is 'African_hunting_dog'.,False
+n0193011200001255.jpg,label=nematode,output=The accurate category label representing the given image is 'African_hunting_dog'.,False
+n0193011200000982.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000287.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000793.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000255.jpg,label=nematode,output=The correct category label representing the given image is 'African_hunting_dog'.,False
+n0193011200000660.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+
+acc:  0.72

@@ -1,0 +1,97 @@
+支持集的类别: ['school_bus', 'African_hunting_dog', 'theater_curtain', 'ant', 'lion']
+测试集各类别: ['n04146614', 'n02116738', 'n04418357', 'n02219486', 'n02129165']
+支持集各图片:
+n04146614:['n0414661400001153.jpg']
+n02116738:['n0211673800000666.jpg']
+n04418357:['n0441835700000566.jpg']
+n02219486:['n0221948600000934.jpg']
+n02129165:['n0212916500000475.jpg']
+测试集各图片:
+n04146614:['n0414661400001183.jpg', 'n0414661400001180.jpg', 'n0414661400001136.jpg', 'n0414661400000212.jpg', 'n0414661400000842.jpg', 'n0414661400000377.jpg', 'n0414661400000210.jpg', 'n0414661400000794.jpg', 'n0414661400001203.jpg', 'n0414661400000095.jpg', 'n0414661400000708.jpg', 'n0414661400000461.jpg', 'n0414661400000370.jpg', 'n0414661400000544.jpg', 'n0414661400000082.jpg']
+n02116738:['n0211673800000428.jpg', 'n0211673800001280.jpg', 'n0211673800000974.jpg', 'n0211673800000965.jpg', 'n0211673800000939.jpg', 'n0211673800000029.jpg', 'n0211673800000272.jpg', 'n0211673800000488.jpg', 'n0211673800000193.jpg', 'n0211673800000265.jpg', 'n0211673800001290.jpg', 'n0211673800000846.jpg', 'n0211673800000095.jpg', 'n0211673800000548.jpg', 'n0211673800000863.jpg']
+n04418357:['n0441835700001098.jpg', 'n0441835700000304.jpg', 'n0441835700000073.jpg', 'n0441835700000563.jpg', 'n0441835700000289.jpg', 'n0441835700000577.jpg', 'n0441835700000190.jpg', 'n0441835700000539.jpg', 'n0441835700000171.jpg', 'n0441835700000421.jpg', 'n0441835700000750.jpg', 'n0441835700000070.jpg', 'n0441835700001216.jpg', 'n0441835700000413.jpg', 'n0441835700001199.jpg']
+n02219486:['n0221948600000539.jpg', 'n0221948600001110.jpg', 'n0221948600001030.jpg', 'n0221948600001124.jpg', 'n0221948600000358.jpg', 'n0221948600000721.jpg', 'n0221948600000659.jpg', 'n0221948600001012.jpg', 'n0221948600000258.jpg', 'n0221948600001033.jpg', 'n0221948600000482.jpg', 'n0221948600000503.jpg', 'n0221948600000534.jpg', 'n0221948600000128.jpg', 'n0221948600001163.jpg']
+n02129165:['n0212916500000054.jpg', 'n0212916500000488.jpg', 'n0212916500000020.jpg', 'n0212916500000615.jpg', 'n0212916500000331.jpg', 'n0212916500000375.jpg', 'n0212916500000900.jpg', 'n0212916500000903.jpg', 'n0212916500001122.jpg', 'n0212916500000026.jpg', 'n0212916500000860.jpg', 'n0212916500000083.jpg', 'n0212916500000667.jpg', 'n0212916500000731.jpg', 'n0212916500000497.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400001153.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775371&Signature=UOSzPYZtzKSJb15WmB%2FK%2FY5DrN4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'African_hunting_dog', 'theater_curtain', 'ant', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'school_bus'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800000666.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775372&Signature=ISVXosqiPNbI77f0lckS0kxf27M%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'African_hunting_dog', 'theater_curtain', 'ant', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'African_hunting_dog'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0441835700000566.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775373&Signature=PR8djp6dUj0lBZ1cYP%2FT4GmRK0s%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'African_hunting_dog', 'theater_curtain', 'ant', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'theater_curtain'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000934.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775375&Signature=8msjmv%2Bo3jCqEVbRqzwc19crCs4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'African_hunting_dog', 'theater_curtain', 'ant', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'ant'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000475.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775376&Signature=uOkhoJti0kkBPtZDhfLvAv7zV5E%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'African_hunting_dog', 'theater_curtain', 'ant', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'lion'}]
+
+n0414661400001183.jpg,label=school_bus,output=school_bus,True
+n0414661400001180.jpg,label=school_bus,output=school_bus,True
+n0414661400001136.jpg,label=school_bus,output=school_bus,True
+n0414661400000212.jpg,label=school_bus,output=school_bus,True
+n0414661400000842.jpg,label=school_bus,output=school_bus,True
+n0414661400000377.jpg,label=school_bus,output=school_bus,True
+n0414661400000210.jpg,label=school_bus,output=school_bus,True
+n0414661400000794.jpg,label=school_bus,output=school_bus,True
+n0414661400001203.jpg,label=school_bus,output=school_bus,True
+n0414661400000095.jpg,label=school_bus,output=school_bus,True
+n0414661400000708.jpg,label=school_bus,output=school_bus,True
+n0414661400000461.jpg,label=school_bus,output=school_bus,True
+n0414661400000370.jpg,label=school_bus,output=school_bus,True
+n0414661400000544.jpg,label=school_bus,output=school_bus,True
+n0414661400000082.jpg,label=school_bus,output=school_bus,True
+
+n0211673800000428.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001280.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000974.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000965.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000939.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000029.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000272.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000488.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000193.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000265.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001290.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000846.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000095.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000548.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000863.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+n0441835700001098.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000304.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000073.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000563.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000289.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000577.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000190.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000539.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000171.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000421.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000750.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000070.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001216.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000413.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001199.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0221948600000539.jpg,label=ant,output=ant,True
+n0221948600001110.jpg,label=ant,output=ant,True
+n0221948600001030.jpg,label=ant,output=ant,True
+n0221948600001124.jpg,label=ant,output=ant,True
+n0221948600000358.jpg,label=ant,output=ant,True
+n0221948600000721.jpg,label=ant,output=ant,True
+n0221948600000659.jpg,label=ant,output=ant,True
+n0221948600001012.jpg,label=ant,output=ant,True
+n0221948600000258.jpg,label=ant,output=ant,True
+n0221948600001033.jpg,label=ant,output=ant,True
+n0221948600000482.jpg,label=ant,output=ant,True
+n0221948600000503.jpg,label=ant,output=ant,True
+n0221948600000534.jpg,label=ant,output=ant,True
+n0221948600000128.jpg,label=ant,output=ant,True
+n0221948600001163.jpg,label=ant,output=school_bus,False
+
+n0212916500000054.jpg,label=lion,output=lion,True
+n0212916500000488.jpg,label=lion,output=lion,True
+n0212916500000020.jpg,label=lion,output=lion,True
+n0212916500000615.jpg,label=lion,output=lion,True
+n0212916500000331.jpg,label=lion,output=lion,True
+n0212916500000375.jpg,label=lion,output=lion,True
+n0212916500000900.jpg,label=lion,output=lion,True
+n0212916500000903.jpg,label=lion,output=lion,True
+n0212916500001122.jpg,label=lion,output=lion,True
+n0212916500000026.jpg,label=lion,output=lion,True
+n0212916500000860.jpg,label=lion,output=lion,True
+n0212916500000083.jpg,label=lion,output=lion,True
+n0212916500000667.jpg,label=lion,output=African_hunting_dog,False
+n0212916500000731.jpg,label=lion,output=lion,True
+n0212916500000497.jpg,label=lion,output=lion,True
+
+acc:  0.9733333333333334

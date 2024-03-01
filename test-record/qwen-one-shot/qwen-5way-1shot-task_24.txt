@@ -1,0 +1,97 @@
+支持集的类别: ['school_bus', 'nematode', 'malamute', 'bookshop', 'electric_guitar']
+测试集各类别: ['n04146614', 'n01930112', 'n02110063', 'n02871525', 'n03272010']
+支持集各图片:
+n04146614:['n0414661400000144.jpg']
+n01930112:['n0193011200001201.jpg']
+n02110063:['n0211006300000323.jpg']
+n02871525:['n0287152500001057.jpg']
+n03272010:['n0327201000000447.jpg']
+测试集各图片:
+n04146614:['n0414661400000377.jpg', 'n0414661400000413.jpg', 'n0414661400000082.jpg', 'n0414661400000429.jpg', 'n0414661400000316.jpg', 'n0414661400001101.jpg', 'n0414661400000943.jpg', 'n0414661400000853.jpg', 'n0414661400000627.jpg', 'n0414661400001233.jpg', 'n0414661400000224.jpg', 'n0414661400001262.jpg', 'n0414661400000484.jpg', 'n0414661400001300.jpg', 'n0414661400000767.jpg']
+n01930112:['n0193011200000940.jpg', 'n0193011200000059.jpg', 'n0193011200000096.jpg', 'n0193011200000636.jpg', 'n0193011200000062.jpg', 'n0193011200001140.jpg', 'n0193011200000177.jpg', 'n0193011200000792.jpg', 'n0193011200000176.jpg', 'n0193011200000732.jpg', 'n0193011200000139.jpg', 'n0193011200000023.jpg', 'n0193011200000014.jpg', 'n0193011200000540.jpg', 'n0193011200000939.jpg']
+n02110063:['n0211006300001016.jpg', 'n0211006300001099.jpg', 'n0211006300000538.jpg', 'n0211006300000383.jpg', 'n0211006300000643.jpg', 'n0211006300000794.jpg', 'n0211006300001097.jpg', 'n0211006300001164.jpg', 'n0211006300000984.jpg', 'n0211006300000047.jpg', 'n0211006300000674.jpg', 'n0211006300000852.jpg', 'n0211006300000928.jpg', 'n0211006300000393.jpg', 'n0211006300000063.jpg']
+n02871525:['n0287152500000481.jpg', 'n0287152500000785.jpg', 'n0287152500000417.jpg', 'n0287152500000084.jpg', 'n0287152500001104.jpg', 'n0287152500001212.jpg', 'n0287152500001003.jpg', 'n0287152500000620.jpg', 'n0287152500001182.jpg', 'n0287152500000035.jpg', 'n0287152500000097.jpg', 'n0287152500000299.jpg', 'n0287152500000786.jpg', 'n0287152500000940.jpg', 'n0287152500000944.jpg']
+n03272010:['n0327201000000849.jpg', 'n0327201000000460.jpg', 'n0327201000000743.jpg', 'n0327201000000625.jpg', 'n0327201000001282.jpg', 'n0327201000000188.jpg', 'n0327201000001083.jpg', 'n0327201000001012.jpg', 'n0327201000000444.jpg', 'n0327201000000956.jpg', 'n0327201000000151.jpg', 'n0327201000001200.jpg', 'n0327201000000399.jpg', 'n0327201000000742.jpg', 'n0327201000000288.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000144.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'nematode', 'malamute', 'bookshop', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'school_bus'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200001201.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'nematode', 'malamute', 'bookshop', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'nematode'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211006300000323.jpg'}, {'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'nematode', 'malamute', 'bookshop', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'malamute'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500001057.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'nematode', 'malamute', 'bookshop', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'bookshop'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000447.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'nematode', 'malamute', 'bookshop', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'electric_guitar'"}]}]
+
+n0414661400000377.jpg,label=school_bus,output='school_bus',True
+n0414661400000413.jpg,label=school_bus,output='school_bus',True
+n0414661400000082.jpg,label=school_bus,output='school_bus',True
+n0414661400000429.jpg,label=school_bus,output='school_bus',True
+n0414661400000316.jpg,label=school_bus,output='school_bus',True
+n0414661400001101.jpg,label=school_bus,output='school_bus',True
+n0414661400000943.jpg,label=school_bus,output='school_bus',True
+n0414661400000853.jpg,label=school_bus,output='school_bus',True
+n0414661400000627.jpg,label=school_bus,output='school_bus',True
+n0414661400001233.jpg,label=school_bus,output='school_bus',True
+n0414661400000224.jpg,label=school_bus,output='school_bus',True
+n0414661400001262.jpg,label=school_bus,output='school_bus',True
+n0414661400000484.jpg,label=school_bus,output='school_bus',True
+n0414661400001300.jpg,label=school_bus,output='school_bus',True
+n0414661400000767.jpg,label=school_bus,output='school_bus',True
+
+n0193011200000940.jpg,label=nematode,output='nematode',True
+n0193011200000059.jpg,label=nematode,output='nematode',True
+n0193011200000096.jpg,label=nematode,output='nematode',True
+n0193011200000636.jpg,label=nematode,output='electric_guitar',False
+n0193011200000062.jpg,label=nematode,output='nematode',True
+n0193011200001140.jpg,label=nematode,output='nematode',True
+n0193011200000177.jpg,label=nematode,output='nematode',True
+n0193011200000792.jpg,label=nematode,output='nematode',True
+n0193011200000176.jpg,label=nematode,output='nematode',True
+n0193011200000732.jpg,label=nematode,output='nematode',True
+n0193011200000139.jpg,label=nematode,output='nematode',True
+n0193011200000023.jpg,label=nematode,output='nematode',True
+n0193011200000014.jpg,label=nematode,output='nematode',True
+n0193011200000540.jpg,label=nematode,output='the single category label of the image is school bus.',False
+n0193011200000939.jpg,label=nematode,output='nematode',True
+
+n0211006300001016.jpg,label=malamute,output='malamute',True
+n0211006300001099.jpg,label=malamute,output='malamute',True
+n0211006300000538.jpg,label=malamute,output='malamute',True
+n0211006300000383.jpg,label=malamute,output='malamute',True
+n0211006300000643.jpg,label=malamute,output='school_bus',False
+n0211006300000794.jpg,label=malamute,output='malamute',True
+n0211006300001097.jpg,label=malamute,output='malamute',True
+n0211006300001164.jpg,label=malamute,output='malamute',True
+n0211006300000984.jpg,label=malamute,output='malamute',True
+n0211006300000047.jpg,label=malamute,output='recreation area',False
+n0211006300000674.jpg,label=malamute,output='malamute',True
+n0211006300000852.jpg,label=malamute,output='malamute',True
+n0211006300000928.jpg,label=malamute,output='malamute',True
+n0211006300000393.jpg,label=malamute,output='malamute',True
+n0211006300000063.jpg,label=malamute,output='the dog is white in color.',False
+
+n0287152500000481.jpg,label=bookshop,output='retail_store',False
+n0287152500000785.jpg,label=bookshop,output='bookshop',True
+n0287152500000417.jpg,label=bookshop,output='bookshop',True
+n0287152500000084.jpg,label=bookshop,output='restaurant',False
+n0287152500001104.jpg,label=bookshop,output='restaurant',False
+n0287152500001212.jpg,label=bookshop,output='school_bus',False
+n0287152500001003.jpg,label=bookshop,output='bookshop',True
+n0287152500000620.jpg,label=bookshop,output='restaurant',False
+n0287152500001182.jpg,label=bookshop,output='school_bus',False
+n0287152500000035.jpg,label=bookshop,output='tuxedo cat',False
+n0287152500000097.jpg,label=bookshop,output='restaurant',False
+n0287152500000299.jpg,label=bookshop,output='reading room',False
+n0287152500000786.jpg,label=bookshop,output='bookshop',True
+n0287152500000940.jpg,label=bookshop,output='bookshop',True
+n0287152500000944.jpg,label=bookshop,output='bookshop',True
+
+n0327201000000849.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000460.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000743.jpg,label=electric_guitar,output='school_bus',False
+n0327201000000625.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000001282.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000188.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000001083.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000001012.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000444.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000956.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000151.jpg,label=electric_guitar,output='school_bus',False
+n0327201000001200.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000399.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000742.jpg,label=electric_guitar,output='electric_guitar',True
+n0327201000000288.jpg,label=electric_guitar,output='electric_guitar',True
+
+acc:  0.7866666666666666

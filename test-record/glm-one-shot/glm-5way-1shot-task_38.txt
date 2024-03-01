@@ -1,0 +1,97 @@
+支持集的类别: ['electric_guitar', 'mixing_bowl', 'theater_curtain', 'lion', 'cuirass']
+测试集各类别: ['n03272010', 'n03775546', 'n04418357', 'n02129165', 'n03146219']
+支持集各图片:
+n03272010:['n0327201000000814.jpg']
+n03775546:['n0377554600001111.jpg']
+n04418357:['n0441835700001002.jpg']
+n02129165:['n0212916500001147.jpg']
+n03146219:['n0314621900000909.jpg']
+测试集各图片:
+n03272010:['n0327201000000220.jpg', 'n0327201000000080.jpg', 'n0327201000000565.jpg', 'n0327201000000151.jpg', 'n0327201000001123.jpg', 'n0327201000000507.jpg', 'n0327201000000543.jpg', 'n0327201000000441.jpg', 'n0327201000001011.jpg', 'n0327201000000511.jpg', 'n0327201000000783.jpg', 'n0327201000000985.jpg', 'n0327201000000829.jpg', 'n0327201000001058.jpg', 'n0327201000000211.jpg']
+n03775546:['n0377554600000045.jpg', 'n0377554600000509.jpg', 'n0377554600000373.jpg', 'n0377554600000197.jpg', 'n0377554600000073.jpg', 'n0377554600001185.jpg', 'n0377554600001064.jpg', 'n0377554600000008.jpg', 'n0377554600000365.jpg', 'n0377554600000170.jpg', 'n0377554600000573.jpg', 'n0377554600001206.jpg', 'n0377554600000969.jpg', 'n0377554600001050.jpg', 'n0377554600000515.jpg']
+n04418357:['n0441835700000651.jpg', 'n0441835700000509.jpg', 'n0441835700000973.jpg', 'n0441835700000881.jpg', 'n0441835700001123.jpg', 'n0441835700000874.jpg', 'n0441835700000866.jpg', 'n0441835700000736.jpg', 'n0441835700000766.jpg', 'n0441835700001066.jpg', 'n0441835700000340.jpg', 'n0441835700000557.jpg', 'n0441835700000130.jpg', 'n0441835700000401.jpg', 'n0441835700000510.jpg']
+n02129165:['n0212916500000545.jpg', 'n0212916500001082.jpg', 'n0212916500000884.jpg', 'n0212916500000970.jpg', 'n0212916500001029.jpg', 'n0212916500001081.jpg', 'n0212916500000220.jpg', 'n0212916500001088.jpg', 'n0212916500001105.jpg', 'n0212916500001076.jpg', 'n0212916500000029.jpg', 'n0212916500001061.jpg', 'n0212916500000103.jpg', 'n0212916500000453.jpg', 'n0212916500001267.jpg']
+n03146219:['n0314621900000438.jpg', 'n0314621900000736.jpg', 'n0314621900000359.jpg', 'n0314621900000407.jpg', 'n0314621900000108.jpg', 'n0314621900000467.jpg', 'n0314621900000648.jpg', 'n0314621900001294.jpg', 'n0314621900000455.jpg', 'n0314621900001252.jpg', 'n0314621900001232.jpg', 'n0314621900001287.jpg', 'n0314621900001285.jpg', 'n0314621900000829.jpg', 'n0314621900000379.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000000814.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773368&Signature=caJTsZlTGtp1ANQHGH37028cfNQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'mixing_bowl', 'theater_curtain', 'lion', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'electric_guitar'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600001111.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773369&Signature=OG%2FtS8pJgg6qePRzlFik%2BQh90VA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'mixing_bowl', 'theater_curtain', 'lion', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'mixing_bowl'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0441835700001002.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773371&Signature=f2E8%2F9Cd%2Fha0QB%2F5I6HcO8HKuAA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'mixing_bowl', 'theater_curtain', 'lion', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'theater_curtain'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500001147.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773372&Signature=olN2rirFpvYA%2F2pnTu%2Bmpt%2FI23M%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'mixing_bowl', 'theater_curtain', 'lion', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'lion'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900000909.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773374&Signature=UdvK9peYnAdMIQHqKxE9cS06%2FxY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'mixing_bowl', 'theater_curtain', 'lion', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'cuirass'}]
+
+n0327201000000220.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000080.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000565.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000151.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001123.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000507.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000543.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000441.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001011.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000511.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000783.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000985.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000829.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001058.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000211.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0377554600000045.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000509.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000373.jpg,label=mixing_bowl,output=The image is most closely associated with the category label 'mixing_bowl'.,True
+n0377554600000197.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000073.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001185.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600001064.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000008.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000365.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000170.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000573.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600001206.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000969.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001050.jpg,label=mixing_bowl,output=The image is most closely associated with the category label 'mixing_bowl'.,True
+n0377554600000515.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+
+n0441835700000651.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000509.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000973.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000881.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001123.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000874.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000866.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000736.jpg,label=theater_curtain,output=electric_guitar,False
+n0441835700000766.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001066.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000340.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000557.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000130.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000401.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000510.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0212916500000545.jpg,label=lion,output=lion,True
+n0212916500001082.jpg,label=lion,output=lion,True
+n0212916500000884.jpg,label=lion,output=lion,True
+n0212916500000970.jpg,label=lion,output=lion,True
+n0212916500001029.jpg,label=lion,output=lion,True
+n0212916500001081.jpg,label=lion,output=lion,True
+n0212916500000220.jpg,label=lion,output=lion,True
+n0212916500001088.jpg,label=lion,output=lion,True
+n0212916500001105.jpg,label=lion,output=lion,True
+n0212916500001076.jpg,label=lion,output=lion,True
+n0212916500000029.jpg,label=lion,output=lion,True
+n0212916500001061.jpg,label=lion,output=lion,True
+n0212916500000103.jpg,label=lion,output=lion,True
+n0212916500000453.jpg,label=lion,output=lion,True
+n0212916500001267.jpg,label=lion,output=lion,True
+
+n0314621900000438.jpg,label=cuirass,output=cuirass,True
+n0314621900000736.jpg,label=cuirass,output=cuirass,True
+n0314621900000359.jpg,label=cuirass,output=cuirass,True
+n0314621900000407.jpg,label=cuirass,output=cuirass,True
+n0314621900000108.jpg,label=cuirass,output=electric_guitar,False
+n0314621900000467.jpg,label=cuirass,output=cuirass,True
+n0314621900000648.jpg,label=cuirass,output=cuirass,True
+n0314621900001294.jpg,label=cuirass,output=cuirass,True
+n0314621900000455.jpg,label=cuirass,output=cuirass,True
+n0314621900001252.jpg,label=cuirass,output=cuirass,True
+n0314621900001232.jpg,label=cuirass,output=cuirass,True
+n0314621900001287.jpg,label=cuirass,output=cuirass,True
+n0314621900001285.jpg,label=cuirass,output=cuirass,True
+n0314621900000829.jpg,label=cuirass,output=cuirass,True
+n0314621900000379.jpg,label=cuirass,output=cuirass,True
+
+acc:  0.9733333333333334

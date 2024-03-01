@@ -1,0 +1,97 @@
+支持集的类别: ['malamute', 'African_hunting_dog', 'dalmatian', 'school_bus', 'vase']
+测试集各类别: ['n02110063', 'n02116738', 'n02110341', 'n04146614', 'n04522168']
+支持集各图片:
+n02110063:['n0211006300001001.jpg']
+n02116738:['n0211673800000515.jpg']
+n02110341:['n0211034100000842.jpg']
+n04146614:['n0414661400001289.jpg']
+n04522168:['n0452216800000658.jpg']
+测试集各图片:
+n02110063:['n0211006300001122.jpg', 'n0211006300000886.jpg', 'n0211006300000832.jpg', 'n0211006300000250.jpg', 'n0211006300000487.jpg', 'n0211006300000827.jpg', 'n0211006300000421.jpg', 'n0211006300000986.jpg', 'n0211006300000643.jpg', 'n0211006300000999.jpg', 'n0211006300000402.jpg', 'n0211006300000299.jpg', 'n0211006300000779.jpg', 'n0211006300001225.jpg', 'n0211006300000917.jpg']
+n02116738:['n0211673800000914.jpg', 'n0211673800000951.jpg', 'n0211673800000551.jpg', 'n0211673800000167.jpg', 'n0211673800000863.jpg', 'n0211673800000514.jpg', 'n0211673800001207.jpg', 'n0211673800001221.jpg', 'n0211673800000535.jpg', 'n0211673800000732.jpg', 'n0211673800000490.jpg', 'n0211673800000906.jpg', 'n0211673800000253.jpg', 'n0211673800000464.jpg', 'n0211673800000733.jpg']
+n02110341:['n0211034100000195.jpg', 'n0211034100000222.jpg', 'n0211034100000185.jpg', 'n0211034100000395.jpg', 'n0211034100000108.jpg', 'n0211034100000962.jpg', 'n0211034100000363.jpg', 'n0211034100001027.jpg', 'n0211034100000565.jpg', 'n0211034100000856.jpg', 'n0211034100000985.jpg', 'n0211034100000087.jpg', 'n0211034100000480.jpg', 'n0211034100000142.jpg', 'n0211034100000028.jpg']
+n04146614:['n0414661400000019.jpg', 'n0414661400000923.jpg', 'n0414661400001128.jpg', 'n0414661400001190.jpg', 'n0414661400000077.jpg', 'n0414661400000289.jpg', 'n0414661400000236.jpg', 'n0414661400000248.jpg', 'n0414661400000800.jpg', 'n0414661400000705.jpg', 'n0414661400000476.jpg', 'n0414661400000082.jpg', 'n0414661400000679.jpg', 'n0414661400000003.jpg', 'n0414661400000446.jpg']
+n04522168:['n0452216800000592.jpg', 'n0452216800000264.jpg', 'n0452216800001003.jpg', 'n0452216800000872.jpg', 'n0452216800001116.jpg', 'n0452216800000631.jpg', 'n0452216800000595.jpg', 'n0452216800000803.jpg', 'n0452216800000508.jpg', 'n0452216800000655.jpg', 'n0452216800000212.jpg', 'n0452216800000543.jpg', 'n0452216800001297.jpg', 'n0452216800000362.jpg', 'n0452216800000546.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211006300001001.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723390&Signature=9j2EvCsNHh2l6FWSQpG%2BWVhsebM%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['malamute', 'African_hunting_dog', 'dalmatian', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'malamute'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800000515.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723391&Signature=g%2BBleSwO3yGNfP8Bg3LxzzPK144%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['malamute', 'African_hunting_dog', 'dalmatian', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'African_hunting_dog'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211034100000842.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723393&Signature=a7YQdylJ0KT9Hs%2FqY4hTp5i1zR8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['malamute', 'African_hunting_dog', 'dalmatian', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'dalmatian'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400001289.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723395&Signature=uw%2FBWJ7ry4Pyvgp%2FDvMmXxSXKSY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['malamute', 'African_hunting_dog', 'dalmatian', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800000658.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723397&Signature=dO0M7S%2BFuqyYCmQOi2tW%2BVypgK0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['malamute', 'African_hunting_dog', 'dalmatian', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'vase'."}]
+
+n0211006300001122.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000886.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000832.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000250.jpg,label=malamute,output=The correct category label representing the given image is 'dalmatian'.,False
+n0211006300000487.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000827.jpg,label=malamute,output=The accurate category label representing the given image is 'dalmatian'.,False
+n0211006300000421.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000986.jpg,label=malamute,output=The accurate category label representing the given image is 'dalmatian'.,False
+n0211006300000643.jpg,label=malamute,output=The accurate category label representing the given image is 'dalmatian'.,False
+n0211006300000999.jpg,label=malamute,output=The accurate category label representing the given image is 'dalmatian'.,False
+n0211006300000402.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000299.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000779.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300001225.jpg,label=malamute,output=The correct category label representing the given image is 'dalmatian'.,False
+n0211006300000917.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+
+n0211673800000914.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000951.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000551.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000167.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000863.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000514.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001207.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001221.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000535.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000732.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000490.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000906.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000253.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000464.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000733.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+
+n0211034100000195.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000222.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000185.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000395.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000108.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000962.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000363.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001027.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000565.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000856.jpg,label=dalmatian,output=The image contains a Dalmatian dog, so the correct category label would be 'Dalmatian'.,True
+n0211034100000985.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000087.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000480.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000142.jpg,label=dalmatian,output=The image is most closely associated with the category label 'dalmatian'.,True
+n0211034100000028.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+
+n0414661400000019.jpg,label=school_bus,output=The image does not have an exact category label among the provided options.,False
+n0414661400000923.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400001128.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400001190.jpg,label=school_bus,output=The correct category label representing the given image is 'dalmatian'.,False
+n0414661400000077.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000289.jpg,label=school_bus,output=The correct category label representing the given image is 'African_hunting_dog'.,False
+n0414661400000236.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000248.jpg,label=school_bus,output=The correct category label representing the given image is 'dalmatian'.,False
+n0414661400000800.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000705.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000476.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000082.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000679.jpg,label=school_bus,output=The correct category label representing the given image is 'Malamute'.,False
+n0414661400000003.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000446.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+
+n0452216800000592.jpg,label=vase,output=The image appears to depict an object resembling a vase or container. Hence, the correct category label would be 'vase'.,True
+n0452216800000264.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001003.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000872.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001116.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000631.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000595.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000803.jpg,label=vase,output=The image appears to be a vase, so the correct category label would be 'vase'.,True
+n0452216800000508.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000655.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000212.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000543.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800001297.jpg,label=vase,output=The image showcases multiple vases of various shapes, sizes, colors, and designs. Therefore, the most appropriate category label for this image would be 'vase'.,True
+n0452216800000362.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000546.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+
+acc:  0.8533333333333334

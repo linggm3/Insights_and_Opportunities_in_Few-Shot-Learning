@@ -1,0 +1,109 @@
+支持集的类别: ['electric_guitar', 'African_hunting_dog', 'king_crab', 'lion', 'dalmatian']
+测试集各类别: ['n03272010', 'n02116738', 'n01981276', 'n02129165', 'n02110341']
+支持集各图片:
+n03272010:['n0327201000001135.jpg']
+n02116738:['n0211673800000951.jpg']
+n01981276:['n0198127600001110.jpg']
+n02129165:['n0212916500000108.jpg']
+n02110341:['n0211034100000632.jpg']
+测试集各图片:
+n03272010:['n0327201000000431.jpg', 'n0327201000000421.jpg', 'n0327201000000476.jpg', 'n0327201000000608.jpg', 'n0327201000000716.jpg', 'n0327201000000268.jpg', 'n0327201000000752.jpg', 'n0327201000000318.jpg', 'n0327201000000025.jpg', 'n0327201000000631.jpg', 'n0327201000000742.jpg', 'n0327201000000173.jpg', 'n0327201000000307.jpg', 'n0327201000000743.jpg', 'n0327201000001030.jpg']
+n02116738:['n0211673800000815.jpg', 'n0211673800001273.jpg', 'n0211673800001167.jpg', 'n0211673800000021.jpg', 'n0211673800000315.jpg', 'n0211673800001143.jpg', 'n0211673800001066.jpg', 'n0211673800000019.jpg', 'n0211673800000125.jpg', 'n0211673800000909.jpg', 'n0211673800000558.jpg', 'n0211673800000680.jpg', 'n0211673800000326.jpg', 'n0211673800000305.jpg', 'n0211673800000614.jpg']
+n01981276:['n0198127600000896.jpg', 'n0198127600000650.jpg', 'n0198127600001213.jpg', 'n0198127600000132.jpg', 'n0198127600000381.jpg', 'n0198127600000412.jpg', 'n0198127600001170.jpg', 'n0198127600000967.jpg', 'n0198127600001141.jpg', 'n0198127600000716.jpg', 'n0198127600000752.jpg', 'n0198127600000618.jpg', 'n0198127600000861.jpg', 'n0198127600001247.jpg', 'n0198127600000627.jpg']
+n02129165:['n0212916500000653.jpg', 'n0212916500000210.jpg', 'n0212916500000467.jpg', 'n0212916500001061.jpg', 'n0212916500000886.jpg', 'n0212916500000201.jpg', 'n0212916500000267.jpg', 'n0212916500000170.jpg', 'n0212916500000731.jpg', 'n0212916500000933.jpg', 'n0212916500000879.jpg', 'n0212916500001083.jpg', 'n0212916500001059.jpg', 'n0212916500000406.jpg', 'n0212916500000789.jpg']
+n02110341:['n0211034100001231.jpg', 'n0211034100000127.jpg', 'n0211034100000716.jpg', 'n0211034100001144.jpg', 'n0211034100000644.jpg', 'n0211034100000626.jpg', 'n0211034100000197.jpg', 'n0211034100000682.jpg', 'n0211034100000130.jpg', 'n0211034100000414.jpg', 'n0211034100000149.jpg', 'n0211034100000739.jpg', 'n0211034100001289.jpg', 'n0211034100000639.jpg', 'n0211034100000063.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000001135.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'African_hunting_dog', 'king_crab', 'lion', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'electric_guitar'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000951.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'African_hunting_dog', 'king_crab', 'lion', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'African_hunting_dog'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600001110.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'African_hunting_dog', 'king_crab', 'lion', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'king_crab'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0212916500000108.jpg'}, {'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'African_hunting_dog', 'king_crab', 'lion', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'lion'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000632.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'African_hunting_dog', 'king_crab', 'lion', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'dalmatian'."}]}]
+
+n0327201000000431.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000421.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000476.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000608.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000716.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000268.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000752.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000318.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000025.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000631.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000742.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000173.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000307.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000743.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001030.jpg,label=electric_guitar,output=(electric_guitar),True
+
+n0211673800000815.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001273.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001167.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000021.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000315.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001143.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001066.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000019.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000125.jpg,label=African_hunting_dog,output=(dalmatian),False
+n0211673800000909.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000558.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000680.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000326.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000305.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000614.jpg,label=African_hunting_dog,output=('African_hunting_dog'),True
+
+n0198127600000896.jpg,label=king_crab,output=The accurate category label representing the given image is "King Crab".,True
+n0198127600000650.jpg,label=king_crab,output=King_crab,True
+n0198127600001213.jpg,label=king_crab,output=('king_crab'),True
+n0198127600000132.jpg,label=king_crab,output=('king_crab'),True
+n0198127600000381.jpg,label=king_crab,output=king_crab,True
+n0198127600000412.jpg,label=king_crab,output=('crayfish'),False
+n0198127600001170.jpg,label=king_crab,output=('king_crab'),True
+n0198127600000967.jpg,label=king_crab,output=There seems to be an error in the previous instruction as it asks me to choose one category label out of five options while there should only be four categories provided earlier. Please provide more information or clarify which category you would like me to identify based on the given image.,False
+n0198127600001141.jpg,label=king_crab,output=There seems to be an error in the previous instruction as it asks me to provide the same answer again without any new information or context provided by you. Please provide more details about the image so I can accurately categorize it.,False
+n0198127600000716.jpg,label=king_crab,output=(electric_guitar),False
+n0198127600000752.jpg,label=king_crab,output=king_crab,True
+n0198127600000618.jpg,label=king_crab,output=king_crab,True
+n0198127600000861.jpg,label=king_crab,output=('crab'),False
+n0198127600001247.jpg,label=king_crab,output=There seems to be an error in the prompt as it asks me to select one category out of five options but there's only one picture provided which shows two crabs. However, based on my training data I can confidently say that the category represented by these crabs would most likely be "crustacean" or more specifically "spider crab". But since you have not specified any categories related to crustaceans or spiders, I am unable to provide a specific answer according to what was trained.
+
+However, if we consider the list of categories you've mentioned earlier - they do include:
+
+- Electric guitar
+- African hunting dog
+- King crab
+- Lion
+- Dalmatian
+
+None of them seem to represent the image showing two crabs. Therefore, without additional context about the nature of the question or the availability of other images, it might be challenging to accurately categorize the image into those particular categories. 
+
+In case you meant something else or need further clarification, please feel free to ask!,True
+n0198127600000627.jpg,label=king_crab,output=king_crab,True
+
+n0212916500000653.jpg,label=lion,output=(lion),True
+n0212916500000210.jpg,label=lion,output=(lion),True
+n0212916500000467.jpg,label=lion,output=(lion),True
+n0212916500001061.jpg,label=lion,output=(lion),True
+n0212916500000886.jpg,label=lion,output=(lion),True
+n0212916500000201.jpg,label=lion,output=(lion),True
+n0212916500000267.jpg,label=lion,output=(lion),True
+n0212916500000170.jpg,label=lion,output=(lion),True
+n0212916500000731.jpg,label=lion,output=lion,True
+n0212916500000933.jpg,label=lion,output=(lion),True
+n0212916500000879.jpg,label=lion,output=(lion),True
+n0212916500001083.jpg,label=lion,output=(lion),True
+n0212916500001059.jpg,label=lion,output=(lion),True
+n0212916500000406.jpg,label=lion,output=(lion),True
+n0212916500000789.jpg,label=lion,output=lion,True
+
+n0211034100001231.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000127.jpg,label=dalmatian,output='dalmatian',True
+n0211034100000716.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001144.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000644.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000626.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000197.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000682.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000130.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000414.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000149.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000739.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001289.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000639.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000063.jpg,label=dalmatian,output='dalmatian',True
+
+acc:  0.92

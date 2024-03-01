@@ -1,0 +1,97 @@
+支持集的类别: ['mixing_bowl', 'golden_retriever', 'lion', 'crate', 'vase']
+测试集各类别: ['n03775546', 'n02099601', 'n02129165', 'n03127925', 'n04522168']
+支持集各图片:
+n03775546:['n0377554600000859.jpg']
+n02099601:['n0209960100000263.jpg']
+n02129165:['n0212916500000549.jpg']
+n03127925:['n0312792500000728.jpg']
+n04522168:['n0452216800000639.jpg']
+测试集各图片:
+n03775546:['n0377554600000972.jpg', 'n0377554600000789.jpg', 'n0377554600000359.jpg', 'n0377554600000739.jpg', 'n0377554600001236.jpg', 'n0377554600001126.jpg', 'n0377554600000091.jpg', 'n0377554600001041.jpg', 'n0377554600000138.jpg', 'n0377554600000220.jpg', 'n0377554600000510.jpg', 'n0377554600000830.jpg', 'n0377554600000150.jpg', 'n0377554600000965.jpg', 'n0377554600001011.jpg']
+n02099601:['n0209960100000700.jpg', 'n0209960100000839.jpg', 'n0209960100000035.jpg', 'n0209960100000434.jpg', 'n0209960100000770.jpg', 'n0209960100000618.jpg', 'n0209960100000739.jpg', 'n0209960100000280.jpg', 'n0209960100000623.jpg', 'n0209960100000314.jpg', 'n0209960100001261.jpg', 'n0209960100000004.jpg', 'n0209960100000497.jpg', 'n0209960100000145.jpg', 'n0209960100001112.jpg']
+n02129165:['n0212916500000904.jpg', 'n0212916500000186.jpg', 'n0212916500000988.jpg', 'n0212916500001290.jpg', 'n0212916500000138.jpg', 'n0212916500000006.jpg', 'n0212916500000187.jpg', 'n0212916500000385.jpg', 'n0212916500001297.jpg', 'n0212916500000178.jpg', 'n0212916500000335.jpg', 'n0212916500000393.jpg', 'n0212916500000780.jpg', 'n0212916500001068.jpg', 'n0212916500000110.jpg']
+n03127925:['n0312792500000227.jpg', 'n0312792500000516.jpg', 'n0312792500000255.jpg', 'n0312792500000181.jpg', 'n0312792500000151.jpg', 'n0312792500000435.jpg', 'n0312792500000256.jpg', 'n0312792500000062.jpg', 'n0312792500000656.jpg', 'n0312792500001259.jpg', 'n0312792500001143.jpg', 'n0312792500000018.jpg', 'n0312792500001032.jpg', 'n0312792500000044.jpg', 'n0312792500001287.jpg']
+n04522168:['n0452216800000228.jpg', 'n0452216800000472.jpg', 'n0452216800000250.jpg', 'n0452216800000265.jpg', 'n0452216800000081.jpg', 'n0452216800001124.jpg', 'n0452216800000696.jpg', 'n0452216800000658.jpg', 'n0452216800000681.jpg', 'n0452216800000526.jpg', 'n0452216800000894.jpg', 'n0452216800000492.jpg', 'n0452216800000411.jpg', 'n0452216800000997.jpg', 'n0452216800000763.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000859.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775688&Signature=AZiA%2BdkFuOc7sks%2Fw3%2BW3mHSmFQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'golden_retriever', 'lion', 'crate', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category of the image is 'mixing_bowl'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100000263.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775689&Signature=EUtmLBpgonckqgaTs3hpkSbTKjI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'golden_retriever', 'lion', 'crate', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category of the image is 'golden_retriever'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000549.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775691&Signature=XW9MpaFqeMEajTDeLAKwNK6ViF8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'golden_retriever', 'lion', 'crate', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category of the image is 'lion'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500000728.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775693&Signature=P%2FF%2FzpMDuDsX6vCTq86r%2Bq3SwwU%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'golden_retriever', 'lion', 'crate', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category of the image is 'crate'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800000639.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775694&Signature=6kaQSqBasxg1BUKnqSZbTqc8n80%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'golden_retriever', 'lion', 'crate', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category of the image is 'vase'."}]
+
+n0377554600000972.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000789.jpg,label=mixing_bowl,output=The image does not contain any information about a golden retriever or lion. Hence, the correct category label for the image would be 'mixing_bowl'.,True
+n0377554600000359.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000739.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001236.jpg,label=mixing_bowl,output=The image does not represent any of the categories listed in the options provided.,False
+n0377554600001126.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000091.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001041.jpg,label=mixing_bowl,output=The image does not contain any categories like 'mixing_bowl', 'golden_retriever', 'lion', 'crate', or 'vase'. Hence, no single category label can be accurately assigned to it based on the provided options.,True
+n0377554600000138.jpg,label=mixing_bowl,output=The image appears to be an empty bowl placed on a countertop. Therefore, the most appropriate category label for this image would be 'mixing_bowl'.,True
+n0377554600000220.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000510.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000830.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000150.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000965.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001011.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+
+n0209960100000700.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000839.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000035.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000434.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000770.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000618.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000739.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000280.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000623.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000314.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001261.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000004.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000497.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000145.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001112.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+
+n0212916500000904.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000186.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000988.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001290.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000138.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000006.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000187.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000385.jpg,label=lion,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0212916500001297.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000178.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000335.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000393.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000780.jpg,label=lion,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0212916500001068.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000110.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+
+n0312792500000227.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000516.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000255.jpg,label=crate,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0312792500000181.jpg,label=crate,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0312792500000151.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000435.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000256.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000062.jpg,label=crate,output=The accurate category label representing the given image is 'crate'.,True
+n0312792500000656.jpg,label=crate,output=The image does not have an exact category label associated with it based on the provided options.,False
+n0312792500001259.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500001143.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000018.jpg,label=crate,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0312792500001032.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000044.jpg,label=crate,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0312792500001287.jpg,label=crate,output=The correct category label representing the given image is 'golden_retriever'.,False
+
+n0452216800000228.jpg,label=vase,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0452216800000472.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000250.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000265.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000081.jpg,label=vase,output=The image does not represent any of the categories listed.,False
+n0452216800001124.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000696.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000658.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000681.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000526.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000894.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000492.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000411.jpg,label=vase,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0452216800000997.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000763.jpg,label=vase,output=The correct category label representing the given image is 'golden_retriever'.,False
+
+acc:  0.8266666666666667

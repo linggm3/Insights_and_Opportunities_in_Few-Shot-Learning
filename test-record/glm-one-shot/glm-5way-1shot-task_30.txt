@@ -1,0 +1,97 @@
+支持集的类别: ['king_crab', 'electric_guitar', 'school_bus', 'golden_retriever', 'mixing_bowl']
+测试集各类别: ['n01981276', 'n03272010', 'n04146614', 'n02099601', 'n03775546']
+支持集各图片:
+n01981276:['n0198127600001020.jpg']
+n03272010:['n0327201000001178.jpg']
+n04146614:['n0414661400000988.jpg']
+n02099601:['n0209960100001123.jpg']
+n03775546:['n0377554600000605.jpg']
+测试集各图片:
+n01981276:['n0198127600001126.jpg', 'n0198127600000737.jpg', 'n0198127600001183.jpg', 'n0198127600000859.jpg', 'n0198127600001117.jpg', 'n0198127600001013.jpg', 'n0198127600000984.jpg', 'n0198127600000304.jpg', 'n0198127600000567.jpg', 'n0198127600001249.jpg', 'n0198127600001165.jpg', 'n0198127600000763.jpg', 'n0198127600000964.jpg', 'n0198127600000587.jpg', 'n0198127600000890.jpg']
+n03272010:['n0327201000000290.jpg', 'n0327201000000215.jpg', 'n0327201000001245.jpg', 'n0327201000000886.jpg', 'n0327201000001182.jpg', 'n0327201000000114.jpg', 'n0327201000000490.jpg', 'n0327201000000127.jpg', 'n0327201000000374.jpg', 'n0327201000000164.jpg', 'n0327201000000151.jpg', 'n0327201000000319.jpg', 'n0327201000001254.jpg', 'n0327201000000347.jpg', 'n0327201000000088.jpg']
+n04146614:['n0414661400000243.jpg', 'n0414661400000534.jpg', 'n0414661400001181.jpg', 'n0414661400000123.jpg', 'n0414661400000383.jpg', 'n0414661400000400.jpg', 'n0414661400000504.jpg', 'n0414661400000156.jpg', 'n0414661400001042.jpg', 'n0414661400000966.jpg', 'n0414661400000234.jpg', 'n0414661400000636.jpg', 'n0414661400000951.jpg', 'n0414661400001100.jpg', 'n0414661400000973.jpg']
+n02099601:['n0209960100000351.jpg', 'n0209960100000434.jpg', 'n0209960100001131.jpg', 'n0209960100000696.jpg', 'n0209960100000852.jpg', 'n0209960100000820.jpg', 'n0209960100000016.jpg', 'n0209960100000909.jpg', 'n0209960100001161.jpg', 'n0209960100000064.jpg', 'n0209960100000598.jpg', 'n0209960100000792.jpg', 'n0209960100000833.jpg', 'n0209960100000851.jpg', 'n0209960100001141.jpg']
+n03775546:['n0377554600001220.jpg', 'n0377554600001292.jpg', 'n0377554600000466.jpg', 'n0377554600001136.jpg', 'n0377554600000726.jpg', 'n0377554600000574.jpg', 'n0377554600001115.jpg', 'n0377554600000978.jpg', 'n0377554600001064.jpg', 'n0377554600000758.jpg', 'n0377554600000373.jpg', 'n0377554600000490.jpg', 'n0377554600000583.jpg', 'n0377554600001082.jpg', 'n0377554600000619.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600001020.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729204&Signature=HUeHyEN1AXTte2R3%2Fz%2FKYnHyoio%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'electric_guitar', 'school_bus', 'golden_retriever', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'king_crab'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000001178.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729206&Signature=vMzJuA9XiP6MMyhpIcenkxzjUSQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'electric_guitar', 'school_bus', 'golden_retriever', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'electric_guitar'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000988.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729208&Signature=PKvAZy8wseQlOFSd7CgTQxd46oQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'electric_guitar', 'school_bus', 'golden_retriever', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100001123.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729210&Signature=O%2F46q%2FpwZopO4fhk7GHHR9XgBxQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'electric_guitar', 'school_bus', 'golden_retriever', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'golden_retriever'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000605.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729212&Signature=uL1O%2FnZgb4%2FZ14QnqpMN24EM9no%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'electric_guitar', 'school_bus', 'golden_retriever', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'mixing_bowl'."}]
+
+n0198127600001126.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000737.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600001183.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000859.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600001117.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600001013.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000984.jpg,label=king_crab,output=The image does not contain any information or context to determine an accurate category label.,False
+n0198127600000304.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000567.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600001249.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600001165.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000763.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000964.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000587.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000890.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+
+n0327201000000290.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000215.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001245.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000886.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001182.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000114.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000490.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000127.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000374.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000164.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000151.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000319.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001254.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000347.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000088.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+
+n0414661400000243.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000534.jpg,label=school_bus,output=The correct category label representing the given image is 'electric_guitar'.,False
+n0414661400001181.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000123.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000383.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000400.jpg,label=school_bus,output=The correct category label representing the given image is 'mixing_bowl'.,False
+n0414661400000504.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000156.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400001042.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000966.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000234.jpg,label=school_bus,output=The correct category label representing the given image is 'electric_guitar'.,False
+n0414661400000636.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000951.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001100.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000973.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+
+n0209960100000351.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000434.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001131.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000696.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000852.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000820.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000016.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000909.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001161.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000064.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000598.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000792.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000833.jpg,label=golden_retriever,output=The correct category label representing the given image is 'electric_guitar'.,False
+n0209960100000851.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001141.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+
+n0377554600001220.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'king_crab'.,False
+n0377554600001292.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000466.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001136.jpg,label=mixing_bowl,output=The image appears to depict an electric guitar, so the correct category label would be 'electric_guitar'.,False
+n0377554600000726.jpg,label=mixing_bowl,output=The image appears to be of a pot containing a creamy or milky substance, possibly a soup or sauce. Given these observations, the most appropriate category label for this image would be 'soup'.,False
+n0377554600000574.jpg,label=mixing_bowl,output=The image does not have a clear representation of any of the categories provided. However, based on the visible details, it could potentially belong to one or more categories.,False
+n0377554600001115.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000978.jpg,label=mixing_bowl,output=The image showcases an electric guitar, so the accurate category label representing the given image is 'electric_guitar'.,False
+n0377554600001064.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000758.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000373.jpg,label=mixing_bowl,output=The image appears to be an electric guitar, so the correct category label would be 'electric_guitar'.,False
+n0377554600000490.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000583.jpg,label=mixing_bowl,output=The accurate category label representing the given image is 'electric_guitar'.,False
+n0377554600001082.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000619.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+
+acc:  0.84

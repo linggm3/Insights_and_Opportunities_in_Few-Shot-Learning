@@ -1,0 +1,97 @@
+支持集的类别: ['hourglass', 'nematode', 'school_bus', 'lion', 'black-footed_ferret']
+测试集各类别: ['n03544143', 'n01930112', 'n04146614', 'n02129165', 'n02443484']
+支持集各图片:
+n03544143:['n0354414300000405.jpg']
+n01930112:['n0193011200000504.jpg']
+n04146614:['n0414661400000624.jpg']
+n02129165:['n0212916500000323.jpg']
+n02443484:['n0244348400000256.jpg']
+测试集各图片:
+n03544143:['n0354414300001213.jpg', 'n0354414300000879.jpg', 'n0354414300000269.jpg', 'n0354414300000655.jpg', 'n0354414300000730.jpg', 'n0354414300000417.jpg', 'n0354414300000760.jpg', 'n0354414300001102.jpg', 'n0354414300001034.jpg', 'n0354414300001030.jpg', 'n0354414300000683.jpg', 'n0354414300000504.jpg', 'n0354414300001157.jpg', 'n0354414300000581.jpg', 'n0354414300001036.jpg']
+n01930112:['n0193011200000864.jpg', 'n0193011200000106.jpg', 'n0193011200000416.jpg', 'n0193011200001112.jpg', 'n0193011200000850.jpg', 'n0193011200000989.jpg', 'n0193011200000512.jpg', 'n0193011200000156.jpg', 'n0193011200000622.jpg', 'n0193011200000799.jpg', 'n0193011200000155.jpg', 'n0193011200001214.jpg', 'n0193011200000516.jpg', 'n0193011200000092.jpg', 'n0193011200000761.jpg']
+n04146614:['n0414661400000567.jpg', 'n0414661400000015.jpg', 'n0414661400000307.jpg', 'n0414661400000697.jpg', 'n0414661400000529.jpg', 'n0414661400000233.jpg', 'n0414661400000943.jpg', 'n0414661400000091.jpg', 'n0414661400000234.jpg', 'n0414661400000080.jpg', 'n0414661400000885.jpg', 'n0414661400000978.jpg', 'n0414661400000153.jpg', 'n0414661400000123.jpg', 'n0414661400000879.jpg']
+n02129165:['n0212916500000977.jpg', 'n0212916500000092.jpg', 'n0212916500000550.jpg', 'n0212916500000712.jpg', 'n0212916500000685.jpg', 'n0212916500001123.jpg', 'n0212916500000060.jpg', 'n0212916500000982.jpg', 'n0212916500000169.jpg', 'n0212916500000582.jpg', 'n0212916500000042.jpg', 'n0212916500000690.jpg', 'n0212916500000871.jpg', 'n0212916500000392.jpg', 'n0212916500001284.jpg']
+n02443484:['n0244348400000987.jpg', 'n0244348400001243.jpg', 'n0244348400000474.jpg', 'n0244348400001205.jpg', 'n0244348400000404.jpg', 'n0244348400001146.jpg', 'n0244348400000179.jpg', 'n0244348400001279.jpg', 'n0244348400000192.jpg', 'n0244348400000721.jpg', 'n0244348400000893.jpg', 'n0244348400000992.jpg', 'n0244348400000509.jpg', 'n0244348400000607.jpg', 'n0244348400001054.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0354414300000405.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774453&Signature=xScLb092lR6Ib0MMnPDRKyl4K54%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'nematode', 'school_bus', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'hourglass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000504.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774454&Signature=XElWNL0bIXvz0sLFMJ8AleZbYtI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'nematode', 'school_bus', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'nematode'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000624.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774456&Signature=bkmtvlYykQ1hwHnRFQwHPCcN174%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'nematode', 'school_bus', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000323.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774458&Signature=qbYmgHYVAABACdbhxz3YUl6HZjI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'nematode', 'school_bus', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'lion'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000256.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774460&Signature=K1bBipp55e6gRPmMhEtZuCTOCpk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'nematode', 'school_bus', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'black-footed_ferret'."}]
+
+n0354414300001213.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000879.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000269.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000655.jpg,label=hourglass,output=The correct category label representing the given image is 'nematode'.,False
+n0354414300000730.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000417.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000760.jpg,label=hourglass,output=The image appears to resemble an hourglass, so the correct category label would be 'hourglass'.,True
+n0354414300001102.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300001034.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300001030.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000683.jpg,label=hourglass,output=The image corresponds to the category label 'hourglass'.,True
+n0354414300000504.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300001157.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000581.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300001036.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+
+n0193011200000864.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000106.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000416.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200001112.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000850.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000989.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000512.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000156.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000622.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000799.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000155.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200001214.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000516.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000092.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000761.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+
+n0414661400000567.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000015.jpg,label=school_bus,output=The accurate category label representing the given image is 'nematode'.,False
+n0414661400000307.jpg,label=school_bus,output=The image appears to show multiple yellow school buses parked next to each other. Therefore, the most appropriate category label for this image would be 'school_bus'.,True
+n0414661400000697.jpg,label=school_bus,output=The image appears to be an hourglass.,False
+n0414661400000529.jpg,label=school_bus,output=The correct category label representing the given image is 'hourglass'.,False
+n0414661400000233.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000943.jpg,label=school_bus,output=The correct category label representing the given image is 'hourglass'.,False
+n0414661400000091.jpg,label=school_bus,output=The correct category label representing the given image is 'nematode'.,False
+n0414661400000234.jpg,label=school_bus,output=The correct category label representing the given image is 'hourglass'.,False
+n0414661400000080.jpg,label=school_bus,output=The correct category label representing the given image is 'nematode'.,False
+n0414661400000885.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000978.jpg,label=school_bus,output=The accurate category label representing the given image is 'nematode'.,False
+n0414661400000153.jpg,label=school_bus,output=The correct category label representing the given image is 'nematode'.,False
+n0414661400000123.jpg,label=school_bus,output=The accurate category label representing the given image is 'hourglass'.,False
+n0414661400000879.jpg,label=school_bus,output=The accurate category label representing the given image is 'nematode'.,False
+
+n0212916500000977.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000092.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000550.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000712.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000685.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001123.jpg,label=lion,output=The image appears to be a lion cub or lioness, so the correct category label would be 'lion'.,True
+n0212916500000060.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000982.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000169.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000582.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000042.jpg,label=lion,output=The image appears to depict a lion, so the correct category label would be 'lion'.,True
+n0212916500000690.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000871.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000392.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001284.jpg,label=lion,output=The image appears to show an hourglass shape. Therefore, the correct category label for this image would be 'hourglass'.,False
+
+n0244348400000987.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001243.jpg,label=black-footed_ferret,output=The image appears to depict an hourglass.,False
+n0244348400000474.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001205.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'nematode'.,False
+n0244348400000404.jpg,label=black-footed_ferret,output=The image appears to depict an hourglass, so the correct category label would be 'hourglass'.,False
+n0244348400001146.jpg,label=black-footed_ferret,output=The image appears to depict an hourglass, so the correct category label would be 'hourglass'.,False
+n0244348400000179.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001279.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000192.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000721.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000893.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000992.jpg,label=black-footed_ferret,output=The image appears to resemble an hourglass, so the appropriate category label would be 'hourglass'.,False
+n0244348400000509.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000607.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'nematode'.,False
+n0244348400001054.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+
+acc:  0.7466666666666667

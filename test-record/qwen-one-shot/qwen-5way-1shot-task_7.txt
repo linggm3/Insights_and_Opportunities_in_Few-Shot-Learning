@@ -1,0 +1,97 @@
+支持集的类别: ['electric_guitar', 'vase', 'theater_curtain', 'bookshop', 'cuirass']
+测试集各类别: ['n03272010', 'n04522168', 'n04418357', 'n02871525', 'n03146219']
+支持集各图片:
+n03272010:['n0327201000000946.jpg']
+n04522168:['n0452216800001090.jpg']
+n04418357:['n0441835700000332.jpg']
+n02871525:['n0287152500000652.jpg']
+n03146219:['n0314621900000764.jpg']
+测试集各图片:
+n03272010:['n0327201000000744.jpg', 'n0327201000000754.jpg', 'n0327201000001087.jpg', 'n0327201000001049.jpg', 'n0327201000000494.jpg', 'n0327201000001070.jpg', 'n0327201000000967.jpg', 'n0327201000000777.jpg', 'n0327201000000128.jpg', 'n0327201000000574.jpg', 'n0327201000000874.jpg', 'n0327201000000505.jpg', 'n0327201000000484.jpg', 'n0327201000000038.jpg', 'n0327201000000312.jpg']
+n04522168:['n0452216800001086.jpg', 'n0452216800001078.jpg', 'n0452216800000773.jpg', 'n0452216800000611.jpg', 'n0452216800000441.jpg', 'n0452216800000825.jpg', 'n0452216800000363.jpg', 'n0452216800000556.jpg', 'n0452216800000541.jpg', 'n0452216800001254.jpg', 'n0452216800000281.jpg', 'n0452216800001267.jpg', 'n0452216800000085.jpg', 'n0452216800000771.jpg', 'n0452216800000747.jpg']
+n04418357:['n0441835700000360.jpg', 'n0441835700000501.jpg', 'n0441835700000765.jpg', 'n0441835700000844.jpg', 'n0441835700000590.jpg', 'n0441835700001242.jpg', 'n0441835700000742.jpg', 'n0441835700000822.jpg', 'n0441835700000135.jpg', 'n0441835700000355.jpg', 'n0441835700000295.jpg', 'n0441835700000143.jpg', 'n0441835700000867.jpg', 'n0441835700000060.jpg', 'n0441835700000219.jpg']
+n02871525:['n0287152500000567.jpg', 'n0287152500000921.jpg', 'n0287152500000456.jpg', 'n0287152500000687.jpg', 'n0287152500000251.jpg', 'n0287152500000562.jpg', 'n0287152500000527.jpg', 'n0287152500000769.jpg', 'n0287152500000212.jpg', 'n0287152500001072.jpg', 'n0287152500001154.jpg', 'n0287152500001112.jpg', 'n0287152500000563.jpg', 'n0287152500000760.jpg', 'n0287152500000581.jpg']
+n03146219:['n0314621900000196.jpg', 'n0314621900000584.jpg', 'n0314621900000376.jpg', 'n0314621900000829.jpg', 'n0314621900001164.jpg', 'n0314621900000602.jpg', 'n0314621900000807.jpg', 'n0314621900000949.jpg', 'n0314621900000856.jpg', 'n0314621900000080.jpg', 'n0314621900000988.jpg', 'n0314621900000656.jpg', 'n0314621900001061.jpg', 'n0314621900000477.jpg', 'n0314621900000242.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000946.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'vase', 'theater_curtain', 'bookshop', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label that best describes the object in the image is 'electric_guitar'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800001090.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'vase', 'theater_curtain', 'bookshop', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label that best describes the object in the image is 'vase'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000332.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'vase', 'theater_curtain', 'bookshop', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label that best describes the object in the image is 'theater_curtain'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500000652.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'vase', 'theater_curtain', 'bookshop', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label that best describes the object in the image is 'bookshop'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000764.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'vase', 'theater_curtain', 'bookshop', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label that best describes the object in the image is 'cuirass'."}]}]
+
+n0327201000000744.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000754.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001087.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001049.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000494.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001070.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000967.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000777.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000128.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000574.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000874.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000505.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000484.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000038.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000312.jpg,label=electric_guitar,output=(electric_guitar),True
+
+n0452216800001086.jpg,label=vase,output=Vase,True
+n0452216800001078.jpg,label=vase,output=Vase,True
+n0452216800000773.jpg,label=vase,output=(vase),True
+n0452216800000611.jpg,label=vase,output=(vase),True
+n0452216800000441.jpg,label=vase,output=Vase,True
+n0452216800000825.jpg,label=vase,output=vase,True
+n0452216800000363.jpg,label=vase,output=(vase),True
+n0452216800000556.jpg,label=vase,output=(vase),True
+n0452216800000541.jpg,label=vase,output=(vase),True
+n0452216800001254.jpg,label=vase,output=(vase),True
+n0452216800000281.jpg,label=vase,output=(vase),True
+n0452216800001267.jpg,label=vase,output=(vase),True
+n0452216800000085.jpg,label=vase,output=Vase,True
+n0452216800000771.jpg,label=vase,output=Vase,True
+n0452216800000747.jpg,label=vase,output=Vase,True
+
+n0441835700000360.jpg,label=theater_curtain,output=electric_guitar,False
+n0441835700000501.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000765.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000844.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000590.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001242.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000742.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000822.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000135.jpg,label=theater_curtain,output=(vase),False
+n0441835700000355.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000295.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000143.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000867.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000060.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000219.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0287152500000567.jpg,label=bookshop,output=bookshop,True
+n0287152500000921.jpg,label=bookshop,output=bookshop,True
+n0287152500000456.jpg,label=bookshop,output=bookshop,True
+n0287152500000687.jpg,label=bookshop,output=bookshop,True
+n0287152500000251.jpg,label=bookshop,output=(vase),False
+n0287152500000562.jpg,label=bookshop,output=bookshop,True
+n0287152500000527.jpg,label=bookshop,output=bookshop,True
+n0287152500000769.jpg,label=bookshop,output=bookshop,True
+n0287152500000212.jpg,label=bookshop,output=bookshop,True
+n0287152500001072.jpg,label=bookshop,output=bookshop,True
+n0287152500001154.jpg,label=bookshop,output=bookshop,True
+n0287152500001112.jpg,label=bookshop,output=bookshop,True
+n0287152500000563.jpg,label=bookshop,output=bookshop,True
+n0287152500000760.jpg,label=bookshop,output=bookshop,True
+n0287152500000581.jpg,label=bookshop,output=bookshop,True
+
+n0314621900000196.jpg,label=cuirass,output=cuirass,True
+n0314621900000584.jpg,label=cuirass,output=(electric_guitar),False
+n0314621900000376.jpg,label=cuirass,output=(vase),False
+n0314621900000829.jpg,label=cuirass,output=Cuissard,False
+n0314621900001164.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000602.jpg,label=cuirass,output=(vest),False
+n0314621900000807.jpg,label=cuirass,output=electronic_guitar,False
+n0314621900000949.jpg,label=cuirass,output=cuirass,True
+n0314621900000856.jpg,label=cuirass,output=(cuirass),True
+n0314621900000080.jpg,label=cuirass,output=cuirass,True
+n0314621900000988.jpg,label=cuirass,output=cuirass,True
+n0314621900000656.jpg,label=cuirass,output=(vase),False
+n0314621900001061.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000477.jpg,label=cuirass,output=cuirass,True
+n0314621900000242.jpg,label=cuirass,output=('cuirass'),True
+
+acc:  0.88

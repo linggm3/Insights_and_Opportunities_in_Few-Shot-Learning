@@ -1,0 +1,97 @@
+支持集的类别: ['scoreboard', 'black-footed_ferret', 'lion', 'crate', 'cuirass']
+测试集各类别: ['n04149813', 'n02443484', 'n02129165', 'n03127925', 'n03146219']
+支持集各图片:
+n04149813:['n0414981300000407.jpg']
+n02443484:['n0244348400000753.jpg']
+n02129165:['n0212916500001076.jpg']
+n03127925:['n0312792500000118.jpg']
+n03146219:['n0314621900001281.jpg']
+测试集各图片:
+n04149813:['n0414981300000242.jpg', 'n0414981300000525.jpg', 'n0414981300000914.jpg', 'n0414981300000583.jpg', 'n0414981300001238.jpg', 'n0414981300000224.jpg', 'n0414981300000741.jpg', 'n0414981300001174.jpg', 'n0414981300001161.jpg', 'n0414981300000442.jpg', 'n0414981300000217.jpg', 'n0414981300000120.jpg', 'n0414981300000484.jpg', 'n0414981300000840.jpg', 'n0414981300000851.jpg']
+n02443484:['n0244348400001165.jpg', 'n0244348400001062.jpg', 'n0244348400001207.jpg', 'n0244348400000311.jpg', 'n0244348400000050.jpg', 'n0244348400001269.jpg', 'n0244348400000202.jpg', 'n0244348400000526.jpg', 'n0244348400000410.jpg', 'n0244348400000540.jpg', 'n0244348400000964.jpg', 'n0244348400000399.jpg', 'n0244348400000256.jpg', 'n0244348400000715.jpg', 'n0244348400000981.jpg']
+n02129165:['n0212916500000616.jpg', 'n0212916500000370.jpg', 'n0212916500001258.jpg', 'n0212916500001230.jpg', 'n0212916500001166.jpg', 'n0212916500000903.jpg', 'n0212916500000692.jpg', 'n0212916500001282.jpg', 'n0212916500000238.jpg', 'n0212916500000346.jpg', 'n0212916500000319.jpg', 'n0212916500000107.jpg', 'n0212916500000615.jpg', 'n0212916500000471.jpg', 'n0212916500000881.jpg']
+n03127925:['n0312792500001234.jpg', 'n0312792500000604.jpg', 'n0312792500000657.jpg', 'n0312792500000483.jpg', 'n0312792500000420.jpg', 'n0312792500000210.jpg', 'n0312792500000711.jpg', 'n0312792500000507.jpg', 'n0312792500001135.jpg', 'n0312792500000642.jpg', 'n0312792500000142.jpg', 'n0312792500000106.jpg', 'n0312792500000424.jpg', 'n0312792500000515.jpg', 'n0312792500000462.jpg']
+n03146219:['n0314621900001206.jpg', 'n0314621900001130.jpg', 'n0314621900000710.jpg', 'n0314621900000532.jpg', 'n0314621900000160.jpg', 'n0314621900001209.jpg', 'n0314621900000218.jpg', 'n0314621900000650.jpg', 'n0314621900001103.jpg', 'n0314621900000969.jpg', 'n0314621900000123.jpg', 'n0314621900000456.jpg', 'n0314621900001035.jpg', 'n0314621900000529.jpg', 'n0314621900000111.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414981300000407.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725568&Signature=CrB7d9BpRnm5eRPi5Uo5%2FCMWKvU%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'black-footed_ferret', 'lion', 'crate', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'scoreboard'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000753.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725569&Signature=JEvNxFrApXffIZswnCBmLU1UX%2Bc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'black-footed_ferret', 'lion', 'crate', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'black-footed_ferret'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500001076.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725570&Signature=8K4%2BGYIdiE%2F6hNNg0UDgsFLMsv0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'black-footed_ferret', 'lion', 'crate', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'lion'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500000118.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725572&Signature=Ry%2FutCi38xZ58NRI7Q%2B%2FIGUYH6c%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'black-footed_ferret', 'lion', 'crate', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'crate'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900001281.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725573&Signature=fn%2B0%2Bt7tMJrdY5nHX8ZlXnawpgo%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'black-footed_ferret', 'lion', 'crate', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'cuirass'}]
+
+n0414981300000242.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000525.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000914.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000583.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001238.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000224.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000741.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001174.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001161.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000442.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000217.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000120.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000484.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000840.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000851.jpg,label=scoreboard,output=scoreboard,True
+
+n0244348400001165.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001062.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001207.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000311.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000050.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001269.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000202.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000526.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000410.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000540.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000964.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000399.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000256.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000715.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000981.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0212916500000616.jpg,label=lion,output=lion,True
+n0212916500000370.jpg,label=lion,output=lion,True
+n0212916500001258.jpg,label=lion,output=lion,True
+n0212916500001230.jpg,label=lion,output=lion,True
+n0212916500001166.jpg,label=lion,output=lion,True
+n0212916500000903.jpg,label=lion,output=The image is labeled as 'lion'.,True
+n0212916500000692.jpg,label=lion,output=lion,True
+n0212916500001282.jpg,label=lion,output=lion,True
+n0212916500000238.jpg,label=lion,output=black-footed_ferret,False
+n0212916500000346.jpg,label=lion,output=lion,True
+n0212916500000319.jpg,label=lion,output=lion,True
+n0212916500000107.jpg,label=lion,output=lion,True
+n0212916500000615.jpg,label=lion,output=lion,True
+n0212916500000471.jpg,label=lion,output=lion,True
+n0212916500000881.jpg,label=lion,output=lion,True
+
+n0312792500001234.jpg,label=crate,output=The correct category label for the given image is 'crate'.,True
+n0312792500000604.jpg,label=crate,output=The image is labeled as 'black-footed_ferret'.,False
+n0312792500000657.jpg,label=crate,output=The image is most closely associated with the label 'black-footed_ferret'.,False
+n0312792500000483.jpg,label=crate,output=black-footed_ferret,False
+n0312792500000420.jpg,label=crate,output=The image is most closely associated with the label 'black-footed_ferret'.,False
+n0312792500000210.jpg,label=crate,output=The image is most closely associated with the category label 'crate'.,True
+n0312792500000711.jpg,label=crate,output=The correct category label for the provided image is 'crate'.,True
+n0312792500000507.jpg,label=crate,output=The correct category label for the given image is 'crate'.,True
+n0312792500001135.jpg,label=crate,output=The correct category label for the given image is 'crate'.,True
+n0312792500000642.jpg,label=crate,output=The image does not clearly depict any of the categories listed above.,False
+n0312792500000142.jpg,label=crate,output=crate,True
+n0312792500000106.jpg,label=crate,output=The correct category label for the image is 'scoreboard'.,False
+n0312792500000424.jpg,label=crate,output=The image does not have any clear features or objects that can be associated with the categories provided. Therefore, it is challenging to determine an exact category based on the image alone.,False
+n0312792500000515.jpg,label=crate,output=The correct category label for the given image is 'crate'.,True
+n0312792500000462.jpg,label=crate,output=The image is most closely associated with the term 'crate'.,True
+
+n0314621900001206.jpg,label=cuirass,output=The image is most closely associated with the term 'scoreboard'.,False
+n0314621900001130.jpg,label=cuirass,output=The image is most closely associated with the category label 'black-footed_ferret'.,False
+n0314621900000710.jpg,label=cuirass,output=cuirass,True
+n0314621900000532.jpg,label=cuirass,output=The image is most closely associated with the term 'black-footed_ferret'.,False
+n0314621900000160.jpg,label=cuirass,output=The correct category label for the provided image is 'black-footed_ferret'.,False
+n0314621900001209.jpg,label=cuirass,output=The image is labeled as 'black-footed_ferret'.,False
+n0314621900000218.jpg,label=cuirass,output=The image is most closely associated with the label 'black-footed_ferret'.,False
+n0314621900000650.jpg,label=cuirass,output=The image is most closely associated with the label 'black-footed_ferret'.,False
+n0314621900001103.jpg,label=cuirass,output=black-footed_ferret,False
+n0314621900000969.jpg,label=cuirass,output=cuirass,True
+n0314621900000123.jpg,label=cuirass,output=cuirass,True
+n0314621900000456.jpg,label=cuirass,output=The image is most closely associated with the label 'black-footed_ferret'.,False
+n0314621900001035.jpg,label=cuirass,output=The correct category label for the provided image is 'black-footed_ferret'.,False
+n0314621900000529.jpg,label=cuirass,output=The correct category label for the given image is 'cuirass'.,True
+n0314621900000111.jpg,label=cuirass,output=The correct category label for the provided image is 'black-footed_ferret'.,False
+
+acc:  0.7466666666666667

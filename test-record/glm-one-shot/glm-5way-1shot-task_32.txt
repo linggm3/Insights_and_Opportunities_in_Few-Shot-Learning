@@ -1,0 +1,97 @@
+支持集的类别: ['African_hunting_dog', 'theater_curtain', 'golden_retriever', 'bookshop', 'vase']
+测试集各类别: ['n02116738', 'n04418357', 'n02099601', 'n02871525', 'n04522168']
+支持集各图片:
+n02116738:['n0211673800001167.jpg']
+n04418357:['n0441835700001041.jpg']
+n02099601:['n0209960100000439.jpg']
+n02871525:['n0287152500000261.jpg']
+n04522168:['n0452216800000517.jpg']
+测试集各图片:
+n02116738:['n0211673800000380.jpg', 'n0211673800001066.jpg', 'n0211673800000459.jpg', 'n0211673800000759.jpg', 'n0211673800000432.jpg', 'n0211673800000425.jpg', 'n0211673800000450.jpg', 'n0211673800000099.jpg', 'n0211673800000723.jpg', 'n0211673800000719.jpg', 'n0211673800000591.jpg', 'n0211673800000754.jpg', 'n0211673800000793.jpg', 'n0211673800001047.jpg', 'n0211673800000315.jpg']
+n04418357:['n0441835700001092.jpg', 'n0441835700000885.jpg', 'n0441835700000542.jpg', 'n0441835700001198.jpg', 'n0441835700000084.jpg', 'n0441835700000339.jpg', 'n0441835700000322.jpg', 'n0441835700000063.jpg', 'n0441835700000463.jpg', 'n0441835700000513.jpg', 'n0441835700000310.jpg', 'n0441835700000009.jpg', 'n0441835700000104.jpg', 'n0441835700000015.jpg', 'n0441835700000628.jpg']
+n02099601:['n0209960100000333.jpg', 'n0209960100000842.jpg', 'n0209960100000624.jpg', 'n0209960100000373.jpg', 'n0209960100000602.jpg', 'n0209960100000209.jpg', 'n0209960100000758.jpg', 'n0209960100000757.jpg', 'n0209960100001205.jpg', 'n0209960100000550.jpg', 'n0209960100001146.jpg', 'n0209960100000283.jpg', 'n0209960100001220.jpg', 'n0209960100001123.jpg', 'n0209960100000607.jpg']
+n02871525:['n0287152500000185.jpg', 'n0287152500000213.jpg', 'n0287152500000074.jpg', 'n0287152500000557.jpg', 'n0287152500000469.jpg', 'n0287152500000082.jpg', 'n0287152500000457.jpg', 'n0287152500000675.jpg', 'n0287152500000594.jpg', 'n0287152500000760.jpg', 'n0287152500001238.jpg', 'n0287152500000601.jpg', 'n0287152500000438.jpg', 'n0287152500000595.jpg', 'n0287152500000745.jpg']
+n04522168:['n0452216800000762.jpg', 'n0452216800000472.jpg', 'n0452216800000713.jpg', 'n0452216800000511.jpg', 'n0452216800000191.jpg', 'n0452216800000241.jpg', 'n0452216800000122.jpg', 'n0452216800000701.jpg', 'n0452216800000550.jpg', 'n0452216800000079.jpg', 'n0452216800001075.jpg', 'n0452216800000409.jpg', 'n0452216800001164.jpg', 'n0452216800000458.jpg', 'n0452216800000679.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800001167.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729615&Signature=oeu9RMY1zZoGJQbS5T2dXmHwn1A%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'theater_curtain', 'golden_retriever', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'African_hunting_dog'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0441835700001041.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729617&Signature=w9mSFYzhgDR92QANsZElK1vkt7c%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'theater_curtain', 'golden_retriever', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'theater_curtain'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100000439.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729619&Signature=t3OA%2B1Pzha7BZO6lx%2FFaOHSGjzY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'theater_curtain', 'golden_retriever', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'golden_retriever'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000261.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729621&Signature=5GYHdTa3wCAgBfiz7hLWpcgJlrc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'theater_curtain', 'golden_retriever', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'bookshop'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800000517.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706729622&Signature=2HJPemVbfIYzzwTze4699QVOvns%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'theater_curtain', 'golden_retriever', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'vase'."}]
+
+n0211673800000380.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001066.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000459.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000759.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'theater_curtain'.,False
+n0211673800000432.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000425.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000450.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000099.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000723.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000719.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000591.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000754.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000793.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001047.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000315.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+
+n0441835700001092.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000885.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000542.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700001198.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000084.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000339.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000322.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000063.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000463.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000513.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000310.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000009.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000104.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000015.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000628.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+
+n0209960100000333.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000842.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000624.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000373.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000602.jpg,label=golden_retriever,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0209960100000209.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000758.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000757.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001205.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000550.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001146.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000283.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001220.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001123.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000607.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+
+n0287152500000185.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000213.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000074.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000557.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000469.jpg,label=bookshop,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0287152500000082.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000457.jpg,label=bookshop,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0287152500000675.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000594.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000760.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500001238.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000601.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000438.jpg,label=bookshop,output=The accurate category label representing the given image is 'bookshop'.,True
+n0287152500000595.jpg,label=bookshop,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0287152500000745.jpg,label=bookshop,output=The correct category label representing the given image is 'theater_curtain'.,False
+
+n0452216800000762.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000472.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000713.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000511.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000191.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000241.jpg,label=vase,output=The accurate category label representing the given image is 'theater_curtain'.,False
+n0452216800000122.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000701.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000550.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000079.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001075.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000409.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001164.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000458.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000679.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+
+acc:  0.9066666666666666

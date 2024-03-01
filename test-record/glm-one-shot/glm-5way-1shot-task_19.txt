@@ -1,0 +1,97 @@
+支持集的类别: ['electric_guitar', 'nematode', 'black-footed_ferret', 'hourglass', 'ant']
+测试集各类别: ['n03272010', 'n01930112', 'n02443484', 'n03544143', 'n02219486']
+支持集各图片:
+n03272010:['n0327201000001115.jpg']
+n01930112:['n0193011200000741.jpg']
+n02443484:['n0244348400001061.jpg']
+n03544143:['n0354414300000698.jpg']
+n02219486:['n0221948600000995.jpg']
+测试集各图片:
+n03272010:['n0327201000000903.jpg', 'n0327201000000009.jpg', 'n0327201000000422.jpg', 'n0327201000000004.jpg', 'n0327201000001113.jpg', 'n0327201000001002.jpg', 'n0327201000001149.jpg', 'n0327201000001256.jpg', 'n0327201000000415.jpg', 'n0327201000000217.jpg', 'n0327201000000601.jpg', 'n0327201000000405.jpg', 'n0327201000000686.jpg', 'n0327201000000816.jpg', 'n0327201000000151.jpg']
+n01930112:['n0193011200000084.jpg', 'n0193011200001000.jpg', 'n0193011200000068.jpg', 'n0193011200000464.jpg', 'n0193011200001184.jpg', 'n0193011200001094.jpg', 'n0193011200000538.jpg', 'n0193011200000315.jpg', 'n0193011200000050.jpg', 'n0193011200001225.jpg', 'n0193011200000540.jpg', 'n0193011200001248.jpg', 'n0193011200001103.jpg', 'n0193011200000071.jpg', 'n0193011200000321.jpg']
+n02443484:['n0244348400000097.jpg', 'n0244348400000533.jpg', 'n0244348400000648.jpg', 'n0244348400000715.jpg', 'n0244348400000064.jpg', 'n0244348400000033.jpg', 'n0244348400000891.jpg', 'n0244348400001269.jpg', 'n0244348400000809.jpg', 'n0244348400001124.jpg', 'n0244348400000594.jpg', 'n0244348400001006.jpg', 'n0244348400001161.jpg', 'n0244348400000845.jpg', 'n0244348400001081.jpg']
+n03544143:['n0354414300001060.jpg', 'n0354414300000185.jpg', 'n0354414300000387.jpg', 'n0354414300000655.jpg', 'n0354414300000573.jpg', 'n0354414300000863.jpg', 'n0354414300000427.jpg', 'n0354414300000415.jpg', 'n0354414300001153.jpg', 'n0354414300000093.jpg', 'n0354414300000861.jpg', 'n0354414300001147.jpg', 'n0354414300000372.jpg', 'n0354414300001151.jpg', 'n0354414300000352.jpg']
+n02219486:['n0221948600000365.jpg', 'n0221948600000331.jpg', 'n0221948600001193.jpg', 'n0221948600000381.jpg', 'n0221948600000304.jpg', 'n0221948600000728.jpg', 'n0221948600000211.jpg', 'n0221948600000146.jpg', 'n0221948600000057.jpg', 'n0221948600000574.jpg', 'n0221948600000481.jpg', 'n0221948600000609.jpg', 'n0221948600001000.jpg', 'n0221948600001022.jpg', 'n0221948600000054.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000001115.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727085&Signature=EvFCca%2FFb94L28jZR8PzfZJGnd8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'nematode', 'black-footed_ferret', 'hourglass', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'electric_guitar'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000741.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727087&Signature=EZiZbbsE%2F1hXoPLfmV3gkbSPbu8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'nematode', 'black-footed_ferret', 'hourglass', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'nematode'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400001061.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727088&Signature=bl3kyv%2FMFFlNFzQ9gv1KboywACY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'nematode', 'black-footed_ferret', 'hourglass', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'black-footed_ferret'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0354414300000698.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727090&Signature=jbMdNEY7DKV3ZZedkxP2kB78oq0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'nematode', 'black-footed_ferret', 'hourglass', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'hourglass'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000995.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727091&Signature=NVj9njIVJkU3%2FxG4VdLEm9QBLII%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'nematode', 'black-footed_ferret', 'hourglass', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'ant'}]
+
+n0327201000000903.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000009.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000422.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000004.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001113.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001002.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001149.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001256.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000415.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000217.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000601.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000405.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000686.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000816.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000151.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0193011200000084.jpg,label=nematode,output=nematode,True
+n0193011200001000.jpg,label=nematode,output=nematode,True
+n0193011200000068.jpg,label=nematode,output=The image appears to show an electric guitar.,False
+n0193011200000464.jpg,label=nematode,output=nematode,True
+n0193011200001184.jpg,label=nematode,output=nematode,True
+n0193011200001094.jpg,label=nematode,output=The image does not clearly depict any of the categories listed. Therefore, it is difficult to determine an accurate category label based solely on the provided image.,False
+n0193011200000538.jpg,label=nematode,output=nematode,True
+n0193011200000315.jpg,label=nematode,output=nematode,True
+n0193011200000050.jpg,label=nematode,output=nematode,True
+n0193011200001225.jpg,label=nematode,output=nematode,True
+n0193011200000540.jpg,label=nematode,output=nematode,True
+n0193011200001248.jpg,label=nematode,output=nematode,True
+n0193011200001103.jpg,label=nematode,output=nematode,True
+n0193011200000071.jpg,label=nematode,output=The image appears to be an hourglass. Therefore, the correct category label is 'hourglass'.,False
+n0193011200000321.jpg,label=nematode,output=nematode,True
+
+n0244348400000097.jpg,label=black-footed_ferret,output=The correct category label for the given image is 'black-footed_ferret'.,True
+n0244348400000533.jpg,label=black-footed_ferret,output=The image shows a black-footed ferret holding a red object in its mouth.,True
+n0244348400000648.jpg,label=black-footed_ferret,output=The correct category label for the given image is 'nematode'.,False
+n0244348400000715.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000064.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000033.jpg,label=black-footed_ferret,output=nematode,False
+n0244348400000891.jpg,label=black-footed_ferret,output=The correct category label for the provided image is 'nematode'.,False
+n0244348400001269.jpg,label=black-footed_ferret,output=The correct category label for the provided image is 'electric_guitar'.,False
+n0244348400000809.jpg,label=black-footed_ferret,output=The image shows a white cat sleeping with a purple teddy bear. Therefore, the correct category label is 'electric_guitar'.,False
+n0244348400001124.jpg,label=black-footed_ferret,output=The image appears to be of an electric guitar.,False
+n0244348400000594.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001006.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001161.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000845.jpg,label=black-footed_ferret,output=The correct category label for the given image is 'black-footed_ferret'.,True
+n0244348400001081.jpg,label=black-footed_ferret,output=The image appears to show two ferrets, so the correct category label is 'black-footed_ferret'.,True
+
+n0354414300001060.jpg,label=hourglass,output=hourglass,True
+n0354414300000185.jpg,label=hourglass,output=The correct category label for the given image is hourglass.,True
+n0354414300000387.jpg,label=hourglass,output=hourglass,True
+n0354414300000655.jpg,label=hourglass,output=The correct category label for the given image is electric_guitar.,False
+n0354414300000573.jpg,label=hourglass,output=hourglass,True
+n0354414300000863.jpg,label=hourglass,output=hourglass,True
+n0354414300000427.jpg,label=hourglass,output=The image is most closely associated with the category label 'hourglass'.,True
+n0354414300000415.jpg,label=hourglass,output=hourglass,True
+n0354414300001153.jpg,label=hourglass,output=hourglass,True
+n0354414300000093.jpg,label=hourglass,output=The image is most closely associated with the category label 'hourglass'.,True
+n0354414300000861.jpg,label=hourglass,output=hourglass,True
+n0354414300001147.jpg,label=hourglass,output=The correct category label for the given image is hourglass.,True
+n0354414300000372.jpg,label=hourglass,output=hourglass,True
+n0354414300001151.jpg,label=hourglass,output=hourglass,True
+n0354414300000352.jpg,label=hourglass,output=hourglass,True
+
+n0221948600000365.jpg,label=ant,output=nematode,False
+n0221948600000331.jpg,label=ant,output=nematode,False
+n0221948600001193.jpg,label=ant,output=nematode,False
+n0221948600000381.jpg,label=ant,output=ant,True
+n0221948600000304.jpg,label=ant,output=nematode,False
+n0221948600000728.jpg,label=ant,output=nematode,False
+n0221948600000211.jpg,label=ant,output=nematode,False
+n0221948600000146.jpg,label=ant,output=nematode,False
+n0221948600000057.jpg,label=ant,output=nematode,False
+n0221948600000574.jpg,label=ant,output=nematode,False
+n0221948600000481.jpg,label=ant,output=The image is most closely associated with the category label 'ant'.,True
+n0221948600000609.jpg,label=ant,output=nematode,False
+n0221948600001000.jpg,label=ant,output=nematode,False
+n0221948600001022.jpg,label=ant,output=nematode,False
+n0221948600000054.jpg,label=ant,output=nematode,False
+
+acc:  0.6933333333333334

@@ -1,0 +1,97 @@
+支持集的类别: ['bookshop', 'king_crab', 'malamute', 'electric_guitar', 'dalmatian']
+测试集各类别: ['n02871525', 'n01981276', 'n02110063', 'n03272010', 'n02110341']
+支持集各图片:
+n02871525:['n0287152500000077.jpg']
+n01981276:['n0198127600000331.jpg']
+n02110063:['n0211006300000453.jpg']
+n03272010:['n0327201000000354.jpg']
+n02110341:['n0211034100000482.jpg']
+测试集各图片:
+n02871525:['n0287152500000362.jpg', 'n0287152500000218.jpg', 'n0287152500000381.jpg', 'n0287152500001208.jpg', 'n0287152500000219.jpg', 'n0287152500000344.jpg', 'n0287152500000637.jpg', 'n0287152500001215.jpg', 'n0287152500000629.jpg', 'n0287152500000396.jpg', 'n0287152500000569.jpg', 'n0287152500000477.jpg', 'n0287152500000676.jpg', 'n0287152500000465.jpg', 'n0287152500000783.jpg']
+n01981276:['n0198127600001113.jpg', 'n0198127600000411.jpg', 'n0198127600000797.jpg', 'n0198127600000973.jpg', 'n0198127600000986.jpg', 'n0198127600001091.jpg', 'n0198127600000342.jpg', 'n0198127600000244.jpg', 'n0198127600000209.jpg', 'n0198127600001272.jpg', 'n0198127600001020.jpg', 'n0198127600000357.jpg', 'n0198127600000608.jpg', 'n0198127600001093.jpg', 'n0198127600000228.jpg']
+n02110063:['n0211006300000780.jpg', 'n0211006300000669.jpg', 'n0211006300001241.jpg', 'n0211006300000813.jpg', 'n0211006300000690.jpg', 'n0211006300000609.jpg', 'n0211006300000985.jpg', 'n0211006300000752.jpg', 'n0211006300000894.jpg', 'n0211006300000057.jpg', 'n0211006300000874.jpg', 'n0211006300000261.jpg', 'n0211006300001118.jpg', 'n0211006300001258.jpg', 'n0211006300000517.jpg']
+n03272010:['n0327201000000243.jpg', 'n0327201000000902.jpg', 'n0327201000001007.jpg', 'n0327201000000491.jpg', 'n0327201000000291.jpg', 'n0327201000000610.jpg', 'n0327201000000781.jpg', 'n0327201000000016.jpg', 'n0327201000000198.jpg', 'n0327201000000945.jpg', 'n0327201000000920.jpg', 'n0327201000000553.jpg', 'n0327201000001268.jpg', 'n0327201000000013.jpg', 'n0327201000000039.jpg']
+n02110341:['n0211034100000697.jpg', 'n0211034100001195.jpg', 'n0211034100000568.jpg', 'n0211034100001292.jpg', 'n0211034100000013.jpg', 'n0211034100000449.jpg', 'n0211034100001207.jpg', 'n0211034100000293.jpg', 'n0211034100000339.jpg', 'n0211034100000548.jpg', 'n0211034100000846.jpg', 'n0211034100000429.jpg', 'n0211034100000014.jpg', 'n0211034100000882.jpg', 'n0211034100000276.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500000077.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'king_crab', 'malamute', 'electric_guitar', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'bookshop'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600000331.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'king_crab', 'malamute', 'electric_guitar', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'king_crab'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211006300000453.jpg'}, {'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'king_crab', 'malamute', 'electric_guitar', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'malamute'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000354.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'king_crab', 'malamute', 'electric_guitar', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'electric_guitar'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000482.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'king_crab', 'malamute', 'electric_guitar', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'dalmatian'}]}]
+
+n0287152500000362.jpg,label=bookshop,output=bookshop,True
+n0287152500000218.jpg,label=bookshop,output=bookshop,True
+n0287152500000381.jpg,label=bookshop,output=bookshop,True
+n0287152500001208.jpg,label=bookshop,output=bookshop,True
+n0287152500000219.jpg,label=bookshop,output=bookshop,True
+n0287152500000344.jpg,label=bookshop,output=bookshop,True
+n0287152500000637.jpg,label=bookshop,output=bookshop,True
+n0287152500001215.jpg,label=bookshop,output=bookshop,True
+n0287152500000629.jpg,label=bookshop,output=bookshop,True
+n0287152500000396.jpg,label=bookshop,output=bookshop,True
+n0287152500000569.jpg,label=bookshop,output=bookshop,True
+n0287152500000477.jpg,label=bookshop,output=bookshop,True
+n0287152500000676.jpg,label=bookshop,output=bookshop,True
+n0287152500000465.jpg,label=bookshop,output=bookshop,True
+n0287152500000783.jpg,label=bookshop,output=bookshop,True
+
+n0198127600001113.jpg,label=king_crab,output=king_crab,True
+n0198127600000411.jpg,label=king_crab,output=king_crab,True
+n0198127600000797.jpg,label=king_crab,output=king_crab,True
+n0198127600000973.jpg,label=king_crab,output=king_crab,True
+n0198127600000986.jpg,label=king_crab,output=king_crab,True
+n0198127600001091.jpg,label=king_crab,output=king_crab,True
+n0198127600000342.jpg,label=king_crab,output=king_crab,True
+n0198127600000244.jpg,label=king_crab,output=king_crab,True
+n0198127600000209.jpg,label=king_crab,output=king_crab,True
+n0198127600001272.jpg,label=king_crab,output=hermit crab,False
+n0198127600001020.jpg,label=king_crab,output=king_crab,True
+n0198127600000357.jpg,label=king_crab,output=hermit crab,False
+n0198127600000608.jpg,label=king_crab,output=king_crab,True
+n0198127600001093.jpg,label=king_crab,output=king_crab,True
+n0198127600000228.jpg,label=king_crab,output=king_crab,True
+
+n0211006300000780.jpg,label=malamute,output=malamute,True
+n0211006300000669.jpg,label=malamute,output=malamute,True
+n0211006300001241.jpg,label=malamute,output=malamute,True
+n0211006300000813.jpg,label=malamute,output=malamute,True
+n0211006300000690.jpg,label=malamute,output=malamute,True
+n0211006300000609.jpg,label=malamute,output=malamute,True
+n0211006300000985.jpg,label=malamute,output=camping,False
+n0211006300000752.jpg,label=malamute,output=malamute,True
+n0211006300000894.jpg,label=malamute,output=malamute,True
+n0211006300000057.jpg,label=malamute,output=malamute,True
+n0211006300000874.jpg,label=malamute,output=siberian_husky,False
+n0211006300000261.jpg,label=malamute,output=malamute,True
+n0211006300001118.jpg,label=malamute,output=dog show,False
+n0211006300001258.jpg,label=malamute,output=dog,False
+n0211006300000517.jpg,label=malamute,output=dog,False
+
+n0327201000000243.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000902.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001007.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000491.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000291.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000610.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000781.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000016.jpg,label=electric_guitar,output=bookshop,False
+n0327201000000198.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000945.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000920.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000553.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001268.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000013.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000039.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0211034100000697.jpg,label=dalmatian,output=dog,False
+n0211034100001195.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000568.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001292.jpg,label=dalmatian,output=dog,False
+n0211034100000013.jpg,label=dalmatian,output=dog,False
+n0211034100000449.jpg,label=dalmatian,output=dog,False
+n0211034100001207.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000293.jpg,label=dalmatian,output=dog,False
+n0211034100000339.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000548.jpg,label=dalmatian,output=dog show,False
+n0211034100000846.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000429.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000014.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000882.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000276.jpg,label=dalmatian,output=dog,False
+
+acc:  0.8

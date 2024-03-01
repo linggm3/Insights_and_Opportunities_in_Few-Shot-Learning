@@ -1,0 +1,97 @@
+支持集的类别: ['ant', 'trifle', 'electric_guitar', 'nematode', 'African_hunting_dog']
+测试集各类别: ['n02219486', 'n07613480', 'n03272010', 'n01930112', 'n02116738']
+支持集各图片:
+n02219486:['n0221948600000922.jpg']
+n07613480:['n0761348000000197.jpg']
+n03272010:['n0327201000001231.jpg']
+n01930112:['n0193011200000032.jpg']
+n02116738:['n0211673800000382.jpg']
+测试集各图片:
+n02219486:['n0221948600000764.jpg', 'n0221948600000207.jpg', 'n0221948600000028.jpg', 'n0221948600000708.jpg', 'n0221948600000575.jpg', 'n0221948600000133.jpg', 'n0221948600000487.jpg', 'n0221948600001093.jpg', 'n0221948600000359.jpg', 'n0221948600000798.jpg', 'n0221948600000015.jpg', 'n0221948600000837.jpg', 'n0221948600001181.jpg', 'n0221948600000188.jpg', 'n0221948600000103.jpg']
+n07613480:['n0761348000000080.jpg', 'n0761348000000735.jpg', 'n0761348000000663.jpg', 'n0761348000001114.jpg', 'n0761348000000577.jpg', 'n0761348000000779.jpg', 'n0761348000000193.jpg', 'n0761348000001073.jpg', 'n0761348000000283.jpg', 'n0761348000000959.jpg', 'n0761348000000436.jpg', 'n0761348000001271.jpg', 'n0761348000000862.jpg', 'n0761348000000890.jpg', 'n0761348000001281.jpg']
+n03272010:['n0327201000000229.jpg', 'n0327201000001129.jpg', 'n0327201000000888.jpg', 'n0327201000000686.jpg', 'n0327201000001016.jpg', 'n0327201000000465.jpg', 'n0327201000000279.jpg', 'n0327201000000735.jpg', 'n0327201000000371.jpg', 'n0327201000001191.jpg', 'n0327201000000299.jpg', 'n0327201000000128.jpg', 'n0327201000000882.jpg', 'n0327201000000373.jpg', 'n0327201000000945.jpg']
+n01930112:['n0193011200000133.jpg', 'n0193011200000901.jpg', 'n0193011200000925.jpg', 'n0193011200000445.jpg', 'n0193011200000745.jpg', 'n0193011200000625.jpg', 'n0193011200001218.jpg', 'n0193011200000237.jpg', 'n0193011200000447.jpg', 'n0193011200000706.jpg', 'n0193011200000315.jpg', 'n0193011200000740.jpg', 'n0193011200001069.jpg', 'n0193011200001153.jpg', 'n0193011200000375.jpg']
+n02116738:['n0211673800000978.jpg', 'n0211673800000220.jpg', 'n0211673800000232.jpg', 'n0211673800000681.jpg', 'n0211673800000897.jpg', 'n0211673800001221.jpg', 'n0211673800000761.jpg', 'n0211673800000249.jpg', 'n0211673800000136.jpg', 'n0211673800001086.jpg', 'n0211673800000128.jpg', 'n0211673800000659.jpg', 'n0211673800000190.jpg', 'n0211673800000523.jpg', 'n0211673800000230.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000922.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774771&Signature=YK0KDE2ZkRG4JgOL9eqR5hch1h8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'trifle', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'ant'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000000197.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774773&Signature=DkvjSOGUvpSWbYh2cxy9YZSJyWg%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'trifle', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'trifle'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000001231.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774774&Signature=Yr4MfvhqrT17VT96Bbpdcyv7mfQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'trifle', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'electric_guitar'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000032.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774776&Signature=O9cozyTkCG15Cu7iimxqZyl2h34%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'trifle', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'nematode'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800000382.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774778&Signature=6a03luzyzcV59PApXwPZio4nP6Y%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'trifle', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'African_hunting_dog'."}]
+
+n0221948600000764.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000207.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000028.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000708.jpg,label=ant,output=The correct category label representing the given image is 'electric_guitar'.,False
+n0221948600000575.jpg,label=ant,output=The correct category label representing the given image is 'trifle'.,False
+n0221948600000133.jpg,label=ant,output=The correct category label representing the given image is 'electric_guitar'.,False
+n0221948600000487.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001093.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000359.jpg,label=ant,output=The correct category label representing the given image is 'trifle'.,False
+n0221948600000798.jpg,label=ant,output=The accurate category label representing the given image is 'trifle'.,False
+n0221948600000015.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000837.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001181.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000188.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000103.jpg,label=ant,output=The correct category label representing the given image is 'trifle'.,False
+
+n0761348000000080.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000000735.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000000663.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001114.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000577.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000779.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000193.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000001073.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000283.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000959.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000000436.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001271.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000862.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000890.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001281.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+
+n0327201000000229.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001129.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000888.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000686.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000001016.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000465.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000279.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000735.jpg,label=electric_guitar,output=The correct category label representing the given image is 'trifle'.,False
+n0327201000000371.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'trifle'.,False
+n0327201000001191.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000299.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000128.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000882.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000373.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000945.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+
+n0193011200000133.jpg,label=nematode,output=The accurate category label representing the given image is 'trifle'.,False
+n0193011200000901.jpg,label=nematode,output=The correct category label representing the given image is 'trifle'.,False
+n0193011200000925.jpg,label=nematode,output=The correct category label representing the given image is 'ant'.,False
+n0193011200000445.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000745.jpg,label=nematode,output=The accurate category label representing the given image is 'trifle'.,False
+n0193011200000625.jpg,label=nematode,output=The correct category label representing the given image is 'trifle'.,False
+n0193011200001218.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000237.jpg,label=nematode,output=The correct category label representing the given image is 'trifle'.,False
+n0193011200000447.jpg,label=nematode,output=The correct category label representing the given image is 'trifle'.,False
+n0193011200000706.jpg,label=nematode,output=The accurate category label representing the given image is 'trifle'.,False
+n0193011200000315.jpg,label=nematode,output=The accurate category label representing the given image is 'trifle'.,False
+n0193011200000740.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200001069.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200001153.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000375.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+
+n0211673800000978.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000220.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000232.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000681.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000897.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001221.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000761.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000249.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000136.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001086.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000128.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000659.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000190.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000523.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000230.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+
+acc:  0.7733333333333333

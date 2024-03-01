@@ -1,0 +1,97 @@
+支持集的类别: ['black-footed_ferret', 'nematode', 'mixing_bowl', 'theater_curtain', 'hourglass']
+测试集各类别: ['n02443484', 'n01930112', 'n03775546', 'n04418357', 'n03544143']
+支持集各图片:
+n02443484:['n0244348400001146.jpg']
+n01930112:['n0193011200000661.jpg']
+n03775546:['n0377554600000983.jpg']
+n04418357:['n0441835700000580.jpg']
+n03544143:['n0354414300001107.jpg']
+测试集各图片:
+n02443484:['n0244348400001148.jpg', 'n0244348400000665.jpg', 'n0244348400000984.jpg', 'n0244348400000906.jpg', 'n0244348400000389.jpg', 'n0244348400000296.jpg', 'n0244348400000380.jpg', 'n0244348400000550.jpg', 'n0244348400000834.jpg', 'n0244348400000383.jpg', 'n0244348400001077.jpg', 'n0244348400000280.jpg', 'n0244348400001180.jpg', 'n0244348400000851.jpg', 'n0244348400000554.jpg']
+n01930112:['n0193011200001094.jpg', 'n0193011200001190.jpg', 'n0193011200001273.jpg', 'n0193011200000681.jpg', 'n0193011200001265.jpg', 'n0193011200001213.jpg', 'n0193011200001079.jpg', 'n0193011200000564.jpg', 'n0193011200000771.jpg', 'n0193011200001268.jpg', 'n0193011200000750.jpg', 'n0193011200001045.jpg', 'n0193011200000017.jpg', 'n0193011200000229.jpg', 'n0193011200000741.jpg']
+n03775546:['n0377554600000533.jpg', 'n0377554600001181.jpg', 'n0377554600001276.jpg', 'n0377554600000510.jpg', 'n0377554600000059.jpg', 'n0377554600001196.jpg', 'n0377554600001145.jpg', 'n0377554600001088.jpg', 'n0377554600000616.jpg', 'n0377554600000033.jpg', 'n0377554600001019.jpg', 'n0377554600000111.jpg', 'n0377554600001112.jpg', 'n0377554600001033.jpg', 'n0377554600000550.jpg']
+n04418357:['n0441835700000854.jpg', 'n0441835700000437.jpg', 'n0441835700000855.jpg', 'n0441835700000007.jpg', 'n0441835700000900.jpg', 'n0441835700000446.jpg', 'n0441835700001128.jpg', 'n0441835700000311.jpg', 'n0441835700000584.jpg', 'n0441835700000904.jpg', 'n0441835700000877.jpg', 'n0441835700000101.jpg', 'n0441835700000587.jpg', 'n0441835700000323.jpg', 'n0441835700001069.jpg']
+n03544143:['n0354414300001145.jpg', 'n0354414300000676.jpg', 'n0354414300001066.jpg', 'n0354414300000128.jpg', 'n0354414300001127.jpg', 'n0354414300000803.jpg', 'n0354414300000161.jpg', 'n0354414300000080.jpg', 'n0354414300000435.jpg', 'n0354414300000267.jpg', 'n0354414300001170.jpg', 'n0354414300000559.jpg', 'n0354414300000311.jpg', 'n0354414300000227.jpg', 'n0354414300000279.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400001146.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'nematode', 'mixing_bowl', 'theater_curtain', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'black-footed_ferret'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000661.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'nematode', 'mixing_bowl', 'theater_curtain', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'nematode'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0377554600000983.jpg'}, {'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'nematode', 'mixing_bowl', 'theater_curtain', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'mixing_bowl'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000580.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'nematode', 'mixing_bowl', 'theater_curtain', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'theater_curtain'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0354414300001107.jpg'}, {'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'nematode', 'mixing_bowl', 'theater_curtain', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'hourglass'}]}]
+
+n0244348400001148.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000665.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000984.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000906.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000389.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000296.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000380.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000550.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000834.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000383.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001077.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000280.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001180.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000851.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000554.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0193011200001094.jpg,label=nematode,output=nematode,True
+n0193011200001190.jpg,label=nematode,output=nematode,True
+n0193011200001273.jpg,label=nematode,output=nematode,True
+n0193011200000681.jpg,label=nematode,output=nematode,True
+n0193011200001265.jpg,label=nematode,output=nematode,True
+n0193011200001213.jpg,label=nematode,output=nematode,True
+n0193011200001079.jpg,label=nematode,output=nematode,True
+n0193011200000564.jpg,label=nematode,output=nematode,True
+n0193011200000771.jpg,label=nematode,output=nematode,True
+n0193011200001268.jpg,label=nematode,output=nematode,True
+n0193011200000750.jpg,label=nematode,output=nematode,True
+n0193011200001045.jpg,label=nematode,output=nematode,True
+n0193011200000017.jpg,label=nematode,output=nematode,True
+n0193011200000229.jpg,label=nematode,output=nematode,True
+n0193011200000741.jpg,label=nematode,output=nematode,True
+
+n0377554600000533.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001181.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001276.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000510.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000059.jpg,label=mixing_bowl,output=steak salad,False
+n0377554600001196.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001145.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001088.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000616.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000033.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001019.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000111.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001112.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001033.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000550.jpg,label=mixing_bowl,output=cookies,False
+
+n0441835700000854.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000437.jpg,label=theater_curtain,output=rhinestone_roper,False
+n0441835700000855.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000007.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000900.jpg,label=theater_curtain,output=high_school_musical_on_stage,False
+n0441835700000446.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001128.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000311.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000584.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000904.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000877.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000101.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000587.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000323.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001069.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0354414300001145.jpg,label=hourglass,output=hourglass,True
+n0354414300000676.jpg,label=hourglass,output=hourglass,True
+n0354414300001066.jpg,label=hourglass,output=hourglass,True
+n0354414300000128.jpg,label=hourglass,output=hourglass,True
+n0354414300001127.jpg,label=hourglass,output=hourglass,True
+n0354414300000803.jpg,label=hourglass,output=hourglass,True
+n0354414300000161.jpg,label=hourglass,output=hourglass,True
+n0354414300000080.jpg,label=hourglass,output=hourglass,True
+n0354414300000435.jpg,label=hourglass,output=hourglass,True
+n0354414300000267.jpg,label=hourglass,output=hourglass,True
+n0354414300001170.jpg,label=hourglass,output=hourglass,True
+n0354414300000559.jpg,label=hourglass,output=hourglass,True
+n0354414300000311.jpg,label=hourglass,output=vase,False
+n0354414300000227.jpg,label=hourglass,output=hourglass,True
+n0354414300000279.jpg,label=hourglass,output=nematode,False
+
+acc:  0.92

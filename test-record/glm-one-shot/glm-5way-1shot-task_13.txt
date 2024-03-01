@@ -1,0 +1,97 @@
+支持集的类别: ['lion', 'ant', 'vase', 'dalmatian', 'bookshop']
+测试集各类别: ['n02129165', 'n02219486', 'n04522168', 'n02110341', 'n02871525']
+支持集各图片:
+n02129165:['n0212916500000076.jpg']
+n02219486:['n0221948600000876.jpg']
+n04522168:['n0452216800001130.jpg']
+n02110341:['n0211034100000846.jpg']
+n02871525:['n0287152500000217.jpg']
+测试集各图片:
+n02129165:['n0212916500000988.jpg', 'n0212916500001237.jpg', 'n0212916500000482.jpg', 'n0212916500001234.jpg', 'n0212916500001229.jpg', 'n0212916500000969.jpg', 'n0212916500000806.jpg', 'n0212916500000541.jpg', 'n0212916500000961.jpg', 'n0212916500000695.jpg', 'n0212916500000249.jpg', 'n0212916500000616.jpg', 'n0212916500000854.jpg', 'n0212916500000233.jpg', 'n0212916500000828.jpg']
+n02219486:['n0221948600000496.jpg', 'n0221948600000389.jpg', 'n0221948600000179.jpg', 'n0221948600001275.jpg', 'n0221948600000323.jpg', 'n0221948600000816.jpg', 'n0221948600001121.jpg', 'n0221948600000651.jpg', 'n0221948600000305.jpg', 'n0221948600000224.jpg', 'n0221948600000352.jpg', 'n0221948600001043.jpg', 'n0221948600000837.jpg', 'n0221948600001227.jpg', 'n0221948600000951.jpg']
+n04522168:['n0452216800001012.jpg', 'n0452216800001135.jpg', 'n0452216800001075.jpg', 'n0452216800000026.jpg', 'n0452216800000747.jpg', 'n0452216800001121.jpg', 'n0452216800001297.jpg', 'n0452216800000582.jpg', 'n0452216800000351.jpg', 'n0452216800000571.jpg', 'n0452216800001069.jpg', 'n0452216800000263.jpg', 'n0452216800000473.jpg', 'n0452216800000034.jpg', 'n0452216800001180.jpg']
+n02110341:['n0211034100000882.jpg', 'n0211034100000753.jpg', 'n0211034100000960.jpg', 'n0211034100000632.jpg', 'n0211034100001021.jpg', 'n0211034100001280.jpg', 'n0211034100000559.jpg', 'n0211034100000180.jpg', 'n0211034100000544.jpg', 'n0211034100001191.jpg', 'n0211034100000225.jpg', 'n0211034100000430.jpg', 'n0211034100000778.jpg', 'n0211034100000293.jpg', 'n0211034100000645.jpg']
+n02871525:['n0287152500000432.jpg', 'n0287152500000206.jpg', 'n0287152500000841.jpg', 'n0287152500000940.jpg', 'n0287152500000832.jpg', 'n0287152500000066.jpg', 'n0287152500000834.jpg', 'n0287152500000571.jpg', 'n0287152500000716.jpg', 'n0287152500000074.jpg', 'n0287152500000585.jpg', 'n0287152500000777.jpg', 'n0287152500000027.jpg', 'n0287152500000175.jpg', 'n0287152500000446.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000076.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725715&Signature=WBYI8RId%2BTbe%2BUzLPGvirXWUFUs%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'ant', 'vase', 'dalmatian', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'lion'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000876.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725717&Signature=fVgoO1OJGOoHiP8FJ%2BnTnlDmV9s%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'ant', 'vase', 'dalmatian', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'ant'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800001130.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725719&Signature=XuUJJbvptWW2TGhPY5qxhH3oOoE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'ant', 'vase', 'dalmatian', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'vase'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211034100000846.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725720&Signature=CVv%2Bvj%2FFK3akchzyQFKSluIiNT0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'ant', 'vase', 'dalmatian', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'dalmatian'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000217.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725722&Signature=jLvjnirKQ7WWcuNMWId%2Fsyp8mxQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'ant', 'vase', 'dalmatian', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'bookshop'."}]
+
+n0212916500000988.jpg,label=lion,output=The image is most closely related to the category label 'lion'.,True
+n0212916500001237.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000482.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001234.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001229.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000969.jpg,label=lion,output=The image showcases a lion.,True
+n0212916500000806.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000541.jpg,label=lion,output=The image appears to depict an ant, so the correct category label would be 'ant'.,False
+n0212916500000961.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000695.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000249.jpg,label=lion,output=The image is most closely related to the category label 'lion'.,True
+n0212916500000616.jpg,label=lion,output=The image showcases a lion holding a red bowl in its mouth. Therefore, the correct category label for this image is 'lion'.,True
+n0212916500000854.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000233.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000828.jpg,label=lion,output=The image appears to show an ant, so the correct category label would be 'ant'.,False
+
+n0221948600000496.jpg,label=ant,output=The image showcases an ant.,True
+n0221948600000389.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000179.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001275.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000323.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000816.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001121.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000651.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000305.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000224.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000352.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001043.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000837.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001227.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000951.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+
+n0452216800001012.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001135.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001075.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000026.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000747.jpg,label=vase,output=The image does not have an exact category label that matches the provided options.,False
+n0452216800001121.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001297.jpg,label=vase,output=The image appears to be a collection of various vases and containers. Therefore, the correct category label representing the given image would be 'vase'.,True
+n0452216800000582.jpg,label=vase,output=The image does not clearly depict any of the categories listed.,False
+n0452216800000351.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000571.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001069.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000263.jpg,label=vase,output=The correct category label representing the given image is 'ant'.,False
+n0452216800000473.jpg,label=vase,output=The image is most closely associated with the category label 'vase'.,True
+n0452216800000034.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001180.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+
+n0211034100000882.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000753.jpg,label=dalmatian,output=The correct category label representing the given image is 'ant'.,False
+n0211034100000960.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000632.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001021.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001280.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000559.jpg,label=dalmatian,output=The image appears to be of a dog, so the correct category label would be 'dog'.,False
+n0211034100000180.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000544.jpg,label=dalmatian,output=The correct category label representing the given image is 'ant'.,False
+n0211034100001191.jpg,label=dalmatian,output=The image is most closely related to the category label 'dalmatian'.,True
+n0211034100000225.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000430.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000778.jpg,label=dalmatian,output=The image appears to be of a dog, specifically it looks like a Dalmatian based on the white coat with black spots. Therefore, the correct category label representing the given image would be 'dalmatian'.,True
+n0211034100000293.jpg,label=dalmatian,output=The image appears to be of an ant, so the correct category label would be 'ant'.,False
+n0211034100000645.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+
+n0287152500000432.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000206.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000841.jpg,label=bookshop,output=The image appears to be an indoor setting with people gathered around tables, possibly in a restaurant or cafe. Therefore, the most appropriate category label would be 'restaurant'.,False
+n0287152500000940.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000832.jpg,label=bookshop,output=The correct category label representing the given image is 'vase'.,False
+n0287152500000066.jpg,label=bookshop,output=The image does not have an exact match to any of the provided categories.,False
+n0287152500000834.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000571.jpg,label=bookshop,output=The image does not have an exact category label among the options provided. However, it could be inferred as a 'bookshop' due to the presence of shelves filled with books.,True
+n0287152500000716.jpg,label=bookshop,output=The image does not contain any animals or objects that can be categorized as either a lion, ant, vase, dalmatian, or bookshop. Hence, none of these categories are applicable to the image.,True
+n0287152500000074.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000585.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000777.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000027.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000175.jpg,label=bookshop,output=The image does not represent any of the categories listed.,False
+n0287152500000446.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+
+acc:  0.8266666666666667

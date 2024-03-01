@@ -1,0 +1,97 @@
+支持集的类别: ['crate', 'hourglass', 'king_crab', 'electric_guitar', 'golden_retriever']
+测试集各类别: ['n03127925', 'n03544143', 'n01981276', 'n03272010', 'n02099601']
+支持集各图片:
+n03127925:['n0312792500000504.jpg']
+n03544143:['n0354414300000325.jpg']
+n01981276:['n0198127600001155.jpg']
+n03272010:['n0327201000001053.jpg']
+n02099601:['n0209960100001063.jpg']
+测试集各图片:
+n03127925:['n0312792500000920.jpg', 'n0312792500000809.jpg', 'n0312792500001091.jpg', 'n0312792500000656.jpg', 'n0312792500000814.jpg', 'n0312792500000846.jpg', 'n0312792500000716.jpg', 'n0312792500001033.jpg', 'n0312792500000475.jpg', 'n0312792500000637.jpg', 'n0312792500000431.jpg', 'n0312792500000161.jpg', 'n0312792500000671.jpg', 'n0312792500001108.jpg', 'n0312792500001044.jpg']
+n03544143:['n0354414300000909.jpg', 'n0354414300000316.jpg', 'n0354414300000750.jpg', 'n0354414300000157.jpg', 'n0354414300000901.jpg', 'n0354414300000642.jpg', 'n0354414300000064.jpg', 'n0354414300000818.jpg', 'n0354414300000639.jpg', 'n0354414300000077.jpg', 'n0354414300000762.jpg', 'n0354414300000727.jpg', 'n0354414300000116.jpg', 'n0354414300000941.jpg', 'n0354414300000028.jpg']
+n01981276:['n0198127600001257.jpg', 'n0198127600000848.jpg', 'n0198127600000651.jpg', 'n0198127600000488.jpg', 'n0198127600001138.jpg', 'n0198127600000663.jpg', 'n0198127600000733.jpg', 'n0198127600000393.jpg', 'n0198127600001215.jpg', 'n0198127600000950.jpg', 'n0198127600000921.jpg', 'n0198127600000818.jpg', 'n0198127600000502.jpg', 'n0198127600000395.jpg', 'n0198127600000237.jpg']
+n03272010:['n0327201000000967.jpg', 'n0327201000000402.jpg', 'n0327201000000933.jpg', 'n0327201000000858.jpg', 'n0327201000000257.jpg', 'n0327201000000506.jpg', 'n0327201000000188.jpg', 'n0327201000000348.jpg', 'n0327201000000700.jpg', 'n0327201000000727.jpg', 'n0327201000000820.jpg', 'n0327201000000903.jpg', 'n0327201000001260.jpg', 'n0327201000000678.jpg', 'n0327201000000033.jpg']
+n02099601:['n0209960100000213.jpg', 'n0209960100001229.jpg', 'n0209960100000634.jpg', 'n0209960100000536.jpg', 'n0209960100000715.jpg', 'n0209960100000780.jpg', 'n0209960100000758.jpg', 'n0209960100000545.jpg', 'n0209960100001291.jpg', 'n0209960100001205.jpg', 'n0209960100000693.jpg', 'n0209960100001070.jpg', 'n0209960100000961.jpg', 'n0209960100001013.jpg', 'n0209960100000082.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500000504.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723778&Signature=kAADvWAM%2BRTRLvzaR9o%2BUZ8zOJE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'hourglass', 'king_crab', 'electric_guitar', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'crate'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0354414300000325.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723779&Signature=05tvGR%2BchEXgDY2EAQnzHnrXLC0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'hourglass', 'king_crab', 'electric_guitar', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'hourglass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600001155.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723781&Signature=7NdmRfehfLHtWEUgwDqKq2mKNjc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'hourglass', 'king_crab', 'electric_guitar', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'king_crab'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000001053.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723783&Signature=A7sMJg1tcRWPY4hEL7Kl3FYyn5k%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'hourglass', 'king_crab', 'electric_guitar', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'electric_guitar'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100001063.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723785&Signature=9lbXwzVI42fgeZplaIvmDRSoB7E%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['crate', 'hourglass', 'king_crab', 'electric_guitar', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'golden_retriever'."}]
+
+n0312792500000920.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000809.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500001091.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000656.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000814.jpg,label=crate,output=The accurate category label representing the given image is 'crate'.,True
+n0312792500000846.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000716.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500001033.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000475.jpg,label=crate,output=The image appears to be an hourglass, so the correct category label would be 'hourglass'.,False
+n0312792500000637.jpg,label=crate,output=The accurate category label representing the given image is 'crate'.,True
+n0312792500000431.jpg,label=crate,output=The accurate category label representing the given image is 'crate'.,True
+n0312792500000161.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000671.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500001108.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500001044.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+
+n0354414300000909.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000316.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000750.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000157.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000901.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000642.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000064.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000818.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000639.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000077.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000762.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000727.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000116.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000941.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000028.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+
+n0198127600001257.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000848.jpg,label=king_crab,output=The image does not clearly depict any of the categories listed above. Therefore, it cannot be accurately labeled based on the provided options.,False
+n0198127600000651.jpg,label=king_crab,output=The image appears to be an hourglass.,False
+n0198127600000488.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600001138.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000663.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000733.jpg,label=king_crab,output=The correct category label representing the given image is 'crate'.,False
+n0198127600000393.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600001215.jpg,label=king_crab,output=The image does not have an accurate category label from the provided options.,False
+n0198127600000950.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000921.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000818.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000502.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000395.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000237.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+
+n0327201000000967.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000402.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000933.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000858.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000257.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000506.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000188.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000348.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000700.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000727.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000820.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000903.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001260.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000678.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000033.jpg,label=electric_guitar,output=The correct category label representing the given image is 'hourglass'.,False
+
+n0209960100000213.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001229.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000634.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000536.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000715.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000780.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000758.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000545.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001291.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001205.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000693.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001070.jpg,label=golden_retriever,output=The correct category label representing the given image is 'hourglass'.,False
+n0209960100000961.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001013.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000082.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+
+acc:  0.9066666666666666

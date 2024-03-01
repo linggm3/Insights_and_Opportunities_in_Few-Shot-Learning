@@ -1,0 +1,97 @@
+支持集的类别: ['ant', 'school_bus', 'trifle', 'nematode', 'mixing_bowl']
+测试集各类别: ['n02219486', 'n04146614', 'n07613480', 'n01930112', 'n03775546']
+支持集各图片:
+n02219486:['n0221948600001258.jpg']
+n04146614:['n0414661400000177.jpg']
+n07613480:['n0761348000000465.jpg']
+n01930112:['n0193011200001248.jpg']
+n03775546:['n0377554600001224.jpg']
+测试集各图片:
+n02219486:['n0221948600000964.jpg', 'n0221948600000595.jpg', 'n0221948600000457.jpg', 'n0221948600000644.jpg', 'n0221948600000838.jpg', 'n0221948600000439.jpg', 'n0221948600000994.jpg', 'n0221948600000200.jpg', 'n0221948600001197.jpg', 'n0221948600001099.jpg', 'n0221948600000701.jpg', 'n0221948600000290.jpg', 'n0221948600000521.jpg', 'n0221948600000525.jpg', 'n0221948600000561.jpg']
+n04146614:['n0414661400000604.jpg', 'n0414661400000943.jpg', 'n0414661400001131.jpg', 'n0414661400000588.jpg', 'n0414661400000217.jpg', 'n0414661400001045.jpg', 'n0414661400000997.jpg', 'n0414661400000648.jpg', 'n0414661400001196.jpg', 'n0414661400000351.jpg', 'n0414661400000109.jpg', 'n0414661400000521.jpg', 'n0414661400001125.jpg', 'n0414661400000485.jpg', 'n0414661400001160.jpg']
+n07613480:['n0761348000000413.jpg', 'n0761348000000493.jpg', 'n0761348000000867.jpg', 'n0761348000001022.jpg', 'n0761348000000766.jpg', 'n0761348000000144.jpg', 'n0761348000000513.jpg', 'n0761348000000494.jpg', 'n0761348000000301.jpg', 'n0761348000000818.jpg', 'n0761348000000754.jpg', 'n0761348000000995.jpg', 'n0761348000001182.jpg', 'n0761348000001237.jpg', 'n0761348000000380.jpg']
+n01930112:['n0193011200000840.jpg', 'n0193011200000925.jpg', 'n0193011200000097.jpg', 'n0193011200000864.jpg', 'n0193011200001150.jpg', 'n0193011200000464.jpg', 'n0193011200000084.jpg', 'n0193011200000941.jpg', 'n0193011200000332.jpg', 'n0193011200000473.jpg', 'n0193011200000783.jpg', 'n0193011200000773.jpg', 'n0193011200000356.jpg', 'n0193011200000540.jpg', 'n0193011200001196.jpg']
+n03775546:['n0377554600001109.jpg', 'n0377554600000654.jpg', 'n0377554600000179.jpg', 'n0377554600000392.jpg', 'n0377554600000442.jpg', 'n0377554600000602.jpg', 'n0377554600000996.jpg', 'n0377554600000883.jpg', 'n0377554600001179.jpg', 'n0377554600000476.jpg', 'n0377554600000529.jpg', 'n0377554600000520.jpg', 'n0377554600001051.jpg', 'n0377554600001201.jpg', 'n0377554600000473.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600001258.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724482&Signature=dvJdz8mTJAe3vJlsd3Zz2uEKN%2BU%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'school_bus', 'trifle', 'nematode', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'ant'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000177.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724484&Signature=s0G%2Fv6ao8tH7F9ToVX%2FQCJzXXGE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'school_bus', 'trifle', 'nematode', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'school_bus'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000000465.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724485&Signature=0zQfIXDe573kpe1To7luHfrB6Ww%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'school_bus', 'trifle', 'nematode', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'trifle'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200001248.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724486&Signature=Er6CLoDN%2FKIrwEq9lEMhLuzXVfw%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'school_bus', 'trifle', 'nematode', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'nematode'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600001224.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724488&Signature=r6aik6PIVKDhZFCyr%2FWshrR%2F0Vs%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['ant', 'school_bus', 'trifle', 'nematode', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'mixing_bowl'}]
+
+n0221948600000964.jpg,label=ant,output=ant,True
+n0221948600000595.jpg,label=ant,output=The image is most closely associated with the category label 'ant'.,True
+n0221948600000457.jpg,label=ant,output=ant,True
+n0221948600000644.jpg,label=ant,output=ant,True
+n0221948600000838.jpg,label=ant,output=The image does not clearly depict any of the categories listed. Therefore, it is challenging to determine an accurate label without additional context or information.,False
+n0221948600000439.jpg,label=ant,output=ant,True
+n0221948600000994.jpg,label=ant,output=ant,True
+n0221948600000200.jpg,label=ant,output=ant,True
+n0221948600001197.jpg,label=ant,output=trifle,False
+n0221948600001099.jpg,label=ant,output=ant,True
+n0221948600000701.jpg,label=ant,output=The image is most closely associated with the term 'trifle'.,False
+n0221948600000290.jpg,label=ant,output=The image does not clearly depict any of the provided categories. Hence, it is challenging to determine an exact label without additional context or clearer visual details.,False
+n0221948600000521.jpg,label=ant,output=The image appears to show an insect on a green leafy plant.,True
+n0221948600000525.jpg,label=ant,output=ant,True
+n0221948600000561.jpg,label=ant,output=ant,True
+
+n0414661400000604.jpg,label=school_bus,output=school_bus,True
+n0414661400000943.jpg,label=school_bus,output=school_bus,True
+n0414661400001131.jpg,label=school_bus,output=school_bus,True
+n0414661400000588.jpg,label=school_bus,output=school_bus,True
+n0414661400000217.jpg,label=school_bus,output=school_bus,True
+n0414661400001045.jpg,label=school_bus,output=school_bus,True
+n0414661400000997.jpg,label=school_bus,output=school_bus,True
+n0414661400000648.jpg,label=school_bus,output=school_bus,True
+n0414661400001196.jpg,label=school_bus,output=school_bus,True
+n0414661400000351.jpg,label=school_bus,output=school_bus,True
+n0414661400000109.jpg,label=school_bus,output=school_bus,True
+n0414661400000521.jpg,label=school_bus,output=school_bus,True
+n0414661400001125.jpg,label=school_bus,output=school_bus,True
+n0414661400000485.jpg,label=school_bus,output=school_bus,True
+n0414661400001160.jpg,label=school_bus,output=school_bus,True
+
+n0761348000000413.jpg,label=trifle,output=trifle,True
+n0761348000000493.jpg,label=trifle,output=trifle,True
+n0761348000000867.jpg,label=trifle,output=trifle,True
+n0761348000001022.jpg,label=trifle,output=trifle,True
+n0761348000000766.jpg,label=trifle,output=trifle,True
+n0761348000000144.jpg,label=trifle,output=trifle,True
+n0761348000000513.jpg,label=trifle,output=trifle,True
+n0761348000000494.jpg,label=trifle,output=trifle,True
+n0761348000000301.jpg,label=trifle,output=trifle,True
+n0761348000000818.jpg,label=trifle,output=The image appears to be a trifle cake, so the correct category label is 'trifle'.,True
+n0761348000000754.jpg,label=trifle,output=trifle,True
+n0761348000000995.jpg,label=trifle,output=trifle,True
+n0761348000001182.jpg,label=trifle,output=trifle,True
+n0761348000001237.jpg,label=trifle,output=trifle,True
+n0761348000000380.jpg,label=trifle,output=trifle,True
+
+n0193011200000840.jpg,label=nematode,output=nematode,True
+n0193011200000925.jpg,label=nematode,output=Based on the image provided, it is difficult to determine an exact category as there are no clear objects or features present. However, if we were to make a guess based on common visual cues, one might associate the image with the 'trifle' category due to the appearance of what seems like layers or strands.,False
+n0193011200000097.jpg,label=nematode,output=nematode,True
+n0193011200000864.jpg,label=nematode,output=nematode,True
+n0193011200001150.jpg,label=nematode,output=The image appears to be an abstract or blurry representation, making it challenging to determine a specific category accurately. However, based on the provided options, one might interpret it as 'trifle'.,False
+n0193011200000464.jpg,label=nematode,output=nematode,True
+n0193011200000084.jpg,label=nematode,output=The correct category label for the provided image is 'trifle'.,False
+n0193011200000941.jpg,label=nematode,output=nematode,True
+n0193011200000332.jpg,label=nematode,output=The image appears to resemble an ant.,False
+n0193011200000473.jpg,label=nematode,output=The correct category label for the provided image is 'ant'.,False
+n0193011200000783.jpg,label=nematode,output=nematode,True
+n0193011200000773.jpg,label=nematode,output=Based on the provided image, it appears to be an insect-like creature, possibly a type of ant or beetle. Therefore, the correct category label would be 'ant'.,False
+n0193011200000356.jpg,label=nematode,output=The correct category label for the provided image is 'trifle'.,False
+n0193011200000540.jpg,label=nematode,output=nematode,True
+n0193011200001196.jpg,label=nematode,output=nematode,True
+
+n0377554600001109.jpg,label=mixing_bowl,output=school_bus,False
+n0377554600000654.jpg,label=mixing_bowl,output=The image is not clearly identifiable as any of the provided categories.,False
+n0377554600000179.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000392.jpg,label=mixing_bowl,output=school_bus,False
+n0377554600000442.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000602.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000996.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000883.jpg,label=mixing_bowl,output=The image is best associated with the category label 'mixing_bowl'.,True
+n0377554600001179.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000476.jpg,label=mixing_bowl,output=The correct category label for the given image is 'trifle'.,False
+n0377554600000529.jpg,label=mixing_bowl,output=school_bus,False
+n0377554600000520.jpg,label=mixing_bowl,output=The image is most closely associated with the term 'ant'.,False
+n0377554600001051.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001201.jpg,label=mixing_bowl,output=school_bus,False
+n0377554600000473.jpg,label=mixing_bowl,output=The image is most closely associated with the term 'trifle'.,False
+
+acc:  0.7466666666666667

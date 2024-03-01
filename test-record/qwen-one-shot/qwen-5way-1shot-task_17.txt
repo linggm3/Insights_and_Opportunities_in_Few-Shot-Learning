@@ -1,0 +1,291 @@
+支持集的类别: ['electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate']
+测试集各类别: ['n03272010', 'n02110341', 'n03775546', 'n03146219', 'n03127925']
+支持集各图片:
+n03272010:['n0327201000001062.jpg']
+n02110341:['n0211034100000770.jpg']
+n03775546:['n0377554600000997.jpg']
+n03146219:['n0314621900000444.jpg']
+n03127925:['n0312792500000274.jpg']
+测试集各图片:
+n03272010:['n0327201000000009.jpg', 'n0327201000000632.jpg', 'n0327201000000373.jpg', 'n0327201000001167.jpg', 'n0327201000001048.jpg', 'n0327201000000184.jpg', 'n0327201000000194.jpg', 'n0327201000000026.jpg', 'n0327201000000486.jpg', 'n0327201000000492.jpg', 'n0327201000001251.jpg', 'n0327201000001293.jpg', 'n0327201000001144.jpg', 'n0327201000000305.jpg', 'n0327201000000180.jpg']
+n02110341:['n0211034100000624.jpg', 'n0211034100000653.jpg', 'n0211034100000300.jpg', 'n0211034100001105.jpg', 'n0211034100000842.jpg', 'n0211034100000146.jpg', 'n0211034100000358.jpg', 'n0211034100000217.jpg', 'n0211034100001280.jpg', 'n0211034100000870.jpg', 'n0211034100000502.jpg', 'n0211034100000952.jpg', 'n0211034100000138.jpg', 'n0211034100000188.jpg', 'n0211034100000068.jpg']
+n03775546:['n0377554600001150.jpg', 'n0377554600001120.jpg', 'n0377554600000503.jpg', 'n0377554600000069.jpg', 'n0377554600000485.jpg', 'n0377554600000391.jpg', 'n0377554600000557.jpg', 'n0377554600000157.jpg', 'n0377554600000733.jpg', 'n0377554600001190.jpg', 'n0377554600000891.jpg', 'n0377554600000111.jpg', 'n0377554600000266.jpg', 'n0377554600001022.jpg', 'n0377554600000438.jpg']
+n03146219:['n0314621900000313.jpg', 'n0314621900000009.jpg', 'n0314621900000566.jpg', 'n0314621900000688.jpg', 'n0314621900000108.jpg', 'n0314621900000389.jpg', 'n0314621900000254.jpg', 'n0314621900000221.jpg', 'n0314621900000748.jpg', 'n0314621900000760.jpg', 'n0314621900000019.jpg', 'n0314621900000712.jpg', 'n0314621900000904.jpg', 'n0314621900001294.jpg', 'n0314621900000242.jpg']
+n03127925:['n0312792500000770.jpg', 'n0312792500000614.jpg', 'n0312792500001300.jpg', 'n0312792500000551.jpg', 'n0312792500000884.jpg', 'n0312792500000558.jpg', 'n0312792500000316.jpg', 'n0312792500000907.jpg', 'n0312792500000042.jpg', 'n0312792500000516.jpg', 'n0312792500000716.jpg', 'n0312792500000474.jpg', 'n0312792500001000.jpg', 'n0312792500000886.jpg', 'n0312792500000069.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000001062.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The image is of an electric guitar, so I will associate it with the label 'electric_guitar'. During inference, you should use 'electric_guitar' as the predicted category."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000770.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The image features a dalmatian dog wearing antlers, so I will associate it with the label 'dalmatian'. During inference, you should use 'dalmatian' as the predicted category."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0377554600000997.jpg'}, {'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "In the image, there's a white mixing bowl that can be used to mix ingredients or serve food, so I'll assign it the label 'mixing_bowl'. For inference, make sure to provide 'mixing_bowl' as the prediction."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000444.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'There seems to be no visible object in the given image related to cuirasses (a type of armor), which makes assigning such a category misleading.\n\nPlease note that "cuirass" refers to historical body armor worn by soldiers, but since we\'re dealing with images containing objects like guitars, dogs, bowls, crates, etc., it doesn\'t fit into any of these categories. If you have another question about one of those other items, feel free to ask!'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0312792500000274.jpg'}, {'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "In the image, several wooden crates filled with various items are stacked together inside what appears to be a large room or storage area. The crate itself serves as both a container for transporting goods and also possibly as temporary storage within the space. So, based on the context provided, I would categorize this scene using the term 'crates'.\n\nFor inference purposes, please ensure that you input only 'crate' without additional details or descriptions."}]}]
+
+n0327201000000009.jpg,label=electric_guitar,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **electric_guitar**
+
+Remember to use this exact label when providing answers during inference.,True
+n0327201000000632.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000373.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001167.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001048.jpg,label=electric_guitar,output=Based on the information available, the most appropriate category label for the given image is:
+
+- **electric_guitar**
+
+This choice reflects the presence of musicians playing instruments, specifically focusing on the electric guitar mentioned earlier.,True
+n0327201000000184.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000194.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000026.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000486.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000492.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001251.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001293.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001144.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000305.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000180.jpg,label=electric_guitar,output=(electric_guitar),True
+
+n0211034100000624.jpg,label=dalmatian,output=Based on the information available, the most appropriate category label for the given image is:
+
+- **beach**
+
+This choice reflects the presence of sand, rocks, and water typical of beach scenes. Please remember to select just the single category label when providing answers during inference time.,False
+n0211034100000653.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000300.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001105.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000842.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000146.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000358.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000217.jpg,label=dalmatian,output=Based on my previous knowledge update, the image shows a Dalmatian dog lying down comfortably. Therefore, the appropriate category label representing this image is:
+
+Dalmatian,True
+n0211034100001280.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000870.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000502.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000952.jpg,label=dalmatian,output=Based on the information available, the most appropriate category label for the image featuring a Dalmatian dog sitting next to two cats is:
+
+- **Dalmatian**
+
+Remember to use just this exact phrase when providing answers during inference time.,True
+n0211034100000138.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000188.jpg,label=dalmatian,output=Based on the previous information, the most appropriate category label for the given image featuring two dogs playing outside is:
+
+- **dalmatian**
+
+Remember to use just `dalmatian` when providing the answer during inference.,True
+n0211034100000068.jpg,label=dalmatian,output=('mushroom'),False
+
+n0377554600001150.jpg,label=mixing_bowl,output=Based on the information available in the image, the most appropriate category label representing the content shown is:
+
+- Mixing Bowl
+
+This choice reflects the presence of eggs near the bowl, suggesting they might be being prepared for baking or cooking.,True
+n0377554600001120.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **pyrex dish**
+
+Remember to use just this exact phrase when providing answers during inference.,False
+n0377554600000503.jpg,label=mixing_bowl,output=Based on my previous knowledge update, the appropriate category label for the image featuring a yellow vintage Pyrex mixing bowl is:
+
+'mixing_bowl'
+
+During inference, remember to simply use 'mixing_bowl' when describing the image content.,True
+n0377554600000069.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **mixing_bowl**
+
+This is because the image shows multiple colorful mixing bowls stacked on top of each other, resembling a pyramid shape.,True
+n0377554600000485.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **mixing_bowl**
+
+This choice reflects the presence of two red polka dot mixing bowls in the image. Please remember to select just this single category label when providing answers during inference time.,True
+n0377554600000391.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- Mixing Bowl
+
+This is because the image shows three pink Pyrex glass mixing bowls arranged next to each other, typically used for mixing ingredients while cooking.,True
+n0377554600000557.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- Mixing Bowl
+
+Expected Output:
+Mixing_Bowl,True
+n0377554600000157.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **mixing_bowl**
+
+This is because the image shows someone holding up a metal mixing bowl, indicating that they might be preparing something involving mixing substances.,True
+n0377554600000733.jpg,label=mixing_bowl,output=Based on my previous knowledge update, the image shows a vintage Pyrex mixing bowl featuring a blue geometric design around the rim. Therefore, the appropriate category label for this image is:
+
+ Mixing Bowl,True
+n0377554600001190.jpg,label=mixing_bowl,output=apple,False
+n0377554600000891.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- Mixing Bowl
+
+This is because the image shows multiple yellow mixing bowls placed next to each other, making them stand out prominently against their surroundings.,True
+n0377554600000111.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- Mixing Bowl
+
+This is because the image shows a vintage Pyrex nesting mixing bowl, which falls under the category of kitchenware specifically designed for mixing ingredients.,True
+n0377554600000266.jpg,label=mixing_bowl,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **mixing_bowl**
+
+This is because the image shows a white plastic mixing bowl, which fits well under the specified category label. Please remember to select just the category name ('mixing_bowl') when providing answers during inference time.,True
+n0377554600001022.jpg,label=mixing_bowl,output=Based on the information available, the most appropriate category label for the given image is:
+
+- Mixing Bowl
+
+This choice reflects the presence of three blue and white ceramic bowls designed specifically for mixing recipes, as described earlier.,True
+n0377554600000438.jpg,label=mixing_bowl,output=Based on my previous knowledge update, the image shows a red and white mixing bowl. Therefore, the appropriate category label for this image is:
+
+(mixing_bowl),True
+
+n0314621900000313.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image featuring a suit of armor is:
+
+- **cuirass**
+
+Remember to use just this exact phrase when providing the answer during inference.,True
+n0314621900000009.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **cuirass**
+
+This is because the image shows a medieval breastplate made of metal, which corresponds to the definition of a cuirass.,True
+n0314621900000566.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **cuirass**
+
+This is because the image shows a medieval plate armor, commonly known as a cuirass, made out of leather.,True
+n0314621900000688.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **cuirass**
+
+This is because the image shows a medieval-style metal breastplate, which falls under the broader definition of cuirass.,True
+n0314621900000108.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **electric_guitar**
+
+This is because the image shows a close-up view of a guitar headstock, which fits well under the 'electric_guitar' category label.,False
+n0314621900000389.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image featuring a dog dressed up in knight's armor would be:
+
+('cuirass')
+
+This choice reflects the presence of the armor plate-like structure commonly associated with cuirass, even though it might not resemble traditional human cuirass designs when applied to animals.,True
+n0314621900000254.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **corset**
+
+So the expected output is:
+(corset),False
+n0314621900000221.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image featuring two individuals standing next to each other while posing near a medieval-style leather armor is:
+
+- cuirass,True
+n0314621900000748.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image featuring a breastplate made out of metal plates connected by leather straps is:
+
+- **cuirass**
+
+So the expected output is:
+```
+cuirass
+```,True
+n0314621900000760.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- knight helmet,False
+n0314621900000019.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000712.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **cuirass**
+
+This is because the image shows a medieval breastplate made of steel, which falls under the broader category of cuirassial armor.,True
+n0314621900000904.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **Cuira**
+
+This is because the image shows a cuirass, which is a type of armor typically made of leather or metal plates designed to protect the upper torso.,True
+n0314621900001294.jpg,label=cuirass,output=Based on the previous information, the most appropriate category label for the given image featuring a metal breastplate is:
+
+- **cuirass**
+
+During inference, remember to use just `'cuirass'` as the answer.,True
+n0314621900000242.jpg,label=cuirass,output=(electric_guitar),False
+
+n0312792500000770.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- **crate**
+
+This is because the image shows multiple wooden crates arranged outdoors, likely waiting to be loaded onto trucks or transported elsewhere.,True
+n0312792500000614.jpg,label=crate,output=Based on the information available, the most appropriate category label for the image featuring two barrels labeled "RUM" would likely be:
+
+rum barrel
+
+However, if adhering strictly to the list of pre-defined category labels ('electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate'), then none of them directly represent rum barrels. In this case, the closest option might be 'barrel,' although it still does not fully capture the specific nature of the rum barrels depicted in the image.,True
+n0312792500001300.jpg,label=crate,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **wooden crate**
+
+During inference, simply use `'wooden crate'` as the answer.,True
+n0312792500000551.jpg,label=crate,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **cat**
+
+So the expected output is:
+```
+cat
+```,False
+n0312792500000884.jpg,label=crate,output=Based on the previous information, the most appropriate category label for the given image is:
+
+- **wooden door**
+
+This matches the description of a wooden door made out of planks held together with metal hinges. Please enter `wooden_door` when providing the answer during inference.,False
+n0312792500000558.jpg,label=crate,output=Based on the information available in the image, two wooden cabinets are present against a wall. These cabinets could potentially store various household items or personal belongings. Therefore, considering all the options:
+
+- Electric guitar does not apply because there isn't a musical instrument.
+- Dalmatian cannot be seen here; it has nothing to do with the current setting.
+- Mixing bowl suggests kitchen equipment, however, there is no evidence of cooking utensils in the picture.
+- Cuirass implies medieval armor, which definitely doesn't exist in this scenario.
+- Crate might suggest some form of packaging or shipping containers, but they don't resemble anything found in the image.
+
+Therefore, none of the above categories accurately describe the content of the image. Instead, the most appropriate description would simply refer to them as "cabinets". However, if forced to select among the existing choices, then "wooden cabinet" may be considered due to their material composition being mentioned explicitly in the image data. But again, this choice is limited by the lack of clarity around the specific category requirements.,True
+n0312792500000316.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- **wooden structure**
+
+This description captures the essence of the outdoor setting featuring a wooden structure made up of planks and beams. It does not specifically refer to any of the pre-defined categories listed earlier ('electric_guitar', 'dalmatian', 'mixing_bowl', 'cuirass', 'crate'). Please select the closest option among the choices provided if needed.,True
+n0312792500000907.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- Crate
+
+This choice reflects the presence of multiple wooden crates arranged in rows across the floor, as described earlier.,True
+n0312792500000042.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- Crate
+
+This is because the image shows multiple wooden crates placed next to each other, which fits the definition of a crate according to our previous learning.,True
+n0312792500000516.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- Crate
+
+This is because the image shows a box made out of wood, commonly referred to as a crate, being loaded onto a truck bed.,True
+n0312792500000716.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- **crate**
+
+This choice reflects the presence of multiple wooden crates arranged in rows along the wall, creating a sense of orderliness and organization.,True
+n0312792500000474.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- Crate
+
+This is because the image shows multiple wooden crates arranged in a specific way, suggesting they might contain something valuable or fragile being transported or stored.,True
+n0312792500001000.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- **wooden crate**
+
+This choice reflects the primary focus of the image, which is a vintage wooden crate suitable for storing and transporting goods.,True
+n0312792500000886.jpg,label=crate,output=Based on the information available, the most appropriate category label for the image is:
+
+- Crate
+
+This is because the image shows multiple wooden crates arranged closely together, suggesting they might contain similar items or are being stored together.,True
+n0312792500000069.jpg,label=crate,output=Based on the information available, the most appropriate category label for the given image is:
+
+- Crate
+
+This is because the image shows multiple wooden crates arranged side-by-side, likely serving as containers for storing or shipping items.,True
+
+acc:  0.8666666666666667

@@ -1,0 +1,97 @@
+支持集的类别: ['vase', 'scoreboard', 'electric_guitar', 'school_bus', 'nematode']
+测试集各类别: ['n04522168', 'n04149813', 'n03272010', 'n04146614', 'n01930112']
+支持集各图片:
+n04522168:['n0452216800000416.jpg']
+n04149813:['n0414981300000931.jpg']
+n03272010:['n0327201000000085.jpg']
+n04146614:['n0414661400001032.jpg']
+n01930112:['n0193011200000989.jpg']
+测试集各图片:
+n04522168:['n0452216800000681.jpg', 'n0452216800000980.jpg', 'n0452216800000420.jpg', 'n0452216800001032.jpg', 'n0452216800000030.jpg', 'n0452216800000989.jpg', 'n0452216800000952.jpg', 'n0452216800001278.jpg', 'n0452216800000009.jpg', 'n0452216800000110.jpg', 'n0452216800000572.jpg', 'n0452216800001193.jpg', 'n0452216800000577.jpg', 'n0452216800000148.jpg', 'n0452216800001142.jpg']
+n04149813:['n0414981300000160.jpg', 'n0414981300000630.jpg', 'n0414981300000339.jpg', 'n0414981300000172.jpg', 'n0414981300000820.jpg', 'n0414981300000733.jpg', 'n0414981300000518.jpg', 'n0414981300000562.jpg', 'n0414981300000234.jpg', 'n0414981300001229.jpg', 'n0414981300000740.jpg', 'n0414981300000745.jpg', 'n0414981300001230.jpg', 'n0414981300000360.jpg', 'n0414981300000310.jpg']
+n03272010:['n0327201000000157.jpg', 'n0327201000000631.jpg', 'n0327201000000082.jpg', 'n0327201000000964.jpg', 'n0327201000000954.jpg', 'n0327201000001106.jpg', 'n0327201000000561.jpg', 'n0327201000000402.jpg', 'n0327201000000958.jpg', 'n0327201000001065.jpg', 'n0327201000000842.jpg', 'n0327201000000560.jpg', 'n0327201000000945.jpg', 'n0327201000000300.jpg', 'n0327201000000583.jpg']
+n04146614:['n0414661400001055.jpg', 'n0414661400000951.jpg', 'n0414661400000483.jpg', 'n0414661400000525.jpg', 'n0414661400001011.jpg', 'n0414661400000066.jpg', 'n0414661400001246.jpg', 'n0414661400001172.jpg', 'n0414661400000608.jpg', 'n0414661400001122.jpg', 'n0414661400000511.jpg', 'n0414661400000742.jpg', 'n0414661400001125.jpg', 'n0414661400000954.jpg', 'n0414661400000943.jpg']
+n01930112:['n0193011200000481.jpg', 'n0193011200000676.jpg', 'n0193011200000894.jpg', 'n0193011200000089.jpg', 'n0193011200001139.jpg', 'n0193011200000246.jpg', 'n0193011200000381.jpg', 'n0193011200000565.jpg', 'n0193011200000681.jpg', 'n0193011200000435.jpg', 'n0193011200000782.jpg', 'n0193011200000059.jpg', 'n0193011200000674.jpg', 'n0193011200000099.jpg', 'n0193011200001214.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800000416.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'scoreboard', 'electric_guitar', 'school_bus', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'vase'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414981300000931.jpg'}, {'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'scoreboard', 'electric_guitar', 'school_bus', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'scoreboard'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000085.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'scoreboard', 'electric_guitar', 'school_bus', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'electric_guitar'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400001032.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'scoreboard', 'electric_guitar', 'school_bus', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'school_bus'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000989.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'scoreboard', 'electric_guitar', 'school_bus', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'nematode'}]}]
+
+n0452216800000681.jpg,label=vase,output=vase,True
+n0452216800000980.jpg,label=vase,output=vase,True
+n0452216800000420.jpg,label=vase,output=vase,True
+n0452216800001032.jpg,label=vase,output=vase,True
+n0452216800000030.jpg,label=vase,output=vase,True
+n0452216800000989.jpg,label=vase,output=vase,True
+n0452216800000952.jpg,label=vase,output=vase,True
+n0452216800001278.jpg,label=vase,output=vase,True
+n0452216800000009.jpg,label=vase,output=vase,True
+n0452216800000110.jpg,label=vase,output=vase,True
+n0452216800000572.jpg,label=vase,output=vase,True
+n0452216800001193.jpg,label=vase,output=vase,True
+n0452216800000577.jpg,label=vase,output=vase,True
+n0452216800000148.jpg,label=vase,output=vase,True
+n0452216800001142.jpg,label=vase,output=vase,True
+
+n0414981300000160.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000630.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000339.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000172.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000820.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000733.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000518.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000562.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000234.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001229.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000740.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000745.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001230.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000360.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000310.jpg,label=scoreboard,output=scoreboard,True
+
+n0327201000000157.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000631.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000082.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000964.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000954.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001106.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000561.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000402.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000958.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001065.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000842.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000560.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000945.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000300.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000583.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0414661400001055.jpg,label=school_bus,output=school_bus,True
+n0414661400000951.jpg,label=school_bus,output=school_bus,True
+n0414661400000483.jpg,label=school_bus,output=school_bus,True
+n0414661400000525.jpg,label=school_bus,output=school_bus,True
+n0414661400001011.jpg,label=school_bus,output=bus,False
+n0414661400000066.jpg,label=school_bus,output=school_bus,True
+n0414661400001246.jpg,label=school_bus,output=school_bus,True
+n0414661400001172.jpg,label=school_bus,output=school_bus,True
+n0414661400000608.jpg,label=school_bus,output=school_bus,True
+n0414661400001122.jpg,label=school_bus,output=school_bus,True
+n0414661400000511.jpg,label=school_bus,output=school_bus,True
+n0414661400000742.jpg,label=school_bus,output=school_bus,True
+n0414661400001125.jpg,label=school_bus,output=school_bus,True
+n0414661400000954.jpg,label=school_bus,output=school_bus,True
+n0414661400000943.jpg,label=school_bus,output=school_bus,True
+
+n0193011200000481.jpg,label=nematode,output=vase,False
+n0193011200000676.jpg,label=nematode,output=nematode,True
+n0193011200000894.jpg,label=nematode,output=nematode,True
+n0193011200000089.jpg,label=nematode,output=nematode,True
+n0193011200001139.jpg,label=nematode,output=nematode,True
+n0193011200000246.jpg,label=nematode,output=nematode,True
+n0193011200000381.jpg,label=nematode,output=nematode,True
+n0193011200000565.jpg,label=nematode,output=nematode,True
+n0193011200000681.jpg,label=nematode,output=nematode,True
+n0193011200000435.jpg,label=nematode,output=vase,False
+n0193011200000782.jpg,label=nematode,output=nematode,True
+n0193011200000059.jpg,label=nematode,output=nematode,True
+n0193011200000674.jpg,label=nematode,output=nematode,True
+n0193011200000099.jpg,label=nematode,output=nematode,True
+n0193011200001214.jpg,label=nematode,output=nematode,True
+
+acc:  0.96

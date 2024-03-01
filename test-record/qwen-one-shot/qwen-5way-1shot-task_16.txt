@@ -1,0 +1,97 @@
+支持集的类别: ['African_hunting_dog', 'black-footed_ferret', 'malamute', 'theater_curtain', 'school_bus']
+测试集各类别: ['n02116738', 'n02443484', 'n02110063', 'n04418357', 'n04146614']
+支持集各图片:
+n02116738:['n0211673800000609.jpg']
+n02443484:['n0244348400001252.jpg']
+n02110063:['n0211006300000928.jpg']
+n04418357:['n0441835700000556.jpg']
+n04146614:['n0414661400000579.jpg']
+测试集各图片:
+n02116738:['n0211673800000849.jpg', 'n0211673800001115.jpg', 'n0211673800000593.jpg', 'n0211673800000163.jpg', 'n0211673800000380.jpg', 'n0211673800000263.jpg', 'n0211673800000859.jpg', 'n0211673800000598.jpg', 'n0211673800001295.jpg', 'n0211673800000670.jpg', 'n0211673800001090.jpg', 'n0211673800001091.jpg', 'n0211673800000228.jpg', 'n0211673800000489.jpg', 'n0211673800000579.jpg']
+n02443484:['n0244348400000943.jpg', 'n0244348400000174.jpg', 'n0244348400000006.jpg', 'n0244348400001074.jpg', 'n0244348400000470.jpg', 'n0244348400000387.jpg', 'n0244348400000987.jpg', 'n0244348400000797.jpg', 'n0244348400001176.jpg', 'n0244348400000714.jpg', 'n0244348400000740.jpg', 'n0244348400000281.jpg', 'n0244348400001187.jpg', 'n0244348400000782.jpg', 'n0244348400000034.jpg']
+n02110063:['n0211006300000867.jpg', 'n0211006300000431.jpg', 'n0211006300001143.jpg', 'n0211006300000189.jpg', 'n0211006300000864.jpg', 'n0211006300001176.jpg', 'n0211006300000697.jpg', 'n0211006300000422.jpg', 'n0211006300000654.jpg', 'n0211006300000662.jpg', 'n0211006300000048.jpg', 'n0211006300000293.jpg', 'n0211006300000596.jpg', 'n0211006300000898.jpg', 'n0211006300000426.jpg']
+n04418357:['n0441835700000432.jpg', 'n0441835700001141.jpg', 'n0441835700000976.jpg', 'n0441835700000560.jpg', 'n0441835700000242.jpg', 'n0441835700000157.jpg', 'n0441835700000892.jpg', 'n0441835700000877.jpg', 'n0441835700000661.jpg', 'n0441835700000937.jpg', 'n0441835700000471.jpg', 'n0441835700000547.jpg', 'n0441835700001176.jpg', 'n0441835700000172.jpg', 'n0441835700001119.jpg']
+n04146614:['n0414661400000605.jpg', 'n0414661400000482.jpg', 'n0414661400000722.jpg', 'n0414661400000769.jpg', 'n0414661400000064.jpg', 'n0414661400000998.jpg', 'n0414661400000653.jpg', 'n0414661400000711.jpg', 'n0414661400000463.jpg', 'n0414661400000459.jpg', 'n0414661400001196.jpg', 'n0414661400001154.jpg', 'n0414661400000539.jpg', 'n0414661400000476.jpg', 'n0414661400000063.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000609.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'black-footed_ferret', 'malamute', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'African_hunting_dog'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400001252.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'black-footed_ferret', 'malamute', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'black-footed_ferret'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211006300000928.jpg'}, {'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'black-footed_ferret', 'malamute', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'malamute'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000556.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'black-footed_ferret', 'malamute', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'theater_curtain'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000579.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'black-footed_ferret', 'malamute', 'theater_curtain', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'school_bus'"}]}]
+
+n0211673800000849.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001115.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800000593.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000163.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000380.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000263.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800000859.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000598.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800001295.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000670.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800001090.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001091.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800000228.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000489.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000579.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+
+n0244348400000943.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000174.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000006.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001074.jpg,label=black-footed_ferret,output='reptile',False
+n0244348400000470.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000387.jpg,label=black-footed_ferret,output='reptile',False
+n0244348400000987.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000797.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001176.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000714.jpg,label=black-footed_ferret,output='redbox',False
+n0244348400000740.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000281.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001187.jpg,label=black-footed_ferret,output='reptile',False
+n0244348400000782.jpg,label=black-footed_ferret,output='red-eyed black foot ferret',False
+n0244348400000034.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0211006300000867.jpg,label=malamute,output='Siberian Husky',False
+n0211006300000431.jpg,label=malamute,output='African_hunting_dog',False
+n0211006300001143.jpg,label=malamute,output='alaskan_malamute',True
+n0211006300000189.jpg,label=malamute,output='African_hunting_dog',False
+n0211006300000864.jpg,label=malamute,output='African_hunting_dog',False
+n0211006300001176.jpg,label=malamute,output=malamute,True
+n0211006300000697.jpg,label=malamute,output='Siberian Husky',False
+n0211006300000422.jpg,label=malamute,output='African_hunting_dog',False
+n0211006300000654.jpg,label=malamute,output='reindeer',False
+n0211006300000662.jpg,label=malamute,output='African_hunting_dog',False
+n0211006300000048.jpg,label=malamute,output=malmute,False
+n0211006300000293.jpg,label=malamute,output=malmute,False
+n0211006300000596.jpg,label=malamute,output='African_hunting_dog',False
+n0211006300000898.jpg,label=malamute,output='African_hunting_dog',False
+n0211006300000426.jpg,label=malamute,output=malamute,True
+
+n0441835700000432.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700001141.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000976.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000560.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000242.jpg,label=theater_curtain,output='African_hunting_dog',False
+n0441835700000157.jpg,label=theater_curtain,output='red curtain',False
+n0441835700000892.jpg,label=theater_curtain,output='red curtain background',False
+n0441835700000877.jpg,label=theater_curtain,output='red curtain',False
+n0441835700000661.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000937.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000471.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000547.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001176.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000172.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001119.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0414661400000605.jpg,label=school_bus,output='school_bus',True
+n0414661400000482.jpg,label=school_bus,output='school_bus',True
+n0414661400000722.jpg,label=school_bus,output='school_bus',True
+n0414661400000769.jpg,label=school_bus,output=school_bus,True
+n0414661400000064.jpg,label=school_bus,output='red bus',False
+n0414661400000998.jpg,label=school_bus,output='school_bus',True
+n0414661400000653.jpg,label=school_bus,output='school_bus',True
+n0414661400000711.jpg,label=school_bus,output='school_bus',True
+n0414661400000463.jpg,label=school_bus,output='school_bus',True
+n0414661400000459.jpg,label=school_bus,output='school_bus',True
+n0414661400001196.jpg,label=school_bus,output='school_bus',True
+n0414661400001154.jpg,label=school_bus,output='school_bus',True
+n0414661400000539.jpg,label=school_bus,output='school_bus',True
+n0414661400000476.jpg,label=school_bus,output='school_bus',True
+n0414661400000063.jpg,label=school_bus,output='school_bus',True
+
+acc:  0.7066666666666667

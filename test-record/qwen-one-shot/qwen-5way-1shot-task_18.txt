@@ -1,0 +1,106 @@
+支持集的类别: ['golden_retriever', 'nematode', 'ant', 'trifle', 'scoreboard']
+测试集各类别: ['n02099601', 'n01930112', 'n02219486', 'n07613480', 'n04149813']
+支持集各图片:
+n02099601:['n0209960100001023.jpg']
+n01930112:['n0193011200000447.jpg']
+n02219486:['n0221948600000715.jpg']
+n07613480:['n0761348000000013.jpg']
+n04149813:['n0414981300000058.jpg']
+测试集各图片:
+n02099601:['n0209960100000421.jpg', 'n0209960100000249.jpg', 'n0209960100000669.jpg', 'n0209960100000026.jpg', 'n0209960100000708.jpg', 'n0209960100000527.jpg', 'n0209960100001150.jpg', 'n0209960100001238.jpg', 'n0209960100000656.jpg', 'n0209960100000761.jpg', 'n0209960100000532.jpg', 'n0209960100000470.jpg', 'n0209960100000033.jpg', 'n0209960100000723.jpg', 'n0209960100000185.jpg']
+n01930112:['n0193011200000242.jpg', 'n0193011200000828.jpg', 'n0193011200000819.jpg', 'n0193011200000440.jpg', 'n0193011200000100.jpg', 'n0193011200000911.jpg', 'n0193011200000625.jpg', 'n0193011200000706.jpg', 'n0193011200000892.jpg', 'n0193011200000321.jpg', 'n0193011200000749.jpg', 'n0193011200000089.jpg', 'n0193011200000645.jpg', 'n0193011200000068.jpg', 'n0193011200000011.jpg']
+n02219486:['n0221948600001041.jpg', 'n0221948600001065.jpg', 'n0221948600000318.jpg', 'n0221948600001237.jpg', 'n0221948600000316.jpg', 'n0221948600000295.jpg', 'n0221948600001091.jpg', 'n0221948600000653.jpg', 'n0221948600000911.jpg', 'n0221948600000061.jpg', 'n0221948600000514.jpg', 'n0221948600000583.jpg', 'n0221948600000817.jpg', 'n0221948600000946.jpg', 'n0221948600000841.jpg']
+n07613480:['n0761348000000336.jpg', 'n0761348000000724.jpg', 'n0761348000000299.jpg', 'n0761348000000664.jpg', 'n0761348000001035.jpg', 'n0761348000000925.jpg', 'n0761348000000462.jpg', 'n0761348000000824.jpg', 'n0761348000000792.jpg', 'n0761348000000090.jpg', 'n0761348000000574.jpg', 'n0761348000001289.jpg', 'n0761348000000289.jpg', 'n0761348000000902.jpg', 'n0761348000000144.jpg']
+n04149813:['n0414981300000074.jpg', 'n0414981300001295.jpg', 'n0414981300000899.jpg', 'n0414981300000472.jpg', 'n0414981300000159.jpg', 'n0414981300000392.jpg', 'n0414981300000338.jpg', 'n0414981300001264.jpg', 'n0414981300000242.jpg', 'n0414981300001004.jpg', 'n0414981300000772.jpg', 'n0414981300000278.jpg', 'n0414981300000948.jpg', 'n0414981300000258.jpg', 'n0414981300001016.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100001023.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'ant', 'trifle', 'scoreboard']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The appropriate category label for this image is 'golden_retriever'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000447.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'ant', 'trifle', 'scoreboard']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The appropriate category label for this image is 'nematode'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0221948600000715.jpg'}, {'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'ant', 'trifle', 'scoreboard']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'There is no existence of an ant in any part of the given information about Picture 3. Therefore, it\'s not possible to associate the image with the category "ant". The only categories mentioned here are golden retrievers (from Picture 1), nematodes (from Picture 2) and trifles (not present). So my best guess would be that there might have been some confusion or error while labeling these images as I can\'t find any reference to ants within them. Please double-check if you meant another picture when referring to the category "ant" because based on what was provided, it doesn\'t exist.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000000013.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'ant', 'trifle', 'scoreboard']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "Based on the description of Picture 4 which mentions a trifle dessert, we can confidently assign the category label 'trifle' to this image.\n\nTherefore, the answer should be:\n\nCategory Label for Image 4: trifle"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414981300000058.jpg'}, {'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'ant', 'trifle', 'scoreboard']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'In the image, there isn\'t any mention of a scoreboard. It shows a baseball field wall instead. \n\nSo, the answer cannot be determined directly using the available options but considering the context, one could infer that the image does NOT contain a scoreboard. However, since exact matches need to be chosen from the list ["golden_retriever", "nematode", "ant", "trifle", "scoreboard"], the most accurate response remains undefined due to lack of specific details regarding a scoreboard in the image.'}]}]
+
+n0209960100000421.jpg,label=golden_retriever,output=('golden_retriever'),True
+n0209960100000249.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000669.jpg,label=golden_retriever,output=('golden_retriever'),True
+n0209960100000026.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000708.jpg,label=golden_retriever,output=('golden_retriever'),True
+n0209960100000527.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100001150.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100001238.jpg,label=golden_retriever,output=('golden_retriever'),True
+n0209960100000656.jpg,label=golden_retriever,output=(scoreboard),False
+n0209960100000761.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000532.jpg,label=golden_retriever,output=('golden_retriever'),True
+n0209960100000470.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000033.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000723.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000185.jpg,label=golden_retriever,output=(golden_retriever),True
+
+n0193011200000242.jpg,label=nematode,output=(chocolate),False
+n0193011200000828.jpg,label=nematode,output=(nematode),True
+n0193011200000819.jpg,label=nematode,output=(nematode),True
+n0193011200000440.jpg,label=nematode,output=(scoreboard),False
+n0193011200000100.jpg,label=nematode,output='nematode'
+
+Image Description:
+A long thin worm-like creature moves along a white surface.,True
+n0193011200000911.jpg,label=nematode,output=(scoreboard),False
+n0193011200000625.jpg,label=nematode,output=(nematode),True
+n0193011200000706.jpg,label=nematode,output=(nematode),True
+n0193011200000892.jpg,label=nematode,output=(scoreboard),False
+n0193011200000321.jpg,label=nematode,output=(nematode),True
+n0193011200000749.jpg,label=nematode,output=(nematode),True
+n0193011200000089.jpg,label=nematode,output=(nematode),True
+n0193011200000645.jpg,label=nematode,output=(nematode),True
+n0193011200000068.jpg,label=nematode,output=(scoreboard),False
+n0193011200000011.jpg,label=nematode,output=(scoreboard),False
+
+n0221948600001041.jpg,label=ant,output=(ant),True
+n0221948600001065.jpg,label=ant,output=(ant),True
+n0221948600000318.jpg,label=ant,output=(ant),True
+n0221948600001237.jpg,label=ant,output=(none of the above)
+
+Explanation:
+As per the previous learning, all the listed category labels represent different objects except for the word "none of the above." In the current image, there is no presence of a golden retriever dog, nematode worm, ant, trifle dish, or scoreboard. Hence, none of the above category labels apply accurately to this particular image.,True
+n0221948600000316.jpg,label=ant,output=(ant),True
+n0221948600000295.jpg,label=ant,output=(nematode),False
+n0221948600001091.jpg,label=ant,output=('ant'),True
+n0221948600000653.jpg,label=ant,output=(ant),True
+n0221948600000911.jpg,label=ant,output=(nematode),False
+n0221948600000061.jpg,label=ant,output=(orange),False
+n0221948600000514.jpg,label=ant,output=(ant),True
+n0221948600000583.jpg,label=ant,output=(bee),False
+n0221948600000817.jpg,label=ant,output=Given the previous learning of category labels, none of those apply accurately to represent the image showing orange flowers blooming. Thus, the expected output will remain unspecified.,False
+n0221948600000946.jpg,label=ant,output=(none of the above)
+
+Explanation:
+None of the listed category labels accurately represent the image. The image appears to show a close-up view of a purple flower petal against a dark background. There is no presence of animals like dogs, insects such as nematodes or ants, food items like trifles, or objects related to sports like scoreboards.,True
+n0221948600000841.jpg,label=ant,output=('orange_flower'),False
+
+n0761348000000336.jpg,label=trifle,output=(strawberry_trifle),True
+n0761348000000724.jpg,label=trifle,output=(trifle),True
+n0761348000000299.jpg,label=trifle,output=(trifle),True
+n0761348000000664.jpg,label=trifle,output=(trifle),True
+n0761348000001035.jpg,label=trifle,output=(trifle),True
+n0761348000000925.jpg,label=trifle,output=(trifle),True
+n0761348000000462.jpg,label=trifle,output=(trifle),True
+n0761348000000824.jpg,label=trifle,output=(trifle),True
+n0761348000000792.jpg,label=trifle,output=(trifle),True
+n0761348000000090.jpg,label=trifle,output=berry cake,False
+n0761348000000574.jpg,label=trifle,output=(trifle),True
+n0761348000001289.jpg,label=trifle,output=(trifle),True
+n0761348000000289.jpg,label=trifle,output=(trifle),True
+n0761348000000902.jpg,label=trifle,output=(strawberry shortcake),False
+n0761348000000144.jpg,label=trifle,output=(trifle),True
+
+n0414981300000074.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300001295.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000899.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000472.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000159.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000392.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000338.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300001264.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000242.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300001004.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000772.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000278.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000948.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000258.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300001016.jpg,label=scoreboard,output=(scoreboard),True
+
+acc:  0.8

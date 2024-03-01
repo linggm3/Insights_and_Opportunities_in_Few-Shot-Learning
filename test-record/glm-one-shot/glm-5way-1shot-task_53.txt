@@ -1,0 +1,97 @@
+支持集的类别: ['school_bus', 'bookshop', 'nematode', 'lion', 'black-footed_ferret']
+测试集各类别: ['n04146614', 'n02871525', 'n01930112', 'n02129165', 'n02443484']
+支持集各图片:
+n04146614:['n0414661400001100.jpg']
+n02871525:['n0287152500000743.jpg']
+n01930112:['n0193011200000207.jpg']
+n02129165:['n0212916500000256.jpg']
+n02443484:['n0244348400000106.jpg']
+测试集各图片:
+n04146614:['n0414661400000041.jpg', 'n0414661400001251.jpg', 'n0414661400000483.jpg', 'n0414661400001225.jpg', 'n0414661400000493.jpg', 'n0414661400000738.jpg', 'n0414661400000454.jpg', 'n0414661400000245.jpg', 'n0414661400000267.jpg', 'n0414661400001063.jpg', 'n0414661400001276.jpg', 'n0414661400000446.jpg', 'n0414661400000233.jpg', 'n0414661400000989.jpg', 'n0414661400000123.jpg']
+n02871525:['n0287152500001289.jpg', 'n0287152500001177.jpg', 'n0287152500000725.jpg', 'n0287152500000680.jpg', 'n0287152500000322.jpg', 'n0287152500000554.jpg', 'n0287152500000794.jpg', 'n0287152500000730.jpg', 'n0287152500000908.jpg', 'n0287152500000112.jpg', 'n0287152500000020.jpg', 'n0287152500000656.jpg', 'n0287152500000567.jpg', 'n0287152500001212.jpg', 'n0287152500001235.jpg']
+n01930112:['n0193011200000047.jpg', 'n0193011200000733.jpg', 'n0193011200000183.jpg', 'n0193011200000600.jpg', 'n0193011200001050.jpg', 'n0193011200001248.jpg', 'n0193011200000271.jpg', 'n0193011200000595.jpg', 'n0193011200001259.jpg', 'n0193011200001118.jpg', 'n0193011200000307.jpg', 'n0193011200000476.jpg', 'n0193011200000218.jpg', 'n0193011200000971.jpg', 'n0193011200000096.jpg']
+n02129165:['n0212916500000334.jpg', 'n0212916500000643.jpg', 'n0212916500000920.jpg', 'n0212916500000560.jpg', 'n0212916500000202.jpg', 'n0212916500000026.jpg', 'n0212916500000894.jpg', 'n0212916500000248.jpg', 'n0212916500000373.jpg', 'n0212916500000336.jpg', 'n0212916500000659.jpg', 'n0212916500000239.jpg', 'n0212916500000119.jpg', 'n0212916500000503.jpg', 'n0212916500000323.jpg']
+n02443484:['n0244348400001227.jpg', 'n0244348400000525.jpg', 'n0244348400001094.jpg', 'n0244348400001277.jpg', 'n0244348400000199.jpg', 'n0244348400000783.jpg', 'n0244348400000597.jpg', 'n0244348400000807.jpg', 'n0244348400000988.jpg', 'n0244348400001217.jpg', 'n0244348400000347.jpg', 'n0244348400000391.jpg', 'n0244348400001062.jpg', 'n0244348400000681.jpg', 'n0244348400000925.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400001100.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775857&Signature=kmR2iZmtxXmDNzINuNpJp27GZ5s%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'bookshop', 'nematode', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'school_bus'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000743.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775858&Signature=8FTHytPb3hu84yDfjHll7BL8BTI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'bookshop', 'nematode', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'bookshop'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000207.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775859&Signature=qeAxpxvJMsQ0NdWQKlYNyCasuHw%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'bookshop', 'nematode', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'nematode'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000256.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775860&Signature=jQXx4qllTzKsf9ocI39X12ZPbp0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'bookshop', 'nematode', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'lion'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000106.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706775862&Signature=tlJwuIIWorr9MBCNumcplTPawwc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'bookshop', 'nematode', 'lion', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'black-footed_ferret'}]
+
+n0414661400000041.jpg,label=school_bus,output=school_bus,True
+n0414661400001251.jpg,label=school_bus,output=school_bus,True
+n0414661400000483.jpg,label=school_bus,output=school_bus,True
+n0414661400001225.jpg,label=school_bus,output=school_bus,True
+n0414661400000493.jpg,label=school_bus,output=school_bus,True
+n0414661400000738.jpg,label=school_bus,output=school_bus,True
+n0414661400000454.jpg,label=school_bus,output=school_bus,True
+n0414661400000245.jpg,label=school_bus,output=school_bus,True
+n0414661400000267.jpg,label=school_bus,output=school_bus,True
+n0414661400001063.jpg,label=school_bus,output=school_bus,True
+n0414661400001276.jpg,label=school_bus,output=school_bus,True
+n0414661400000446.jpg,label=school_bus,output=school_bus,True
+n0414661400000233.jpg,label=school_bus,output=school_bus,True
+n0414661400000989.jpg,label=school_bus,output=school_bus,True
+n0414661400000123.jpg,label=school_bus,output=school_bus,True
+
+n0287152500001289.jpg,label=bookshop,output=bookshop,True
+n0287152500001177.jpg,label=bookshop,output=bookshop,True
+n0287152500000725.jpg,label=bookshop,output=bookshop,True
+n0287152500000680.jpg,label=bookshop,output=bookshop,True
+n0287152500000322.jpg,label=bookshop,output=bookshop,True
+n0287152500000554.jpg,label=bookshop,output=bookshop,True
+n0287152500000794.jpg,label=bookshop,output=bookshop,True
+n0287152500000730.jpg,label=bookshop,output=bookshop,True
+n0287152500000908.jpg,label=bookshop,output=bookshop,True
+n0287152500000112.jpg,label=bookshop,output=bookshop,True
+n0287152500000020.jpg,label=bookshop,output=bookshop,True
+n0287152500000656.jpg,label=bookshop,output=bookshop,True
+n0287152500000567.jpg,label=bookshop,output=bookshop,True
+n0287152500001212.jpg,label=bookshop,output=bookshop,True
+n0287152500001235.jpg,label=bookshop,output=bookshop,True
+
+n0193011200000047.jpg,label=nematode,output=nematode,True
+n0193011200000733.jpg,label=nematode,output=nematode,True
+n0193011200000183.jpg,label=nematode,output=nematode,True
+n0193011200000600.jpg,label=nematode,output=nematode,True
+n0193011200001050.jpg,label=nematode,output=nematode,True
+n0193011200001248.jpg,label=nematode,output=nematode,True
+n0193011200000271.jpg,label=nematode,output=nematode,True
+n0193011200000595.jpg,label=nematode,output=nematode,True
+n0193011200001259.jpg,label=nematode,output=nematode,True
+n0193011200001118.jpg,label=nematode,output=nematode,True
+n0193011200000307.jpg,label=nematode,output=nematode,True
+n0193011200000476.jpg,label=nematode,output=nematode,True
+n0193011200000218.jpg,label=nematode,output=nematode,True
+n0193011200000971.jpg,label=nematode,output=nematode,True
+n0193011200000096.jpg,label=nematode,output=nematode,True
+
+n0212916500000334.jpg,label=lion,output=The lion is the correct category label for the provided image.,True
+n0212916500000643.jpg,label=lion,output=The image is most closely associated with the category label 'lion'.,True
+n0212916500000920.jpg,label=lion,output=The image is most closely associated with the category label 'lion'.,True
+n0212916500000560.jpg,label=lion,output=The image is most closely associated with the category label 'lion'.,True
+n0212916500000202.jpg,label=lion,output=lion,True
+n0212916500000026.jpg,label=lion,output=lion,True
+n0212916500000894.jpg,label=lion,output=The image is most closely associated with the category label 'lion'.,True
+n0212916500000248.jpg,label=lion,output=The lion is the correct category label for the provided image.,True
+n0212916500000373.jpg,label=lion,output=The image is most closely associated with the category 'lion'.,True
+n0212916500000336.jpg,label=lion,output=The image is most closely associated with the category label 'lion'.,True
+n0212916500000659.jpg,label=lion,output=lion,True
+n0212916500000239.jpg,label=lion,output=The lion is the correct category label for the provided image.,True
+n0212916500000119.jpg,label=lion,output=lion,True
+n0212916500000503.jpg,label=lion,output=The correct category label for the provided image is 'lion'.,True
+n0212916500000323.jpg,label=lion,output=The image is most closely associated with the category label 'lion'.,True
+
+n0244348400001227.jpg,label=black-footed_ferret,output=The correct category label for the given image is 'black-footed_ferret'.,True
+n0244348400000525.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001094.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001277.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000199.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000783.jpg,label=black-footed_ferret,output=The correct category label for the provided image is 'black-footed_ferret'.,True
+n0244348400000597.jpg,label=black-footed_ferret,output=The image is most closely associated with the category label 'black-footed_ferret'.,True
+n0244348400000807.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000988.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001217.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000347.jpg,label=black-footed_ferret,output=The image is most closely associated with the category label 'black-footed_ferret'.,True
+n0244348400000391.jpg,label=black-footed_ferret,output=Based on the provided image, it is not possible to determine an accurate category label as none of the options match the content of the image.,False
+n0244348400001062.jpg,label=black-footed_ferret,output=bookshop,False
+n0244348400000681.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000925.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+acc:  0.9733333333333334

@@ -1,0 +1,97 @@
+支持集的类别: ['golden_retriever', 'king_crab', 'crate', 'scoreboard', 'hourglass']
+测试集各类别: ['n02099601', 'n01981276', 'n03127925', 'n04149813', 'n03544143']
+支持集各图片:
+n02099601:['n0209960100000577.jpg']
+n01981276:['n0198127600000086.jpg']
+n03127925:['n0312792500000843.jpg']
+n04149813:['n0414981300000231.jpg']
+n03544143:['n0354414300000097.jpg']
+测试集各图片:
+n02099601:['n0209960100000170.jpg', 'n0209960100000950.jpg', 'n0209960100000333.jpg', 'n0209960100000732.jpg', 'n0209960100000312.jpg', 'n0209960100001043.jpg', 'n0209960100001284.jpg', 'n0209960100000256.jpg', 'n0209960100000082.jpg', 'n0209960100000015.jpg', 'n0209960100000909.jpg', 'n0209960100001135.jpg', 'n0209960100000959.jpg', 'n0209960100000484.jpg', 'n0209960100000206.jpg']
+n01981276:['n0198127600000923.jpg', 'n0198127600000515.jpg', 'n0198127600000615.jpg', 'n0198127600001247.jpg', 'n0198127600000014.jpg', 'n0198127600000358.jpg', 'n0198127600000949.jpg', 'n0198127600000545.jpg', 'n0198127600000048.jpg', 'n0198127600000091.jpg', 'n0198127600000035.jpg', 'n0198127600000579.jpg', 'n0198127600000271.jpg', 'n0198127600000888.jpg', 'n0198127600001240.jpg']
+n03127925:['n0312792500001066.jpg', 'n0312792500000188.jpg', 'n0312792500000962.jpg', 'n0312792500000161.jpg', 'n0312792500001183.jpg', 'n0312792500000762.jpg', 'n0312792500000496.jpg', 'n0312792500000462.jpg', 'n0312792500000241.jpg', 'n0312792500000976.jpg', 'n0312792500000463.jpg', 'n0312792500000018.jpg', 'n0312792500000791.jpg', 'n0312792500000303.jpg', 'n0312792500001055.jpg']
+n04149813:['n0414981300000547.jpg', 'n0414981300000227.jpg', 'n0414981300000797.jpg', 'n0414981300000629.jpg', 'n0414981300000945.jpg', 'n0414981300000266.jpg', 'n0414981300000384.jpg', 'n0414981300000195.jpg', 'n0414981300001031.jpg', 'n0414981300000616.jpg', 'n0414981300001223.jpg', 'n0414981300000582.jpg', 'n0414981300000615.jpg', 'n0414981300000513.jpg', 'n0414981300000690.jpg']
+n03544143:['n0354414300000949.jpg', 'n0354414300001002.jpg', 'n0354414300000957.jpg', 'n0354414300000096.jpg', 'n0354414300000720.jpg', 'n0354414300000366.jpg', 'n0354414300000851.jpg', 'n0354414300001173.jpg', 'n0354414300000630.jpg', 'n0354414300000218.jpg', 'n0354414300000565.jpg', 'n0354414300000970.jpg', 'n0354414300001238.jpg', 'n0354414300000347.jpg', 'n0354414300000146.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100000577.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'king_crab', 'crate', 'scoreboard', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'gold_retrieever'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600000086.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'king_crab', 'crate', 'scoreboard', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'king_crab'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0312792500000843.jpg'}, {'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'king_crab', 'crate', 'scoreboard', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'crate'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414981300000231.jpg'}, {'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'king_crab', 'crate', 'scoreboard', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'scoreboard'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0354414300000097.jpg'}, {'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'king_crab', 'crate', 'scoreboard', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'hourglass'}]}]
+
+n0209960100000170.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000950.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000333.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000732.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000312.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001043.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001284.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000256.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000082.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000015.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000909.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001135.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000959.jpg,label=golden_retriever,output=lion_cubs,False
+n0209960100000484.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000206.jpg,label=golden_retriever,output=golden_retriever,True
+
+n0198127600000923.jpg,label=king_crab,output=king_crab,True
+n0198127600000515.jpg,label=king_crab,output=king_crab,True
+n0198127600000615.jpg,label=king_crab,output=king_crab,True
+n0198127600001247.jpg,label=king_crab,output=king_crab,True
+n0198127600000014.jpg,label=king_crab,output=king_crab,True
+n0198127600000358.jpg,label=king_crab,output=king_crab,True
+n0198127600000949.jpg,label=king_crab,output=king_crab,True
+n0198127600000545.jpg,label=king_crab,output=king_crab,True
+n0198127600000048.jpg,label=king_crab,output=king_crab,True
+n0198127600000091.jpg,label=king_crab,output=king_crab,True
+n0198127600000035.jpg,label=king_crab,output=king_crab,True
+n0198127600000579.jpg,label=king_crab,output=king_crab,True
+n0198127600000271.jpg,label=king_crab,output=king_crab,True
+n0198127600000888.jpg,label=king_crab,output=king_crab,True
+n0198127600001240.jpg,label=king_crab,output=king_crab,True
+
+n0312792500001066.jpg,label=crate,output=wooden crate,True
+n0312792500000188.jpg,label=crate,output=crate,True
+n0312792500000962.jpg,label=crate,output=crate,True
+n0312792500000161.jpg,label=crate,output=crate,True
+n0312792500001183.jpg,label=crate,output=crate,True
+n0312792500000762.jpg,label=crate,output=crate,True
+n0312792500000496.jpg,label=crate,output=crate,True
+n0312792500000462.jpg,label=crate,output=crate,True
+n0312792500000241.jpg,label=crate,output=crate,True
+n0312792500000976.jpg,label=crate,output=crate,True
+n0312792500000463.jpg,label=crate,output=crate,True
+n0312792500000018.jpg,label=crate,output=golden_retriever,False
+n0312792500000791.jpg,label=crate,output=crate,True
+n0312792500000303.jpg,label=crate,output=crates,True
+n0312792500001055.jpg,label=crate,output=crate,True
+
+n0414981300000547.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000227.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000797.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000629.jpg,label=scoreboard,output=safe_t_fund,False
+n0414981300000945.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000266.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000384.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000195.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001031.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000616.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001223.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000582.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000615.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000513.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000690.jpg,label=scoreboard,output=scoreboard,True
+
+n0354414300000949.jpg,label=hourglass,output=hourglass,True
+n0354414300001002.jpg,label=hourglass,output=hourglass,True
+n0354414300000957.jpg,label=hourglass,output=hourglass,True
+n0354414300000096.jpg,label=hourglass,output=hourglass,True
+n0354414300000720.jpg,label=hourglass,output=hourglass,True
+n0354414300000366.jpg,label=hourglass,output=hourglass,True
+n0354414300000851.jpg,label=hourglass,output=hourglass,True
+n0354414300001173.jpg,label=hourglass,output=scoreboard,False
+n0354414300000630.jpg,label=hourglass,output=hourglass,True
+n0354414300000218.jpg,label=hourglass,output=golden_retriever,False
+n0354414300000565.jpg,label=hourglass,output=hourglass,True
+n0354414300000970.jpg,label=hourglass,output=hourglass,True
+n0354414300001238.jpg,label=hourglass,output=hourglass,True
+n0354414300000347.jpg,label=hourglass,output=crane,False
+n0354414300000146.jpg,label=hourglass,output=hourglass,True
+
+acc:  0.92

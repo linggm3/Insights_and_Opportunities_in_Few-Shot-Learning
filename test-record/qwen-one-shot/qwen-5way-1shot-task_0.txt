@@ -1,0 +1,253 @@
+支持集的类别: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus']
+测试集各类别: ['n03544143', 'n02099601', 'n03272010', 'n03127925', 'n04146614']
+支持集各图片:
+n03544143:['n0354414300000687.jpg']
+n02099601:['n0209960100000515.jpg']
+n03272010:['n0327201000000303.jpg']
+n03127925:['n0312792500000395.jpg']
+n04146614:['n0414661400000862.jpg']
+测试集各图片:
+n03544143:['n0354414300001249.jpg', 'n0354414300000123.jpg', 'n0354414300001133.jpg', 'n0354414300000336.jpg', 'n0354414300000259.jpg', 'n0354414300000061.jpg', 'n0354414300000232.jpg', 'n0354414300000348.jpg', 'n0354414300000208.jpg', 'n0354414300001098.jpg', 'n0354414300000596.jpg', 'n0354414300001233.jpg', 'n0354414300000649.jpg', 'n0354414300000116.jpg', 'n0354414300000028.jpg']
+n02099601:['n0209960100000634.jpg', 'n0209960100000589.jpg', 'n0209960100000236.jpg', 'n0209960100000625.jpg', 'n0209960100000535.jpg', 'n0209960100000958.jpg', 'n0209960100000983.jpg', 'n0209960100000931.jpg', 'n0209960100000045.jpg', 'n0209960100001077.jpg', 'n0209960100000962.jpg', 'n0209960100000717.jpg', 'n0209960100001106.jpg', 'n0209960100001089.jpg', 'n0209960100000465.jpg']
+n03272010:['n0327201000000023.jpg', 'n0327201000000761.jpg', 'n0327201000000502.jpg', 'n0327201000000421.jpg', 'n0327201000000252.jpg', 'n0327201000000009.jpg', 'n0327201000000494.jpg', 'n0327201000000346.jpg', 'n0327201000000888.jpg', 'n0327201000000841.jpg', 'n0327201000000853.jpg', 'n0327201000000004.jpg', 'n0327201000000982.jpg', 'n0327201000000128.jpg', 'n0327201000000609.jpg']
+n03127925:['n0312792500000420.jpg', 'n0312792500000050.jpg', 'n0312792500000502.jpg', 'n0312792500000237.jpg', 'n0312792500001106.jpg', 'n0312792500000300.jpg', 'n0312792500001253.jpg', 'n0312792500000874.jpg', 'n0312792500000029.jpg', 'n0312792500000415.jpg', 'n0312792500000115.jpg', 'n0312792500001133.jpg', 'n0312792500000674.jpg', 'n0312792500000657.jpg', 'n0312792500000343.jpg']
+n04146614:['n0414661400000212.jpg', 'n0414661400001219.jpg', 'n0414661400000490.jpg', 'n0414661400000919.jpg', 'n0414661400000803.jpg', 'n0414661400000228.jpg', 'n0414661400001220.jpg', 'n0414661400001288.jpg', 'n0414661400000099.jpg', 'n0414661400000746.jpg', 'n0414661400000927.jpg', 'n0414661400001165.jpg', 'n0414661400000837.jpg', 'n0414661400000382.jpg', 'n0414661400001101.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0354414300000687.jpg'}, {'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The image is of an hourglass. Embedding the Category Label '*hourglass*' for this image. Inference during deployment should return one of the following labels exactly: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'].\n\nI will now associate the given image with the appropriate category:\n(hourglass)"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100000515.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The image features a golden retriever dog resting peacefully. Embedding the Category Label '*golden_retriever*' for this image. Inference during deployment should return one of the following labels exactly: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'].\n\nI will now associate the given image with the appropriate category:\n(golden_retriever)"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000303.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "This image showcases an electric guitar in black color. Embedding the Category Label '*electric_guitar*' for this image. Inference during deployment should return one of the following labels exactly: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'].\n\nI will now associate the given image with the appropriate category:\n(electric_guitar)"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0312792500000395.jpg'}, {'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "In the image, there's a crate filled with pinecones. The crate serves as both storage container and decorative element. Embedding the Category Label '*crate*' for this image. Inference during deployment should return one of the following labels exactly: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'].\n\nI will now associate the given image with the appropriate category:\n(crate)"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000862.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The image shows a yellow school bus parked along a street next to some buildings. It appears that it has just dropped off or picked up students at their respective schools. Embedding the Category Label '*school_bus*' for this image. Inference during deployment should return one of the following labels exactly: ['hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'].\n\nI will now associate the given image with the appropriate category:\n(school_bus)"}]}]
+
+n0354414300001249.jpg,label=hourglass,output=(hourglass),True
+n0354414300000123.jpg,label=hourglass,output=(hourglass),True
+n0354414300001133.jpg,label=hourglass,output=Based on my previous knowledge update about different categories, I can confidently say that the given image depicts two hourglasses placed side by side against a dark background. Therefore, the most suitable category label representing this image would be:
+
+(hourglass),True
+n0354414300000336.jpg,label=hourglass,output=(hourglass),True
+n0354414300000259.jpg,label=hourglass,output=(hourglass),True
+n0354414300000061.jpg,label=hourglass,output=(hourglass),True
+n0354414300000232.jpg,label=hourglass,output=(hourglass),True
+n0354414300000348.jpg,label=hourglass,output=Based on my previous knowledge about the categories provided ('hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'), I can confidently say that the most suitable category representing the given image would be:
+
+(brass candlestick holder),True
+n0354414300000208.jpg,label=hourglass,output=(hourglass),True
+n0354414300001098.jpg,label=hourglass,output=(hourglass),True
+n0354414300000596.jpg,label=hourglass,output=(hourglass),True
+n0354414300001233.jpg,label=hourglass,output=(hourglass),True
+n0354414300000649.jpg,label=hourglass,output=(hourglass),True
+n0354414300000116.jpg,label=hourglass,output=(hourglass),True
+n0354414300000028.jpg,label=hourglass,output=Based on my previous knowledge update, I can confidently say that the image contains two wine glasses side by side. Therefore, the most suitable category label for this image would be:
+
+(wine glass),False
+
+n0209960100000634.jpg,label=golden_retriever,output=Based on my previous knowledge update about dogs, I can confidently say that the puppy in the image is most likely a Golden Retriever breed due to its appearance and characteristics. Therefore:
+
+(puppy),True
+n0209960100000589.jpg,label=golden_retriever,output=Based on my previous knowledge update about dogs, I can confidently say that the three golden retrievers in the image belong to the "golden_retriever" category. So the answer would be:
+
+(golden_retriever),True
+n0209960100000236.jpg,label=golden_retriever,output=Based on my previous knowledge update about dogs, I can confidently say that the given image depicts a Golden Retriever puppy lying down comfortably indoors.
+So the answer is: 
+(golden_retriever),True
+n0209960100000625.jpg,label=golden_retriever,output=Based on my previous knowledge update about animal categories, I can confidently say that the image contains a Golden Retriever dog. Therefore, the most suitable category label for this image would be:
+
+(golden_retriever),True
+n0209960100000535.jpg,label=golden_retriever,output=Based on my previous knowledge about the categories represented by these labels:
+
+- *hourglass*
+- *golden_retriever*
+- *electric_guitar*
+- *crate*
+- *school_bus*
+
+The most suitable category label representing the given image would be "golden_retriever" because the image prominently displays a Golden Retriever dog. So the expected output is:
+
+(golden_retriever),True
+n0209960100000958.jpg,label=golden_retriever,output=Based on my previous knowledge update about dogs, I can confidently say that the image contains a Golden Retriever walking outside near a garden hose. Therefore, the most suitable category label for this image would be:
+
+(golden_retriever),True
+n0209960100000983.jpg,label=golden_retriever,output=Based on my previous knowledge update about dogs, I can confidently say that the image contains a Golden Retriever breed of dog. Therefore, the most suitable category label for this image would be:
+
+(golden_retriever),True
+n0209960100000931.jpg,label=golden_retriever,output=Based on my previous knowledge update about different categories, I can confidently say that the given image depicts a **Golden Retriever puppy**, which falls under the "golden_retriever" category. So the answer would be:
+
+(golden_retriever),True
+n0209960100000045.jpg,label=golden_retriever,output=Based on my previous knowledge update about animal categories, I can confidently say that the image contains a Golden Retriever dog. Therefore, the most suitable category label representing the image would be:
+
+(golden_retriever),True
+n0209960100001077.jpg,label=golden_retriever,output=Based on my previous knowledge update about animals, I can confidently say that the image contains a Golden Retriever sitting by the water. Therefore, the most suitable category label for this image would be:
+
+(golden_retriever),True
+n0209960100000962.jpg,label=golden_retriever,output=Based on my previous knowledge about images, I can confidently say that the image contains a puppy inside a basket. Therefore, the most suitable category label would be:
+
+(puppy),False
+n0209960100000717.jpg,label=golden_retriever,output=Based on my previous knowledge about the categories provided ('hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'), I can confidently say that the most suitable category representing the given image would be "golden_retriever". This is because the image prominently displays a young Golden Retriever standing near its shadow against a wall background. Therefore:
+
+(golden_retriever),True
+n0209960100001106.jpg,label=golden_retriever,output=Based on my previous knowledge update, I can confidently say that the image depicts a Golden Retriever puppy sleeping inside a room. Therefore, the most suitable category label for this image would be:
+
+(golden_retriever),True
+n0209960100001089.jpg,label=golden_retriever,output=Based on my previous knowledge update about dogs, I can confidently say that the two small brown dogs sitting together on a couch represent the category "golden_retriever". So the answer would be:
+
+(golden_retriever),True
+n0209960100000465.jpg,label=golden_retriever,output=Based on my previous knowledge update, I can confidently say that the image depicts a **golden retriever**, which matches the provided category label "golden_retriever". So the answer would be:
+
+(golden_retriever),True
+
+n0327201000000023.jpg,label=electric_guitar,output=Based on my previous knowledge update about the categories, I can confidently say that the image depicts someone playing an instrument called "keyboard". Therefore, the most suitable category label would be:
+
+(keyboard),False
+n0327201000000761.jpg,label=electric_guitar,output=Based on my knowledge base, I can confidently say that the image depicts an **electric guitar**, which matches the provided category list.
+Output: (electric_guitar),True
+n0327201000000502.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the person in the image is playing an **electric guitar**, which matches the provided category list:
+
+(electric_guitar),True
+n0327201000000421.jpg,label=electric_guitar,output=Based on my knowledge base, I can confidently say that the image depicts someone playing an electric guitar. Therefore, the most suitable category label would be "electric_guitar".,True
+n0327201000000252.jpg,label=electric_guitar,output=Based on my previous knowledge about the categories provided ('hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'), I can confidently say that the most suitable category representing the given image would be:
+
+(electric_guitar),True
+n0327201000000009.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the object depicted in the image is an *electric guitar*. Therefore:
+
+(image): electric_guitar,True
+n0327201000000494.jpg,label=electric_guitar,output=Based on my previous knowledge about the categories provided ('hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'), I can confidently say that the most suitable category representing the given image would be:
+
+(electric_guitar)
+
+Reasoning behind choosing this category includes the presence of multiple people playing musical instruments, specifically guitars, which aligns well with the description "electronic guitar".,True
+n0327201000000346.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the image depicts an electric bass guitar. Therefore, the most suitable category label for this image would be:
+
+(electric_guitar),True
+n0327201000000888.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the image depicts an Electric Guitar. Therefore:
+
+(image) = (electric_guitar),True
+n0327201000000841.jpg,label=electric_guitar,output=Based on my previous knowledge update about music-related categories, I can confidently say that the person playing the instrument in the image is likely performing live music using his electric guitar. Therefore, the most suitable category label for this image would be:
+
+(electric_guitar),True
+n0327201000000853.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the image depicts an *electric guitar*. Therefore:
+
+(image): electric_guitar,True
+n0327201000000004.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the given image depicts an **electric guitar**, specifically a type known as "B.C. Rich Warlock". Therefore:
+
+(electric_guitar),True
+n0327201000000982.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the person in the photo is playing an **electric guitar**, which matches the provided list of categories:
+
+- Hourglass
+- Golden Retriever
+- Electric Guitar
+- Crate
+- School Bus
+
+Therefore, the most suitable category label representing the given image would be "Electric Guitar".,True
+n0327201000000128.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the person in the image is playing an **electric guitar**, which falls under the category "electric_guitar". Therefore:
+
+(electric_guitar),True
+n0327201000000609.jpg,label=electric_guitar,output=Based on my previous knowledge update about musical instruments, I can confidently say that the given image depicts an *electric guitar*. Therefore:
+
+(image): Electric Guitar
+
+Output: (electric_guitar),True
+
+n0312792500000420.jpg,label=crate,output=Based on my previous knowledge update about wooden crates, I can confidently say that the image depicts a crate made out of wood. Therefore, the most suitable category label for this image would be:
+
+(crate),True
+n0312792500000050.jpg,label=crate,output=Based on my previous knowledge about the categories provided ('hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'), I can confidently say that the most suitable category representing the given image would be:
+
+(crate)
+
+Reasoning behind choosing "crate" as the representative category could include the presence of wooden crates in the image which might suggest transportation or storage purposes. However, without more context or specific details within the image itself, we cannot definitively determine if these crates contain any particular items like musical instruments, animals, vehicles, etc., hence why other options were not chosen here.,True
+n0312792500000502.jpg,label=crate,output=Based on my previous knowledge update about crates, I can confidently say that the image depicts a wooden crate. Therefore, the accurate category label representing the given image would be:
+
+(crate),True
+n0312792500000237.jpg,label=crate,output=Based on my previous knowledge update about the categories, I can confidently say that the image contains multiple drawers stacked vertically against a wall. Therefore, the most suitable category label representing this image would be:
+
+(drawer),False
+n0312792500001106.jpg,label=crate,output=Based on my previous knowledge update about the categories available ('hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'), I can confidently say that the most suitable category representing the given image would be:
+
+(crate)
+
+Reasoning behind choosing "crate" as the representative category could include the presence of multiple items stacked together inside what seems like a wooden box or crate-like structure. This arrangement suggests organization and storage purposes typical of crates.,True
+n0312792500000300.jpg,label=crate,output=Based on my previous knowledge about the categories represented by these labels, I can confidently say that the most suitable category for the given image would be "crates". This is because the image prominently displays a wooden crate full of fresh produce, which aligns well with the concept associated with the "crates" category.
+Output: (crate),True
+n0312792500001253.jpg,label=crate,output=Based on my previous knowledge update about crates containing green beans, I can confidently say that the image depicts two wooden crates full of fresh green beans. Therefore, the most suitable category label for this image would be:
+
+(crate),True
+n0312792500000874.jpg,label=crate,output=Based on my previous knowledge about the categories represented by these labels, I can confidently say that the image contains crates. Therefore:
+
+(crates),True
+n0312792500000029.jpg,label=crate,output=Based on my previous knowledge about the categories provided ('hourglass', 'golden_retriever', 'electric_guitar', 'crate', 'school_bus'), I can confidently say that the most suitable category representing the given image would be:
+
+(crate)
+
+Reasoning behind choosing "crate" as the representative category could include the presence of wooden planks forming a box-like structure which resembles crates commonly used for transporting goods.,True
+n0312792500000415.jpg,label=crate,output=Based on my previous knowledge about the categories represented by these keywords:
+
+- Hourglass
+- Golden Retriever
+- Electric Guitar
+- Crate
+- School Bus
+
+For the provided image "a wooden box with rope handles", I can confidently say that the most suitable category would be **Crate**, since crates often have similar construction materials like wood and may include rope handles for easy carrying. So the answer here would be:
+
+(Crate),True
+n0312792500000115.jpg,label=crate,output=Based on my previous knowledge update about the different categories, I can confidently say that the given image belongs to the **"hourglass"** category. So the answer would be:
+
+(hourglass),False
+n0312792500001133.jpg,label=crate,output=Based on my previous knowledge update about the categories, I can confidently say that the image depicts a wooden fence made out of horizontal planks. Therefore, the most suitable category label would be:
+
+(fence),False
+n0312792500000674.jpg,label=crate,output=Based on my previous knowledge update about the categories, I can confidently say that the image depicts a **wooden block structure**, which matches the "brick" option provided earlier.
+Output: brick,False
+n0312792500000657.jpg,label=crate,output=Based on my previous knowledge update about the categories, I can confidently say that the given image belongs to the "crates" category.
+Output: (crate),True
+n0312792500000343.jpg,label=crate,output=Based on my previous knowledge update about crates, I can confidently say that the image depicts multiple wooden crates stacked together outdoors. Therefore, the most suitable category label for this image would be:
+
+(crate),True
+
+n0414661400000212.jpg,label=school_bus,output=The image displays several old school buses lined up together outdoors. They appear worn out and not currently being used. Based on the provided categories, I can confidently say:
+
+Given Image Category: **(school_buses)**,True
+n0414661400001219.jpg,label=school_bus,output=Based on my previous knowledge update about the different categories represented by these labels, I can confidently say that the image depicts a **yellow school bus** driving down a city street near Brooklyn Bridge in New York City.
+Therefore, the most suitable category label representing the image would be:
+
+**(school_bus)**
+
+Please note that this answer was generated based on the information provided earlier; if new details were added since then, please provide them so I may revise my response accordingly.,True
+n0414661400000490.jpg,label=school_bus,output=Based on my previous knowledge update about categories, I can confidently say that the image depicts a **school_bus**, which is represented by the label `school_bus`.,True
+n0414661400000919.jpg,label=school_bus,output=Based on my previous knowledge about the categories represented by these labels, I can confidently say that the image depicts:
+
+(school_bus)
+
+Therefore, the answer is:
+
+(school_bus),True
+n0414661400000803.jpg,label=school_bus,output=Based on my previous knowledge update about different categories, I can confidently say that the image depicts a **school bus**, which falls under the "vehicle" category. So the answer would be:
+
+(school_bus),True
+n0414661400000228.jpg,label=school_bus,output=Based on my previous knowledge update about categories, I can confidently say that the image depicts a **yellow school bus**, which falls under the "school_bus" category. So the answer would be:
+
+(school_bus),True
+n0414661400001220.jpg,label=school_bus,output=Based on my previous knowledge update about categories, I can confidently say that the image depicts an old abandoned truck. Therefore, the most suitable category label would be:
+
+(old_truck),False
+n0414661400001288.jpg,label=school_bus,output=Based on my previous knowledge update about buses, I can confidently say that the image contains two double-decker buses. Therefore, the most suitable category label for this image would be:
+
+(double decker bus),False
+n0414661400000099.jpg,label=school_bus,output=Based on my knowledge base, I can confidently say that the image depicts Transformers characters. Therefore, the most suitable category label would be:
+
+(transformers),False
+n0414661400000746.jpg,label=school_bus,output=Based on my previous knowledge update about categories, I can confidently say that the image contains a **yellow school bus**, which matches the "school_bus" category perfectly. So the answer would be:
+
+(school_bus),True
+n0414661400000927.jpg,label=school_bus,output=Based on my previous knowledge update about different categories, I can confidently say that the image depicts a **yellow school bus**, which falls under the "school_bus" category. So the answer would be:
+
+(school_bus),True
+n0414661400001165.jpg,label=school_bus,output=Based on my previous knowledge about the different categories, I can confidently say that the given image belongs to the "School Bus" class.
+Output: school_bus,True
+n0414661400000837.jpg,label=school_bus,output=Based on my previous knowledge update about different categories, I can confidently say that the image depicts a **yellow school bus**, which falls under the "school_bus" category. So the answer would be:
+
+(school_bus),True
+n0414661400000382.jpg,label=school_bus,output=Based on my previous knowledge update about different categories, I can confidently say that the image depicts two buses parked side by side in what seems like a parking lot. Therefore, the most suitable category label representing this image would be "bus". However, since we only have options related to specific types of vehicles such as "hourglass", "golden_retriever", "electric_guitar", "crate" and "school_bus", none of these directly represent a general term for all kinds of buses. So based on our current choices, no exact answer exists within those provided categories.,True
+n0414661400001101.jpg,label=school_bus,output=Based on my previous knowledge update about the different categories represented by these labels, I can confidently say that the most suitable category for the given image would be "school_bus". This is because the image prominently displays a yellow school bus which aligns well with the definition provided earlier - "*a large vehicle used to transport children between home and school*".
+
+Therefore, the answer is:
+
+(school_bus),True
+
+acc:  0.8666666666666667

@@ -1,0 +1,100 @@
+D:\Anaconda\envs\test\python.exe C:/Users/linggm/Desktop/test/qwen-few-shot-many-single.py
+支持集的类别: ['mixing_bowl', 'African_hunting_dog', 'trifle', 'theater_curtain', 'golden_retriever']
+测试集各类别: ['n03775546', 'n02116738', 'n07613480', 'n04418357', 'n02099601']
+支持集各图片:
+n03775546:['n0377554600000476.jpg']
+n02116738:['n0211673800000493.jpg']
+n07613480:['n0761348000001279.jpg']
+n04418357:['n0441835700000082.jpg']
+n02099601:['n0209960100000269.jpg']
+测试集各图片:
+n03775546:['n0377554600000069.jpg', 'n0377554600000190.jpg', 'n0377554600001111.jpg', 'n0377554600001086.jpg', 'n0377554600000322.jpg', 'n0377554600001005.jpg', 'n0377554600000480.jpg', 'n0377554600000377.jpg', 'n0377554600000446.jpg', 'n0377554600000359.jpg', 'n0377554600000537.jpg', 'n0377554600000158.jpg', 'n0377554600000553.jpg', 'n0377554600000369.jpg', 'n0377554600000395.jpg']
+n02116738:['n0211673800000195.jpg', 'n0211673800001177.jpg', 'n0211673800000880.jpg', 'n0211673800000055.jpg', 'n0211673800000542.jpg', 'n0211673800000670.jpg', 'n0211673800000569.jpg', 'n0211673800001280.jpg', 'n0211673800000031.jpg', 'n0211673800000466.jpg', 'n0211673800000980.jpg', 'n0211673800000683.jpg', 'n0211673800001238.jpg', 'n0211673800000543.jpg', 'n0211673800001226.jpg']
+n07613480:['n0761348000000888.jpg', 'n0761348000001060.jpg', 'n0761348000000535.jpg', 'n0761348000000267.jpg', 'n0761348000001035.jpg', 'n0761348000000153.jpg', 'n0761348000000693.jpg', 'n0761348000000999.jpg', 'n0761348000000283.jpg', 'n0761348000000165.jpg', 'n0761348000000969.jpg', 'n0761348000000411.jpg', 'n0761348000000748.jpg', 'n0761348000000440.jpg', 'n0761348000001072.jpg']
+n04418357:['n0441835700000174.jpg', 'n0441835700000373.jpg', 'n0441835700000414.jpg', 'n0441835700000580.jpg', 'n0441835700000190.jpg', 'n0441835700000127.jpg', 'n0441835700001104.jpg', 'n0441835700000039.jpg', 'n0441835700000478.jpg', 'n0441835700000590.jpg', 'n0441835700001235.jpg', 'n0441835700000747.jpg', 'n0441835700001156.jpg', 'n0441835700001168.jpg', 'n0441835700000463.jpg']
+n02099601:['n0209960100000418.jpg', 'n0209960100000633.jpg', 'n0209960100001182.jpg', 'n0209960100001080.jpg', 'n0209960100000877.jpg', 'n0209960100001261.jpg', 'n0209960100000522.jpg', 'n0209960100000936.jpg', 'n0209960100000540.jpg', 'n0209960100001056.jpg', 'n0209960100000893.jpg', 'n0209960100000083.jpg', 'n0209960100000869.jpg', 'n0209960100000817.jpg', 'n0209960100000019.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0377554600000476.jpg'}, {'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'African_hunting_dog', 'trifle', 'theater_curtain', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'mixing_bowl'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000493.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'African_hunting_dog', 'trifle', 'theater_curtain', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'African_hunting_dog'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000001279.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'African_hunting_dog', 'trifle', 'theater_curtain', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'trifle'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000082.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'African_hunting_dog', 'trifle', 'theater_curtain', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'theater_curtain'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100000269.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'African_hunting_dog', 'trifle', 'theater_curtain', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'golden_retriever'"}]}]
+
+n0377554600000069.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000190.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001111.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001086.jpg,label=mixing_bowl,output=(trifle),False
+n0377554600000322.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001005.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000480.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000377.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000446.jpg,label=mixing_bowl,output='refrigerator',False
+n0377554600000359.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000537.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000158.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000553.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000369.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000395.jpg,label=mixing_bowl,output='reflection',False
+
+n0211673800000195.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800001177.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800000880.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000055.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000542.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800000670.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800000569.jpg,label=African_hunting_dog,output='African_hunting_dog',True
+n0211673800001280.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000031.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000466.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000980.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000683.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001238.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000543.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001226.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+n0761348000000888.jpg,label=trifle,output=trifle,True
+n0761348000001060.jpg,label=trifle,output=trifle,True
+n0761348000000535.jpg,label=trifle,output='recipe',False
+n0761348000000267.jpg,label=trifle,output='recipe',False
+n0761348000001035.jpg,label=trifle,output='red velvet cake trifle',True
+n0761348000000153.jpg,label=trifle,output=trifle,True
+n0761348000000693.jpg,label=trifle,output=(trifle),True
+n0761348000000999.jpg,label=trifle,output=trifle,True
+n0761348000000283.jpg,label=trifle,output=trifle,True
+n0761348000000165.jpg,label=trifle,output='refrigerator_tray',False
+n0761348000000969.jpg,label=trifle,output=(trifle),True
+n0761348000000411.jpg,label=trifle,output=trifle,True
+n0761348000000748.jpg,label=trifle,output='recipe_for_a_mocha_cheesecake_with_chocolate_fudge_layer_and_strawberry_preserves',False
+n0761348000000440.jpg,label=trifle,output='recipe_for_trifle_with_chocolate_and_rum',True
+n0761348000001072.jpg,label=trifle,output=(trifle),True
+
+n0441835700000174.jpg,label=theater_curtain,output='theater_curtain',True
+n0441835700000373.jpg,label=theater_curtain,output='restaurant',False
+n0441835700000414.jpg,label=theater_curtain,output='red_umbrella',False
+n0441835700000580.jpg,label=theater_curtain,output='recessed ceiling lights',False
+n0441835700000190.jpg,label=theater_curtain,output='red curtain',False
+n0441835700000127.jpg,label=theater_curtain,output='restaurant',False
+n0441835700001104.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000039.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000478.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000590.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001235.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000747.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001156.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001168.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000463.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0209960100000418.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000633.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001182.jpg,label=golden_retriever,output=(African_hunting_dog),False
+n0209960100001080.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000877.jpg,label=golden_retriever,output=(African_hunting_dog),False
+n0209960100001261.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000522.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000936.jpg,label=golden_retriever,output='golden_retriever',True
+n0209960100000540.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001056.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000893.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000083.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000869.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000817.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000019.jpg,label=golden_retriever,output=golden_retriever,True
+
+acc:  0.8133333333333334
+
+进程已结束,退出代码0

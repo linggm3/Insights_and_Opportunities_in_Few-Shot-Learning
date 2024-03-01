@@ -1,0 +1,97 @@
+支持集的类别: ['theater_curtain', 'nematode', 'cuirass', 'ant', 'African_hunting_dog']
+测试集各类别: ['n04418357', 'n01930112', 'n03146219', 'n02219486', 'n02116738']
+支持集各图片:
+n04418357:['n0441835700000231.jpg']
+n01930112:['n0193011200000185.jpg']
+n03146219:['n0314621900000637.jpg']
+n02219486:['n0221948600000984.jpg']
+n02116738:['n0211673800000109.jpg']
+测试集各图片:
+n04418357:['n0441835700000926.jpg', 'n0441835700000147.jpg', 'n0441835700001070.jpg', 'n0441835700000867.jpg', 'n0441835700000717.jpg', 'n0441835700000252.jpg', 'n0441835700000396.jpg', 'n0441835700000645.jpg', 'n0441835700000472.jpg', 'n0441835700001072.jpg', 'n0441835700000240.jpg', 'n0441835700001193.jpg', 'n0441835700000670.jpg', 'n0441835700000286.jpg', 'n0441835700000497.jpg']
+n01930112:['n0193011200001239.jpg', 'n0193011200001268.jpg', 'n0193011200000955.jpg', 'n0193011200001080.jpg', 'n0193011200000868.jpg', 'n0193011200000664.jpg', 'n0193011200001104.jpg', 'n0193011200000736.jpg', 'n0193011200000742.jpg', 'n0193011200000313.jpg', 'n0193011200001143.jpg', 'n0193011200000476.jpg', 'n0193011200000389.jpg', 'n0193011200000471.jpg', 'n0193011200000737.jpg']
+n03146219:['n0314621900000386.jpg', 'n0314621900000773.jpg', 'n0314621900001166.jpg', 'n0314621900000825.jpg', 'n0314621900000931.jpg', 'n0314621900000759.jpg', 'n0314621900000955.jpg', 'n0314621900000967.jpg', 'n0314621900000740.jpg', 'n0314621900000518.jpg', 'n0314621900000329.jpg', 'n0314621900001180.jpg', 'n0314621900001147.jpg', 'n0314621900000873.jpg', 'n0314621900000158.jpg']
+n02219486:['n0221948600000052.jpg', 'n0221948600000139.jpg', 'n0221948600000471.jpg', 'n0221948600000929.jpg', 'n0221948600000281.jpg', 'n0221948600000849.jpg', 'n0221948600000442.jpg', 'n0221948600000302.jpg', 'n0221948600001127.jpg', 'n0221948600000165.jpg', 'n0221948600001086.jpg', 'n0221948600000857.jpg', 'n0221948600000253.jpg', 'n0221948600000514.jpg', 'n0221948600001191.jpg']
+n02116738:['n0211673800001051.jpg', 'n0211673800001143.jpg', 'n0211673800001104.jpg', 'n0211673800000459.jpg', 'n0211673800000927.jpg', 'n0211673800000512.jpg', 'n0211673800000073.jpg', 'n0211673800000649.jpg', 'n0211673800000604.jpg', 'n0211673800001300.jpg', 'n0211673800000966.jpg', 'n0211673800000362.jpg', 'n0211673800000393.jpg', 'n0211673800000473.jpg', 'n0211673800000820.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000231.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'nematode', 'cuirass', 'ant', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'theater_curtain'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000185.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'nematode', 'cuirass', 'ant', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'nematode'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000637.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'nematode', 'cuirass', 'ant', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'cuirass'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0221948600000984.jpg'}, {'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'nematode', 'cuirass', 'ant', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'ant'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000109.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'nematode', 'cuirass', 'ant', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'African_hunting_dog'}]}]
+
+n0441835700000926.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000147.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001070.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000867.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000717.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000252.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000396.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000645.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000472.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001072.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000240.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001193.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000670.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000286.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000497.jpg,label=theater_curtain,output=theater_curtain,True
+
+n0193011200001239.jpg,label=nematode,output=nematode,True
+n0193011200001268.jpg,label=nematode,output=nematode,True
+n0193011200000955.jpg,label=nematode,output=nematode,True
+n0193011200001080.jpg,label=nematode,output=nematode,True
+n0193011200000868.jpg,label=nematode,output=theater_curtain,False
+n0193011200000664.jpg,label=nematode,output=nematode,True
+n0193011200001104.jpg,label=nematode,output=nematode,True
+n0193011200000736.jpg,label=nematode,output=nematode,True
+n0193011200000742.jpg,label=nematode,output=nematode,True
+n0193011200000313.jpg,label=nematode,output=theater_curtain,False
+n0193011200001143.jpg,label=nematode,output=(none),False
+n0193011200000476.jpg,label=nematode,output=nematode,True
+n0193011200000389.jpg,label=nematode,output=nematode,True
+n0193011200000471.jpg,label=nematode,output=nematode,True
+n0193011200000737.jpg,label=nematode,output=nematode,True
+
+n0314621900000386.jpg,label=cuirass,output=cuirass,True
+n0314621900000773.jpg,label=cuirass,output=cuirass,True
+n0314621900001166.jpg,label=cuirass,output=theater_curtain,False
+n0314621900000825.jpg,label=cuirass,output=cuirass,True
+n0314621900000931.jpg,label=cuirass,output=cuirass,True
+n0314621900000759.jpg,label=cuirass,output=cuirass,True
+n0314621900000955.jpg,label=cuirass,output=cuirass,True
+n0314621900000967.jpg,label=cuirass,output=cuirass,True
+n0314621900000740.jpg,label=cuirass,output=theater_curtain,False
+n0314621900000518.jpg,label=cuirass,output=theater_curtain,False
+n0314621900000329.jpg,label=cuirass,output=cuirass,True
+n0314621900001180.jpg,label=cuirass,output=cuirass,True
+n0314621900001147.jpg,label=cuirass,output=cuirass,True
+n0314621900000873.jpg,label=cuirass,output=cuirass,True
+n0314621900000158.jpg,label=cuirass,output=cuirass,True
+
+n0221948600000052.jpg,label=ant,output=ant,True
+n0221948600000139.jpg,label=ant,output=leaf,False
+n0221948600000471.jpg,label=ant,output=ant,True
+n0221948600000929.jpg,label=ant,output=ant,True
+n0221948600000281.jpg,label=ant,output=ant,True
+n0221948600000849.jpg,label=ant,output=ant,True
+n0221948600000442.jpg,label=ant,output=ant,True
+n0221948600000302.jpg,label=ant,output=ant,True
+n0221948600001127.jpg,label=ant,output=ant,True
+n0221948600000165.jpg,label=ant,output=ant,True
+n0221948600001086.jpg,label=ant,output=fly fishing fly tying hackle feather black gold pheasant tail,True
+n0221948600000857.jpg,label=ant,output=ant,True
+n0221948600000253.jpg,label=ant,output=dragonfly,False
+n0221948600000514.jpg,label=ant,output=ant,True
+n0221948600001191.jpg,label=ant,output=ant,True
+
+n0211673800001051.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001143.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001104.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000459.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000927.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000512.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000073.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000649.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000604.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001300.jpg,label=African_hunting_dog,output=dog,False
+n0211673800000966.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000362.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000393.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000473.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000820.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+acc:  0.88

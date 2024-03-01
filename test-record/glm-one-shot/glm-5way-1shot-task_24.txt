@@ -1,0 +1,97 @@
+支持集的类别: ['bookshop', 'vase', 'cuirass', 'school_bus', 'lion']
+测试集各类别: ['n02871525', 'n04522168', 'n03146219', 'n04146614', 'n02129165']
+支持集各图片:
+n02871525:['n0287152500000720.jpg']
+n04522168:['n0452216800000500.jpg']
+n03146219:['n0314621900000282.jpg']
+n04146614:['n0414661400000078.jpg']
+n02129165:['n0212916500000443.jpg']
+测试集各图片:
+n02871525:['n0287152500000066.jpg', 'n0287152500001049.jpg', 'n0287152500000921.jpg', 'n0287152500000058.jpg', 'n0287152500000620.jpg', 'n0287152500000062.jpg', 'n0287152500000840.jpg', 'n0287152500000203.jpg', 'n0287152500000023.jpg', 'n0287152500000516.jpg', 'n0287152500000646.jpg', 'n0287152500000766.jpg', 'n0287152500000401.jpg', 'n0287152500000944.jpg', 'n0287152500000450.jpg']
+n04522168:['n0452216800000318.jpg', 'n0452216800001137.jpg', 'n0452216800000181.jpg', 'n0452216800000023.jpg', 'n0452216800000345.jpg', 'n0452216800000303.jpg', 'n0452216800000020.jpg', 'n0452216800001192.jpg', 'n0452216800000790.jpg', 'n0452216800000077.jpg', 'n0452216800000319.jpg', 'n0452216800000043.jpg', 'n0452216800000474.jpg', 'n0452216800000577.jpg', 'n0452216800001278.jpg']
+n03146219:['n0314621900001286.jpg', 'n0314621900000825.jpg', 'n0314621900001105.jpg', 'n0314621900001287.jpg', 'n0314621900001032.jpg', 'n0314621900001100.jpg', 'n0314621900001255.jpg', 'n0314621900001201.jpg', 'n0314621900000058.jpg', 'n0314621900000155.jpg', 'n0314621900001180.jpg', 'n0314621900000402.jpg', 'n0314621900000791.jpg', 'n0314621900001153.jpg', 'n0314621900001278.jpg']
+n04146614:['n0414661400000991.jpg', 'n0414661400000651.jpg', 'n0414661400000232.jpg', 'n0414661400000401.jpg', 'n0414661400000946.jpg', 'n0414661400000393.jpg', 'n0414661400000606.jpg', 'n0414661400001188.jpg', 'n0414661400001265.jpg', 'n0414661400000583.jpg', 'n0414661400000325.jpg', 'n0414661400000036.jpg', 'n0414661400000953.jpg', 'n0414661400000223.jpg', 'n0414661400000267.jpg']
+n02129165:['n0212916500000136.jpg', 'n0212916500000720.jpg', 'n0212916500001094.jpg', 'n0212916500000189.jpg', 'n0212916500000659.jpg', 'n0212916500000406.jpg', 'n0212916500001244.jpg', 'n0212916500000149.jpg', 'n0212916500000142.jpg', 'n0212916500001059.jpg', 'n0212916500000939.jpg', 'n0212916500001061.jpg', 'n0212916500000816.jpg', 'n0212916500001030.jpg', 'n0212916500000988.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000720.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727975&Signature=FnjTcuAY9D1GisHsw0NbpyLMe5U%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'vase', 'cuirass', 'school_bus', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'bookshop'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800000500.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727977&Signature=l1ZlgQF652Rzk5vxWr4iHKk1HUs%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'vase', 'cuirass', 'school_bus', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'vase'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900000282.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727978&Signature=frnOWKmzgu583ROy2gIABNA41lw%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'vase', 'cuirass', 'school_bus', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000078.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727980&Signature=%2BRcj9iMqWNLpKT9eaLpeQnm6hfY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'vase', 'cuirass', 'school_bus', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000443.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727982&Signature=LfshkDtiKu4QhYYWpAx%2B9dM351o%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'vase', 'cuirass', 'school_bus', 'lion']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'lion'."}]
+
+n0287152500000066.jpg,label=bookshop,output=The image appears to depict an indoor setting with bookshelves filled with books. Therefore, the most appropriate category label for this image would be 'bookshop'.,True
+n0287152500001049.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000921.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000058.jpg,label=bookshop,output=The image appears to depict an interior view of a bookshop or library.,True
+n0287152500000620.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000062.jpg,label=bookshop,output=The image does not contain any objects or elements that can be directly identified as being related to the categories provided. Therefore, it's challenging to determine an exact category based on the given options.,False
+n0287152500000840.jpg,label=bookshop,output=The image does not clearly depict any of the categories listed in the options provided.,False
+n0287152500000203.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000023.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000516.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000646.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000766.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000401.jpg,label=bookshop,output=The image most closely resembles a 'bookshop'.,True
+n0287152500000944.jpg,label=bookshop,output=The image contains multiple items such as books, boxes, and possibly a vase or container. However, without a clear view of all the objects, it's challenging to determine the most dominant item accurately. If we had to make an educated guess based on the visible elements, it could be categorized under 'bookshop' due to the presence of numerous books.,True
+n0287152500000450.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+
+n0452216800000318.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001137.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000181.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000023.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000345.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000303.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000020.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800001192.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000790.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000077.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000319.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000043.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000474.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000577.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001278.jpg,label=vase,output=The image is most closely associated with the category label 'vase'.,True
+
+n0314621900001286.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000825.jpg,label=cuirass,output=The accurate category label representing the given image is 'vase'.,False
+n0314621900001105.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900001287.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900001032.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900001100.jpg,label=cuirass,output=The accurate category label representing the given image is 'bookshop'.,False
+n0314621900001255.jpg,label=cuirass,output=The correct category label representing the given image is 'bookshop'.,False
+n0314621900001201.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000058.jpg,label=cuirass,output=The correct category label representing the given image is 'vase'.,False
+n0314621900000155.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900001180.jpg,label=cuirass,output=The correct category label representing the given image is 'bookshop'.,False
+n0314621900000402.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000791.jpg,label=cuirass,output=The image does not have an exact category label from the provided options.,False
+n0314621900001153.jpg,label=cuirass,output=The image does not have an exact match to any of the provided categories.,False
+n0314621900001278.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+
+n0414661400000991.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000651.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000232.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000401.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000946.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000393.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000606.jpg,label=school_bus,output=The image does not have an exact match to any of the provided categories.,False
+n0414661400001188.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400001265.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000583.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000325.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000036.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000953.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000223.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000267.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+
+n0212916500000136.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000720.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001094.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000189.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000659.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000406.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001244.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000149.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000142.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500001059.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000939.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500001061.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000816.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001030.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000988.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+
+acc:  0.8666666666666667

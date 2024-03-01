@@ -1,0 +1,97 @@
+支持集的类别: ['vase', 'hourglass', 'lion', 'school_bus', 'trifle']
+测试集各类别: ['n04522168', 'n03544143', 'n02129165', 'n04146614', 'n07613480']
+支持集各图片:
+n04522168:['n0452216800000501.jpg']
+n03544143:['n0354414300000768.jpg']
+n02129165:['n0212916500000871.jpg']
+n04146614:['n0414661400000118.jpg']
+n07613480:['n0761348000001162.jpg']
+测试集各图片:
+n04522168:['n0452216800000943.jpg', 'n0452216800001130.jpg', 'n0452216800000757.jpg', 'n0452216800001256.jpg', 'n0452216800000355.jpg', 'n0452216800000631.jpg', 'n0452216800000602.jpg', 'n0452216800000582.jpg', 'n0452216800000955.jpg', 'n0452216800001124.jpg', 'n0452216800000120.jpg', 'n0452216800000084.jpg', 'n0452216800000949.jpg', 'n0452216800001212.jpg', 'n0452216800001264.jpg']
+n03544143:['n0354414300000257.jpg', 'n0354414300000425.jpg', 'n0354414300000437.jpg', 'n0354414300000688.jpg', 'n0354414300001277.jpg', 'n0354414300000169.jpg', 'n0354414300000115.jpg', 'n0354414300000024.jpg', 'n0354414300001095.jpg', 'n0354414300000595.jpg', 'n0354414300001004.jpg', 'n0354414300000757.jpg', 'n0354414300000210.jpg', 'n0354414300001193.jpg', 'n0354414300000360.jpg']
+n02129165:['n0212916500000673.jpg', 'n0212916500000110.jpg', 'n0212916500000686.jpg', 'n0212916500001105.jpg', 'n0212916500001260.jpg', 'n0212916500000526.jpg', 'n0212916500000371.jpg', 'n0212916500001161.jpg', 'n0212916500000258.jpg', 'n0212916500001111.jpg', 'n0212916500000238.jpg', 'n0212916500000406.jpg', 'n0212916500001012.jpg', 'n0212916500000727.jpg', 'n0212916500000117.jpg']
+n04146614:['n0414661400000936.jpg', 'n0414661400001072.jpg', 'n0414661400000550.jpg', 'n0414661400001139.jpg', 'n0414661400000750.jpg', 'n0414661400001015.jpg', 'n0414661400000515.jpg', 'n0414661400000589.jpg', 'n0414661400000683.jpg', 'n0414661400000391.jpg', 'n0414661400000250.jpg', 'n0414661400000438.jpg', 'n0414661400000328.jpg', 'n0414661400001004.jpg', 'n0414661400000218.jpg']
+n07613480:['n0761348000000046.jpg', 'n0761348000000227.jpg', 'n0761348000000959.jpg', 'n0761348000001249.jpg', 'n0761348000000022.jpg', 'n0761348000000165.jpg', 'n0761348000000037.jpg', 'n0761348000000686.jpg', 'n0761348000000486.jpg', 'n0761348000000748.jpg', 'n0761348000000333.jpg', 'n0761348000000860.jpg', 'n0761348000000849.jpg', 'n0761348000000941.jpg', 'n0761348000001083.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800000501.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774960&Signature=phZo3pWAo0THazSReTLrldt%2BG4I%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'hourglass', 'lion', 'school_bus', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'vase'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0354414300000768.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774961&Signature=oP0vX%2FQ7qWQH6%2FhTlMvTnd3ntRo%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'hourglass', 'lion', 'school_bus', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'hourglass'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000871.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774962&Signature=TdyJYIv3l4HzvlqIodr%2B5y2gtJE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'hourglass', 'lion', 'school_bus', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'lion'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000118.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774964&Signature=NwBCx80VLeg3tCp9VykMjke3%2Fi8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'hourglass', 'lion', 'school_bus', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "school_bus \nLearn and embed the Category Label '**'trifle**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'hourglass', 'lion', 'school_bus', 'trifle']. Focus solely on associating each image with its correct category.\ntrifle"}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000001162.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774968&Signature=NyTB0%2Fe2HBUZr5IgzA7YUY3bf%2Fk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['vase', 'hourglass', 'lion', 'school_bus', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'trifle'}]
+
+n0452216800000943.jpg,label=vase,output=vase,True
+n0452216800001130.jpg,label=vase,output=vase,True
+n0452216800000757.jpg,label=vase,output=vase,True
+n0452216800001256.jpg,label=vase,output=vase,True
+n0452216800000355.jpg,label=vase,output=vase,True
+n0452216800000631.jpg,label=vase,output=vase,True
+n0452216800000602.jpg,label=vase,output=vase,True
+n0452216800000582.jpg,label=vase,output=hourglass,False
+n0452216800000955.jpg,label=vase,output=vase,True
+n0452216800001124.jpg,label=vase,output=vase,True
+n0452216800000120.jpg,label=vase,output=vase,True
+n0452216800000084.jpg,label=vase,output=vase,True
+n0452216800000949.jpg,label=vase,output=vase,True
+n0452216800001212.jpg,label=vase,output=vase,True
+n0452216800001264.jpg,label=vase,output=vase,True
+
+n0354414300000257.jpg,label=hourglass,output=hourglass,True
+n0354414300000425.jpg,label=hourglass,output=hourglass,True
+n0354414300000437.jpg,label=hourglass,output=hourglass,True
+n0354414300000688.jpg,label=hourglass,output=hourglass,True
+n0354414300001277.jpg,label=hourglass,output=hourglass,True
+n0354414300000169.jpg,label=hourglass,output=hourglass,True
+n0354414300000115.jpg,label=hourglass,output=hourglass,True
+n0354414300000024.jpg,label=hourglass,output=hourglass,True
+n0354414300001095.jpg,label=hourglass,output=hourglass,True
+n0354414300000595.jpg,label=hourglass,output=hourglass,True
+n0354414300001004.jpg,label=hourglass,output=hourglass,True
+n0354414300000757.jpg,label=hourglass,output=hourglass,True
+n0354414300000210.jpg,label=hourglass,output=hourglass,True
+n0354414300001193.jpg,label=hourglass,output=hourglass,True
+n0354414300000360.jpg,label=hourglass,output=hourglass,True
+
+n0212916500000673.jpg,label=lion,output=lion,True
+n0212916500000110.jpg,label=lion,output=lion,True
+n0212916500000686.jpg,label=lion,output=lion,True
+n0212916500001105.jpg,label=lion,output=lion,True
+n0212916500001260.jpg,label=lion,output=lion,True
+n0212916500000526.jpg,label=lion,output=lion,True
+n0212916500000371.jpg,label=lion,output=lion,True
+n0212916500001161.jpg,label=lion,output=lion,True
+n0212916500000258.jpg,label=lion,output=lion,True
+n0212916500001111.jpg,label=lion,output=lion,True
+n0212916500000238.jpg,label=lion,output=lion,True
+n0212916500000406.jpg,label=lion,output=lion,True
+n0212916500001012.jpg,label=lion,output=lion,True
+n0212916500000727.jpg,label=lion,output=lion,True
+n0212916500000117.jpg,label=lion,output=lion,True
+
+n0414661400000936.jpg,label=school_bus,output=school_bus,True
+n0414661400001072.jpg,label=school_bus,output=school_bus,True
+n0414661400000550.jpg,label=school_bus,output=trifle,False
+n0414661400001139.jpg,label=school_bus,output=trifle,False
+n0414661400000750.jpg,label=school_bus,output=school_bus,True
+n0414661400001015.jpg,label=school_bus,output=trifle,False
+n0414661400000515.jpg,label=school_bus,output=school_bus,True
+n0414661400000589.jpg,label=school_bus,output=school_bus,True
+n0414661400000683.jpg,label=school_bus,output=school_bus,True
+n0414661400000391.jpg,label=school_bus,output=school_bus,True
+n0414661400000250.jpg,label=school_bus,output=school_bus,True
+n0414661400000438.jpg,label=school_bus,output=school_bus,True
+n0414661400000328.jpg,label=school_bus,output=school_bus,True
+n0414661400001004.jpg,label=school_bus,output=school_bus,True
+n0414661400000218.jpg,label=school_bus,output=school_bus,True
+
+n0761348000000046.jpg,label=trifle,output=trifle,True
+n0761348000000227.jpg,label=trifle,output=trifle,True
+n0761348000000959.jpg,label=trifle,output=trifle,True
+n0761348000001249.jpg,label=trifle,output=trifle,True
+n0761348000000022.jpg,label=trifle,output=trifle,True
+n0761348000000165.jpg,label=trifle,output=trifle,True
+n0761348000000037.jpg,label=trifle,output=trifle,True
+n0761348000000686.jpg,label=trifle,output=trifle,True
+n0761348000000486.jpg,label=trifle,output=trifle,True
+n0761348000000748.jpg,label=trifle,output=trifle,True
+n0761348000000333.jpg,label=trifle,output=trifle,True
+n0761348000000860.jpg,label=trifle,output=trifle,True
+n0761348000000849.jpg,label=trifle,output=trifle,True
+n0761348000000941.jpg,label=trifle,output=trifle,True
+n0761348000001083.jpg,label=trifle,output=trifle,True
+
+acc:  0.9466666666666667

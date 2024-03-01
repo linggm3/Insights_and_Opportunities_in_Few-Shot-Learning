@@ -1,0 +1,97 @@
+支持集的类别: ['golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', 'electric_guitar']
+测试集各类别: ['n02099601', 'n04149813', 'n04146614', 'n02110341', 'n03272010']
+支持集各图片:
+n02099601:['n0209960100000223.jpg']
+n04149813:['n0414981300000558.jpg']
+n04146614:['n0414661400000762.jpg']
+n02110341:['n0211034100000699.jpg']
+n03272010:['n0327201000000868.jpg']
+测试集各图片:
+n02099601:['n0209960100000349.jpg', 'n0209960100000379.jpg', 'n0209960100000891.jpg', 'n0209960100000082.jpg', 'n0209960100000816.jpg', 'n0209960100000665.jpg', 'n0209960100000472.jpg', 'n0209960100001033.jpg', 'n0209960100000757.jpg', 'n0209960100000157.jpg', 'n0209960100000939.jpg', 'n0209960100000947.jpg', 'n0209960100000770.jpg', 'n0209960100000269.jpg', 'n0209960100000485.jpg']
+n04149813:['n0414981300000910.jpg', 'n0414981300001072.jpg', 'n0414981300000911.jpg', 'n0414981300000821.jpg', 'n0414981300000393.jpg', 'n0414981300000358.jpg', 'n0414981300001057.jpg', 'n0414981300000119.jpg', 'n0414981300000132.jpg', 'n0414981300001153.jpg', 'n0414981300000573.jpg', 'n0414981300000621.jpg', 'n0414981300000612.jpg', 'n0414981300000537.jpg', 'n0414981300000152.jpg']
+n04146614:['n0414661400000745.jpg', 'n0414661400000916.jpg', 'n0414661400000987.jpg', 'n0414661400000879.jpg', 'n0414661400001165.jpg', 'n0414661400000391.jpg', 'n0414661400000444.jpg', 'n0414661400000767.jpg', 'n0414661400001040.jpg', 'n0414661400000716.jpg', 'n0414661400000975.jpg', 'n0414661400000476.jpg', 'n0414661400000710.jpg', 'n0414661400001126.jpg', 'n0414661400000684.jpg']
+n02110341:['n0211034100000071.jpg', 'n0211034100001185.jpg', 'n0211034100001253.jpg', 'n0211034100000716.jpg', 'n0211034100000677.jpg', 'n0211034100001233.jpg', 'n0211034100001168.jpg', 'n0211034100001222.jpg', 'n0211034100000212.jpg', 'n0211034100000278.jpg', 'n0211034100000457.jpg', 'n0211034100001002.jpg', 'n0211034100000827.jpg', 'n0211034100001266.jpg', 'n0211034100000180.jpg']
+n03272010:['n0327201000000904.jpg', 'n0327201000000565.jpg', 'n0327201000000866.jpg', 'n0327201000000578.jpg', 'n0327201000000863.jpg', 'n0327201000000155.jpg', 'n0327201000000482.jpg', 'n0327201000000494.jpg', 'n0327201000000004.jpg', 'n0327201000001287.jpg', 'n0327201000000547.jpg', 'n0327201000000946.jpg', 'n0327201000000091.jpg', 'n0327201000001249.jpg', 'n0327201000000141.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100000223.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724124&Signature=LUCnPG9I%2Bq5yeznRgA8UwfHFZBA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'golden retriever'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414981300000558.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724126&Signature=9ol9AWGLNLoBqGRaXVp9Mt2gAWc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'scoreboard'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000762.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724128&Signature=bn46IkuuD5hpax5nFW9vvG4jJqg%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211034100000699.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724129&Signature=yjUFRVeUYBRTY4XKMr7vzG%2Bsg9M%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'dalmatian'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000000868.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706724131&Signature=GbNk2F7TLienfz9whrpFwA3Iml8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', 'electric_guitar']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'electric_guitar'."}]
+
+n0209960100000349.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000379.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000891.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000082.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000816.jpg,label=golden_retriever,output=The image showcases a dog, specifically it looks like a golden retriever. Hence, the correct category label for this image would be 'golden_retriever'.,True
+n0209960100000665.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000472.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100001033.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000757.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000157.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000939.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000947.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden retriever'.,True
+n0209960100000770.jpg,label=golden_retriever,output=The image appears to depict a dog lying down next to a table or chair leg. Based on the visual content, it seems most closely aligned with the 'golden retriever' category.,True
+n0209960100000269.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000485.jpg,label=golden_retriever,output=The image appears to be of a dog, specifically resembling a golden retriever. Hence, the correct category label representing the given image would be 'golden_retriever'.,True
+
+n0414981300000910.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300001072.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000911.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000821.jpg,label=scoreboard,output=The image does not fall under any of the categories provided in the options.,False
+n0414981300000393.jpg,label=scoreboard,output=The image appears to be an abstract representation or artistic rendition rather than a clear depiction of any specific object or entity. Therefore, it's challenging to accurately associate it with one of the provided categories based on the image alone.,False
+n0414981300000358.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300001057.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000119.jpg,label=scoreboard,output=The image is most closely related to the category label 'scoreboard'.,True
+n0414981300000132.jpg,label=scoreboard,output=The image does not have a clear representation of any of the categories like golden_retriever, scoreboard, school_bus, dalmatian, or electric_guitar. Hence, it's challenging to determine an exact category based on the provided image alone.,True
+n0414981300001153.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000573.jpg,label=scoreboard,output=The image does not contain any objects or features that can be accurately labeled as one of the categories provided.,False
+n0414981300000621.jpg,label=scoreboard,output=The image appears to be a scoreboard or display screen, so the appropriate category label would be 'scoreboard'.,True
+n0414981300000612.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000537.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000152.jpg,label=scoreboard,output=The image does not contain any elements that can be accurately labeled as either 'golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', or 'electric_guitar'. Therefore, no specific category label can be assigned to it based on the provided options.,True
+
+n0414661400000745.jpg,label=school_bus,output=The correct category label representing the given image is 'scoreboard'.,False
+n0414661400000916.jpg,label=school_bus,output=The correct category label representing the given image is 'scoreboard'.,False
+n0414661400000987.jpg,label=school_bus,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0414661400000879.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001165.jpg,label=school_bus,output=The correct category label representing the given image is 'scoreboard'.,False
+n0414661400000391.jpg,label=school_bus,output=The correct category label representing the given image is 'scoreboard'.,False
+n0414661400000444.jpg,label=school_bus,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0414661400000767.jpg,label=school_bus,output=The image does not contain any clear visual elements that can be identified as either a golden retriever, scoreboard, school bus, dalmatian, or electric guitar. Therefore, it's challenging to determine an exact category based on the provided labels.,True
+n0414661400001040.jpg,label=school_bus,output=The correct category label representing the given image is 'scoreboard'.,False
+n0414661400000716.jpg,label=school_bus,output=The image does not contain any objects or entities that can be accurately labeled as 'golden_retriever', 'scoreboard', 'school_bus', 'dalmatian', or 'electric_guitar'. Therefore, it's challenging to determine an exact category based on the provided options.,True
+n0414661400000975.jpg,label=school_bus,output=The image does not have an exact match to any of the provided categories.,False
+n0414661400000476.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000710.jpg,label=school_bus,output=The image does not fall under any of the provided categories.,False
+n0414661400001126.jpg,label=school_bus,output=The image does not have an exact match to any of the provided categories.,False
+n0414661400000684.jpg,label=school_bus,output=The image does not have an accurate category label that matches any of the provided options.,False
+
+n0211034100000071.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001185.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001253.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000716.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000677.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001233.jpg,label=dalmatian,output=The image is most closely associated with the category label 'dalmatian'.,True
+n0211034100001168.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001222.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000212.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000278.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000457.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001002.jpg,label=dalmatian,output=The image contains two dogs, one looks like a golden retriever and the other appears to be a dalmatian.,True
+n0211034100000827.jpg,label=dalmatian,output=The image shows a dog running through an obstacle course.,False
+n0211034100001266.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000180.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+
+n0327201000000904.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000565.jpg,label=electric_guitar,output=The image shows an electric guitar, so the correct category label is 'electric_guitar'.,True
+n0327201000000866.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000578.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000863.jpg,label=electric_guitar,output=The correct category label representing the given image is 'scoreboard'.,False
+n0327201000000155.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000482.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000494.jpg,label=electric_guitar,output=The correct category label representing the given image is 'scoreboard'.,False
+n0327201000000004.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001287.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000547.jpg,label=electric_guitar,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0327201000000946.jpg,label=electric_guitar,output=The correct category label representing the given image is 'golden_retriever'.,False
+n0327201000000091.jpg,label=electric_guitar,output=The image showcases an electric guitar.,True
+n0327201000001249.jpg,label=electric_guitar,output=The image does not have a clear representation of any of the categories listed above. Therefore, it cannot be accurately labeled based on the provided options.,False
+n0327201000000141.jpg,label=electric_guitar,output=The correct category label representing the given image is 'scoreboard'.,False
+
+acc:  0.72

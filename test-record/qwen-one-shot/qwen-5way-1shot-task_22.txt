@@ -1,0 +1,97 @@
+支持集的类别: ['mixing_bowl', 'scoreboard', 'theater_curtain', 'dalmatian', 'nematode']
+测试集各类别: ['n03775546', 'n04149813', 'n04418357', 'n02110341', 'n01930112']
+支持集各图片:
+n03775546:['n0377554600000913.jpg']
+n04149813:['n0414981300000258.jpg']
+n04418357:['n0441835700000517.jpg']
+n02110341:['n0211034100000146.jpg']
+n01930112:['n0193011200000233.jpg']
+测试集各图片:
+n03775546:['n0377554600000362.jpg', 'n0377554600000215.jpg', 'n0377554600000481.jpg', 'n0377554600001011.jpg', 'n0377554600000382.jpg', 'n0377554600000647.jpg', 'n0377554600000114.jpg', 'n0377554600000705.jpg', 'n0377554600001279.jpg', 'n0377554600001035.jpg', 'n0377554600000794.jpg', 'n0377554600000274.jpg', 'n0377554600000811.jpg', 'n0377554600000620.jpg', 'n0377554600000553.jpg']
+n04149813:['n0414981300000340.jpg', 'n0414981300000037.jpg', 'n0414981300000120.jpg', 'n0414981300000639.jpg', 'n0414981300000372.jpg', 'n0414981300000435.jpg', 'n0414981300001285.jpg', 'n0414981300000940.jpg', 'n0414981300000803.jpg', 'n0414981300001155.jpg', 'n0414981300000496.jpg', 'n0414981300000574.jpg', 'n0414981300001019.jpg', 'n0414981300000879.jpg', 'n0414981300001211.jpg']
+n04418357:['n0441835700000706.jpg', 'n0441835700000289.jpg', 'n0441835700000071.jpg', 'n0441835700000038.jpg', 'n0441835700001123.jpg', 'n0441835700001065.jpg', 'n0441835700000855.jpg', 'n0441835700001135.jpg', 'n0441835700001104.jpg', 'n0441835700000690.jpg', 'n0441835700000277.jpg', 'n0441835700000505.jpg', 'n0441835700000615.jpg', 'n0441835700001129.jpg', 'n0441835700000322.jpg']
+n02110341:['n0211034100000117.jpg', 'n0211034100001053.jpg', 'n0211034100001208.jpg', 'n0211034100000227.jpg', 'n0211034100000180.jpg', 'n0211034100000409.jpg', 'n0211034100000604.jpg', 'n0211034100000262.jpg', 'n0211034100000895.jpg', 'n0211034100000387.jpg', 'n0211034100000696.jpg', 'n0211034100000061.jpg', 'n0211034100000599.jpg', 'n0211034100000499.jpg', 'n0211034100000955.jpg']
+n01930112:['n0193011200000358.jpg', 'n0193011200001138.jpg', 'n0193011200000369.jpg', 'n0193011200001201.jpg', 'n0193011200000745.jpg', 'n0193011200000961.jpg', 'n0193011200000573.jpg', 'n0193011200000096.jpg', 'n0193011200000202.jpg', 'n0193011200001080.jpg', 'n0193011200000398.jpg', 'n0193011200000128.jpg', 'n0193011200000407.jpg', 'n0193011200000915.jpg', 'n0193011200001127.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0377554600000913.jpg'}, {'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'scoreboard', 'theater_curtain', 'dalmatian', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'mixing_bowl'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414981300000258.jpg'}, {'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'scoreboard', 'theater_curtain', 'dalmatian', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'scoreboard'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000517.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'scoreboard', 'theater_curtain', 'dalmatian', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'theater_curtain'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000146.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'scoreboard', 'theater_curtain', 'dalmatian', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'dalmatian'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000233.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'scoreboard', 'theater_curtain', 'dalmatian', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'nematode'"}]}]
+
+n0377554600000362.jpg,label=mixing_bowl,output='red mixing bowl',True
+n0377554600000215.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000481.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001011.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000382.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000647.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000114.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000705.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600001279.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001035.jpg,label=mixing_bowl,output=mug,False
+n0377554600000794.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000274.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000811.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000620.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000553.jpg,label=mixing_bowl,output='mixing_bowl',True
+
+n0414981300000340.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000037.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000120.jpg,label=scoreboard,output='scoreboard',True
+n0414981300000639.jpg,label=scoreboard,output='reindeer',False
+n0414981300000372.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000435.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001285.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000940.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000803.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001155.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000496.jpg,label=scoreboard,output=(scoreboard),True
+n0414981300000574.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001019.jpg,label=scoreboard,output='rectangle scoreboard',True
+n0414981300000879.jpg,label=scoreboard,output='university_of_phoenix_stadium',False
+n0414981300001211.jpg,label=scoreboard,output=scoreboard,True
+
+n0441835700000706.jpg,label=theater_curtain,output='restaurant_entrance',False
+n0441835700000289.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000071.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000038.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001123.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001065.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000855.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001135.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001104.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000690.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000277.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000505.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000615.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001129.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000322.jpg,label=theater_curtain,output='red fireworks in night sky',False
+
+n0211034100000117.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001053.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001208.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000227.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000180.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000409.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000604.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000262.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000895.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000387.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000696.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000061.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000599.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000499.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000955.jpg,label=dalmatian,output=dalmatian,True
+
+n0193011200000358.jpg,label=nematode,output='nematode',True
+n0193011200001138.jpg,label=nematode,output='nematode',True
+n0193011200000369.jpg,label=nematode,output=spider,False
+n0193011200001201.jpg,label=nematode,output='nematode',True
+n0193011200000745.jpg,label=nematode,output='nematode',True
+n0193011200000961.jpg,label=nematode,output='retro',False
+n0193011200000573.jpg,label=nematode,output='nematode',True
+n0193011200000096.jpg,label=nematode,output='nematode',True
+n0193011200000202.jpg,label=nematode,output='nematode',True
+n0193011200001080.jpg,label=nematode,output='nematode',True
+n0193011200000398.jpg,label=nematode,output='nematode',True
+n0193011200000128.jpg,label=nematode,output='nematode',True
+n0193011200000407.jpg,label=nematode,output='nematode',True
+n0193011200000915.jpg,label=nematode,output='nematode',True
+n0193011200001127.jpg,label=nematode,output=(dalmatian),False
+
+acc:  0.8933333333333333

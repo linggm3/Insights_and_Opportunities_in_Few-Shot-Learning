@@ -1,0 +1,97 @@
+支持集的类别: ['scoreboard', 'ant', 'mixing_bowl', 'crate', 'king_crab']
+测试集各类别: ['n04149813', 'n02219486', 'n03775546', 'n03127925', 'n01981276']
+支持集各图片:
+n04149813:['n0414981300000258.jpg']
+n02219486:['n0221948600000367.jpg']
+n03775546:['n0377554600000430.jpg']
+n03127925:['n0312792500000310.jpg']
+n01981276:['n0198127600001252.jpg']
+测试集各图片:
+n04149813:['n0414981300000731.jpg', 'n0414981300000786.jpg', 'n0414981300000911.jpg', 'n0414981300000733.jpg', 'n0414981300000087.jpg', 'n0414981300000985.jpg', 'n0414981300000926.jpg', 'n0414981300000544.jpg', 'n0414981300000862.jpg', 'n0414981300000514.jpg', 'n0414981300000647.jpg', 'n0414981300001197.jpg', 'n0414981300000360.jpg', 'n0414981300000884.jpg', 'n0414981300001129.jpg']
+n02219486:['n0221948600000787.jpg', 'n0221948600000902.jpg', 'n0221948600000457.jpg', 'n0221948600000878.jpg', 'n0221948600001033.jpg', 'n0221948600000566.jpg', 'n0221948600000583.jpg', 'n0221948600001231.jpg', 'n0221948600000232.jpg', 'n0221948600000274.jpg', 'n0221948600000200.jpg', 'n0221948600001191.jpg', 'n0221948600000999.jpg', 'n0221948600001145.jpg', 'n0221948600000790.jpg']
+n03775546:['n0377554600000770.jpg', 'n0377554600000006.jpg', 'n0377554600000774.jpg', 'n0377554600001023.jpg', 'n0377554600000618.jpg', 'n0377554600000846.jpg', 'n0377554600000061.jpg', 'n0377554600000022.jpg', 'n0377554600000060.jpg', 'n0377554600000032.jpg', 'n0377554600000496.jpg', 'n0377554600000318.jpg', 'n0377554600001291.jpg', 'n0377554600000771.jpg', 'n0377554600000050.jpg']
+n03127925:['n0312792500001155.jpg', 'n0312792500000874.jpg', 'n0312792500001296.jpg', 'n0312792500000162.jpg', 'n0312792500000138.jpg', 'n0312792500001027.jpg', 'n0312792500000278.jpg', 'n0312792500001105.jpg', 'n0312792500000372.jpg', 'n0312792500000502.jpg', 'n0312792500000351.jpg', 'n0312792500000992.jpg', 'n0312792500000737.jpg', 'n0312792500001204.jpg', 'n0312792500000251.jpg']
+n01981276:['n0198127600000082.jpg', 'n0198127600000921.jpg', 'n0198127600000020.jpg', 'n0198127600001032.jpg', 'n0198127600000548.jpg', 'n0198127600000608.jpg', 'n0198127600001067.jpg', 'n0198127600001104.jpg', 'n0198127600000858.jpg', 'n0198127600000559.jpg', 'n0198127600000011.jpg', 'n0198127600000213.jpg', 'n0198127600000818.jpg', 'n0198127600000821.jpg', 'n0198127600000615.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414981300000258.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773231&Signature=i4fTqtSbnaG1UB9phOeyn0dl9Z8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'ant', 'mixing_bowl', 'crate', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'scoreboard'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000367.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773232&Signature=mqsAHuU7TXuecahWBcGOxD5UWP0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'ant', 'mixing_bowl', 'crate', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'ant'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000430.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773233&Signature=92WlYa7nUPNxpiN4qq5QrQGi5AI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'ant', 'mixing_bowl', 'crate', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'mixing_bowl'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500000310.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773234&Signature=SgJ8mR1ukbt%2BI7vrDxcQ%2B5a4uNA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'ant', 'mixing_bowl', 'crate', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'crate'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600001252.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773236&Signature=xmpFushU4rotnwb2uGBLADO04Ds%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'ant', 'mixing_bowl', 'crate', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'king_crab'}]
+
+n0414981300000731.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000786.jpg,label=scoreboard,output=The correct category label for the provided image is 'mixing_bowl'.,False
+n0414981300000911.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000733.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000087.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000985.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000926.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000544.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000862.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000514.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000647.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001197.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000360.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000884.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001129.jpg,label=scoreboard,output=scoreboard,True
+
+n0221948600000787.jpg,label=ant,output=ant,True
+n0221948600000902.jpg,label=ant,output=ant,True
+n0221948600000457.jpg,label=ant,output=ant,True
+n0221948600000878.jpg,label=ant,output=ant,True
+n0221948600001033.jpg,label=ant,output=ant,True
+n0221948600000566.jpg,label=ant,output=ant,True
+n0221948600000583.jpg,label=ant,output=ant,True
+n0221948600001231.jpg,label=ant,output=ant,True
+n0221948600000232.jpg,label=ant,output=ant,True
+n0221948600000274.jpg,label=ant,output=ant,True
+n0221948600000200.jpg,label=ant,output=ant,True
+n0221948600001191.jpg,label=ant,output=ant,True
+n0221948600000999.jpg,label=ant,output=ant,True
+n0221948600001145.jpg,label=ant,output=ant,True
+n0221948600000790.jpg,label=ant,output=ant,True
+
+n0377554600000770.jpg,label=mixing_bowl,output=The image is most closely associated with the category label 'mixing_bowl'.,True
+n0377554600000006.jpg,label=mixing_bowl,output=The image is not clearly identifiable as any of the provided categories.,False
+n0377554600000774.jpg,label=mixing_bowl,output=The correct category label for the image is 'mixing_bowl'.,True
+n0377554600001023.jpg,label=mixing_bowl,output=The correct category label for the provided image is 'mixing_bowl'.,True
+n0377554600000618.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000846.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000061.jpg,label=mixing_bowl,output=The image is most closely associated with the category label 'mixing_bowl'.,True
+n0377554600000022.jpg,label=mixing_bowl,output=The image does not contain any objects that can be associated with the categories provided.,False
+n0377554600000060.jpg,label=mixing_bowl,output=The correct category label for the provided image is 'mixing_bowl'.,True
+n0377554600000032.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000496.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000318.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001291.jpg,label=mixing_bowl,output=The correct category label for the image is 'mixing_bowl'.,True
+n0377554600000771.jpg,label=mixing_bowl,output=The correct category label for the given image is 'mixing_bowl'.,True
+n0377554600000050.jpg,label=mixing_bowl,output=The image is best described as an ant.,False
+
+n0312792500001155.jpg,label=crate,output=crate,True
+n0312792500000874.jpg,label=crate,output=The image contains an ant.,False
+n0312792500001296.jpg,label=crate,output=The image does not have any clear indicators to associate it with one of the provided categories.,False
+n0312792500000162.jpg,label=crate,output=crate,True
+n0312792500000138.jpg,label=crate,output=The image appears to be an ant.,False
+n0312792500001027.jpg,label=crate,output=The correct category label for the provided image is 'mixing_bowl'.,False
+n0312792500000278.jpg,label=crate,output=crate,True
+n0312792500001105.jpg,label=crate,output=The image does not have any clear indicators to associate it with one of the provided categories.,False
+n0312792500000372.jpg,label=crate,output=crate,True
+n0312792500000502.jpg,label=crate,output=crate,True
+n0312792500000351.jpg,label=crate,output=The image is best described as a 'crate'.,True
+n0312792500000992.jpg,label=crate,output=crate,True
+n0312792500000737.jpg,label=crate,output=The image does not contain any elements that can be confidently associated with the categories provided.,False
+n0312792500001204.jpg,label=crate,output=crate,True
+n0312792500000251.jpg,label=crate,output=crate,True
+
+n0198127600000082.jpg,label=king_crab,output=The correct category label for the given image is 'king_crab'.,True
+n0198127600000921.jpg,label=king_crab,output=ant,False
+n0198127600000020.jpg,label=king_crab,output=king_crab,True
+n0198127600001032.jpg,label=king_crab,output=ant,False
+n0198127600000548.jpg,label=king_crab,output=ant,False
+n0198127600000608.jpg,label=king_crab,output=ant,False
+n0198127600001067.jpg,label=king_crab,output=ant,False
+n0198127600001104.jpg,label=king_crab,output=ant,False
+n0198127600000858.jpg,label=king_crab,output=ant,False
+n0198127600000559.jpg,label=king_crab,output=ant,False
+n0198127600000011.jpg,label=king_crab,output=The correct category label for the image is 'king_crab'.,True
+n0198127600000213.jpg,label=king_crab,output=ant,False
+n0198127600000818.jpg,label=king_crab,output=king_crab,True
+n0198127600000821.jpg,label=king_crab,output=The image is most closely associated with the category label 'king_crab'.,True
+n0198127600000615.jpg,label=king_crab,output=The image is most closely associated with the category label 'king_crab'.,True
+
+acc:  0.7466666666666667

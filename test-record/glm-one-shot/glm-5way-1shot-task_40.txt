@@ -1,0 +1,97 @@
+支持集的类别: ['trifle', 'black-footed_ferret', 'nematode', 'cuirass', 'crate']
+测试集各类别: ['n07613480', 'n02443484', 'n01930112', 'n03146219', 'n03127925']
+支持集各图片:
+n07613480:['n0761348000001162.jpg']
+n02443484:['n0244348400000913.jpg']
+n01930112:['n0193011200000426.jpg']
+n03146219:['n0314621900000704.jpg']
+n03127925:['n0312792500000355.jpg']
+测试集各图片:
+n07613480:['n0761348000000497.jpg', 'n0761348000000480.jpg', 'n0761348000001128.jpg', 'n0761348000001268.jpg', 'n0761348000001205.jpg', 'n0761348000000386.jpg', 'n0761348000001029.jpg', 'n0761348000000982.jpg', 'n0761348000000850.jpg', 'n0761348000000998.jpg', 'n0761348000000892.jpg', 'n0761348000000949.jpg', 'n0761348000000677.jpg', 'n0761348000000126.jpg', 'n0761348000000289.jpg']
+n02443484:['n0244348400000943.jpg', 'n0244348400000984.jpg', 'n0244348400000750.jpg', 'n0244348400000470.jpg', 'n0244348400000577.jpg', 'n0244348400000080.jpg', 'n0244348400000662.jpg', 'n0244348400001035.jpg', 'n0244348400000375.jpg', 'n0244348400000753.jpg', 'n0244348400000891.jpg', 'n0244348400001283.jpg', 'n0244348400000335.jpg', 'n0244348400000373.jpg', 'n0244348400000837.jpg']
+n01930112:['n0193011200000152.jpg', 'n0193011200000095.jpg', 'n0193011200000695.jpg', 'n0193011200000079.jpg', 'n0193011200001239.jpg', 'n0193011200000912.jpg', 'n0193011200000928.jpg', 'n0193011200000894.jpg', 'n0193011200000728.jpg', 'n0193011200001231.jpg', 'n0193011200000312.jpg', 'n0193011200000742.jpg', 'n0193011200000478.jpg', 'n0193011200000741.jpg', 'n0193011200000422.jpg']
+n03146219:['n0314621900000151.jpg', 'n0314621900001121.jpg', 'n0314621900001272.jpg', 'n0314621900000721.jpg', 'n0314621900000019.jpg', 'n0314621900001224.jpg', 'n0314621900001043.jpg', 'n0314621900001142.jpg', 'n0314621900000852.jpg', 'n0314621900001184.jpg', 'n0314621900000567.jpg', 'n0314621900000434.jpg', 'n0314621900000775.jpg', 'n0314621900001145.jpg', 'n0314621900000913.jpg']
+n03127925:['n0312792500000044.jpg', 'n0312792500000428.jpg', 'n0312792500000832.jpg', 'n0312792500000685.jpg', 'n0312792500000810.jpg', 'n0312792500000252.jpg', 'n0312792500000403.jpg', 'n0312792500000180.jpg', 'n0312792500000790.jpg', 'n0312792500000797.jpg', 'n0312792500000835.jpg', 'n0312792500000183.jpg', 'n0312792500000452.jpg', 'n0312792500000516.jpg', 'n0312792500000437.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000001162.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773698&Signature=eWAneBL8EZcMOVb9PC3u9LYb4pQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'nematode', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'trifle'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000913.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773699&Signature=GLfLhIsCh0eiMuUqq%2F3XkW3VBgA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'nematode', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'black-footed_ferret'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000426.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773701&Signature=nbhgclVY9ygYJ4xUpa5Ol%2BdbE%2FM%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'nematode', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'nematode'. \nLearn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'nematode', 'cuirass', 'crate']. Focus solely on associating each image with its correct category.\nThe correct category associated with the image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900000704.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773707&Signature=5FQqv30pP7%2B8wdsNL0WncF31n3I%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'nematode', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500000355.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773709&Signature=KqeoJbvZ2R2HEcoobvAMflSWR%2Bo%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'nematode', 'cuirass', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'crate'."}]
+
+n0761348000000497.jpg,label=trifle,output=The image does not clearly depict any of the categories listed. However, if we were to make an educated guess based on the visual content, it could potentially be related to 'trifle' due to the creamy texture visible in the image.,True
+n0761348000000480.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001128.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001268.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001205.jpg,label=trifle,output=The image does not have a clear representation of any of the categories provided. However, if we were to make an educated guess based on the colors and patterns, it might be closer to the 'trifle' category due to the layered appearance.,True
+n0761348000000386.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001029.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000982.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000850.jpg,label=trifle,output=The image appears to be a bowl of food, possibly a dessert or salad, but without additional contextual information, it's challenging to determine the exact type of dish. Therefore, none of the provided categories can be definitively chosen as the most appropriate based on the available visual data.,False
+n0761348000000998.jpg,label=trifle,output=The image appears to be a bowl containing a mixture of ingredients, which does not fit into any of the provided categories. Therefore, it cannot be accurately labeled based on the given options.,False
+n0761348000000892.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000949.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000677.jpg,label=trifle,output=The image does not clearly depict any of the categories listed.,False
+n0761348000000126.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000289.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+
+n0244348400000943.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000984.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000750.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000470.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000577.jpg,label=black-footed_ferret,output=The image does not contain any information related to 'trifle', 'nematode', or 'crate'. Hence, it can only be identified as a 'black-footed ferret'.,True
+n0244348400000080.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000662.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001035.jpg,label=black-footed_ferret,output=The image does not have an exact match to any of the provided categories.,False
+n0244348400000375.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000753.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000891.jpg,label=black-footed_ferret,output=The image does not have a clear category label.,False
+n0244348400001283.jpg,label=black-footed_ferret,output=The image appears to depict a black-footed ferret, so the correct category label would be 'black-footed_ferret'.,True
+n0244348400000335.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000373.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000837.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+
+n0193011200000152.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000095.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000695.jpg,label=nematode,output=The image does not have a clear or distinct feature to confidently associate it with any of the categories provided. However, if we were to make an educated guess based on the color and shape, it could potentially be linked to the 'trifle' category due to its greenish hue.,False
+n0193011200000079.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200001239.jpg,label=nematode,output=The image appears to be an abstract representation or artistic depiction rather than a clear photograph of any specific object or entity. Therefore, it's challenging to assign a singular category based on the provided options.,False
+n0193011200000912.jpg,label=nematode,output=The image does not have a clear representation of any of the categories provided in the label set. However, based on the visible features, it could potentially be related to one or more categories.,False
+n0193011200000928.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000894.jpg,label=nematode,output=The image does not have a clear or distinct feature to confidently associate it with any of the provided categories. Therefore, I cannot provide an accurate category label based on the information available in the image.,False
+n0193011200000728.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200001231.jpg,label=nematode,output=The correct category label representing the given image is 'trifle'.,False
+n0193011200000312.jpg,label=nematode,output=The image does not have a clear representation to associate it with any specific category.,False
+n0193011200000742.jpg,label=nematode,output=The image does not have a clear representation of any of the categories listed. However, if we were to make an educated guess based on the appearance, it could potentially be labeled as 'nematode' due to its worm-like shape.,True
+n0193011200000478.jpg,label=nematode,output=The correct category label representing the given image is 'trifle'.,False
+n0193011200000741.jpg,label=nematode,output=The image does not have a clear representation of any specific category mentioned in the options. Therefore, it cannot be definitively associated with one of the provided categories based on the image alone.,False
+n0193011200000422.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+
+n0314621900000151.jpg,label=cuirass,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0314621900001121.jpg,label=cuirass,output=The image appears to be a representation of armor or protective gear, specifically resembling a cuirass which is a part of medieval European armor. Therefore, the accurate category label representing the given image would be 'cuirass'.,True
+n0314621900001272.jpg,label=cuirass,output=The correct category label representing the given image is 'trifle'.,False
+n0314621900000721.jpg,label=cuirass,output=The correct category label representing the given image is 'trifle'.,False
+n0314621900000019.jpg,label=cuirass,output=The image does not have an exact match to any of the provided categories.,False
+n0314621900001224.jpg,label=cuirass,output=The image does not have any clear indicators to associate it with one specific category. Therefore, it cannot be accurately labeled as either 'trifle', 'black-footed_ferret', 'nematode', 'cuirass', or 'crate'.,True
+n0314621900001043.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900001142.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000852.jpg,label=cuirass,output=The correct category label representing the given image is 'trifle'.,False
+n0314621900001184.jpg,label=cuirass,output=The correct category label representing the given image is 'trifle'.,False
+n0314621900000567.jpg,label=cuirass,output=The image does not have a clear or discernible category label that matches it.,False
+n0314621900000434.jpg,label=cuirass,output=The image appears to depict an object resembling armor or protective gear, so the most appropriate category label would be 'armor' or 'protective_gear'.,False
+n0314621900000775.jpg,label=cuirass,output=The image appears to be an object or artifact, possibly made of metal or wood, but it does not fit into any of the provided categories. Therefore, there isn't a single category label that accurately represents the image.,False
+n0314621900001145.jpg,label=cuirass,output=The image does not have an accurate category label that matches the provided options.,False
+n0314621900000913.jpg,label=cuirass,output=The image does not have an exact category label among the provided options.,False
+
+n0312792500000044.jpg,label=crate,output=The image does not have an exact category label from the provided options.,False
+n0312792500000428.jpg,label=crate,output=The correct category label representing the given image is 'trifle'.,False
+n0312792500000832.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000685.jpg,label=crate,output=The image does not have a clear representation of any of the categories provided.,False
+n0312792500000810.jpg,label=crate,output=The correct category label representing the given image is 'trifle'.,False
+n0312792500000252.jpg,label=crate,output=The image does not have a clear category label.,False
+n0312792500000403.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000180.jpg,label=crate,output=The correct category label representing the given image is 'trifle'.,False
+n0312792500000790.jpg,label=crate,output=The image appears to be a wooden crate or box. Therefore, the most appropriate category label for this image would be 'crate'.,True
+n0312792500000797.jpg,label=crate,output=The image appears to be an empty wooden crate or box without any discernible features or objects inside it. Therefore, based on the provided categories, the most appropriate label would be 'crate'.,True
+n0312792500000835.jpg,label=crate,output=The correct category label representing the given image is 'trifle'.,False
+n0312792500000183.jpg,label=crate,output=The image does not have a clear representation of any of the categories provided. Therefore, it's challenging to determine an accurate category label based solely on the image.,False
+n0312792500000452.jpg,label=crate,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0312792500000516.jpg,label=crate,output=The image does not clearly depict any of the categories listed. Therefore, it's challenging to determine an accurate category label based solely on the provided options.,False
+n0312792500000437.jpg,label=crate,output=The image does not have an identifiable category label among the provided options.,False
+
+acc:  0.5333333333333333

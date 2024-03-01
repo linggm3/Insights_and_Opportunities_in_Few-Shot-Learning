@@ -1,0 +1,97 @@
+支持集的类别: ['king_crab', 'malamute', 'bookshop', 'mixing_bowl', 'nematode']
+测试集各类别: ['n01981276', 'n02110063', 'n02871525', 'n03775546', 'n01930112']
+支持集各图片:
+n01981276:['n0198127600000770.jpg']
+n02110063:['n0211006300000126.jpg']
+n02871525:['n0287152500000275.jpg']
+n03775546:['n0377554600000570.jpg']
+n01930112:['n0193011200000028.jpg']
+测试集各图片:
+n01981276:['n0198127600000724.jpg', 'n0198127600000766.jpg', 'n0198127600000931.jpg', 'n0198127600000085.jpg', 'n0198127600001142.jpg', 'n0198127600001075.jpg', 'n0198127600000626.jpg', 'n0198127600000540.jpg', 'n0198127600000772.jpg', 'n0198127600000627.jpg', 'n0198127600000579.jpg', 'n0198127600000915.jpg', 'n0198127600000923.jpg', 'n0198127600001191.jpg', 'n0198127600001029.jpg']
+n02110063:['n0211006300000528.jpg', 'n0211006300001267.jpg', 'n0211006300001142.jpg', 'n0211006300001158.jpg', 'n0211006300000203.jpg', 'n0211006300000453.jpg', 'n0211006300000629.jpg', 'n0211006300000832.jpg', 'n0211006300000556.jpg', 'n0211006300000979.jpg', 'n0211006300000807.jpg', 'n0211006300001174.jpg', 'n0211006300001005.jpg', 'n0211006300000029.jpg', 'n0211006300000364.jpg']
+n02871525:['n0287152500000928.jpg', 'n0287152500001161.jpg', 'n0287152500001042.jpg', 'n0287152500001103.jpg', 'n0287152500001268.jpg', 'n0287152500000133.jpg', 'n0287152500000125.jpg', 'n0287152500000469.jpg', 'n0287152500000013.jpg', 'n0287152500000655.jpg', 'n0287152500000015.jpg', 'n0287152500000142.jpg', 'n0287152500000476.jpg', 'n0287152500000401.jpg', 'n0287152500000916.jpg']
+n03775546:['n0377554600001115.jpg', 'n0377554600000996.jpg', 'n0377554600001274.jpg', 'n0377554600000076.jpg', 'n0377554600000291.jpg', 'n0377554600001292.jpg', 'n0377554600000001.jpg', 'n0377554600000759.jpg', 'n0377554600000954.jpg', 'n0377554600000091.jpg', 'n0377554600000959.jpg', 'n0377554600000969.jpg', 'n0377554600001016.jpg', 'n0377554600000037.jpg', 'n0377554600000348.jpg']
+n01930112:['n0193011200001079.jpg', 'n0193011200000108.jpg', 'n0193011200000761.jpg', 'n0193011200000246.jpg', 'n0193011200000234.jpg', 'n0193011200000362.jpg', 'n0193011200001026.jpg', 'n0193011200000888.jpg', 'n0193011200000869.jpg', 'n0193011200000801.jpg', 'n0193011200001133.jpg', 'n0193011200000175.jpg', 'n0193011200001033.jpg', 'n0193011200000991.jpg', 'n0193011200001049.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600000770.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706772708&Signature=iisSZcLPXbwe02aRGDRRUceGGRk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'malamute', 'bookshop', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'king_crab'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211006300000126.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706772709&Signature=pJP0BfLwBeQ8zPZUwrY2Yc9aDQs%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'malamute', 'bookshop', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'malamute'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000275.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706772710&Signature=3kpTKLVCLxx1Bmnm1eC2c6FtJw8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'malamute', 'bookshop', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'bookshop'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000570.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706772712&Signature=qTRJE5T69ksadN%2F90Tb8LhwmDvk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'malamute', 'bookshop', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'mixing_bowl'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000028.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706772713&Signature=APqnOwP49Cy2vSeKp57DxXfKbkk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'malamute', 'bookshop', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'nematode'}]
+
+n0198127600000724.jpg,label=king_crab,output=king_crab,True
+n0198127600000766.jpg,label=king_crab,output=king_crab,True
+n0198127600000931.jpg,label=king_crab,output=king_crab,True
+n0198127600000085.jpg,label=king_crab,output=king_crab,True
+n0198127600001142.jpg,label=king_crab,output=king_crab,True
+n0198127600001075.jpg,label=king_crab,output=king_crab,True
+n0198127600000626.jpg,label=king_crab,output=king_crab,True
+n0198127600000540.jpg,label=king_crab,output=king_crab,True
+n0198127600000772.jpg,label=king_crab,output=king_crab,True
+n0198127600000627.jpg,label=king_crab,output=king_crab,True
+n0198127600000579.jpg,label=king_crab,output=king_crab,True
+n0198127600000915.jpg,label=king_crab,output=king_crab,True
+n0198127600000923.jpg,label=king_crab,output=king_crab,True
+n0198127600001191.jpg,label=king_crab,output=king_crab,True
+n0198127600001029.jpg,label=king_crab,output=king_crab,True
+
+n0211006300000528.jpg,label=malamute,output=malamute,True
+n0211006300001267.jpg,label=malamute,output=malamute,True
+n0211006300001142.jpg,label=malamute,output=malamute,True
+n0211006300001158.jpg,label=malamute,output=malamute,True
+n0211006300000203.jpg,label=malamute,output=malamute,True
+n0211006300000453.jpg,label=malamute,output=king_crab,False
+n0211006300000629.jpg,label=malamute,output=malamute,True
+n0211006300000832.jpg,label=malamute,output=malamute,True
+n0211006300000556.jpg,label=malamute,output=malamute,True
+n0211006300000979.jpg,label=malamute,output=malamute,True
+n0211006300000807.jpg,label=malamute,output=malamute,True
+n0211006300001174.jpg,label=malamute,output=malamute,True
+n0211006300001005.jpg,label=malamute,output=malamute,True
+n0211006300000029.jpg,label=malamute,output=malamute,True
+n0211006300000364.jpg,label=malamute,output=malamute,True
+
+n0287152500000928.jpg,label=bookshop,output=The image appears to depict an animal, specifically a dog, which is not one of the provided categories. Therefore, none of the options are accurate for this image.,False
+n0287152500001161.jpg,label=bookshop,output=The image does not have any clear indication or features that can be associated with the categories provided. Hence, it is challenging to determine an exact category based on the image alone.,False
+n0287152500001042.jpg,label=bookshop,output=bookshop,True
+n0287152500001103.jpg,label=bookshop,output=The correct category label for the image is 'bookshop'.,True
+n0287152500001268.jpg,label=bookshop,output=The correct category label for the given image is 'bookshop'.,True
+n0287152500000133.jpg,label=bookshop,output=bookshop,True
+n0287152500000125.jpg,label=bookshop,output=bookshop,True
+n0287152500000469.jpg,label=bookshop,output=bookshop,True
+n0287152500000013.jpg,label=bookshop,output=bookshop,True
+n0287152500000655.jpg,label=bookshop,output=The correct category label for the given image is 'bookshop'.,True
+n0287152500000015.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000142.jpg,label=bookshop,output=The correct category label for the given image is 'bookshop'.,True
+n0287152500000476.jpg,label=bookshop,output=The image does not have any clear features or objects that can be associated with the provided categories. Therefore, it is challenging to determine an exact category based on the given labels alone.,False
+n0287152500000401.jpg,label=bookshop,output=bookshop,True
+n0287152500000916.jpg,label=bookshop,output=bookshop,True
+
+n0377554600001115.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000996.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001274.jpg,label=mixing_bowl,output=king_crab,False
+n0377554600000076.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000291.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001292.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000001.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000759.jpg,label=mixing_bowl,output=The image appears to be an abstract or artistic representation, so it is challenging to assign a specific real-world category to it based solely on visual content. However, if we were to associate it with one of the provided options, it could be labeled as 'abstract art'.,False
+n0377554600000954.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000091.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000959.jpg,label=mixing_bowl,output=The correct category label for the provided image is 'mixing_bowl'.,True
+n0377554600000969.jpg,label=mixing_bowl,output=king_crab,False
+n0377554600001016.jpg,label=mixing_bowl,output=The image is not clearly identifiable as any of the provided categories.,False
+n0377554600000037.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000348.jpg,label=mixing_bowl,output=The image is most closely associated with the category label 'mixing_bowl'.,True
+
+n0193011200001079.jpg,label=nematode,output=king_crab,False
+n0193011200000108.jpg,label=nematode,output=king_crab,False
+n0193011200000761.jpg,label=nematode,output=king_crab,False
+n0193011200000246.jpg,label=nematode,output=nematode,True
+n0193011200000234.jpg,label=nematode,output=king_crab,False
+n0193011200000362.jpg,label=nematode,output=nematode,True
+n0193011200001026.jpg,label=nematode,output=king_crab,False
+n0193011200000888.jpg,label=nematode,output=king_crab,False
+n0193011200000869.jpg,label=nematode,output=king_crab,False
+n0193011200000801.jpg,label=nematode,output=The image appears to be a nematode, so the correct category label is 'nematode'.,True
+n0193011200001133.jpg,label=nematode,output=king_crab,False
+n0193011200000175.jpg,label=nematode,output=king_crab,False
+n0193011200001033.jpg,label=nematode,output=nematode,True
+n0193011200000991.jpg,label=nematode,output=king_crab,False
+n0193011200001049.jpg,label=nematode,output=king_crab,False
+
+acc:  0.7466666666666667

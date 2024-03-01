@@ -1,0 +1,97 @@
+支持集的类别: ['hourglass', 'king_crab', 'scoreboard', 'school_bus', 'vase']
+测试集各类别: ['n03544143', 'n01981276', 'n04149813', 'n04146614', 'n04522168']
+支持集各图片:
+n03544143:['n0354414300001072.jpg']
+n01981276:['n0198127600000792.jpg']
+n04149813:['n0414981300000928.jpg']
+n04146614:['n0414661400000228.jpg']
+n04522168:['n0452216800000047.jpg']
+测试集各图片:
+n03544143:['n0354414300000841.jpg', 'n0354414300001127.jpg', 'n0354414300000044.jpg', 'n0354414300000321.jpg', 'n0354414300001170.jpg', 'n0354414300001136.jpg', 'n0354414300000700.jpg', 'n0354414300000504.jpg', 'n0354414300001237.jpg', 'n0354414300000861.jpg', 'n0354414300000668.jpg', 'n0354414300000897.jpg', 'n0354414300000619.jpg', 'n0354414300000858.jpg', 'n0354414300000773.jpg']
+n01981276:['n0198127600000338.jpg', 'n0198127600000431.jpg', 'n0198127600001249.jpg', 'n0198127600001082.jpg', 'n0198127600000017.jpg', 'n0198127600000673.jpg', 'n0198127600000858.jpg', 'n0198127600000351.jpg', 'n0198127600000392.jpg', 'n0198127600000567.jpg', 'n0198127600000253.jpg', 'n0198127600000986.jpg', 'n0198127600000833.jpg', 'n0198127600001243.jpg', 'n0198127600000113.jpg']
+n04149813:['n0414981300000434.jpg', 'n0414981300000587.jpg', 'n0414981300001199.jpg', 'n0414981300000530.jpg', 'n0414981300000038.jpg', 'n0414981300000273.jpg', 'n0414981300000162.jpg', 'n0414981300000881.jpg', 'n0414981300000500.jpg', 'n0414981300000629.jpg', 'n0414981300001041.jpg', 'n0414981300000156.jpg', 'n0414981300000433.jpg', 'n0414981300000300.jpg', 'n0414981300001133.jpg']
+n04146614:['n0414661400000656.jpg', 'n0414661400000951.jpg', 'n0414661400001174.jpg', 'n0414661400000120.jpg', 'n0414661400000710.jpg', 'n0414661400000380.jpg', 'n0414661400001030.jpg', 'n0414661400001074.jpg', 'n0414661400001097.jpg', 'n0414661400000874.jpg', 'n0414661400000954.jpg', 'n0414661400001181.jpg', 'n0414661400000692.jpg', 'n0414661400000559.jpg', 'n0414661400000113.jpg']
+n04522168:['n0452216800000968.jpg', 'n0452216800000447.jpg', 'n0452216800000605.jpg', 'n0452216800001113.jpg', 'n0452216800000236.jpg', 'n0452216800000597.jpg', 'n0452216800001159.jpg', 'n0452216800000985.jpg', 'n0452216800001142.jpg', 'n0452216800001070.jpg', 'n0452216800000637.jpg', 'n0452216800000149.jpg', 'n0452216800000412.jpg', 'n0452216800000757.jpg', 'n0452216800000940.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0354414300001072.jpg'}, {'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'king_crab', 'scoreboard', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'hourglass'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600000792.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'king_crab', 'scoreboard', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'king_crab'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414981300000928.jpg'}, {'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'king_crab', 'scoreboard', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'scoreboard'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000228.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'king_crab', 'scoreboard', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'school_bus'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800000047.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'king_crab', 'scoreboard', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'vase'}]}]
+
+n0354414300000841.jpg,label=hourglass,output=hourglass,True
+n0354414300001127.jpg,label=hourglass,output=hourglass,True
+n0354414300000044.jpg,label=hourglass,output=hourglass,True
+n0354414300000321.jpg,label=hourglass,output=hourglass,True
+n0354414300001170.jpg,label=hourglass,output=hourglass,True
+n0354414300001136.jpg,label=hourglass,output=hourglass,True
+n0354414300000700.jpg,label=hourglass,output=scoreboard,False
+n0354414300000504.jpg,label=hourglass,output=hourglass,True
+n0354414300001237.jpg,label=hourglass,output=hourglass,True
+n0354414300000861.jpg,label=hourglass,output=hourglass,True
+n0354414300000668.jpg,label=hourglass,output=hourglass,True
+n0354414300000897.jpg,label=hourglass,output=hourglass,True
+n0354414300000619.jpg,label=hourglass,output=hourglass,True
+n0354414300000858.jpg,label=hourglass,output=hourglass,True
+n0354414300000773.jpg,label=hourglass,output=hourglass,True
+
+n0198127600000338.jpg,label=king_crab,output=king_crab,True
+n0198127600000431.jpg,label=king_crab,output=king_crab,True
+n0198127600001249.jpg,label=king_crab,output=king_crab,True
+n0198127600001082.jpg,label=king_crab,output=king_crab,True
+n0198127600000017.jpg,label=king_crab,output=king_crab,True
+n0198127600000673.jpg,label=king_crab,output=king_crab,True
+n0198127600000858.jpg,label=king_crab,output=king_crab,True
+n0198127600000351.jpg,label=king_crab,output=king_crab,True
+n0198127600000392.jpg,label=king_crab,output=king_crab,True
+n0198127600000567.jpg,label=king_crab,output=king_crab,True
+n0198127600000253.jpg,label=king_crab,output=king_crab,True
+n0198127600000986.jpg,label=king_crab,output=king_crab,True
+n0198127600000833.jpg,label=king_crab,output=king_crab,True
+n0198127600001243.jpg,label=king_crab,output=king_crab,True
+n0198127600000113.jpg,label=king_crab,output=king_crab,True
+
+n0414981300000434.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000587.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001199.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000530.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000038.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000273.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000162.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000881.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000500.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000629.jpg,label=scoreboard,output=insurance,False
+n0414981300001041.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000156.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000433.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000300.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001133.jpg,label=scoreboard,output=scoreboard,True
+
+n0414661400000656.jpg,label=school_bus,output=school_bus,True
+n0414661400000951.jpg,label=school_bus,output=school_bus,True
+n0414661400001174.jpg,label=school_bus,output=school_bus,True
+n0414661400000120.jpg,label=school_bus,output=school_bus,True
+n0414661400000710.jpg,label=school_bus,output=school_bus,True
+n0414661400000380.jpg,label=school_bus,output=school_bus,True
+n0414661400001030.jpg,label=school_bus,output=school_bus,True
+n0414661400001074.jpg,label=school_bus,output=school_bus,True
+n0414661400001097.jpg,label=school_bus,output=school_bus,True
+n0414661400000874.jpg,label=school_bus,output=school_bus,True
+n0414661400000954.jpg,label=school_bus,output=school_bus,True
+n0414661400001181.jpg,label=school_bus,output=school_bus,True
+n0414661400000692.jpg,label=school_bus,output=school_bus,True
+n0414661400000559.jpg,label=school_bus,output=school_bus,True
+n0414661400000113.jpg,label=school_bus,output=school_bus,True
+
+n0452216800000968.jpg,label=vase,output=vase,True
+n0452216800000447.jpg,label=vase,output=vase,True
+n0452216800000605.jpg,label=vase,output=vase,True
+n0452216800001113.jpg,label=vase,output=vase,True
+n0452216800000236.jpg,label=vase,output=vase,True
+n0452216800000597.jpg,label=vase,output=vase,True
+n0452216800001159.jpg,label=vase,output=vase,True
+n0452216800000985.jpg,label=vase,output=vase,True
+n0452216800001142.jpg,label=vase,output=hourglass,False
+n0452216800001070.jpg,label=vase,output=vase,True
+n0452216800000637.jpg,label=vase,output=vase,True
+n0452216800000149.jpg,label=vase,output=vase,True
+n0452216800000412.jpg,label=vase,output=vase,True
+n0452216800000757.jpg,label=vase,output=vase,True
+n0452216800000940.jpg,label=vase,output=piano,False
+
+acc:  0.9466666666666667

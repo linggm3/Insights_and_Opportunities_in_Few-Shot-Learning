@@ -1,0 +1,100 @@
+D:\Anaconda\envs\test\python.exe C:/Users/linggm/Desktop/test/qwen-few-shot-many-single.py
+支持集的类别: ['scoreboard', 'golden_retriever', 'cuirass', 'crate', 'African_hunting_dog']
+测试集各类别: ['n04149813', 'n02099601', 'n03146219', 'n03127925', 'n02116738']
+支持集各图片:
+n04149813:['n0414981300000679.jpg']
+n02099601:['n0209960100000032.jpg']
+n03146219:['n0314621900000945.jpg']
+n03127925:['n0312792500001256.jpg']
+n02116738:['n0211673800000980.jpg']
+测试集各图片:
+n04149813:['n0414981300000079.jpg', 'n0414981300000384.jpg', 'n0414981300000242.jpg', 'n0414981300000104.jpg', 'n0414981300000209.jpg', 'n0414981300000009.jpg', 'n0414981300001130.jpg', 'n0414981300000983.jpg', 'n0414981300000132.jpg', 'n0414981300000697.jpg', 'n0414981300001266.jpg', 'n0414981300001111.jpg', 'n0414981300000124.jpg', 'n0414981300000997.jpg', 'n0414981300000292.jpg']
+n02099601:['n0209960100001180.jpg', 'n0209960100000260.jpg', 'n0209960100000781.jpg', 'n0209960100000187.jpg', 'n0209960100000570.jpg', 'n0209960100000635.jpg', 'n0209960100000696.jpg', 'n0209960100000958.jpg', 'n0209960100000877.jpg', 'n0209960100001283.jpg', 'n0209960100000931.jpg', 'n0209960100000266.jpg', 'n0209960100000487.jpg', 'n0209960100001051.jpg', 'n0209960100000622.jpg']
+n03146219:['n0314621900000731.jpg', 'n0314621900001252.jpg', 'n0314621900000017.jpg', 'n0314621900000331.jpg', 'n0314621900001088.jpg', 'n0314621900000811.jpg', 'n0314621900000852.jpg', 'n0314621900000233.jpg', 'n0314621900000289.jpg', 'n0314621900001065.jpg', 'n0314621900001036.jpg', 'n0314621900001017.jpg', 'n0314621900000263.jpg', 'n0314621900000174.jpg', 'n0314621900000088.jpg']
+n03127925:['n0312792500000828.jpg', 'n0312792500001073.jpg', 'n0312792500000580.jpg', 'n0312792500000845.jpg', 'n0312792500000614.jpg', 'n0312792500000748.jpg', 'n0312792500000892.jpg', 'n0312792500000484.jpg', 'n0312792500001258.jpg', 'n0312792500000185.jpg', 'n0312792500001149.jpg', 'n0312792500000811.jpg', 'n0312792500000224.jpg', 'n0312792500001281.jpg', 'n0312792500001181.jpg']
+n02116738:['n0211673800000137.jpg', 'n0211673800000405.jpg', 'n0211673800000811.jpg', 'n0211673800000731.jpg', 'n0211673800000758.jpg', 'n0211673800000909.jpg', 'n0211673800000180.jpg', 'n0211673800000951.jpg', 'n0211673800000658.jpg', 'n0211673800000499.jpg', 'n0211673800000580.jpg', 'n0211673800000479.jpg', 'n0211673800000142.jpg', 'n0211673800001177.jpg', 'n0211673800000269.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414981300000679.jpg'}, {'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'golden_retriever', 'cuirass', 'crate', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'scoreboard'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100000032.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'golden_retriever', 'cuirass', 'crate', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'golden_retriever'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000945.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'golden_retriever', 'cuirass', 'crate', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'cuirass'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0312792500001256.jpg'}, {'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'golden_retriever', 'cuirass', 'crate', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'crate'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000980.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['scoreboard', 'golden_retriever', 'cuirass', 'crate', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'African_hunting_dog'}]}]
+
+n0414981300000079.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000384.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000242.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000104.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000209.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000009.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001130.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000983.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000132.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000697.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001266.jpg,label=scoreboard,output=scoreboard,True
+n0414981300001111.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000124.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000997.jpg,label=scoreboard,output=scoreboard,True
+n0414981300000292.jpg,label=scoreboard,output=scoreboard,True
+
+n0209960100001180.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000260.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000781.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000187.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000570.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000635.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000696.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000958.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000877.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001283.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000931.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000266.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000487.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001051.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000622.jpg,label=golden_retriever,output=golden_retriever,True
+
+n0314621900000731.jpg,label=cuirass,output=cuirass,True
+n0314621900001252.jpg,label=cuirass,output=cuirass,True
+n0314621900000017.jpg,label=cuirass,output=cuirass,True
+n0314621900000331.jpg,label=cuirass,output=African_hunting_dog,False
+n0314621900001088.jpg,label=cuirass,output=African_hunting_dog,False
+n0314621900000811.jpg,label=cuirass,output=cuirass,True
+n0314621900000852.jpg,label=cuirass,output=cuirass,True
+n0314621900000233.jpg,label=cuirass,output=cuirass,True
+n0314621900000289.jpg,label=cuirass,output=cuirass,True
+n0314621900001065.jpg,label=cuirass,output=cuirass,True
+n0314621900001036.jpg,label=cuirass,output=cuirass,True
+n0314621900001017.jpg,label=cuirass,output=cuirass,True
+n0314621900000263.jpg,label=cuirass,output=cuirass,True
+n0314621900000174.jpg,label=cuirass,output=cuirass,True
+n0314621900000088.jpg,label=cuirass,output=cuirass,True
+
+n0312792500000828.jpg,label=crate,output=crates,True
+n0312792500001073.jpg,label=crate,output=wooden crate,True
+n0312792500000580.jpg,label=crate,output=crate,True
+n0312792500000845.jpg,label=crate,output=crate,True
+n0312792500000614.jpg,label=crate,output=rum,False
+n0312792500000748.jpg,label=crate,output=scoreboard,False
+n0312792500000892.jpg,label=crate,output=crate,True
+n0312792500000484.jpg,label=crate,output=woodworking,False
+n0312792500001258.jpg,label=crate,output=crate,True
+n0312792500000185.jpg,label=crate,output=crate,True
+n0312792500001149.jpg,label=crate,output=wooden crate,True
+n0312792500000811.jpg,label=crate,output=crate,True
+n0312792500000224.jpg,label=crate,output=crate,True
+n0312792500001281.jpg,label=crate,output=crate,True
+n0312792500001181.jpg,label=crate,output=crate,True
+
+n0211673800000137.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000405.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000811.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000731.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000758.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000909.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000180.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000951.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000658.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000499.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000580.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000479.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000142.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001177.jpg,label=African_hunting_dog,output=wolf,False
+n0211673800000269.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+acc:  0.92
+
+进程已结束,退出代码0

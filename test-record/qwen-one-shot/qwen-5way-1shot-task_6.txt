@@ -1,0 +1,97 @@
+支持集的类别: ['trifle', 'black-footed_ferret', 'crate', 'African_hunting_dog', 'golden_retriever']
+测试集各类别: ['n07613480', 'n02443484', 'n03127925', 'n02116738', 'n02099601']
+支持集各图片:
+n07613480:['n0761348000000327.jpg']
+n02443484:['n0244348400000300.jpg']
+n03127925:['n0312792500000247.jpg']
+n02116738:['n0211673800000873.jpg']
+n02099601:['n0209960100000016.jpg']
+测试集各图片:
+n07613480:['n0761348000000478.jpg', 'n0761348000000201.jpg', 'n0761348000000164.jpg', 'n0761348000000472.jpg', 'n0761348000000482.jpg', 'n0761348000000152.jpg', 'n0761348000000213.jpg', 'n0761348000001297.jpg', 'n0761348000001022.jpg', 'n0761348000001080.jpg', 'n0761348000000064.jpg', 'n0761348000001225.jpg', 'n0761348000000313.jpg', 'n0761348000000746.jpg', 'n0761348000001020.jpg']
+n02443484:['n0244348400000215.jpg', 'n0244348400000234.jpg', 'n0244348400000929.jpg', 'n0244348400000870.jpg', 'n0244348400001011.jpg', 'n0244348400000434.jpg', 'n0244348400000189.jpg', 'n0244348400000629.jpg', 'n0244348400001247.jpg', 'n0244348400000914.jpg', 'n0244348400000440.jpg', 'n0244348400000815.jpg', 'n0244348400000474.jpg', 'n0244348400000038.jpg', 'n0244348400000681.jpg']
+n03127925:['n0312792500000487.jpg', 'n0312792500001073.jpg', 'n0312792500000699.jpg', 'n0312792500000393.jpg', 'n0312792500000771.jpg', 'n0312792500000690.jpg', 'n0312792500001060.jpg', 'n0312792500000173.jpg', 'n0312792500000308.jpg', 'n0312792500000845.jpg', 'n0312792500000874.jpg', 'n0312792500000586.jpg', 'n0312792500000048.jpg', 'n0312792500000846.jpg', 'n0312792500000692.jpg']
+n02116738:['n0211673800000974.jpg', 'n0211673800001256.jpg', 'n0211673800000062.jpg', 'n0211673800000983.jpg', 'n0211673800000918.jpg', 'n0211673800000731.jpg', 'n0211673800000710.jpg', 'n0211673800001097.jpg', 'n0211673800000854.jpg', 'n0211673800000897.jpg', 'n0211673800000861.jpg', 'n0211673800001287.jpg', 'n0211673800000349.jpg', 'n0211673800000767.jpg', 'n0211673800000272.jpg']
+n02099601:['n0209960100000189.jpg', 'n0209960100000283.jpg', 'n0209960100000685.jpg', 'n0209960100000237.jpg', 'n0209960100000756.jpg', 'n0209960100000240.jpg', 'n0209960100000483.jpg', 'n0209960100000122.jpg', 'n0209960100000432.jpg', 'n0209960100000149.jpg', 'n0209960100001282.jpg', 'n0209960100001134.jpg', 'n0209960100000984.jpg', 'n0209960100000101.jpg', 'n0209960100000518.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000000327.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'crate', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'trifle'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400000300.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'crate', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'black-footed_ferret'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0312792500000247.jpg'}, {'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'crate', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'crate'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000873.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'crate', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'African_hunting_dog'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100000016.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'crate', 'African_hunting_dog', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'golden_retriever'}]}]
+
+n0761348000000478.jpg,label=trifle,output=trifle,True
+n0761348000000201.jpg,label=trifle,output=trifle,True
+n0761348000000164.jpg,label=trifle,output=trifle,True
+n0761348000000472.jpg,label=trifle,output=trifle,True
+n0761348000000482.jpg,label=trifle,output=trifle,True
+n0761348000000152.jpg,label=trifle,output=trifle,True
+n0761348000000213.jpg,label=trifle,output=trifle,True
+n0761348000001297.jpg,label=trifle,output=trifle,True
+n0761348000001022.jpg,label=trifle,output=trifle,True
+n0761348000001080.jpg,label=trifle,output=trifle,True
+n0761348000000064.jpg,label=trifle,output=trifle,True
+n0761348000001225.jpg,label=trifle,output=trifle,True
+n0761348000000313.jpg,label=trifle,output=trifle,True
+n0761348000000746.jpg,label=trifle,output=trifle,True
+n0761348000001020.jpg,label=trifle,output=trifle,True
+
+n0244348400000215.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000234.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000929.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000870.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001011.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000434.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000189.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000629.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001247.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000914.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000440.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000815.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000474.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000038.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000681.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0312792500000487.jpg,label=crate,output=trifle,False
+n0312792500001073.jpg,label=crate,output=trifle,False
+n0312792500000699.jpg,label=crate,output=goldens retrievers,False
+n0312792500000393.jpg,label=crate,output=trifle,False
+n0312792500000771.jpg,label=crate,output=crates,True
+n0312792500000690.jpg,label=crate,output=crate,True
+n0312792500001060.jpg,label=crate,output=crate,True
+n0312792500000173.jpg,label=crate,output=crates,True
+n0312792500000308.jpg,label=crate,output=crates,True
+n0312792500000845.jpg,label=crate,output=crates,True
+n0312792500000874.jpg,label=crate,output=crates,True
+n0312792500000586.jpg,label=crate,output=crate,True
+n0312792500000048.jpg,label=crate,output=(trifle),False
+n0312792500000846.jpg,label=crate,output=trifle,False
+n0312792500000692.jpg,label=crate,output=trifle,False
+
+n0211673800000974.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001256.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000062.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000983.jpg,label=African_hunting_dog,output=black-footed_ferret,False
+n0211673800000918.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000731.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000710.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001097.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000854.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000897.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000861.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001287.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000349.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000767.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000272.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+n0209960100000189.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000283.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000685.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000237.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000756.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000240.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000483.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000122.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000432.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000149.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001282.jpg,label=golden_retriever,output=(trifle),False
+n0209960100001134.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000984.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000101.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000518.jpg,label=golden_retriever,output=golden_retriever,True
+
+acc:  0.88

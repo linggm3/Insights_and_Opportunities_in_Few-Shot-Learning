@@ -1,0 +1,97 @@
+支持集的类别: ['trifle', 'ant', 'crate', 'school_bus', 'hourglass']
+测试集各类别: ['n07613480', 'n02219486', 'n03127925', 'n04146614', 'n03544143']
+支持集各图片:
+n07613480:['n0761348000001238.jpg']
+n02219486:['n0221948600000056.jpg']
+n03127925:['n0312792500001012.jpg']
+n04146614:['n0414661400000186.jpg']
+n03544143:['n0354414300000760.jpg']
+测试集各图片:
+n07613480:['n0761348000000733.jpg', 'n0761348000000436.jpg', 'n0761348000000330.jpg', 'n0761348000000400.jpg', 'n0761348000000188.jpg', 'n0761348000000176.jpg', 'n0761348000001191.jpg', 'n0761348000000978.jpg', 'n0761348000000829.jpg', 'n0761348000001092.jpg', 'n0761348000000254.jpg', 'n0761348000000114.jpg', 'n0761348000000228.jpg', 'n0761348000000427.jpg', 'n0761348000000239.jpg']
+n02219486:['n0221948600001089.jpg', 'n0221948600000457.jpg', 'n0221948600001124.jpg', 'n0221948600000343.jpg', 'n0221948600000827.jpg', 'n0221948600000005.jpg', 'n0221948600000701.jpg', 'n0221948600001284.jpg', 'n0221948600000419.jpg', 'n0221948600001106.jpg', 'n0221948600001286.jpg', 'n0221948600000184.jpg', 'n0221948600000170.jpg', 'n0221948600000364.jpg', 'n0221948600001221.jpg']
+n03127925:['n0312792500001190.jpg', 'n0312792500001196.jpg', 'n0312792500001185.jpg', 'n0312792500000115.jpg', 'n0312792500000247.jpg', 'n0312792500000843.jpg', 'n0312792500001237.jpg', 'n0312792500000079.jpg', 'n0312792500000705.jpg', 'n0312792500000730.jpg', 'n0312792500000152.jpg', 'n0312792500000702.jpg', 'n0312792500000204.jpg', 'n0312792500000925.jpg', 'n0312792500000888.jpg']
+n04146614:['n0414661400000400.jpg', 'n0414661400000912.jpg', 'n0414661400000522.jpg', 'n0414661400000648.jpg', 'n0414661400000488.jpg', 'n0414661400000437.jpg', 'n0414661400000050.jpg', 'n0414661400001038.jpg', 'n0414661400000099.jpg', 'n0414661400000109.jpg', 'n0414661400000144.jpg', 'n0414661400001273.jpg', 'n0414661400000184.jpg', 'n0414661400001179.jpg', 'n0414661400000115.jpg']
+n03544143:['n0354414300000187.jpg', 'n0354414300000994.jpg', 'n0354414300000891.jpg', 'n0354414300000204.jpg', 'n0354414300000388.jpg', 'n0354414300000235.jpg', 'n0354414300000272.jpg', 'n0354414300000039.jpg', 'n0354414300000702.jpg', 'n0354414300001297.jpg', 'n0354414300000894.jpg', 'n0354414300000881.jpg', 'n0354414300000427.jpg', 'n0354414300000924.jpg', 'n0354414300000492.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000001238.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725208&Signature=89ty4qt9V7ASo4cic0pESQA75sE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'ant', 'crate', 'school_bus', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'trifle'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000056.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725210&Signature=fDupc6jj5QoGbiBMCsjuiR1e2ks%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'ant', 'crate', 'school_bus', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'ant'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500001012.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725211&Signature=Bhkqd%2BdoAM%2BqsGOpG62PyFgzFP0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'ant', 'crate', 'school_bus', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'crate'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000186.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725213&Signature=939PJUpnuPuqh%2BHTfpRAvNPo2p8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'ant', 'crate', 'school_bus', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0354414300000760.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725215&Signature=aHi4GjuqJSRuGYXvP6o7kSSOgjc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'ant', 'crate', 'school_bus', 'hourglass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'hourglass'."}]
+
+n0761348000000733.jpg,label=trifle,output=The correct category label representing the given image is 'ant'.,False
+n0761348000000436.jpg,label=trifle,output=The correct category label representing the given image is 'crate'.,False
+n0761348000000330.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000400.jpg,label=trifle,output=The image is most closely related to the category label 'trifle'.,True
+n0761348000000188.jpg,label=trifle,output=The image does not contain any of the labels provided in the options.,False
+n0761348000000176.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001191.jpg,label=trifle,output=The accurate category label representing the given image is 'crate'.,False
+n0761348000000978.jpg,label=trifle,output=The correct category label representing the given image is 'crate'.,False
+n0761348000000829.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001092.jpg,label=trifle,output=The correct category label representing the given image is 'crate'.,False
+n0761348000000254.jpg,label=trifle,output=The correct category label representing the given image is 'crate'.,False
+n0761348000000114.jpg,label=trifle,output=The correct category label representing the given image is 'crate'.,False
+n0761348000000228.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000427.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000239.jpg,label=trifle,output=The correct category label representing the given image is 'crate'.,False
+
+n0221948600001089.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000457.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001124.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000343.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000827.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000005.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000701.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001284.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000419.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001106.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001286.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000184.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000170.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000364.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001221.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+
+n0312792500001190.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500001196.jpg,label=crate,output=The image does not have an exact category label among the provided options.,False
+n0312792500001185.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000115.jpg,label=crate,output=The correct category label representing the given image is 'trifle'.,False
+n0312792500000247.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000843.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500001237.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000079.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000705.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000730.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000152.jpg,label=crate,output=The image does not have an exact match to any of the provided categories.,False
+n0312792500000702.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000204.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000925.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+n0312792500000888.jpg,label=crate,output=The correct category label representing the given image is 'crate'.,True
+
+n0414661400000400.jpg,label=school_bus,output=The correct category label representing the given image is 'crate'.,False
+n0414661400000912.jpg,label=school_bus,output=The correct category label representing the given image is 'crate'.,False
+n0414661400000522.jpg,label=school_bus,output=The accurate category label representing the given image is 'ant'.,False
+n0414661400000648.jpg,label=school_bus,output=The accurate category label representing the given image is 'crate'.,False
+n0414661400000488.jpg,label=school_bus,output=The correct category label representing the given image is 'crate'.,False
+n0414661400000437.jpg,label=school_bus,output=The correct category label representing the given image is 'hourglass'.,False
+n0414661400000050.jpg,label=school_bus,output=The accurate category label representing the given image is 'hourglass'.,False
+n0414661400001038.jpg,label=school_bus,output=The correct category label representing the given image is 'crate'.,False
+n0414661400000099.jpg,label=school_bus,output=The image does not clearly depict any of the categories provided in the options.,False
+n0414661400000109.jpg,label=school_bus,output=The correct category label representing the given image is 'hourglass'.,False
+n0414661400000144.jpg,label=school_bus,output=The image does not have an exact match within the provided categories.,False
+n0414661400001273.jpg,label=school_bus,output=The accurate category label representing the given image is 'ant'.,False
+n0414661400000184.jpg,label=school_bus,output=The correct category label representing the given image is 'crate'.,False
+n0414661400001179.jpg,label=school_bus,output=The image does not have a clear representation of any of the categories provided. Therefore, it cannot be determined which one accurately represents the given image based on the provided options.,False
+n0414661400000115.jpg,label=school_bus,output=The correct category label representing the given image is 'crate'.,False
+
+n0354414300000187.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000994.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000891.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000204.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000388.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000235.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000272.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000039.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000702.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300001297.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000894.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000881.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+n0354414300000427.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000924.jpg,label=hourglass,output=The accurate category label representing the given image is 'hourglass'.,True
+n0354414300000492.jpg,label=hourglass,output=The correct category label representing the given image is 'hourglass'.,True
+
+acc:  0.64

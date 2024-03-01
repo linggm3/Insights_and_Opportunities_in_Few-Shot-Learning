@@ -1,0 +1,97 @@
+支持集的类别: ['African_hunting_dog', 'cuirass', 'black-footed_ferret', 'lion', 'king_crab']
+测试集各类别: ['n02116738', 'n03146219', 'n02443484', 'n02129165', 'n01981276']
+支持集各图片:
+n02116738:['n0211673800001233.jpg']
+n03146219:['n0314621900000729.jpg']
+n02443484:['n0244348400000528.jpg']
+n02129165:['n0212916500000664.jpg']
+n01981276:['n0198127600000558.jpg']
+测试集各图片:
+n02116738:['n0211673800001135.jpg', 'n0211673800000055.jpg', 'n0211673800001056.jpg', 'n0211673800001134.jpg', 'n0211673800000872.jpg', 'n0211673800000602.jpg', 'n0211673800001287.jpg', 'n0211673800000194.jpg', 'n0211673800000839.jpg', 'n0211673800000167.jpg', 'n0211673800000702.jpg', 'n0211673800001226.jpg', 'n0211673800000283.jpg', 'n0211673800000491.jpg', 'n0211673800000515.jpg']
+n03146219:['n0314621900001061.jpg', 'n0314621900000445.jpg', 'n0314621900000736.jpg', 'n0314621900001202.jpg', 'n0314621900001010.jpg', 'n0314621900001237.jpg', 'n0314621900001207.jpg', 'n0314621900000557.jpg', 'n0314621900000207.jpg', 'n0314621900000304.jpg', 'n0314621900000620.jpg', 'n0314621900000360.jpg', 'n0314621900000140.jpg', 'n0314621900000910.jpg', 'n0314621900001065.jpg']
+n02443484:['n0244348400000537.jpg', 'n0244348400000327.jpg', 'n0244348400001231.jpg', 'n0244348400000470.jpg', 'n0244348400000933.jpg', 'n0244348400000007.jpg', 'n0244348400000709.jpg', 'n0244348400000928.jpg', 'n0244348400000693.jpg', 'n0244348400001219.jpg', 'n0244348400000782.jpg', 'n0244348400000761.jpg', 'n0244348400000205.jpg', 'n0244348400000611.jpg', 'n0244348400000455.jpg']
+n02129165:['n0212916500000251.jpg', 'n0212916500000239.jpg', 'n0212916500000956.jpg', 'n0212916500001207.jpg', 'n0212916500000284.jpg', 'n0212916500000471.jpg', 'n0212916500000154.jpg', 'n0212916500000203.jpg', 'n0212916500000371.jpg', 'n0212916500000513.jpg', 'n0212916500000531.jpg', 'n0212916500001115.jpg', 'n0212916500001214.jpg', 'n0212916500000436.jpg', 'n0212916500000871.jpg']
+n01981276:['n0198127600000007.jpg', 'n0198127600000379.jpg', 'n0198127600000431.jpg', 'n0198127600001237.jpg', 'n0198127600000752.jpg', 'n0198127600000591.jpg', 'n0198127600000322.jpg', 'n0198127600000497.jpg', 'n0198127600000073.jpg', 'n0198127600000478.jpg', 'n0198127600000488.jpg', 'n0198127600000412.jpg', 'n0198127600000108.jpg', 'n0198127600001064.jpg', 'n0198127600000694.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800001233.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725384&Signature=G4W7v78BVgfLwgdBweuwAO%2FSWoU%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'cuirass', 'black-footed_ferret', 'lion', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'African_hunting_dog'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900000729.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725386&Signature=GlJs6%2Bp8Je2L%2BceMFBkqdjJlRvg%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'cuirass', 'black-footed_ferret', 'lion', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000528.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725389&Signature=XBywPIMF7xdKAJNO2m3seffC4as%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'cuirass', 'black-footed_ferret', 'lion', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'black-footed_ferret'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000664.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725392&Signature=zEOB35TNwVb7q9oKS4jm%2FhTCh5w%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'cuirass', 'black-footed_ferret', 'lion', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'lion'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600000558.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725394&Signature=mQanUbzeKmipwMBa8YqU1l9P%2B9A%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['African_hunting_dog', 'cuirass', 'black-footed_ferret', 'lion', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'king_crab'."}]
+
+n0211673800001135.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000055.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001056.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001134.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000872.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000602.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001287.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000194.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000839.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000167.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000702.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800001226.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000283.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000491.jpg,label=African_hunting_dog,output=The accurate category label representing the given image is 'African_hunting_dog'.,True
+n0211673800000515.jpg,label=African_hunting_dog,output=The correct category label representing the given image is 'African_hunting_dog'.,True
+
+n0314621900001061.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000445.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000736.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900001202.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900001010.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900001237.jpg,label=cuirass,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0314621900001207.jpg,label=cuirass,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000557.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000207.jpg,label=cuirass,output=The correct category label representing the given image is 'lion'.,False
+n0314621900000304.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000620.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000360.jpg,label=cuirass,output=The correct category label representing the given image is 'Black-Footed Ferret'.,False
+n0314621900000140.jpg,label=cuirass,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000910.jpg,label=cuirass,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0314621900001065.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+
+n0244348400000537.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000327.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001231.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000470.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000933.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000007.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000709.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000928.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000693.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001219.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000782.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000761.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000205.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000611.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000455.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+
+n0212916500000251.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000239.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000956.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500001207.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000284.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000471.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000154.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000203.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000371.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000513.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000531.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500001115.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001214.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000436.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000871.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+
+n0198127600000007.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000379.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000431.jpg,label=king_crab,output=The image appears to show an African hunting dog, so the correct category label would be 'African_hunting_dog'.,False
+n0198127600001237.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000752.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000591.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000322.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000497.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000073.jpg,label=king_crab,output=The image does not have an exact category label that matches any of the provided options.,False
+n0198127600000478.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000488.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000412.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000108.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600001064.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000694.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+
+acc:  0.8933333333333333

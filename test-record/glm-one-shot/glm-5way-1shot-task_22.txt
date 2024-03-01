@@ -1,0 +1,97 @@
+支持集的类别: ['cuirass', 'vase', 'school_bus', 'mixing_bowl', 'nematode']
+测试集各类别: ['n03146219', 'n04522168', 'n04146614', 'n03775546', 'n01930112']
+支持集各图片:
+n03146219:['n0314621900000851.jpg']
+n04522168:['n0452216800000398.jpg']
+n04146614:['n0414661400000630.jpg']
+n03775546:['n0377554600000082.jpg']
+n01930112:['n0193011200000892.jpg']
+测试集各图片:
+n03146219:['n0314621900000456.jpg', 'n0314621900000905.jpg', 'n0314621900000481.jpg', 'n0314621900001191.jpg', 'n0314621900001287.jpg', 'n0314621900001232.jpg', 'n0314621900000386.jpg', 'n0314621900000081.jpg', 'n0314621900000552.jpg', 'n0314621900000830.jpg', 'n0314621900001281.jpg', 'n0314621900000455.jpg', 'n0314621900000271.jpg', 'n0314621900000928.jpg', 'n0314621900001183.jpg']
+n04522168:['n0452216800000949.jpg', 'n0452216800000151.jpg', 'n0452216800000078.jpg', 'n0452216800001267.jpg', 'n0452216800000646.jpg', 'n0452216800000835.jpg', 'n0452216800000245.jpg', 'n0452216800000790.jpg', 'n0452216800001300.jpg', 'n0452216800000573.jpg', 'n0452216800000429.jpg', 'n0452216800000483.jpg', 'n0452216800000660.jpg', 'n0452216800000676.jpg', 'n0452216800000891.jpg']
+n04146614:['n0414661400000263.jpg', 'n0414661400000941.jpg', 'n0414661400001055.jpg', 'n0414661400000493.jpg', 'n0414661400000747.jpg', 'n0414661400000714.jpg', 'n0414661400000875.jpg', 'n0414661400000805.jpg', 'n0414661400000287.jpg', 'n0414661400000209.jpg', 'n0414661400001276.jpg', 'n0414661400000137.jpg', 'n0414661400001288.jpg', 'n0414661400000233.jpg', 'n0414661400001299.jpg']
+n03775546:['n0377554600000354.jpg', 'n0377554600000913.jpg', 'n0377554600001157.jpg', 'n0377554600000528.jpg', 'n0377554600000114.jpg', 'n0377554600000343.jpg', 'n0377554600001027.jpg', 'n0377554600000974.jpg', 'n0377554600001084.jpg', 'n0377554600000091.jpg', 'n0377554600001174.jpg', 'n0377554600000155.jpg', 'n0377554600000040.jpg', 'n0377554600000325.jpg', 'n0377554600000610.jpg']
+n01930112:['n0193011200001107.jpg', 'n0193011200000292.jpg', 'n0193011200000786.jpg', 'n0193011200000930.jpg', 'n0193011200000989.jpg', 'n0193011200000107.jpg', 'n0193011200000471.jpg', 'n0193011200000478.jpg', 'n0193011200000714.jpg', 'n0193011200000344.jpg', 'n0193011200000473.jpg', 'n0193011200001152.jpg', 'n0193011200000808.jpg', 'n0193011200000600.jpg', 'n0193011200001065.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900000851.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727625&Signature=z24vy2TmLC%2Bu5DDwfls6DSSTF1o%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'vase', 'school_bus', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800000398.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727627&Signature=dbKbcqouVDjjtGXzbcAFckUhmJ0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'vase', 'school_bus', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'vase'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000630.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727628&Signature=YLWi%2F5%2FbLA185xUjTP4h50z5p5k%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'vase', 'school_bus', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000082.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727630&Signature=d%2FmelwZENGp8QrIa0JQiAyVB348%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'vase', 'school_bus', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'mixing_bowl'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0193011200000892.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727632&Signature=owoz1zbqpS8Jjz3xaODkQw4NTgA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['cuirass', 'vase', 'school_bus', 'mixing_bowl', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'nematode'."}]
+
+n0314621900000456.jpg,label=cuirass,output=The image does not have an accurate category label from the provided options.,False
+n0314621900000905.jpg,label=cuirass,output=The image showcases an individual dressed as a Roman soldier or centurion. Hence, the accurate category label representing the given image would be 'cuirass'.,True
+n0314621900000481.jpg,label=cuirass,output=The image is most closely related to the category 'vase'.,False
+n0314621900001191.jpg,label=cuirass,output=The accurate category label representing the given image is 'vase'.,False
+n0314621900001287.jpg,label=cuirass,output=The image appears to resemble a cuirass, which is a type of armor worn by soldiers or warriors. Therefore, the correct category label representing the given image would be 'cuirass'.,True
+n0314621900001232.jpg,label=cuirass,output=The correct category label representing the given image is 'vase'.,False
+n0314621900000386.jpg,label=cuirass,output=The correct category label representing the given image is 'vase'.,False
+n0314621900000081.jpg,label=cuirass,output=The image appears to represent an object resembling armor or protective gear, specifically a cuirass. Therefore, the correct category label for this image would be 'cuirass'.,True
+n0314621900000552.jpg,label=cuirass,output=The accurate category label representing the given image is 'vase'.,False
+n0314621900000830.jpg,label=cuirass,output=The correct category label representing the given image is 'nematode'.,False
+n0314621900001281.jpg,label=cuirass,output=The correct category label representing the given image is 'vase'.,False
+n0314621900000455.jpg,label=cuirass,output=The accurate category label representing the given image is 'vase'.,False
+n0314621900000271.jpg,label=cuirass,output=The image does not have an accurate category label among the provided options.,False
+n0314621900000928.jpg,label=cuirass,output=The correct category label representing the given image is 'vase'.,False
+n0314621900001183.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+
+n0452216800000949.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000151.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000078.jpg,label=vase,output=The image appears to be a vase.,True
+n0452216800001267.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000646.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000835.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000245.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000790.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800001300.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000573.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000429.jpg,label=vase,output=The image appears to be a vase.,True
+n0452216800000483.jpg,label=vase,output=The accurate category label representing the given image is 'vase'.,True
+n0452216800000660.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000676.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+n0452216800000891.jpg,label=vase,output=The correct category label representing the given image is 'vase'.,True
+
+n0414661400000263.jpg,label=school_bus,output=The image does not contain any information related to 'cuirass', 'vase', 'school_bus', 'mixing_bowl', or 'nematode'. Hence, it's challenging to determine an accurate category based on the provided options.,True
+n0414661400000941.jpg,label=school_bus,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0414661400001055.jpg,label=school_bus,output=The image does not clearly depict any of the categories listed above.,False
+n0414661400000493.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000747.jpg,label=school_bus,output=The image showcases school buses parked in rows. Hence, the correct category label representing the given image is 'school_bus'.,True
+n0414661400000714.jpg,label=school_bus,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0414661400000875.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000805.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000287.jpg,label=school_bus,output=The image appears to be a school bus.,True
+n0414661400000209.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400001276.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000137.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400001288.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000233.jpg,label=school_bus,output=The image appears to be a school bus. Therefore, the correct category label representing the given image is 'school_bus'.,True
+n0414661400001299.jpg,label=school_bus,output=The image does not fall under any of the provided categories.,False
+
+n0377554600000354.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'vase'.,False
+n0377554600000913.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001157.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'vase'.,False
+n0377554600000528.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000114.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'vase'.,False
+n0377554600000343.jpg,label=mixing_bowl,output=The image showcases a vase.,False
+n0377554600001027.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'vase'.,False
+n0377554600000974.jpg,label=mixing_bowl,output=The image does not clearly depict any of the categories listed above.,False
+n0377554600001084.jpg,label=mixing_bowl,output=The image appears to be a vase, so the correct category label would be 'vase'.,False
+n0377554600000091.jpg,label=mixing_bowl,output=The image appears to be a bowl or container with a design featuring leaves and possibly some flowers. Given these details, the most appropriate category label would be 'vase'.,False
+n0377554600001174.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'vase'.,False
+n0377554600000155.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000040.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'vase'.,False
+n0377554600000325.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'vase'.,False
+n0377554600000610.jpg,label=mixing_bowl,output=The image does not contain any information related to 'cuirass', 'vase', 'school_bus', or 'nematode'. Hence, no specific category label can be assigned based on the provided options.,False
+
+n0193011200001107.jpg,label=nematode,output=The accurate category label representing the given image is 'vase'.,False
+n0193011200000292.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000786.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000930.jpg,label=nematode,output=The accurate category label representing the given image is 'vase'.,False
+n0193011200000989.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000107.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000471.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000478.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000714.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000344.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+n0193011200000473.jpg,label=nematode,output=The correct category label representing the given image is 'vase'.,False
+n0193011200001152.jpg,label=nematode,output=The correct category label representing the given image is 'vase'.,False
+n0193011200000808.jpg,label=nematode,output=The correct category label representing the given image is 'nematode'.,True
+n0193011200000600.jpg,label=nematode,output=The correct category label representing the given image is 'vase'.,False
+n0193011200001065.jpg,label=nematode,output=The accurate category label representing the given image is 'nematode'.,True
+
+acc:  0.5733333333333334

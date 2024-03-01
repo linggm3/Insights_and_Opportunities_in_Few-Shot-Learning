@@ -1,0 +1,97 @@
+支持集的类别: ['bookshop', 'golden_retriever', 'king_crab', 'black-footed_ferret', 'trifle']
+测试集各类别: ['n02871525', 'n02099601', 'n01981276', 'n02443484', 'n07613480']
+支持集各图片:
+n02871525:['n0287152500001003.jpg']
+n02099601:['n0209960100001293.jpg']
+n01981276:['n0198127600000681.jpg']
+n02443484:['n0244348400001006.jpg']
+n07613480:['n0761348000000266.jpg']
+测试集各图片:
+n02871525:['n0287152500001115.jpg', 'n0287152500000270.jpg', 'n0287152500000185.jpg', 'n0287152500000974.jpg', 'n0287152500000063.jpg', 'n0287152500000568.jpg', 'n0287152500000986.jpg', 'n0287152500000520.jpg', 'n0287152500000335.jpg', 'n0287152500000037.jpg', 'n0287152500000082.jpg', 'n0287152500000075.jpg', 'n0287152500000518.jpg', 'n0287152500001288.jpg', 'n0287152500001102.jpg']
+n02099601:['n0209960100001109.jpg', 'n0209960100000498.jpg', 'n0209960100000980.jpg', 'n0209960100000837.jpg', 'n0209960100000592.jpg', 'n0209960100000203.jpg', 'n0209960100001139.jpg', 'n0209960100000251.jpg', 'n0209960100000051.jpg', 'n0209960100000533.jpg', 'n0209960100000778.jpg', 'n0209960100000135.jpg', 'n0209960100000775.jpg', 'n0209960100000359.jpg', 'n0209960100000360.jpg']
+n01981276:['n0198127600000927.jpg', 'n0198127600000051.jpg', 'n0198127600000401.jpg', 'n0198127600000890.jpg', 'n0198127600000651.jpg', 'n0198127600000120.jpg', 'n0198127600000055.jpg', 'n0198127600001114.jpg', 'n0198127600000209.jpg', 'n0198127600000830.jpg', 'n0198127600001183.jpg', 'n0198127600000205.jpg', 'n0198127600001225.jpg', 'n0198127600000652.jpg', 'n0198127600001073.jpg']
+n02443484:['n0244348400000702.jpg', 'n0244348400000404.jpg', 'n0244348400000517.jpg', 'n0244348400000186.jpg', 'n0244348400000751.jpg', 'n0244348400000330.jpg', 'n0244348400000102.jpg', 'n0244348400000068.jpg', 'n0244348400000248.jpg', 'n0244348400000257.jpg', 'n0244348400000471.jpg', 'n0244348400001300.jpg', 'n0244348400000018.jpg', 'n0244348400000601.jpg', 'n0244348400000930.jpg']
+n07613480:['n0761348000000547.jpg', 'n0761348000000112.jpg', 'n0761348000000140.jpg', 'n0761348000000735.jpg', 'n0761348000000411.jpg', 'n0761348000000649.jpg', 'n0761348000000918.jpg', 'n0761348000000920.jpg', 'n0761348000000283.jpg', 'n0761348000000254.jpg', 'n0761348000001014.jpg', 'n0761348000001281.jpg', 'n0761348000000393.jpg', 'n0761348000000469.jpg', 'n0761348000000808.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500001003.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'golden_retriever', 'king_crab', 'black-footed_ferret', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'bookshop'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100001293.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'golden_retriever', 'king_crab', 'black-footed_ferret', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'golden_retriever'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600000681.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'golden_retriever', 'king_crab', 'black-footed_ferret', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'king_crab'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400001006.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'golden_retriever', 'king_crab', 'black-footed_ferret', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'black-footed_ferret'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000000266.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['bookshop', 'golden_retriever', 'king_crab', 'black-footed_ferret', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'trifle'}]}]
+
+n0287152500001115.jpg,label=bookshop,output=bookshop,True
+n0287152500000270.jpg,label=bookshop,output=bookshop,True
+n0287152500000185.jpg,label=bookshop,output=golden_retriever,False
+n0287152500000974.jpg,label=bookshop,output=penguin,False
+n0287152500000063.jpg,label=bookshop,output=bookshop,True
+n0287152500000568.jpg,label=bookshop,output=bookshop,True
+n0287152500000986.jpg,label=bookshop,output=bookshop,True
+n0287152500000520.jpg,label=bookshop,output=bookshop,True
+n0287152500000335.jpg,label=bookshop,output=bookshop,True
+n0287152500000037.jpg,label=bookshop,output=bookshop,True
+n0287152500000082.jpg,label=bookshop,output=bookshop,True
+n0287152500000075.jpg,label=bookshop,output=bookshop,True
+n0287152500000518.jpg,label=bookshop,output=bookshop,True
+n0287152500001288.jpg,label=bookshop,output=bookshop,True
+n0287152500001102.jpg,label=bookshop,output=bookshop,True
+
+n0209960100001109.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000498.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000980.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000837.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000592.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000203.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001139.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000251.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000051.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000533.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000778.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000135.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000775.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000359.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000360.jpg,label=golden_retriever,output=golden_retriever,True
+
+n0198127600000927.jpg,label=king_crab,output=bookshop,False
+n0198127600000051.jpg,label=king_crab,output=golden_retriever,False
+n0198127600000401.jpg,label=king_crab,output=king_crab,True
+n0198127600000890.jpg,label=king_crab,output=king_crab,True
+n0198127600000651.jpg,label=king_crab,output=king_crab,True
+n0198127600000120.jpg,label=king_crab,output=king_crab,True
+n0198127600000055.jpg,label=king_crab,output=king_crab,True
+n0198127600001114.jpg,label=king_crab,output=king_crab,True
+n0198127600000209.jpg,label=king_crab,output=king_crab,True
+n0198127600000830.jpg,label=king_crab,output=golden_retriever,False
+n0198127600001183.jpg,label=king_crab,output=king_crab,True
+n0198127600000205.jpg,label=king_crab,output=goldens retriever,False
+n0198127600001225.jpg,label=king_crab,output=king_crab,True
+n0198127600000652.jpg,label=king_crab,output=goldener retriever,False
+n0198127600001073.jpg,label=king_crab,output=golden_retriever,False
+
+n0244348400000702.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000404.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000517.jpg,label=black-footed_ferret,output=golden_retriever,False
+n0244348400000186.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000751.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000330.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000102.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000068.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000248.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000257.jpg,label=black-footed_ferret,output=golden_retriever,False
+n0244348400000471.jpg,label=black-footed_ferret,output=golden_retriever,False
+n0244348400001300.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000018.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000601.jpg,label=black-footed_ferret,output=golden_retriever,False
+n0244348400000930.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0761348000000547.jpg,label=trifle,output=trifle,True
+n0761348000000112.jpg,label=trifle,output=trifle,True
+n0761348000000140.jpg,label=trifle,output=trifle,True
+n0761348000000735.jpg,label=trifle,output=goldens retriever,False
+n0761348000000411.jpg,label=trifle,output=trifle,True
+n0761348000000649.jpg,label=trifle,output=trifle,True
+n0761348000000918.jpg,label=trifle,output=trifle,True
+n0761348000000920.jpg,label=trifle,output=golden_retriever,False
+n0761348000000283.jpg,label=trifle,output=trifle,True
+n0761348000000254.jpg,label=trifle,output=trifle,True
+n0761348000001014.jpg,label=trifle,output=trifle,True
+n0761348000001281.jpg,label=trifle,output=trifle,True
+n0761348000000393.jpg,label=trifle,output=golden_retriever,False
+n0761348000000469.jpg,label=trifle,output=trifle,True
+n0761348000000808.jpg,label=trifle,output=trifle,True
+
+acc:  0.8

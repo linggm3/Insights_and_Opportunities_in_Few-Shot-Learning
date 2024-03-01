@@ -1,0 +1,97 @@
+支持集的类别: ['black-footed_ferret', 'cuirass', 'lion', 'dalmatian', 'school_bus']
+测试集各类别: ['n02443484', 'n03146219', 'n02129165', 'n02110341', 'n04146614']
+支持集各图片:
+n02443484:['n0244348400001275.jpg']
+n03146219:['n0314621900001213.jpg']
+n02129165:['n0212916500001138.jpg']
+n02110341:['n0211034100000195.jpg']
+n04146614:['n0414661400000226.jpg']
+测试集各图片:
+n02443484:['n0244348400000702.jpg', 'n0244348400000080.jpg', 'n0244348400000504.jpg', 'n0244348400001049.jpg', 'n0244348400000865.jpg', 'n0244348400000635.jpg', 'n0244348400001119.jpg', 'n0244348400001165.jpg', 'n0244348400001045.jpg', 'n0244348400000473.jpg', 'n0244348400000580.jpg', 'n0244348400000859.jpg', 'n0244348400000405.jpg', 'n0244348400000617.jpg', 'n0244348400000293.jpg']
+n03146219:['n0314621900000760.jpg', 'n0314621900000324.jpg', 'n0314621900000534.jpg', 'n0314621900000094.jpg', 'n0314621900000075.jpg', 'n0314621900000571.jpg', 'n0314621900001250.jpg', 'n0314621900000171.jpg', 'n0314621900000019.jpg', 'n0314621900000904.jpg', 'n0314621900000406.jpg', 'n0314621900000151.jpg', 'n0314621900000304.jpg', 'n0314621900001182.jpg', 'n0314621900001074.jpg']
+n02129165:['n0212916500000871.jpg', 'n0212916500000249.jpg', 'n0212916500000046.jpg', 'n0212916500000493.jpg', 'n0212916500000804.jpg', 'n0212916500000506.jpg', 'n0212916500001200.jpg', 'n0212916500000371.jpg', 'n0212916500000643.jpg', 'n0212916500000959.jpg', 'n0212916500000487.jpg', 'n0212916500000583.jpg', 'n0212916500000410.jpg', 'n0212916500000490.jpg', 'n0212916500000449.jpg']
+n02110341:['n0211034100001045.jpg', 'n0211034100000692.jpg', 'n0211034100001098.jpg', 'n0211034100000389.jpg', 'n0211034100001123.jpg', 'n0211034100001287.jpg', 'n0211034100000166.jpg', 'n0211034100000462.jpg', 'n0211034100000957.jpg', 'n0211034100000328.jpg', 'n0211034100001293.jpg', 'n0211034100001282.jpg', 'n0211034100000485.jpg', 'n0211034100000132.jpg', 'n0211034100001252.jpg']
+n04146614:['n0414661400000510.jpg', 'n0414661400000688.jpg', 'n0414661400000862.jpg', 'n0414661400000772.jpg', 'n0414661400000736.jpg', 'n0414661400001059.jpg', 'n0414661400001022.jpg', 'n0414661400000525.jpg', 'n0414661400001152.jpg', 'n0414661400000887.jpg', 'n0414661400000234.jpg', 'n0414661400000101.jpg', 'n0414661400000939.jpg', 'n0414661400000245.jpg', 'n0414661400000224.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400001275.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773912&Signature=JAQJYGlS9qaG7m1vP4xr0eyEbgk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'cuirass', 'lion', 'dalmatian', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category for this image is 'black-footed_ferret'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900001213.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773914&Signature=u%2BiKsB%2FUp0MYe%2BA1Wx32ZnuEWXc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'cuirass', 'lion', 'dalmatian', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category for this image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500001138.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773916&Signature=RjdVgIEwQ%2BXw5LRov%2FSH4AUoViw%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'cuirass', 'lion', 'dalmatian', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category for this image is 'lion'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211034100000195.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773918&Signature=J%2FhT8ZpQZ15FAqQc8%2F0Suvhq%2BH4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'cuirass', 'lion', 'dalmatian', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category for this image is 'dalmatian'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000226.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706773919&Signature=PIfNjuGqUTdEoGDVFhOu6BCJZ%2FE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'cuirass', 'lion', 'dalmatian', 'school_bus']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category for this image is 'school_bus'."}]
+
+n0244348400000702.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000080.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000504.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400001049.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000865.jpg,label=black-footed_ferret,output=The image does not have an exact match to any of the provided categories.,False
+n0244348400000635.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400001119.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400001165.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400001045.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000473.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000580.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000859.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000405.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000617.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+n0244348400000293.jpg,label=black-footed_ferret,output=The correct category label for this image is 'black-footed_ferret'.,True
+
+n0314621900000760.jpg,label=cuirass,output=The correct category label for this image is 'lion'.,False
+n0314621900000324.jpg,label=cuirass,output=The image does not contain any information about a black-footed ferret, cuirass, lion, dalmatian, or school bus. Therefore, it cannot be associated with any of these categories.,True
+n0314621900000534.jpg,label=cuirass,output=The correct category label for this image is 'lion'.,False
+n0314621900000094.jpg,label=cuirass,output=The image does not have an exact match to any of the provided categories.,False
+n0314621900000075.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000571.jpg,label=cuirass,output=The correct category label for this image is 'lion'.,False
+n0314621900001250.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000171.jpg,label=cuirass,output=The correct category label for this image is 'cuirass'.,True
+n0314621900000019.jpg,label=cuirass,output=The correct category label for this image is 'cuirass'.,True
+n0314621900000904.jpg,label=cuirass,output=The correct category label for this image is 'lion'.,False
+n0314621900000406.jpg,label=cuirass,output=The correct category label for this image is 'cuirass'.,True
+n0314621900000151.jpg,label=cuirass,output=The correct category label for this image is 'dalmatian'.,False
+n0314621900000304.jpg,label=cuirass,output=The correct category label for this image is 'cuirass'.,True
+n0314621900001182.jpg,label=cuirass,output=The image appears to be an armor or protective gear piece, specifically resembling a cuirass. Hence, the correct category label for this image would be 'cuirass'.,True
+n0314621900001074.jpg,label=cuirass,output=The correct category label for this image is 'lion'.,False
+
+n0212916500000871.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000249.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000046.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000493.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000804.jpg,label=lion,output=The correct category label for this image is 'black-footed_ferret'.,False
+n0212916500000506.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500001200.jpg,label=lion,output=The image corresponds to the category label 'lion'.,True
+n0212916500000371.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000643.jpg,label=lion,output=The image appears to be a lion, so the correct category label would be 'lion'.,True
+n0212916500000959.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000487.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000583.jpg,label=lion,output=The image contains elements of both 'black-footed_ferret' and 'lion'. However, without clear distinguishing features or contextual information, it's challenging to determine which one is more dominant or prevalent in the image. Therefore, it would be appropriate to assign both categories to the image as they are both present.,True
+n0212916500000410.jpg,label=lion,output=The image showcases a lion lying down on the ground.,True
+n0212916500000490.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+n0212916500000449.jpg,label=lion,output=The correct category label for this image is 'lion'.,True
+
+n0211034100001045.jpg,label=dalmatian,output=The correct category label for this image is 'lion'.,False
+n0211034100000692.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100001098.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100000389.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100001123.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100001287.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100000166.jpg,label=dalmatian,output=The image appears to depict a dog, specifically a Dalmatian, which matches the category label 'dalmatian'.,True
+n0211034100000462.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100000957.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100000328.jpg,label=dalmatian,output=The image is most closely associated with the category 'dalmatian'.,True
+n0211034100001293.jpg,label=dalmatian,output=The image does not represent any of the categories listed in the options provided.,False
+n0211034100001282.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100000485.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100000132.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+n0211034100001252.jpg,label=dalmatian,output=The correct category label for this image is 'dalmatian'.,True
+
+n0414661400000510.jpg,label=school_bus,output=The image does not clearly depict any of the categories listed. Therefore, it cannot be accurately labeled based on the provided options.,False
+n0414661400000688.jpg,label=school_bus,output=The correct category label for this image is 'school_bus'.,True
+n0414661400000862.jpg,label=school_bus,output=The image does not have an exact match to any of the provided categories.,False
+n0414661400000772.jpg,label=school_bus,output=The correct category label for this image is 'black-footed_ferret'.,False
+n0414661400000736.jpg,label=school_bus,output=The correct category label for this image is 'school_bus'.,True
+n0414661400001059.jpg,label=school_bus,output=The correct category label for this image is 'school_bus'.,True
+n0414661400001022.jpg,label=school_bus,output=The correct category label for this image is 'school_bus'.,True
+n0414661400000525.jpg,label=school_bus,output=The correct category label for this image is 'school_bus'.,True
+n0414661400001152.jpg,label=school_bus,output=The image does not have an exact match to any of the provided categories.,False
+n0414661400000887.jpg,label=school_bus,output=The correct category label for this image is 'school_bus'.,True
+n0414661400000234.jpg,label=school_bus,output=The correct category label for this image is 'lion'.,False
+n0414661400000101.jpg,label=school_bus,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0414661400000939.jpg,label=school_bus,output=The image does not have an accurate category label associated with it.,False
+n0414661400000245.jpg,label=school_bus,output=The correct category label for this image is 'school_bus'.,True
+n0414661400000224.jpg,label=school_bus,output=The image does not contain any information to determine an accurate category label.,False
+
+acc:  0.7466666666666667

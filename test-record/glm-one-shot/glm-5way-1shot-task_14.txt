@@ -1,0 +1,97 @@
+支持集的类别: ['lion', 'malamute', 'scoreboard', 'king_crab', 'mixing_bowl']
+测试集各类别: ['n02129165', 'n02110063', 'n04149813', 'n01981276', 'n03775546']
+支持集各图片:
+n02129165:['n0212916500000463.jpg']
+n02110063:['n0211006300001065.jpg']
+n04149813:['n0414981300001085.jpg']
+n01981276:['n0198127600000051.jpg']
+n03775546:['n0377554600000963.jpg']
+测试集各图片:
+n02129165:['n0212916500000939.jpg', 'n0212916500000614.jpg', 'n0212916500000763.jpg', 'n0212916500000720.jpg', 'n0212916500001163.jpg', 'n0212916500000925.jpg', 'n0212916500000323.jpg', 'n0212916500001165.jpg', 'n0212916500001072.jpg', 'n0212916500000137.jpg', 'n0212916500000729.jpg', 'n0212916500000118.jpg', 'n0212916500000328.jpg', 'n0212916500000930.jpg', 'n0212916500001094.jpg']
+n02110063:['n0211006300000019.jpg', 'n0211006300001010.jpg', 'n0211006300001242.jpg', 'n0211006300000583.jpg', 'n0211006300000996.jpg', 'n0211006300000444.jpg', 'n0211006300001120.jpg', 'n0211006300000797.jpg', 'n0211006300001007.jpg', 'n0211006300000760.jpg', 'n0211006300000271.jpg', 'n0211006300000417.jpg', 'n0211006300000060.jpg', 'n0211006300001121.jpg', 'n0211006300000696.jpg']
+n04149813:['n0414981300000222.jpg', 'n0414981300000373.jpg', 'n0414981300000645.jpg', 'n0414981300001037.jpg', 'n0414981300000162.jpg', 'n0414981300000930.jpg', 'n0414981300000526.jpg', 'n0414981300000148.jpg', 'n0414981300000995.jpg', 'n0414981300000615.jpg', 'n0414981300000433.jpg', 'n0414981300001150.jpg', 'n0414981300000157.jpg', 'n0414981300000307.jpg', 'n0414981300000996.jpg']
+n01981276:['n0198127600000776.jpg', 'n0198127600000805.jpg', 'n0198127600000859.jpg', 'n0198127600000317.jpg', 'n0198127600000895.jpg', 'n0198127600000397.jpg', 'n0198127600000442.jpg', 'n0198127600001055.jpg', 'n0198127600000814.jpg', 'n0198127600000443.jpg', 'n0198127600000681.jpg', 'n0198127600000789.jpg', 'n0198127600000168.jpg', 'n0198127600000213.jpg', 'n0198127600000712.jpg']
+n03775546:['n0377554600000997.jpg', 'n0377554600000343.jpg', 'n0377554600000103.jpg', 'n0377554600001041.jpg', 'n0377554600000667.jpg', 'n0377554600001146.jpg', 'n0377554600001255.jpg', 'n0377554600001192.jpg', 'n0377554600000369.jpg', 'n0377554600000976.jpg', 'n0377554600000760.jpg', 'n0377554600000001.jpg', 'n0377554600000377.jpg', 'n0377554600000450.jpg', 'n0377554600001078.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000463.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725891&Signature=NvG1ILMtzKQ40Bm18JFpSx2F%2BXc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'malamute', 'scoreboard', 'king_crab', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'lion'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211006300001065.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725893&Signature=10v1m%2FVrH95aPXAgHGPWSIYASy0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'malamute', 'scoreboard', 'king_crab', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'malamute'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414981300001085.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725894&Signature=QRUSGP6iJdZdAQsDRfKCvwR6Oi4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'scoreboard'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'malamute', 'scoreboard', 'king_crab', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'scoreboard'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600000051.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725896&Signature=WMbcwAV93v7yj3ccjlVDbIgOHfw%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'malamute', 'scoreboard', 'king_crab', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'king_crab'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000963.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725898&Signature=F1EYlUz0ovWHFcFw6Tf1ObYVCBE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'malamute', 'scoreboard', 'king_crab', 'mixing_bowl']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'mixing_bowl'."}]
+
+n0212916500000939.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000614.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000763.jpg,label=lion,output=The image is most closely related to the category 'lion'.,True
+n0212916500000720.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001163.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000925.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000323.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001165.jpg,label=lion,output=The image showcases two lions walking side by side through a grassy field.,True
+n0212916500001072.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000137.jpg,label=lion,output=The image is most closely associated with the category 'lion'.,True
+n0212916500000729.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000118.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000328.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000930.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001094.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+
+n0211006300000019.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300001010.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300001242.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000583.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000996.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000444.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300001120.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000797.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300001007.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000760.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000271.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000417.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000060.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300001121.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000696.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+
+n0414981300000222.jpg,label=scoreboard,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0414981300000373.jpg,label=scoreboard,output=The image does not clearly depict any of the categories listed. Therefore, it cannot be accurately labeled with one of the provided options.,False
+n0414981300000645.jpg,label=scoreboard,output=The image does not clearly depict any of the categories listed above. Hence, it cannot be confidently assigned to one of them based on the provided options.,False
+n0414981300001037.jpg,label=scoreboard,output=The image appears to be a scoreboard or display board, so the accurate category label representing the given image would be 'scoreboard'.,True
+n0414981300000162.jpg,label=scoreboard,output=The image appears to be a scoreboard, so the correct category label would be 'scoreboard'.,True
+n0414981300000930.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000526.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000148.jpg,label=scoreboard,output=The image does not clearly depict any of the categories listed. Therefore, it cannot be accurately labeled based on the provided options.,False
+n0414981300000995.jpg,label=scoreboard,output=The image appears to be a scoreboard or some kind of display board. Therefore, the correct category label representing the given image would be 'scoreboard'.,True
+n0414981300000615.jpg,label=scoreboard,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0414981300000433.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300001150.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000157.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000307.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+n0414981300000996.jpg,label=scoreboard,output=The correct category label representing the given image is 'scoreboard'.,True
+
+n0198127600000776.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000805.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000859.jpg,label=king_crab,output=The image appears to show a large orange crab on ice, which corresponds to the category label 'king_crab'.,True
+n0198127600000317.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000895.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000397.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000442.jpg,label=king_crab,output=The image appears to depict a dish or food item, but without additional contextual information, it's challenging to determine the exact category. However, based on the visual appearance, one might associate it with seafood dishes, possibly crab legs or shrimp, as they are often served in similar presentations.,False
+n0198127600001055.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000814.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000443.jpg,label=king_crab,output=The image appears to be a lion or a large cat, so the correct category label would be 'lion'.,False
+n0198127600000681.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000789.jpg,label=king_crab,output=The image does not have an exact category label that matches any of the provided options.,False
+n0198127600000168.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000213.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000712.jpg,label=king_crab,output=The image appears to depict a lion or a similar large cat. Therefore, the correct category label representing the given image would be 'lion'.,False
+
+n0377554600000997.jpg,label=mixing_bowl,output=The image contains two bowls and three nails. Therefore, the most appropriate category label for this image would be 'mixing_bowl'.,True
+n0377554600000343.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000103.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001041.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'lion'.,False
+n0377554600000667.jpg,label=mixing_bowl,output=The image showcases a bowl. Hence, the accurate category label representing the given image is 'mixing_bowl'.,True
+n0377554600001146.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001255.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001192.jpg,label=mixing_bowl,output=The image does not have an accurate category label that matches any of the provided options.,False
+n0377554600000369.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000976.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000760.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000001.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000377.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000450.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001078.jpg,label=mixing_bowl,output=The image does not have an exact category label among the options provided.,False
+
+acc:  0.84

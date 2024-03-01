@@ -1,0 +1,97 @@
+支持集的类别: ['school_bus', 'cuirass', 'black-footed_ferret', 'bookshop', 'dalmatian']
+测试集各类别: ['n04146614', 'n03146219', 'n02443484', 'n02871525', 'n02110341']
+支持集各图片:
+n04146614:['n0414661400000927.jpg']
+n03146219:['n0314621900001228.jpg']
+n02443484:['n0244348400000764.jpg']
+n02871525:['n0287152500001284.jpg']
+n02110341:['n0211034100000177.jpg']
+测试集各图片:
+n04146614:['n0414661400001198.jpg', 'n0414661400000129.jpg', 'n0414661400001295.jpg', 'n0414661400000028.jpg', 'n0414661400000002.jpg', 'n0414661400000136.jpg', 'n0414661400000606.jpg', 'n0414661400001280.jpg', 'n0414661400001068.jpg', 'n0414661400000583.jpg', 'n0414661400001061.jpg', 'n0414661400000874.jpg', 'n0414661400000964.jpg', 'n0414661400000871.jpg', 'n0414661400000900.jpg']
+n03146219:['n0314621900000701.jpg', 'n0314621900000253.jpg', 'n0314621900000006.jpg', 'n0314621900000843.jpg', 'n0314621900000396.jpg', 'n0314621900000514.jpg', 'n0314621900000923.jpg', 'n0314621900000666.jpg', 'n0314621900000808.jpg', 'n0314621900000094.jpg', 'n0314621900000334.jpg', 'n0314621900000092.jpg', 'n0314621900000394.jpg', 'n0314621900000703.jpg', 'n0314621900000571.jpg']
+n02443484:['n0244348400000130.jpg', 'n0244348400001009.jpg', 'n0244348400001284.jpg', 'n0244348400000844.jpg', 'n0244348400000144.jpg', 'n0244348400000320.jpg', 'n0244348400000891.jpg', 'n0244348400000631.jpg', 'n0244348400001059.jpg', 'n0244348400001035.jpg', 'n0244348400000443.jpg', 'n0244348400000823.jpg', 'n0244348400000761.jpg', 'n0244348400000445.jpg', 'n0244348400001086.jpg']
+n02871525:['n0287152500000536.jpg', 'n0287152500000529.jpg', 'n0287152500000840.jpg', 'n0287152500000803.jpg', 'n0287152500001154.jpg', 'n0287152500000550.jpg', 'n0287152500000640.jpg', 'n0287152500000756.jpg', 'n0287152500000074.jpg', 'n0287152500000787.jpg', 'n0287152500000450.jpg', 'n0287152500001081.jpg', 'n0287152500000075.jpg', 'n0287152500001125.jpg', 'n0287152500001112.jpg']
+n02110341:['n0211034100001282.jpg', 'n0211034100001109.jpg', 'n0211034100000580.jpg', 'n0211034100001263.jpg', 'n0211034100000645.jpg', 'n0211034100000454.jpg', 'n0211034100000559.jpg', 'n0211034100000214.jpg', 'n0211034100000316.jpg', 'n0211034100000073.jpg', 'n0211034100000241.jpg', 'n0211034100000282.jpg', 'n0211034100000808.jpg', 'n0211034100000764.jpg', 'n0211034100000393.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000927.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723952&Signature=hmIL7UzhIdcIO3n%2BkTsKwMSdf7I%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'cuirass', 'black-footed_ferret', 'bookshop', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0314621900001228.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723954&Signature=Y%2FyWK0NeJKgJJHAWMMHLT9UiYec%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'cuirass', 'black-footed_ferret', 'bookshop', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'cuirass'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000764.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723956&Signature=h9Du5VtKnpEqO20Jllvma2aLStQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'cuirass', 'black-footed_ferret', 'bookshop', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'black-footed_ferret'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500001284.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723958&Signature=%2FFxlS6UDwSG1UOxzyIWwQjdLrOc%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'cuirass', 'black-footed_ferret', 'bookshop', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'bookshop'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211034100000177.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706723960&Signature=6eIWV%2BA7TAJAjU3W169RtSRT4WY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['school_bus', 'cuirass', 'black-footed_ferret', 'bookshop', 'dalmatian']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'dalmatian'."}]
+
+n0414661400001198.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000129.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001295.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000028.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000002.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000136.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000606.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001280.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001068.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000583.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001061.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000874.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000964.jpg,label=school_bus,output=The image appears to depict a school bus. Therefore, the correct category label representing the given image is 'school_bus'.,True
+n0414661400000871.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000900.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+
+n0314621900000701.jpg,label=cuirass,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000253.jpg,label=cuirass,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000006.jpg,label=cuirass,output=The correct category label representing the given image is 'bookshop'.,False
+n0314621900000843.jpg,label=cuirass,output=The accurate category label representing the given image is 'bookshop'.,False
+n0314621900000396.jpg,label=cuirass,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000514.jpg,label=cuirass,output=The correct category label representing the given image is 'bookshop'.,False
+n0314621900000923.jpg,label=cuirass,output=The correct category label representing the given image is 'cuirass'.,True
+n0314621900000666.jpg,label=cuirass,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000808.jpg,label=cuirass,output=The correct category label representing the given image is 'bookshop'.,False
+n0314621900000094.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000334.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000092.jpg,label=cuirass,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000394.jpg,label=cuirass,output=The accurate category label representing the given image is 'cuirass'.,True
+n0314621900000703.jpg,label=cuirass,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0314621900000571.jpg,label=cuirass,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+
+n0244348400000130.jpg,label=black-footed_ferret,output=The image corresponds to the category label 'black-footed_ferret'.,True
+n0244348400001009.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001284.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000844.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000144.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000320.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000891.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000631.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001059.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001035.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000443.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000823.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000761.jpg,label=black-footed_ferret,output=The image is most closely related to the category 'black-footed_ferret'.,True
+n0244348400000445.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001086.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+
+n0287152500000536.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000529.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000840.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000803.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001154.jpg,label=bookshop,output=The image does not clearly depict any of the categories listed. Therefore, it cannot be accurately labeled based on the provided options.,False
+n0287152500000550.jpg,label=bookshop,output=The image appears to depict an interior scene of a dimly lit bookshop or library.,True
+n0287152500000640.jpg,label=bookshop,output=The image showcases a collection of books on shelves, so the appropriate category label would be 'bookshop'.,True
+n0287152500000756.jpg,label=bookshop,output=The image appears to depict an interior setting, possibly a library or bookstore, as indicated by the bookshelves filled with books. Therefore, the most appropriate category label for this image would be 'bookshop'.,True
+n0287152500000074.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000787.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000450.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001081.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500000075.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001125.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+n0287152500001112.jpg,label=bookshop,output=The correct category label representing the given image is 'bookshop'.,True
+
+n0211034100001282.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001109.jpg,label=dalmatian,output=The image does not have a clear representation of any of the categories listed above it.,False
+n0211034100000580.jpg,label=dalmatian,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0211034100001263.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000645.jpg,label=dalmatian,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0211034100000454.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000559.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000214.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000316.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000073.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000241.jpg,label=dalmatian,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0211034100000282.jpg,label=dalmatian,output=The image appears to be of a dog with black spots on a white background, which corresponds to the 'dalmatian' category.,True
+n0211034100000808.jpg,label=dalmatian,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0211034100000764.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000393.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+
+acc:  0.7733333333333333

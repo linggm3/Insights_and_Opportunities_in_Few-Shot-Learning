@@ -1,0 +1,97 @@
+支持集的类别: ['king_crab', 'African_hunting_dog', 'trifle', 'dalmatian', 'cuirass']
+测试集各类别: ['n01981276', 'n02116738', 'n07613480', 'n02110341', 'n03146219']
+支持集各图片:
+n01981276:['n0198127600001215.jpg']
+n02116738:['n0211673800000226.jpg']
+n07613480:['n0761348000000377.jpg']
+n02110341:['n0211034100000282.jpg']
+n03146219:['n0314621900000227.jpg']
+测试集各图片:
+n01981276:['n0198127600000780.jpg', 'n0198127600000365.jpg', 'n0198127600001091.jpg', 'n0198127600000523.jpg', 'n0198127600001115.jpg', 'n0198127600000776.jpg', 'n0198127600000043.jpg', 'n0198127600000101.jpg', 'n0198127600000921.jpg', 'n0198127600001299.jpg', 'n0198127600001142.jpg', 'n0198127600001075.jpg', 'n0198127600000859.jpg', 'n0198127600000008.jpg', 'n0198127600000377.jpg']
+n02116738:['n0211673800000163.jpg', 'n0211673800000927.jpg', 'n0211673800000622.jpg', 'n0211673800000137.jpg', 'n0211673800000434.jpg', 'n0211673800000220.jpg', 'n0211673800001294.jpg', 'n0211673800000549.jpg', 'n0211673800001084.jpg', 'n0211673800000613.jpg', 'n0211673800000835.jpg', 'n0211673800000464.jpg', 'n0211673800001005.jpg', 'n0211673800001224.jpg', 'n0211673800001139.jpg']
+n07613480:['n0761348000000393.jpg', 'n0761348000000171.jpg', 'n0761348000000062.jpg', 'n0761348000000280.jpg', 'n0761348000000766.jpg', 'n0761348000000547.jpg', 'n0761348000000618.jpg', 'n0761348000000298.jpg', 'n0761348000001092.jpg', 'n0761348000000424.jpg', 'n0761348000000892.jpg', 'n0761348000000199.jpg', 'n0761348000000707.jpg', 'n0761348000000991.jpg', 'n0761348000001168.jpg']
+n02110341:['n0211034100000248.jpg', 'n0211034100000205.jpg', 'n0211034100000912.jpg', 'n0211034100001204.jpg', 'n0211034100000104.jpg', 'n0211034100000454.jpg', 'n0211034100001191.jpg', 'n0211034100000651.jpg', 'n0211034100001135.jpg', 'n0211034100001077.jpg', 'n0211034100000145.jpg', 'n0211034100001123.jpg', 'n0211034100001137.jpg', 'n0211034100000346.jpg', 'n0211034100000554.jpg']
+n03146219:['n0314621900000680.jpg', 'n0314621900000327.jpg', 'n0314621900000584.jpg', 'n0314621900001252.jpg', 'n0314621900001246.jpg', 'n0314621900000731.jpg', 'n0314621900000870.jpg', 'n0314621900000732.jpg', 'n0314621900000746.jpg', 'n0314621900000276.jpg', 'n0314621900001198.jpg', 'n0314621900000313.jpg', 'n0314621900000904.jpg', 'n0314621900000514.jpg', 'n0314621900000932.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600001215.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'African_hunting_dog', 'trifle', 'dalmatian', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'king_crab'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000226.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'African_hunting_dog', 'trifle', 'dalmatian', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'African_hunting_dog'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000000377.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'African_hunting_dog', 'trifle', 'dalmatian', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'trifle'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000282.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'African_hunting_dog', 'trifle', 'dalmatian', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'dalmatian'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000227.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'African_hunting_dog', 'trifle', 'dalmatian', 'cuirass']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'cuirass'}]}]
+
+n0198127600000780.jpg,label=king_crab,output=king_crab,True
+n0198127600000365.jpg,label=king_crab,output=king_crab,True
+n0198127600001091.jpg,label=king_crab,output=king_crab,True
+n0198127600000523.jpg,label=king_crab,output=king_crab,True
+n0198127600001115.jpg,label=king_crab,output=king_crab,True
+n0198127600000776.jpg,label=king_crab,output=king_crab,True
+n0198127600000043.jpg,label=king_crab,output=king_crab,True
+n0198127600000101.jpg,label=king_crab,output=king_crab,True
+n0198127600000921.jpg,label=king_crab,output=king_crab,True
+n0198127600001299.jpg,label=king_crab,output=king_crab,True
+n0198127600001142.jpg,label=king_crab,output=king_crab,True
+n0198127600001075.jpg,label=king_crab,output=king_crab,True
+n0198127600000859.jpg,label=king_crab,output=king_crab,True
+n0198127600000008.jpg,label=king_crab,output=king_crab,True
+n0198127600000377.jpg,label=king_crab,output=king_crab,True
+
+n0211673800000163.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000927.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000622.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000137.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000434.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000220.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001294.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000549.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001084.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000613.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000835.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000464.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001005.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001224.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001139.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+n0761348000000393.jpg,label=trifle,output=cherry,False
+n0761348000000171.jpg,label=trifle,output=trifle,True
+n0761348000000062.jpg,label=trifle,output=trifle,True
+n0761348000000280.jpg,label=trifle,output=trifle,True
+n0761348000000766.jpg,label=trifle,output=trifle,True
+n0761348000000547.jpg,label=trifle,output=trifle,True
+n0761348000000618.jpg,label=trifle,output=trifle,True
+n0761348000000298.jpg,label=trifle,output=trifle,True
+n0761348000001092.jpg,label=trifle,output=trifle,True
+n0761348000000424.jpg,label=trifle,output=trifle,True
+n0761348000000892.jpg,label=trifle,output=trifle,True
+n0761348000000199.jpg,label=trifle,output=trifle,True
+n0761348000000707.jpg,label=trifle,output=trifle,True
+n0761348000000991.jpg,label=trifle,output=king_crab,False
+n0761348000001168.jpg,label=trifle,output=king_crab,False
+
+n0211034100000248.jpg,label=dalmatian,output=king_crab,False
+n0211034100000205.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000912.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001204.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000104.jpg,label=dalmatian,output=African_hunting_dog,False
+n0211034100000454.jpg,label=dalmatian,output=dog,False
+n0211034100001191.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000651.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001135.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001077.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000145.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001123.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001137.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000346.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000554.jpg,label=dalmatian,output=dalmatian,True
+
+n0314621900000680.jpg,label=cuirass,output=cuirass,True
+n0314621900000327.jpg,label=cuirass,output=cuirass,True
+n0314621900000584.jpg,label=cuirass,output=(African_hunting_dog),False
+n0314621900001252.jpg,label=cuirass,output=cuirass,True
+n0314621900001246.jpg,label=cuirass,output=cuirass,True
+n0314621900000731.jpg,label=cuirass,output=cuirass,True
+n0314621900000870.jpg,label=cuirass,output=cuirass,True
+n0314621900000732.jpg,label=cuirass,output=cuirass,True
+n0314621900000746.jpg,label=cuirass,output=cuirass,True
+n0314621900000276.jpg,label=cuirass,output=cuirass,True
+n0314621900001198.jpg,label=cuirass,output=cuirass,True
+n0314621900000313.jpg,label=cuirass,output=cuirass,True
+n0314621900000904.jpg,label=cuirass,output=cuirass,True
+n0314621900000514.jpg,label=cuirass,output=cuirass,True
+n0314621900000932.jpg,label=cuirass,output=cuirass,True
+
+acc:  0.9066666666666666

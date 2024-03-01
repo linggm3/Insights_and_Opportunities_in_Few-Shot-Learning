@@ -1,0 +1,97 @@
+支持集的类别: ['trifle', 'black-footed_ferret', 'golden_retriever', 'electric_guitar', 'ant']
+测试集各类别: ['n07613480', 'n02443484', 'n02099601', 'n03272010', 'n02219486']
+支持集各图片:
+n07613480:['n0761348000001090.jpg']
+n02443484:['n0244348400000131.jpg']
+n02099601:['n0209960100001266.jpg']
+n03272010:['n0327201000000909.jpg']
+n02219486:['n0221948600000243.jpg']
+测试集各图片:
+n07613480:['n0761348000000165.jpg', 'n0761348000000935.jpg', 'n0761348000001163.jpg', 'n0761348000000705.jpg', 'n0761348000000991.jpg', 'n0761348000000955.jpg', 'n0761348000000494.jpg', 'n0761348000000926.jpg', 'n0761348000000568.jpg', 'n0761348000000180.jpg', 'n0761348000001240.jpg', 'n0761348000001092.jpg', 'n0761348000001098.jpg', 'n0761348000000668.jpg', 'n0761348000000297.jpg']
+n02443484:['n0244348400000813.jpg', 'n0244348400001125.jpg', 'n0244348400000865.jpg', 'n0244348400000924.jpg', 'n0244348400000305.jpg', 'n0244348400000630.jpg', 'n0244348400000097.jpg', 'n0244348400001006.jpg', 'n0244348400000088.jpg', 'n0244348400000224.jpg', 'n0244348400000464.jpg', 'n0244348400000987.jpg', 'n0244348400000365.jpg', 'n0244348400001094.jpg', 'n0244348400000991.jpg']
+n02099601:['n0209960100000384.jpg', 'n0209960100000427.jpg', 'n0209960100001281.jpg', 'n0209960100000988.jpg', 'n0209960100000237.jpg', 'n0209960100000066.jpg', 'n0209960100001060.jpg', 'n0209960100001205.jpg', 'n0209960100001179.jpg', 'n0209960100000122.jpg', 'n0209960100001282.jpg', 'n0209960100000047.jpg', 'n0209960100000236.jpg', 'n0209960100001070.jpg', 'n0209960100001072.jpg']
+n03272010:['n0327201000000827.jpg', 'n0327201000000019.jpg', 'n0327201000001261.jpg', 'n0327201000000695.jpg', 'n0327201000001109.jpg', 'n0327201000001025.jpg', 'n0327201000001200.jpg', 'n0327201000000114.jpg', 'n0327201000000319.jpg', 'n0327201000000271.jpg', 'n0327201000000257.jpg', 'n0327201000000522.jpg', 'n0327201000000960.jpg', 'n0327201000000678.jpg', 'n0327201000000752.jpg']
+n02219486:['n0221948600000635.jpg', 'n0221948600000776.jpg', 'n0221948600001126.jpg', 'n0221948600000618.jpg', 'n0221948600000816.jpg', 'n0221948600001130.jpg', 'n0221948600000860.jpg', 'n0221948600000165.jpg', 'n0221948600000644.jpg', 'n0221948600001175.jpg', 'n0221948600001102.jpg', 'n0221948600000741.jpg', 'n0221948600000039.jpg', 'n0221948600000742.jpg', 'n0221948600000078.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000001090.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774275&Signature=hvOoLiXhAnc4v3ecL5iN14aRyCE%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'golden_retriever', 'electric_guitar', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'trifle'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000131.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774277&Signature=UXVW0uDsvFDKpViY%2B9QA7dl39Ik%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'golden_retriever', 'electric_guitar', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'black-footed_ferret'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100001266.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774278&Signature=mnW3u0%2BNHNJj8Gc1%2B5GRpVmIK2c%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'golden_retriever', 'electric_guitar', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'golden_retriever'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000000909.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774280&Signature=ySTqIzYpR7gHmxHQeptiIAkMm5w%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'golden_retriever', 'electric_guitar', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'electric_guitar'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600000243.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774282&Signature=3rGtY%2FvouKu6Oyy8UrF1jwJvI08%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'black-footed_ferret', 'golden_retriever', 'electric_guitar', 'ant']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'ant'."}]
+
+n0761348000000165.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000935.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000001163.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000000705.jpg,label=trifle,output=The accurate category label representing the given image is 'ant'.,False
+n0761348000000991.jpg,label=trifle,output=The correct category label representing the given image is 'ant'.,False
+n0761348000000955.jpg,label=trifle,output=The image is most closely associated with the category label 'trifle'.,True
+n0761348000000494.jpg,label=trifle,output=The correct category label representing the given image is 'ant'.,False
+n0761348000000926.jpg,label=trifle,output=The image does not contain any clear elements that can be identified as a trifle, black-footed ferret, golden retriever, electric guitar, or ant. Hence, it's challenging to determine an exact category based on the provided image alone.,True
+n0761348000000568.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000000180.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000001240.jpg,label=trifle,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0761348000001092.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000001098.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000000668.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000297.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+
+n0244348400000813.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001125.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000865.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000924.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000305.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000630.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000097.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001006.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000088.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000224.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000464.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000987.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000365.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001094.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000991.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+
+n0209960100000384.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000427.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001281.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'black-footed_ferret'.,False
+n0209960100000988.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000237.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000066.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001060.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001205.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001179.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000122.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100001282.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100000047.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+n0209960100000236.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001070.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden_retriever'.,True
+n0209960100001072.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden_retriever'.,True
+
+n0327201000000827.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000019.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001261.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000695.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000001109.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000001025.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000001200.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000114.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000319.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000271.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000257.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000522.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000960.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric_guitar'.,True
+n0327201000000678.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+n0327201000000752.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric_guitar'.,True
+
+n0221948600000635.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000776.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001126.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000618.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000816.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001130.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000860.jpg,label=ant,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0221948600000165.jpg,label=ant,output=The accurate category label representing the given image is 'trifle'.,False
+n0221948600000644.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600001175.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001102.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000741.jpg,label=ant,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0221948600000039.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000742.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000078.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+
+acc:  0.8933333333333333

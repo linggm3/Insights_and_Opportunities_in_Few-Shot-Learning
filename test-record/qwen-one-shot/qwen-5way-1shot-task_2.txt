@@ -1,0 +1,97 @@
+支持集的类别: ['mixing_bowl', 'black-footed_ferret', 'trifle', 'school_bus', 'vase']
+测试集各类别: ['n03775546', 'n02443484', 'n07613480', 'n04146614', 'n04522168']
+支持集各图片:
+n03775546:['n0377554600000438.jpg']
+n02443484:['n0244348400000459.jpg']
+n07613480:['n0761348000001009.jpg']
+n04146614:['n0414661400000959.jpg']
+n04522168:['n0452216800000433.jpg']
+测试集各图片:
+n03775546:['n0377554600000453.jpg', 'n0377554600000274.jpg', 'n0377554600000734.jpg', 'n0377554600000686.jpg', 'n0377554600000587.jpg', 'n0377554600000076.jpg', 'n0377554600000841.jpg', 'n0377554600000150.jpg', 'n0377554600000692.jpg', 'n0377554600000656.jpg', 'n0377554600000981.jpg', 'n0377554600000827.jpg', 'n0377554600000290.jpg', 'n0377554600000968.jpg', 'n0377554600001255.jpg']
+n02443484:['n0244348400000715.jpg', 'n0244348400000866.jpg', 'n0244348400000917.jpg', 'n0244348400001243.jpg', 'n0244348400000257.jpg', 'n0244348400001006.jpg', 'n0244348400000943.jpg', 'n0244348400000931.jpg', 'n0244348400000140.jpg', 'n0244348400000303.jpg', 'n0244348400000547.jpg', 'n0244348400000925.jpg', 'n0244348400000901.jpg', 'n0244348400000345.jpg', 'n0244348400000239.jpg']
+n07613480:['n0761348000001014.jpg', 'n0761348000001067.jpg', 'n0761348000000859.jpg', 'n0761348000000050.jpg', 'n0761348000000766.jpg', 'n0761348000001190.jpg', 'n0761348000000656.jpg', 'n0761348000000417.jpg', 'n0761348000001029.jpg', 'n0761348000000862.jpg', 'n0761348000000328.jpg', 'n0761348000000164.jpg', 'n0761348000000988.jpg', 'n0761348000000306.jpg', 'n0761348000000185.jpg']
+n04146614:['n0414661400000584.jpg', 'n0414661400001271.jpg', 'n0414661400000487.jpg', 'n0414661400000458.jpg', 'n0414661400000996.jpg', 'n0414661400000459.jpg', 'n0414661400000446.jpg', 'n0414661400001131.jpg', 'n0414661400000163.jpg', 'n0414661400001184.jpg', 'n0414661400000912.jpg', 'n0414661400000236.jpg', 'n0414661400000501.jpg', 'n0414661400000965.jpg', 'n0414661400000010.jpg']
+n04522168:['n0452216800001183.jpg', 'n0452216800000130.jpg', 'n0452216800000461.jpg', 'n0452216800000768.jpg', 'n0452216800000004.jpg', 'n0452216800000148.jpg', 'n0452216800000277.jpg', 'n0452216800000921.jpg', 'n0452216800000798.jpg', 'n0452216800000659.jpg', 'n0452216800000410.jpg', 'n0452216800000078.jpg', 'n0452216800000616.jpg', 'n0452216800000760.jpg', 'n0452216800000757.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0377554600000438.jpg'}, {'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'black-footed_ferret', 'trifle', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'mixing_bowl'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400000459.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'black-footed_ferret', 'trifle', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'black-footed_ferret'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000001009.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'black-footed_ferret', 'trifle', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'trifle'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000959.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'black-footed_ferret', 'trifle', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'school_bus'"}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800000433.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['mixing_bowl', 'black-footed_ferret', 'trifle', 'school_bus', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "'vese'"}]}]
+
+n0377554600000453.jpg,label=mixing_bowl,output='red figure pottery bowl',False
+n0377554600000274.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000734.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000686.jpg,label=mixing_bowl,output=(vase),False
+n0377554600000587.jpg,label=mixing_bowl,output='redware pottery bowl',False
+n0377554600000076.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000841.jpg,label=mixing_bowl,output=fruit沙拉,False
+n0377554600000150.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000692.jpg,label=mixing_bowl,output=(vase),False
+n0377554600000656.jpg,label=mixing_bowl,output='mixing_bowl',True
+n0377554600000981.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600000827.jpg,label=mixing_bowl,output='refrigerator_dishes',False
+n0377554600000290.jpg,label=mixing_bowl,output=vase,False
+n0377554600000968.jpg,label=mixing_bowl,output=mixing_bowl,True
+n0377554600001255.jpg,label=mixing_bowl,output=mixing_bowl,True
+
+n0244348400000715.jpg,label=black-footed_ferret,output=(black-footed_ferret),True
+n0244348400000866.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000917.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001243.jpg,label=black-footed_ferret,output=(black-footed_ferret),True
+n0244348400000257.jpg,label=black-footed_ferret,output=(black-footed_ferret),True
+n0244348400001006.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000943.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000931.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000140.jpg,label=black-footed_ferret,output=(black-footed_ferret),True
+n0244348400000303.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000547.jpg,label=black-footed_ferret,output=(black-footed_ferret),True
+n0244348400000925.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000901.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000345.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000239.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0761348000001014.jpg,label=trifle,output=(trifle),True
+n0761348000001067.jpg,label=trifle,output=trifle,True
+n0761348000000859.jpg,label=trifle,output=(trifle),True
+n0761348000000050.jpg,label=trifle,output=(trifle),True
+n0761348000000766.jpg,label=trifle,output=trifle,True
+n0761348000001190.jpg,label=trifle,output=(trifle),True
+n0761348000000656.jpg,label=trifle,output=(trifle),True
+n0761348000000417.jpg,label=trifle,output=(trifle),True
+n0761348000001029.jpg,label=trifle,output=trifle,True
+n0761348000000862.jpg,label=trifle,output=(trifle),True
+n0761348000000328.jpg,label=trifle,output=(trifle),True
+n0761348000000164.jpg,label=trifle,output=(trifle),True
+n0761348000000988.jpg,label=trifle,output=(trifle),True
+n0761348000000306.jpg,label=trifle,output='red-white-blue-bowls-with-flowers',False
+n0761348000000185.jpg,label=trifle,output=(trifle),True
+
+n0414661400000584.jpg,label=school_bus,output='school_bus',True
+n0414661400001271.jpg,label=school_bus,output='school_bus',True
+n0414661400000487.jpg,label=school_bus,output='school_bus',True
+n0414661400000458.jpg,label=school_bus,output='school_bus',True
+n0414661400000996.jpg,label=school_bus,output='school_bus',True
+n0414661400000459.jpg,label=school_bus,output=school_bus,True
+n0414661400000446.jpg,label=school_bus,output='school_bus',True
+n0414661400001131.jpg,label=school_bus,output='school_bus',True
+n0414661400000163.jpg,label=school_bus,output='school_bus',True
+n0414661400001184.jpg,label=school_bus,output='school_bus',True
+n0414661400000912.jpg,label=school_bus,output='school_bus',True
+n0414661400000236.jpg,label=school_bus,output='school_bus',True
+n0414661400000501.jpg,label=school_bus,output='school_bus',True
+n0414661400000965.jpg,label=school_bus,output='school_bus',True
+n0414661400000010.jpg,label=school_bus,output='school_bus',True
+
+n0452216800001183.jpg,label=vase,output=(vase),True
+n0452216800000130.jpg,label=vase,output=(vase),True
+n0452216800000461.jpg,label=vase,output=vase,True
+n0452216800000768.jpg,label=vase,output=vase,True
+n0452216800000004.jpg,label=vase,output=vase,True
+n0452216800000148.jpg,label=vase,output=vase,True
+n0452216800000277.jpg,label=vase,output=('vase'),True
+n0452216800000921.jpg,label=vase,output='red-orange-blue-floral-vase',True
+n0452216800000798.jpg,label=vase,output=vase,True
+n0452216800000659.jpg,label=vase,output=vase,True
+n0452216800000410.jpg,label=vase,output=vase,True
+n0452216800000078.jpg,label=vase,output='red vase',True
+n0452216800000616.jpg,label=vase,output='red maple leaf etched black plate',False
+n0452216800000760.jpg,label=vase,output=(vase),True
+n0452216800000757.jpg,label=vase,output='red wine in glass',False
+
+acc:  0.8666666666666667

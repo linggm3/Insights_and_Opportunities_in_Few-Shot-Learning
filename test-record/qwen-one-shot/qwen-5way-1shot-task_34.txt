@@ -1,0 +1,100 @@
+D:\Anaconda\envs\test\python.exe C:/Users/linggm/Desktop/test/qwen-few-shot-many-single.py
+支持集的类别: ['king_crab', 'black-footed_ferret', 'lion', 'vase', 'crate']
+测试集各类别: ['n01981276', 'n02443484', 'n02129165', 'n04522168', 'n03127925']
+支持集各图片:
+n01981276:['n0198127600000852.jpg']
+n02443484:['n0244348400000596.jpg']
+n02129165:['n0212916500000346.jpg']
+n04522168:['n0452216800000537.jpg']
+n03127925:['n0312792500000172.jpg']
+测试集各图片:
+n01981276:['n0198127600000854.jpg', 'n0198127600000888.jpg', 'n0198127600000371.jpg', 'n0198127600000833.jpg', 'n0198127600000535.jpg', 'n0198127600000738.jpg', 'n0198127600000092.jpg', 'n0198127600000255.jpg', 'n0198127600001116.jpg', 'n0198127600000524.jpg', 'n0198127600001207.jpg', 'n0198127600000677.jpg', 'n0198127600000785.jpg', 'n0198127600000097.jpg', 'n0198127600001257.jpg']
+n02443484:['n0244348400000416.jpg', 'n0244348400000799.jpg', 'n0244348400001152.jpg', 'n0244348400000547.jpg', 'n0244348400000101.jpg', 'n0244348400000474.jpg', 'n0244348400000205.jpg', 'n0244348400000613.jpg', 'n0244348400000869.jpg', 'n0244348400001268.jpg', 'n0244348400000431.jpg', 'n0244348400000189.jpg', 'n0244348400001124.jpg', 'n0244348400000667.jpg', 'n0244348400001209.jpg']
+n02129165:['n0212916500000787.jpg', 'n0212916500000762.jpg', 'n0212916500000323.jpg', 'n0212916500000107.jpg', 'n0212916500000555.jpg', 'n0212916500001289.jpg', 'n0212916500000232.jpg', 'n0212916500001234.jpg', 'n0212916500000606.jpg', 'n0212916500001103.jpg', 'n0212916500000268.jpg', 'n0212916500000077.jpg', 'n0212916500000235.jpg', 'n0212916500001100.jpg', 'n0212916500000239.jpg']
+n04522168:['n0452216800000090.jpg', 'n0452216800000241.jpg', 'n0452216800000591.jpg', 'n0452216800000278.jpg', 'n0452216800001264.jpg', 'n0452216800001032.jpg', 'n0452216800001218.jpg', 'n0452216800000277.jpg', 'n0452216800000319.jpg', 'n0452216800000061.jpg', 'n0452216800000145.jpg', 'n0452216800001247.jpg', 'n0452216800000016.jpg', 'n0452216800000019.jpg', 'n0452216800001183.jpg']
+n03127925:['n0312792500000343.jpg', 'n0312792500000791.jpg', 'n0312792500000543.jpg', 'n0312792500001046.jpg', 'n0312792500001106.jpg', 'n0312792500000225.jpg', 'n0312792500000809.jpg', 'n0312792500000020.jpg', 'n0312792500000706.jpg', 'n0312792500000222.jpg', 'n0312792500000176.jpg', 'n0312792500000599.jpg', 'n0312792500000092.jpg', 'n0312792500000628.jpg', 'n0312792500001288.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0198127600000852.jpg'}, {'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'black-footed_ferret', 'lion', 'vase', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'king_crab'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400000596.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'black-footed_ferret', 'lion', 'vase', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'black-footed_ferret'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0212916500000346.jpg'}, {'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'black-footed_ferret', 'lion', 'vase', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'lion'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800000537.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'black-footed_ferret', 'lion', 'vase', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'vase'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0312792500000172.jpg'}, {'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['king_crab', 'black-footed_ferret', 'lion', 'vase', 'crate']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The Category Label for this image is 'crate'."}]}]
+
+n0198127600000854.jpg,label=king_crab,output=king_crab,True
+n0198127600000888.jpg,label=king_crab,output=(king_crab),True
+n0198127600000371.jpg,label=king_crab,output=(king_crab),True
+n0198127600000833.jpg,label=king_crab,output=king_crab,True
+n0198127600000535.jpg,label=king_crab,output=king_crab,True
+n0198127600000738.jpg,label=king_crab,output=king_crab,True
+n0198127600000092.jpg,label=king_crab,output=('king_crab'),True
+n0198127600000255.jpg,label=king_crab,output=('king_crab'),True
+n0198127600001116.jpg,label=king_crab,output=king_crab,True
+n0198127600000524.jpg,label=king_crab,output=king_crab,True
+n0198127600001207.jpg,label=king_crab,output=(queen_conch),False
+n0198127600000677.jpg,label=king_crab,output=king_crab,True
+n0198127600000785.jpg,label=king_crab,output=('king_crab'),True
+n0198127600000097.jpg,label=king_crab,output=king_crab,True
+n0198127600001257.jpg,label=king_crab,output=(vase),False
+
+n0244348400000416.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000799.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001152.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000547.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000101.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000474.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000205.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000613.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000869.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001268.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000431.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000189.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001124.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000667.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001209.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0212916500000787.jpg,label=lion,output=lion,True
+n0212916500000762.jpg,label=lion,output=(lion),True
+n0212916500000323.jpg,label=lion,output=(lion),True
+n0212916500000107.jpg,label=lion,output=(lion),True
+n0212916500000555.jpg,label=lion,output=(lion),True
+n0212916500001289.jpg,label=lion,output=(lion),True
+n0212916500000232.jpg,label=lion,output=lion,True
+n0212916500001234.jpg,label=lion,output=lion,True
+n0212916500000606.jpg,label=lion,output=lion,True
+n0212916500001103.jpg,label=lion,output=lion,True
+n0212916500000268.jpg,label=lion,output=(lion),True
+n0212916500000077.jpg,label=lion,output=(lion),True
+n0212916500000235.jpg,label=lion,output=(lion),True
+n0212916500001100.jpg,label=lion,output=(lion),True
+n0212916500000239.jpg,label=lion,output=lion,True
+
+n0452216800000090.jpg,label=vase,output=(vase),True
+n0452216800000241.jpg,label=vase,output=(vase),True
+n0452216800000591.jpg,label=vase,output=(vase),True
+n0452216800000278.jpg,label=vase,output=vase,True
+n0452216800001264.jpg,label=vase,output=(vase),True
+n0452216800001032.jpg,label=vase,output=vase,True
+n0452216800001218.jpg,label=vase,output=(vase),True
+n0452216800000277.jpg,label=vase,output=(vase),True
+n0452216800000319.jpg,label=vase,output=(vase),True
+n0452216800000061.jpg,label=vase,output=(vase),True
+n0452216800000145.jpg,label=vase,output=(vase),True
+n0452216800001247.jpg,label=vase,output=(vase),True
+n0452216800000016.jpg,label=vase,output=(vase),True
+n0452216800000019.jpg,label=vase,output=(vase),True
+n0452216800001183.jpg,label=vase,output=(vase),True
+
+n0312792500000343.jpg,label=crate,output=(crate),True
+n0312792500000791.jpg,label=crate,output=(crate),True
+n0312792500000543.jpg,label=crate,output=Lion,False
+n0312792500001046.jpg,label=crate,output=('crane'),False
+n0312792500001106.jpg,label=crate,output=(vase),False
+n0312792500000225.jpg,label=crate,output=(crate),True
+n0312792500000809.jpg,label=crate,output=(vase),False
+n0312792500000020.jpg,label=crate,output=(crate),True
+n0312792500000706.jpg,label=crate,output=(crate),True
+n0312792500000222.jpg,label=crate,output=crate,True
+n0312792500000176.jpg,label=crate,output=(crate),True
+n0312792500000599.jpg,label=crate,output=(crate),True
+n0312792500000092.jpg,label=crate,output=(crate),True
+n0312792500000628.jpg,label=crate,output=(crate),True
+n0312792500001288.jpg,label=crate,output=(vase),False
+
+acc:  0.9066666666666666
+
+进程已结束,退出代码0

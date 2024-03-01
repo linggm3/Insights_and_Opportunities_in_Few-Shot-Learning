@@ -1,0 +1,97 @@
+支持集的类别: ['golden_retriever', 'dalmatian', 'electric_guitar', 'ant', 'king_crab']
+测试集各类别: ['n02099601', 'n02110341', 'n03272010', 'n02219486', 'n01981276']
+支持集各图片:
+n02099601:['n0209960100001267.jpg']
+n02110341:['n0211034100001300.jpg']
+n03272010:['n0327201000000813.jpg']
+n02219486:['n0221948600001030.jpg']
+n01981276:['n0198127600000336.jpg']
+测试集各图片:
+n02099601:['n0209960100000494.jpg', 'n0209960100000399.jpg', 'n0209960100000994.jpg', 'n0209960100000624.jpg', 'n0209960100000781.jpg', 'n0209960100001058.jpg', 'n0209960100000166.jpg', 'n0209960100000472.jpg', 'n0209960100000508.jpg', 'n0209960100000258.jpg', 'n0209960100001080.jpg', 'n0209960100000098.jpg', 'n0209960100000961.jpg', 'n0209960100000542.jpg', 'n0209960100000439.jpg']
+n02110341:['n0211034100000027.jpg', 'n0211034100000146.jpg', 'n0211034100001239.jpg', 'n0211034100001243.jpg', 'n0211034100001025.jpg', 'n0211034100000044.jpg', 'n0211034100000697.jpg', 'n0211034100000218.jpg', 'n0211034100000057.jpg', 'n0211034100000051.jpg', 'n0211034100000359.jpg', 'n0211034100000253.jpg', 'n0211034100000250.jpg', 'n0211034100000738.jpg', 'n0211034100000387.jpg']
+n03272010:['n0327201000001014.jpg', 'n0327201000001053.jpg', 'n0327201000000622.jpg', 'n0327201000000068.jpg', 'n0327201000000288.jpg', 'n0327201000000849.jpg', 'n0327201000000903.jpg', 'n0327201000001091.jpg', 'n0327201000000458.jpg', 'n0327201000000971.jpg', 'n0327201000000108.jpg', 'n0327201000000602.jpg', 'n0327201000000797.jpg', 'n0327201000000953.jpg', 'n0327201000001095.jpg']
+n02219486:['n0221948600000465.jpg', 'n0221948600000807.jpg', 'n0221948600000973.jpg', 'n0221948600000666.jpg', 'n0221948600001236.jpg', 'n0221948600000124.jpg', 'n0221948600000179.jpg', 'n0221948600000304.jpg', 'n0221948600000270.jpg', 'n0221948600000308.jpg', 'n0221948600001182.jpg', 'n0221948600000523.jpg', 'n0221948600000760.jpg', 'n0221948600000336.jpg', 'n0221948600000701.jpg']
+n01981276:['n0198127600000059.jpg', 'n0198127600000683.jpg', 'n0198127600001079.jpg', 'n0198127600000830.jpg', 'n0198127600000308.jpg', 'n0198127600001032.jpg', 'n0198127600000176.jpg', 'n0198127600000678.jpg', 'n0198127600000384.jpg', 'n0198127600000661.jpg', 'n0198127600001044.jpg', 'n0198127600000711.jpg', 'n0198127600000198.jpg', 'n0198127600001298.jpg', 'n0198127600000412.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0209960100001267.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727247&Signature=sn4xWHbh95BtKJkROec5D3%2FwCSk%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'dalmatian', 'electric_guitar', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'golden retriever'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211034100001300.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727248&Signature=1M95dRGL3xqNKpsy5HFXBk22Z1k%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'dalmatian', 'electric_guitar', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'dalmatian'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000000813.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727250&Signature=KauYfeAanHi%2Fh7GUYM3LjGqDWm8%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'dalmatian', 'electric_guitar', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'electric_guitar'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0221948600001030.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727252&Signature=Mt9jBfYtWNqJf%2BIvakcH42B1JVA%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'ant'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'dalmatian', 'electric_guitar', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'ant'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600000336.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727255&Signature=L%2FUq8xC79UfKoP9ZwPuxlDlgJPY%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'dalmatian', 'electric_guitar', 'ant', 'king_crab']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'king crab'."}]
+
+n0209960100000494.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000399.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000994.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden retriever'.,True
+n0209960100000624.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000781.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden retriever'.,True
+n0209960100001058.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000166.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000472.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000508.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden retriever'.,True
+n0209960100000258.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden retriever'.,True
+n0209960100001080.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000098.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000961.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000542.jpg,label=golden_retriever,output=The correct category label representing the given image is 'golden retriever'.,True
+n0209960100000439.jpg,label=golden_retriever,output=The accurate category label representing the given image is 'golden retriever'.,True
+
+n0211034100000027.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000146.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001239.jpg,label=dalmatian,output=The image showcases a dalmatian dog playing with a red ball. Therefore, the correct category label for this image would be 'dalmatian'.,True
+n0211034100001243.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001025.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000044.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000697.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000218.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000057.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000051.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000359.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000253.jpg,label=dalmatian,output=The image appears to depict a dog, specifically a Dalmatian, based on the white coat with black spots.,True
+n0211034100000250.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000738.jpg,label=dalmatian,output=The image showcases a dog, specifically it looks like a Dalmatian based on its distinctive spotted coat pattern.,True
+n0211034100000387.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+
+n0327201000001014.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric guitar'.,True
+n0327201000001053.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000622.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000068.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000288.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000849.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000903.jpg,label=electric_guitar,output=The correct category label representing the given image is 'ant'.,False
+n0327201000001091.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric guitar'.,True
+n0327201000000458.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000971.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000108.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric guitar'.,True
+n0327201000000602.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000797.jpg,label=electric_guitar,output=The correct category label representing the given image is 'electric guitar'.,True
+n0327201000000953.jpg,label=electric_guitar,output=The image is most closely related to the category 'electric guitar'.,True
+n0327201000001095.jpg,label=electric_guitar,output=The accurate category label representing the given image is 'electric guitar'.,True
+
+n0221948600000465.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000807.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000973.jpg,label=ant,output=The correct category label representing the given image is 'dalmatian'.,False
+n0221948600000666.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600001236.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000124.jpg,label=ant,output=The accurate category label representing the given image is 'golden retriever'.,False
+n0221948600000179.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000304.jpg,label=ant,output=The accurate category label representing the given image is 'golden retriever'.,False
+n0221948600000270.jpg,label=ant,output=The accurate category label representing the given image is 'golden retriever'.,False
+n0221948600000308.jpg,label=ant,output=The correct category label representing the given image is 'dalmatian'.,False
+n0221948600001182.jpg,label=ant,output=The accurate category label representing the given image is 'ant'.,True
+n0221948600000523.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000760.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000336.jpg,label=ant,output=The correct category label representing the given image is 'ant'.,True
+n0221948600000701.jpg,label=ant,output=The image does not have an exact category label from the provided options.,False
+
+n0198127600000059.jpg,label=king_crab,output=The accurate category label representing the given image is 'king crab'.,True
+n0198127600000683.jpg,label=king_crab,output=The correct category label representing the given image is 'king crab'.,True
+n0198127600001079.jpg,label=king_crab,output=The correct category label representing the given image is 'king crab'.,True
+n0198127600000830.jpg,label=king_crab,output=The correct category label representing the given image is 'golden retriever'.,False
+n0198127600000308.jpg,label=king_crab,output=The image does not have an exact category label among the provided options. However, based on visual observation, it appears to resemble a 'king crab'.,True
+n0198127600001032.jpg,label=king_crab,output=The correct category label representing the given image is 'king crab'.,True
+n0198127600000176.jpg,label=king_crab,output=The correct category label representing the given image is 'dalmatian'.,False
+n0198127600000678.jpg,label=king_crab,output=The correct category label representing the given image is 'king crab'.,True
+n0198127600000384.jpg,label=king_crab,output=The correct category label representing the given image is 'golden retriever'.,False
+n0198127600000661.jpg,label=king_crab,output=The correct category label representing the given image is 'king crab'.,True
+n0198127600001044.jpg,label=king_crab,output=The correct category label representing the given image is 'king crab'.,True
+n0198127600000711.jpg,label=king_crab,output=The correct category label representing the given image is 'golden retriever'.,False
+n0198127600000198.jpg,label=king_crab,output=The image is most closely related to the category labeled as 'king crab'.,True
+n0198127600001298.jpg,label=king_crab,output=The accurate category label representing the given image is 'king crab'.,True
+n0198127600000412.jpg,label=king_crab,output=The correct category label representing the given image is 'king crab'.,True
+
+acc:  0.8533333333333334

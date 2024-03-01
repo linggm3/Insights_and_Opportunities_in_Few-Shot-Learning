@@ -1,0 +1,97 @@
+支持集的类别: ['hourglass', 'cuirass', 'nematode', 'theater_curtain', 'bookshop']
+测试集各类别: ['n03544143', 'n03146219', 'n01930112', 'n04418357', 'n02871525']
+支持集各图片:
+n03544143:['n0354414300000358.jpg']
+n03146219:['n0314621900000640.jpg']
+n01930112:['n0193011200000452.jpg']
+n04418357:['n0441835700000856.jpg']
+n02871525:['n0287152500001265.jpg']
+测试集各图片:
+n03544143:['n0354414300000116.jpg', 'n0354414300000700.jpg', 'n0354414300001141.jpg', 'n0354414300000840.jpg', 'n0354414300000533.jpg', 'n0354414300000557.jpg', 'n0354414300000325.jpg', 'n0354414300000872.jpg', 'n0354414300000502.jpg', 'n0354414300000829.jpg', 'n0354414300000208.jpg', 'n0354414300000837.jpg', 'n0354414300000982.jpg', 'n0354414300001296.jpg', 'n0354414300000163.jpg']
+n03146219:['n0314621900001010.jpg', 'n0314621900000499.jpg', 'n0314621900000324.jpg', 'n0314621900001228.jpg', 'n0314621900000253.jpg', 'n0314621900000360.jpg', 'n0314621900000261.jpg', 'n0314621900000482.jpg', 'n0314621900000221.jpg', 'n0314621900001055.jpg', 'n0314621900000843.jpg', 'n0314621900000620.jpg', 'n0314621900000194.jpg', 'n0314621900000512.jpg', 'n0314621900000716.jpg']
+n01930112:['n0193011200000600.jpg', 'n0193011200001257.jpg', 'n0193011200000310.jpg', 'n0193011200000234.jpg', 'n0193011200001221.jpg', 'n0193011200000100.jpg', 'n0193011200000554.jpg', 'n0193011200000213.jpg', 'n0193011200000478.jpg', 'n0193011200000096.jpg', 'n0193011200000140.jpg', 'n0193011200000526.jpg', 'n0193011200000784.jpg', 'n0193011200000577.jpg', 'n0193011200000314.jpg']
+n04418357:['n0441835700000979.jpg', 'n0441835700001162.jpg', 'n0441835700001106.jpg', 'n0441835700000841.jpg', 'n0441835700000988.jpg', 'n0441835700001171.jpg', 'n0441835700000223.jpg', 'n0441835700000513.jpg', 'n0441835700000481.jpg', 'n0441835700000697.jpg', 'n0441835700000028.jpg', 'n0441835700000359.jpg', 'n0441835700000361.jpg', 'n0441835700000166.jpg', 'n0441835700000596.jpg']
+n02871525:['n0287152500000789.jpg', 'n0287152500001289.jpg', 'n0287152500001069.jpg', 'n0287152500000438.jpg', 'n0287152500001235.jpg', 'n0287152500001134.jpg', 'n0287152500001213.jpg', 'n0287152500000597.jpg', 'n0287152500000697.jpg', 'n0287152500001039.jpg', 'n0287152500000081.jpg', 'n0287152500000080.jpg', 'n0287152500000562.jpg', 'n0287152500000216.jpg', 'n0287152500000250.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0354414300000358.jpg'}, {'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'cuirass', 'nematode', 'theater_curtain', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "TheCategory Label for this image is **'hourglass'**."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000640.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'cuirass', 'nematode', 'theater_curtain', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "TheCategory Label for this image is **'cuirass'**."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000452.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'cuirass', 'nematode', 'theater_curtain', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "TheCategory Label for this image is **'nematode'**."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0441835700000856.jpg'}, {'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'cuirass', 'nematode', 'theater_curtain', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "TheCategory Label for this image is **'theater_curtain'**."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500001265.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['hourglass', 'cuirass', 'nematode', 'theater_curtain', 'bookshop']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "TheCategory Label for this image is **'bookshop'**."}]}]
+
+n0354414300000116.jpg,label=hourglass,output=(hourglass),True
+n0354414300000700.jpg,label=hourglass,output=(hourglass),True
+n0354414300001141.jpg,label=hourglass,output=(hourglass),True
+n0354414300000840.jpg,label=hourglass,output=(hourglass),True
+n0354414300000533.jpg,label=hourglass,output=(hourglass),True
+n0354414300000557.jpg,label=hourglass,output=(hourglass),True
+n0354414300000325.jpg,label=hourglass,output=(hourglass),True
+n0354414300000872.jpg,label=hourglass,output=(hourglass),True
+n0354414300000502.jpg,label=hourglass,output=(hourglass),True
+n0354414300000829.jpg,label=hourglass,output=(hourglass),True
+n0354414300000208.jpg,label=hourglass,output=(hourglass),True
+n0354414300000837.jpg,label=hourglass,output=(hourglass),True
+n0354414300000982.jpg,label=hourglass,output=(hourglass),True
+n0354414300001296.jpg,label=hourglass,output=(hourglass),True
+n0354414300000163.jpg,label=hourglass,output=(hourglass),True
+
+n0314621900001010.jpg,label=cuirass,output=(cuirass),True
+n0314621900000499.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000324.jpg,label=cuirass,output=('hourglass'),False
+n0314621900001228.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000253.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000360.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000261.jpg,label=cuirass,output=(cuirass),True
+n0314621900000482.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000221.jpg,label=cuirass,output=('cuirass'),True
+n0314621900001055.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000843.jpg,label=cuirass,output=(cuirass),True
+n0314621900000620.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000194.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000512.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000716.jpg,label=cuirass,output=('cuirass'),True
+
+n0193011200000600.jpg,label=nematode,output=(hourglass),False
+n0193011200001257.jpg,label=nematode,output=('nematode'),True
+n0193011200000310.jpg,label=nematode,output=(hourglass),False
+n0193011200000234.jpg,label=nematode,output=(hourglass),False
+n0193011200001221.jpg,label=nematode,output=('nematode'),True
+n0193011200000100.jpg,label=nematode,output=(nematode),True
+n0193011200000554.jpg,label=nematode,output=(hourglass),False
+n0193011200000213.jpg,label=nematode,output=(nematode),True
+n0193011200000478.jpg,label=nematode,output=(nematode),True
+n0193011200000096.jpg,label=nematode,output=Nematode,True
+n0193011200000140.jpg,label=nematode,output=(hourglass),False
+n0193011200000526.jpg,label=nematode,output=('nematode'),True
+n0193011200000784.jpg,label=nematode,output=('lumbricoides'),False
+n0193011200000577.jpg,label=nematode,output=('nematode'),True
+n0193011200000314.jpg,label=nematode,output=(nematode),True
+
+n0441835700000979.jpg,label=theater_curtain,output=(hourglass),False
+n0441835700001162.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700001106.jpg,label=theater_curtain,output=('theater_curtain'),True
+n0441835700000841.jpg,label=theater_curtain,output=('theater_curtain'),True
+n0441835700000988.jpg,label=theater_curtain,output=(hourglass),False
+n0441835700001171.jpg,label=theater_curtain,output=('theater_curtain'),True
+n0441835700000223.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000513.jpg,label=theater_curtain,output=theater curtain,True
+n0441835700000481.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000697.jpg,label=theater_curtain,output=('theater_curtain'),True
+n0441835700000028.jpg,label=theater_curtain,output=('theater_curtain'),True
+n0441835700000359.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000361.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000166.jpg,label=theater_curtain,output=theater_curtain,True
+n0441835700000596.jpg,label=theater_curtain,output=('theater_curtain'),True
+
+n0287152500000789.jpg,label=bookshop,output=(bookshop),True
+n0287152500001289.jpg,label=bookshop,output=(bookshop),True
+n0287152500001069.jpg,label=bookshop,output=(bookshop),True
+n0287152500000438.jpg,label=bookshop,output=(bookshop),True
+n0287152500001235.jpg,label=bookshop,output=(bookshop),True
+n0287152500001134.jpg,label=bookshop,output=(bookshop),True
+n0287152500001213.jpg,label=bookshop,output=(bookshop),True
+n0287152500000597.jpg,label=bookshop,output=(bookshop),True
+n0287152500000697.jpg,label=bookshop,output=(bookshop),True
+n0287152500001039.jpg,label=bookshop,output=(bookshop),True
+n0287152500000081.jpg,label=bookshop,output=(bookshop),True
+n0287152500000080.jpg,label=bookshop,output=(hourglass),False
+n0287152500000562.jpg,label=bookshop,output=(bookshop),True
+n0287152500000216.jpg,label=bookshop,output=(bookshop),True
+n0287152500000250.jpg,label=bookshop,output=(bookshop),True
+
+acc:  0.8666666666666667

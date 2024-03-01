@@ -1,0 +1,97 @@
+支持集的类别: ['dalmatian', 'mixing_bowl', 'king_crab', 'malamute', 'theater_curtain']
+测试集各类别: ['n02110341', 'n03775546', 'n01981276', 'n02110063', 'n04418357']
+支持集各图片:
+n02110341:['n0211034100000903.jpg']
+n03775546:['n0377554600000547.jpg']
+n01981276:['n0198127600001142.jpg']
+n02110063:['n0211006300000690.jpg']
+n04418357:['n0441835700000526.jpg']
+测试集各图片:
+n02110341:['n0211034100000032.jpg', 'n0211034100001133.jpg', 'n0211034100000492.jpg', 'n0211034100000040.jpg', 'n0211034100001137.jpg', 'n0211034100000527.jpg', 'n0211034100000705.jpg', 'n0211034100001238.jpg', 'n0211034100000882.jpg', 'n0211034100001135.jpg', 'n0211034100000453.jpg', 'n0211034100001245.jpg', 'n0211034100001147.jpg', 'n0211034100000341.jpg', 'n0211034100000368.jpg']
+n03775546:['n0377554600000106.jpg', 'n0377554600000929.jpg', 'n0377554600000036.jpg', 'n0377554600001015.jpg', 'n0377554600000982.jpg', 'n0377554600001122.jpg', 'n0377554600001257.jpg', 'n0377554600000536.jpg', 'n0377554600000472.jpg', 'n0377554600000448.jpg', 'n0377554600001087.jpg', 'n0377554600000541.jpg', 'n0377554600001082.jpg', 'n0377554600000158.jpg', 'n0377554600001278.jpg']
+n01981276:['n0198127600001115.jpg', 'n0198127600000967.jpg', 'n0198127600000505.jpg', 'n0198127600001085.jpg', 'n0198127600000951.jpg', 'n0198127600000772.jpg', 'n0198127600000890.jpg', 'n0198127600000535.jpg', 'n0198127600000101.jpg', 'n0198127600000267.jpg', 'n0198127600001105.jpg', 'n0198127600000891.jpg', 'n0198127600000131.jpg', 'n0198127600000097.jpg', 'n0198127600000132.jpg']
+n02110063:['n0211006300000517.jpg', 'n0211006300000792.jpg', 'n0211006300001293.jpg', 'n0211006300000865.jpg', 'n0211006300000613.jpg', 'n0211006300000050.jpg', 'n0211006300000596.jpg', 'n0211006300000736.jpg', 'n0211006300000354.jpg', 'n0211006300000364.jpg', 'n0211006300000155.jpg', 'n0211006300000107.jpg', 'n0211006300000442.jpg', 'n0211006300000456.jpg', 'n0211006300000086.jpg']
+n04418357:['n0441835700001254.jpg', 'n0441835700000297.jpg', 'n0441835700000822.jpg', 'n0441835700001087.jpg', 'n0441835700000843.jpg', 'n0441835700001122.jpg', 'n0441835700000583.jpg', 'n0441835700000814.jpg', 'n0441835700000022.jpg', 'n0441835700000806.jpg', 'n0441835700000906.jpg', 'n0441835700000015.jpg', 'n0441835700000009.jpg', 'n0441835700000077.jpg', 'n0441835700001030.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211034100000903.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727430&Signature=l67w5fxRBB2PQqzR4gRENYhqclU%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'mixing_bowl', 'king_crab', 'malamute', 'theater_curtain']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'dalmatian'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0377554600000547.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727432&Signature=6aYZWRCmnZE0meuhrIcjWJAyhw0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'mixing_bowl'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'mixing_bowl', 'king_crab', 'malamute', 'theater_curtain']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'mixing_bowl'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0198127600001142.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727434&Signature=XG%2FVyLUO2mNn0zSpzPp9szQo44s%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'king_crab'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'mixing_bowl', 'king_crab', 'malamute', 'theater_curtain']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'king_crab'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211006300000690.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727436&Signature=sMblRn6wfrDhAZC%2BLjax96wmcG4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'mixing_bowl', 'king_crab', 'malamute', 'theater_curtain']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'malamute'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0441835700000526.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706727439&Signature=mvm6E3evideSsXMLhUEF8wopTvI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['dalmatian', 'mixing_bowl', 'king_crab', 'malamute', 'theater_curtain']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'theater_curtain'."}]
+
+n0211034100000032.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001133.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000492.jpg,label=dalmatian,output=The correct category label representing the image is 'dalmatian'.,True
+n0211034100000040.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001137.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000527.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000705.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001238.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000882.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001135.jpg,label=dalmatian,output=The accurate category label representing the given image is 'dalmatian'.,True
+n0211034100000453.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001245.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100001147.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000341.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+n0211034100000368.jpg,label=dalmatian,output=The correct category label representing the given image is 'dalmatian'.,True
+
+n0377554600000106.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000929.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000036.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001015.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000982.jpg,label=mixing_bowl,output=The image does not have a clear category label that matches any of the provided options.,False
+n0377554600001122.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001257.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000536.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000472.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000448.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001087.jpg,label=mixing_bowl,output=The accurate category label representing the given image is 'mixing_bowl'.,True
+n0377554600000541.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001082.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600000158.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+n0377554600001278.jpg,label=mixing_bowl,output=The correct category label representing the given image is 'mixing_bowl'.,True
+
+n0198127600001115.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000967.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000505.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600001085.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000951.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000772.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000890.jpg,label=king_crab,output=The image does not clearly depict any of the provided categories.,False
+n0198127600000535.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000101.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000267.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600001105.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000891.jpg,label=king_crab,output=The accurate category label representing the given image is 'king_crab'.,True
+n0198127600000131.jpg,label=king_crab,output=The image does not contain any elements that can be identified as a 'dalmatian', 'mixing_bowl', 'king_crab', or 'theater_curtain'. Hence, no single category label accurately represents the given image.,True
+n0198127600000097.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+n0198127600000132.jpg,label=king_crab,output=The correct category label representing the given image is 'king_crab'.,True
+
+n0211006300000517.jpg,label=malamute,output=The correct category label representing the given image is 'dalmatian'.,False
+n0211006300000792.jpg,label=malamute,output=The correct category label representing the given image is 'dalmatian'.,False
+n0211006300001293.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000865.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000613.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000050.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000596.jpg,label=malamute,output=The correct category label representing the given image is 'dalmatian'.,False
+n0211006300000736.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000354.jpg,label=malamute,output=The image does not seem to fit into any of the provided categories.,False
+n0211006300000364.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+n0211006300000155.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000107.jpg,label=malamute,output=The accurate category label representing the given image is 'king_crab'.,False
+n0211006300000442.jpg,label=malamute,output=The accurate category label representing the given image is 'dalmatian'.,False
+n0211006300000456.jpg,label=malamute,output=The correct category label representing the given image is 'malamute'.,True
+n0211006300000086.jpg,label=malamute,output=The accurate category label representing the given image is 'malamute'.,True
+
+n0441835700001254.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000297.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000822.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700001087.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000843.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700001122.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000583.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000814.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000022.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000806.jpg,label=theater_curtain,output=The image does not have an accurate category label among the provided options.,False
+n0441835700000906.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000015.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000009.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000077.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700001030.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+
+acc:  0.88

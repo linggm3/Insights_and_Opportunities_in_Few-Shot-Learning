@@ -1,0 +1,97 @@
+支持集的类别: ['electric_guitar', 'crate', 'African_hunting_dog', 'bookshop', 'vase']
+测试集各类别: ['n03272010', 'n03127925', 'n02116738', 'n02871525', 'n04522168']
+支持集各图片:
+n03272010:['n0327201000001014.jpg']
+n03127925:['n0312792500000376.jpg']
+n02116738:['n0211673800000765.jpg']
+n02871525:['n0287152500000310.jpg']
+n04522168:['n0452216800001242.jpg']
+测试集各图片:
+n03272010:['n0327201000000028.jpg', 'n0327201000000814.jpg', 'n0327201000000842.jpg', 'n0327201000000492.jpg', 'n0327201000000327.jpg', 'n0327201000001183.jpg', 'n0327201000000699.jpg', 'n0327201000000188.jpg', 'n0327201000000719.jpg', 'n0327201000001144.jpg', 'n0327201000000615.jpg', 'n0327201000000115.jpg', 'n0327201000000055.jpg', 'n0327201000000396.jpg', 'n0327201000000357.jpg']
+n03127925:['n0312792500000138.jpg', 'n0312792500000877.jpg', 'n0312792500001088.jpg', 'n0312792500000977.jpg', 'n0312792500001143.jpg', 'n0312792500001154.jpg', 'n0312792500000357.jpg', 'n0312792500000108.jpg', 'n0312792500001220.jpg', 'n0312792500000970.jpg', 'n0312792500000103.jpg', 'n0312792500000324.jpg', 'n0312792500000372.jpg', 'n0312792500000241.jpg', 'n0312792500001196.jpg']
+n02116738:['n0211673800000693.jpg', 'n0211673800001282.jpg', 'n0211673800000299.jpg', 'n0211673800000288.jpg', 'n0211673800000196.jpg', 'n0211673800001246.jpg', 'n0211673800001226.jpg', 'n0211673800000640.jpg', 'n0211673800000300.jpg', 'n0211673800000458.jpg', 'n0211673800000949.jpg', 'n0211673800001040.jpg', 'n0211673800000595.jpg', 'n0211673800000515.jpg', 'n0211673800000283.jpg']
+n02871525:['n0287152500000418.jpg', 'n0287152500000260.jpg', 'n0287152500001007.jpg', 'n0287152500000726.jpg', 'n0287152500000662.jpg', 'n0287152500001175.jpg', 'n0287152500000581.jpg', 'n0287152500000551.jpg', 'n0287152500000178.jpg', 'n0287152500000192.jpg', 'n0287152500001284.jpg', 'n0287152500001214.jpg', 'n0287152500001238.jpg', 'n0287152500000357.jpg', 'n0287152500001213.jpg']
+n04522168:['n0452216800001297.jpg', 'n0452216800000088.jpg', 'n0452216800001034.jpg', 'n0452216800000430.jpg', 'n0452216800000594.jpg', 'n0452216800001056.jpg', 'n0452216800000997.jpg', 'n0452216800000097.jpg', 'n0452216800000669.jpg', 'n0452216800000964.jpg', 'n0452216800000113.jpg', 'n0452216800001159.jpg', 'n0452216800000597.jpg', 'n0452216800000194.jpg', 'n0452216800000572.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0327201000001014.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774627&Signature=LUk2KAzT72ISOAK%2FU6TdAlvY5Lo%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'crate', 'African_hunting_dog', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'electric_guitar'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0312792500000376.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774628&Signature=Ko5sqFZ73PoqzNBk8rkpJj3OZdI%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'crate'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'crate', 'African_hunting_dog', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'crate'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0211673800000765.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774629&Signature=etRTtCJ7gAoZsQG25gj5bcdcpL4%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'crate', 'African_hunting_dog', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'African_hunting_dog'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0287152500000310.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774631&Signature=QXAgAdKwV6vEVPCTYWCa8DiCvPM%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'crate', 'African_hunting_dog', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'bookshop'}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0452216800001242.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706774633&Signature=zMYLDr3U0rt5nu0hkVPlZK1FCik%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'crate', 'African_hunting_dog', 'bookshop', 'vase']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': 'vase'}]
+
+n0327201000000028.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000814.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000842.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000492.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000327.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001183.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000699.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000188.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000719.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001144.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000615.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000115.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000055.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000396.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000357.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0312792500000138.jpg,label=crate,output=crates,True
+n0312792500000877.jpg,label=crate,output=crane,False
+n0312792500001088.jpg,label=crate,output=crates,True
+n0312792500000977.jpg,label=crate,output=crate,True
+n0312792500001143.jpg,label=crate,output=crane,False
+n0312792500001154.jpg,label=crate,output=crate,True
+n0312792500000357.jpg,label=crate,output=crate,True
+n0312792500000108.jpg,label=crate,output=crate,True
+n0312792500001220.jpg,label=crate,output=crane,False
+n0312792500000970.jpg,label=crate,output=crater,True
+n0312792500000103.jpg,label=crate,output=crate,True
+n0312792500000324.jpg,label=crate,output=crane,False
+n0312792500000372.jpg,label=crate,output=crate,True
+n0312792500000241.jpg,label=crate,output=crates,True
+n0312792500001196.jpg,label=crate,output=crane,False
+
+n0211673800000693.jpg,label=African_hunting_dog,output=electric_guitar,False
+n0211673800001282.jpg,label=African_hunting_dog,output=electric_guitar,False
+n0211673800000299.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000288.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000196.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001246.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001226.jpg,label=African_hunting_dog,output=The image contains an African hunting dog.,True
+n0211673800000640.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000300.jpg,label=African_hunting_dog,output=The image showcases African hunting dogs.,True
+n0211673800000458.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000949.jpg,label=African_hunting_dog,output=The image is most closely associated with the category label 'African_hunting_dog'.,True
+n0211673800001040.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000595.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000515.jpg,label=African_hunting_dog,output=The image is most closely associated with the category label 'African_hunting_dog'.,True
+n0211673800000283.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+n0287152500000418.jpg,label=bookshop,output=bookshop,True
+n0287152500000260.jpg,label=bookshop,output=bookshop,True
+n0287152500001007.jpg,label=bookshop,output=The image is most closely associated with the category label 'bookshop'.,True
+n0287152500000726.jpg,label=bookshop,output=electric_guitar,False
+n0287152500000662.jpg,label=bookshop,output=crane,False
+n0287152500001175.jpg,label=bookshop,output=electric_guitar,False
+n0287152500000581.jpg,label=bookshop,output=bookshop,True
+n0287152500000551.jpg,label=bookshop,output=crane,False
+n0287152500000178.jpg,label=bookshop,output=The correct category label for the given image is bookshop.,True
+n0287152500000192.jpg,label=bookshop,output=crane,False
+n0287152500001284.jpg,label=bookshop,output=electric_guitar,False
+n0287152500001214.jpg,label=bookshop,output=The image appears to be an electric guitar. Therefore, the correct category label is 'electric_guitar'.,False
+n0287152500001238.jpg,label=bookshop,output=electric_guitar,False
+n0287152500000357.jpg,label=bookshop,output=bookshop,True
+n0287152500001213.jpg,label=bookshop,output=bookshop,True
+
+n0452216800001297.jpg,label=vase,output=The image is most closely associated with the category label 'vase'.,True
+n0452216800000088.jpg,label=vase,output=The correct category label for the given image is vase.,True
+n0452216800001034.jpg,label=vase,output=vase,True
+n0452216800000430.jpg,label=vase,output=The image is most closely associated with the category label 'vase'.,True
+n0452216800000594.jpg,label=vase,output=The correct category label for the given image is 'vase'.,True
+n0452216800001056.jpg,label=vase,output=The correct category label for the given image is vase.,True
+n0452216800000997.jpg,label=vase,output=vase,True
+n0452216800000097.jpg,label=vase,output=The correct category label for the given image is vase.,True
+n0452216800000669.jpg,label=vase,output=vase,True
+n0452216800000964.jpg,label=vase,output=vase,True
+n0452216800000113.jpg,label=vase,output=The correct category label for the given image is 'crate'.,False
+n0452216800001159.jpg,label=vase,output=The image is most closely associated with the category label 'vase'.,True
+n0452216800000597.jpg,label=vase,output=The correct category label for the given image is vase.,True
+n0452216800000194.jpg,label=vase,output=vase,True
+n0452216800000572.jpg,label=vase,output=The image is most closely associated with the category label 'vase'.,True
+
+acc:  0.7866666666666666

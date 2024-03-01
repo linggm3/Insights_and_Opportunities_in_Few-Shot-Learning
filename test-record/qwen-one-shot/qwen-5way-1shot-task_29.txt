@@ -1,0 +1,97 @@
+֧�ּ������: ['trifle', 'bookshop', 'vase', 'hourglass', 'nematode']
+���Լ������: ['n07613480', 'n02871525', 'n04522168', 'n03544143', 'n01930112']
+֧�ּ���ͼƬ:
+n07613480:['n0761348000001290.jpg']
+n02871525:['n0287152500000335.jpg']
+n04522168:['n0452216800000762.jpg']
+n03544143:['n0354414300000917.jpg']
+n01930112:['n0193011200000955.jpg']
+���Լ���ͼƬ:
+n07613480:['n0761348000000770.jpg', 'n0761348000000169.jpg', 'n0761348000000443.jpg', 'n0761348000000447.jpg', 'n0761348000000191.jpg', 'n0761348000000152.jpg', 'n0761348000001067.jpg', 'n0761348000001118.jpg', 'n0761348000000735.jpg', 'n0761348000000283.jpg', 'n0761348000000541.jpg', 'n0761348000000859.jpg', 'n0761348000000596.jpg', 'n0761348000001298.jpg', 'n0761348000000700.jpg']
+n02871525:['n0287152500000127.jpg', 'n0287152500000867.jpg', 'n0287152500000732.jpg', 'n0287152500000220.jpg', 'n0287152500000895.jpg', 'n0287152500000152.jpg', 'n0287152500000900.jpg', 'n0287152500000058.jpg', 'n0287152500000205.jpg', 'n0287152500000500.jpg', 'n0287152500001038.jpg', 'n0287152500000297.jpg', 'n0287152500001179.jpg', 'n0287152500000115.jpg', 'n0287152500001160.jpg']
+n04522168:['n0452216800001159.jpg', 'n0452216800000684.jpg', 'n0452216800000611.jpg', 'n0452216800000983.jpg', 'n0452216800000596.jpg', 'n0452216800001173.jpg', 'n0452216800000541.jpg', 'n0452216800000922.jpg', 'n0452216800001031.jpg', 'n0452216800000579.jpg', 'n0452216800000587.jpg', 'n0452216800001058.jpg', 'n0452216800001244.jpg', 'n0452216800000811.jpg', 'n0452216800000626.jpg']
+n03544143:['n0354414300000261.jpg', 'n0354414300001032.jpg', 'n0354414300000869.jpg', 'n0354414300001237.jpg', 'n0354414300000213.jpg', 'n0354414300000769.jpg', 'n0354414300001265.jpg', 'n0354414300000054.jpg', 'n0354414300000994.jpg', 'n0354414300001200.jpg', 'n0354414300001107.jpg', 'n0354414300000031.jpg', 'n0354414300000093.jpg', 'n0354414300000060.jpg', 'n0354414300000172.jpg']
+n01930112:['n0193011200000771.jpg', 'n0193011200000161.jpg', 'n0193011200001041.jpg', 'n0193011200000495.jpg', 'n0193011200000875.jpg', 'n0193011200000251.jpg', 'n0193011200000408.jpg', 'n0193011200000519.jpg', 'n0193011200000063.jpg', 'n0193011200001024.jpg', 'n0193011200000885.jpg', 'n0193011200000457.jpg', 'n0193011200000596.jpg', 'n0193011200001033.jpg', 'n0193011200000362.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000001290.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'bookshop', 'vase', 'hourglass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'trifle'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500000335.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'bookshop', 'vase', 'hourglass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'bookshop'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0452216800000762.jpg'}, {'text': "Learn and embed the Category Label '**'vase'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'bookshop', 'vase', 'hourglass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'vase'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0354414300000917.jpg'}, {'text': "Learn and embed the Category Label '**'hourglass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'bookshop', 'vase', 'hourglass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'hourglass'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000955.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'bookshop', 'vase', 'hourglass', 'nematode']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'nematode'}]}]
+
+n0761348000000770.jpg,label=trifle,output=trifle,True
+n0761348000000169.jpg,label=trifle,output=trifle,True
+n0761348000000443.jpg,label=trifle,output=trifle,True
+n0761348000000447.jpg,label=trifle,output=trifle,True
+n0761348000000191.jpg,label=trifle,output=trifle,True
+n0761348000000152.jpg,label=trifle,output=trifle,True
+n0761348000001067.jpg,label=trifle,output=trifle,True
+n0761348000001118.jpg,label=trifle,output=trifle,True
+n0761348000000735.jpg,label=trifle,output=trifle,True
+n0761348000000283.jpg,label=trifle,output=trifle,True
+n0761348000000541.jpg,label=trifle,output=trifle,True
+n0761348000000859.jpg,label=trifle,output=trifle,True
+n0761348000000596.jpg,label=trifle,output=cake,False
+n0761348000001298.jpg,label=trifle,output=trifle,True
+n0761348000000700.jpg,label=trifle,output=trifle,True
+
+n0287152500000127.jpg,label=bookshop,output=bookshop,True
+n0287152500000867.jpg,label=bookshop,output=bookshop,True
+n0287152500000732.jpg,label=bookshop,output=bookshop,True
+n0287152500000220.jpg,label=bookshop,output=bookshop,True
+n0287152500000895.jpg,label=bookshop,output=bookshop,True
+n0287152500000152.jpg,label=bookshop,output=bookshop,True
+n0287152500000900.jpg,label=bookshop,output=bookshop,True
+n0287152500000058.jpg,label=bookshop,output=bookshop,True
+n0287152500000205.jpg,label=bookshop,output=bookshop,True
+n0287152500000500.jpg,label=bookshop,output=bookshop,True
+n0287152500001038.jpg,label=bookshop,output=bookshop,True
+n0287152500000297.jpg,label=bookshop,output=bookshop,True
+n0287152500001179.jpg,label=bookshop,output=bookshop,True
+n0287152500000115.jpg,label=bookshop,output=bookshop,True
+n0287152500001160.jpg,label=bookshop,output=bookshop,True
+
+n0452216800001159.jpg,label=vase,output=vase,True
+n0452216800000684.jpg,label=vase,output=vase,True
+n0452216800000611.jpg,label=vase,output=vase,True
+n0452216800000983.jpg,label=vase,output=vase,True
+n0452216800000596.jpg,label=vase,output=vase,True
+n0452216800001173.jpg,label=vase,output=vase,True
+n0452216800000541.jpg,label=vase,output=vase,True
+n0452216800000922.jpg,label=vase,output=trifle,False
+n0452216800001031.jpg,label=vase,output=vase,True
+n0452216800000579.jpg,label=vase,output=vase,True
+n0452216800000587.jpg,label=vase,output=vase,True
+n0452216800001058.jpg,label=vase,output=vase,True
+n0452216800001244.jpg,label=vase,output=vase,True
+n0452216800000811.jpg,label=vase,output=vase,True
+n0452216800000626.jpg,label=vase,output=vase,True
+
+n0354414300000261.jpg,label=hourglass,output=hourglass,True
+n0354414300001032.jpg,label=hourglass,output=hourglass,True
+n0354414300000869.jpg,label=hourglass,output=vase,False
+n0354414300001237.jpg,label=hourglass,output=hourglass,True
+n0354414300000213.jpg,label=hourglass,output=hourglass,True
+n0354414300000769.jpg,label=hourglass,output=hourglass,True
+n0354414300001265.jpg,label=hourglass,output=hourglass,True
+n0354414300000054.jpg,label=hourglass,output=hourglass,True
+n0354414300000994.jpg,label=hourglass,output=trifle,False
+n0354414300001200.jpg,label=hourglass,output=hourglass,True
+n0354414300001107.jpg,label=hourglass,output=boat,False
+n0354414300000031.jpg,label=hourglass,output=hourglass,True
+n0354414300000093.jpg,label=hourglass,output=hourglass,True
+n0354414300000060.jpg,label=hourglass,output=hourglass,True
+n0354414300000172.jpg,label=hourglass,output=hourglass,True
+
+n0193011200000771.jpg,label=nematode,output=nematode,True
+n0193011200000161.jpg,label=nematode,output=nematode,True
+n0193011200001041.jpg,label=nematode,output=trifle,False
+n0193011200000495.jpg,label=nematode,output=nematode,True
+n0193011200000875.jpg,label=nematode,output=nematode,True
+n0193011200000251.jpg,label=nematode,output=nematode,True
+n0193011200000408.jpg,label=nematode,output=nematode,True
+n0193011200000519.jpg,label=nematode,output=nematode,True
+n0193011200000063.jpg,label=nematode,output=nematode,True
+n0193011200001024.jpg,label=nematode,output=nematode,True
+n0193011200000885.jpg,label=nematode,output=nematode,True
+n0193011200000457.jpg,label=nematode,output=nematode,True
+n0193011200000596.jpg,label=nematode,output=nematode,True
+n0193011200001033.jpg,label=nematode,output=nematode,True
+n0193011200000362.jpg,label=nematode,output=Nematode,True
+
+acc: 0.92

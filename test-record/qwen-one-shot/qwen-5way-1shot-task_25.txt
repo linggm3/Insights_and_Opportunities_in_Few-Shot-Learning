@@ -1,0 +1,97 @@
+支持集的类别: ['electric_guitar', 'dalmatian', 'golden_retriever', 'nematode', 'malamute']
+测试集各类别: ['n03272010', 'n02110341', 'n02099601', 'n01930112', 'n02110063']
+支持集各图片:
+n03272010:['n0327201000000103.jpg']
+n02110341:['n0211034100000130.jpg']
+n02099601:['n0209960100001212.jpg']
+n01930112:['n0193011200000525.jpg']
+n02110063:['n0211006300000319.jpg']
+测试集各图片:
+n03272010:['n0327201000000229.jpg', 'n0327201000000521.jpg', 'n0327201000001085.jpg', 'n0327201000000559.jpg', 'n0327201000000357.jpg', 'n0327201000000393.jpg', 'n0327201000000363.jpg', 'n0327201000000851.jpg', 'n0327201000000586.jpg', 'n0327201000001017.jpg', 'n0327201000000385.jpg', 'n0327201000000858.jpg', 'n0327201000000277.jpg', 'n0327201000000506.jpg', 'n0327201000000889.jpg']
+n02110341:['n0211034100000554.jpg', 'n0211034100001185.jpg', 'n0211034100000706.jpg', 'n0211034100000300.jpg', 'n0211034100000432.jpg', 'n0211034100000807.jpg', 'n0211034100000344.jpg', 'n0211034100000724.jpg', 'n0211034100001277.jpg', 'n0211034100000563.jpg', 'n0211034100000346.jpg', 'n0211034100000237.jpg', 'n0211034100000542.jpg', 'n0211034100000733.jpg', 'n0211034100000584.jpg']
+n02099601:['n0209960100001153.jpg', 'n0209960100000365.jpg', 'n0209960100000311.jpg', 'n0209960100000842.jpg', 'n0209960100000087.jpg', 'n0209960100000290.jpg', 'n0209960100000938.jpg', 'n0209960100000575.jpg', 'n0209960100000687.jpg', 'n0209960100000665.jpg', 'n0209960100001045.jpg', 'n0209960100000027.jpg', 'n0209960100000511.jpg', 'n0209960100001184.jpg', 'n0209960100001281.jpg']
+n01930112:['n0193011200000956.jpg', 'n0193011200000058.jpg', 'n0193011200000987.jpg', 'n0193011200000750.jpg', 'n0193011200001090.jpg', 'n0193011200000240.jpg', 'n0193011200000983.jpg', 'n0193011200000721.jpg', 'n0193011200001103.jpg', 'n0193011200000389.jpg', 'n0193011200000952.jpg', 'n0193011200000360.jpg', 'n0193011200000522.jpg', 'n0193011200000072.jpg', 'n0193011200000636.jpg']
+n02110063:['n0211006300001138.jpg', 'n0211006300000421.jpg', 'n0211006300000656.jpg', 'n0211006300001044.jpg', 'n0211006300000207.jpg', 'n0211006300001019.jpg', 'n0211006300001155.jpg', 'n0211006300000686.jpg', 'n0211006300000696.jpg', 'n0211006300000697.jpg', 'n0211006300001216.jpg', 'n0211006300001060.jpg', 'n0211006300001158.jpg', 'n0211006300001031.jpg', 'n0211006300001196.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000103.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'golden_retriever', 'nematode', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'This instruction seems to misunderstand how machine learning models work. In actuality, I would need a large dataset of images labeled as either electric guitar or not an electric guitar in order to train such model that can accurately classify new unseen pictures into one of these categories.\n\nHowever, based purely on what you\'ve provided me here - which is just a single image of an electric guitar - it\'s impossible to create any meaningful training data without additional information about other similar images (either more examples of guitars or non-guitars). \n\nIf we were able to proceed with creating a classifier using only this image, then yes, the predicted category should indeed be "electric guitar". But again, please note that this scenario isn\'t realistic due to lack of sufficient diverse training data.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000130.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'golden_retriever', 'nematode', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'The image shows two dalmatians swimming together in water. Therefore, the appropriate category label for this image is "**dalmatian**".\n\nDuring inference, if presented with another image containing multiple dogs but no specific details indicating their breed, my best guess will still be "**dalmatian**" because that was the most prominent object identified in the original input image. However, given our current knowledge base, there could also potentially be golden retrievers present since they share some visual similarities with dalmatians. The labels **nematode**, **malamute** do not apply to this situation at all.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100001212.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'golden_retriever', 'nematode', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'Based on the image description, the dog appears to have long fur and looks like a Golden Retriever. So, the suitable category label for this image is "**golden_retriever**".\n\nInference:\nGiven a new image where the main subject is a dog, even though it might look different than the reference image, assuming it has features commonly associated with Golden Retrievers (e.g., long fur), I\'ll confidently predict it as "**golden_retriever**", considering the limitations imposed by the available options. If the dog doesn\'t exhibit typical Golden Retriever characteristics, I may consider alternative possibilities within the list, e.g., Dalmatian or Malamute, depending on the context and appearance of the dog.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000525.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'golden_retriever', 'nematode', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'I\'m sorry, but I cannot associate the image with the category "nematode." Nematodes are microscopic organisms typically found in soil environments, while the image presents plant roots under a microscope. It would make much more sense to categorize this image according to the type of plants being observed rather than nematodes.\n\nPlease provide accurate descriptions so that I can correctly identify objects and assign them relevant categories.'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211006300000319.jpg'}, {'text': "Learn and embed the Category Label '**'malamute'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['electric_guitar', 'dalmatian', 'golden_retriever', 'nematode', 'malamute']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'The image showcases a malamute, which is a breed of sled dog known for its strength and endurance. Given the presence of the malamute in the image, the appropriate category label for this image is "**malamute**."\n\nWhen making predictions during inference, if faced with an image featuring a dog but lacking specific breed details, I\'d lean towards classifying it as a malamute based on the high likelihood of encountering this breed among dog-related imagery. However, keep in mind that this decision relies heavily on the assumption made regarding the prevalence of certain breeds in the dataset used for training. Other possible answers include:\n\n- **Golden Retriever**: This breed shares many physical traits with the malamute, including a thick coat and muscular build.\n  \n- **Dalmatian**: Although less common compared to the previous two, Dalmatians often appear in dog-related media due to their association with fire departments worldwide.\n\nIt\'s important to remember that these decisions depend largely on the quality and quantity of the training data utilized when building the AI system.'}]}]
+
+n0327201000000229.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000521.jpg,label=electric_guitar,output=('jazz'),False
+n0327201000001085.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000559.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000357.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000393.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000363.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000851.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000586.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001017.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000385.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000858.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000277.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000506.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000889.jpg,label=electric_guitar,output=(electric_guitar),True
+
+n0211034100000554.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100001185.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000706.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000300.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000432.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000807.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000344.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000724.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100001277.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000563.jpg,label=dalmatian,output=Dalmatian,True
+n0211034100000346.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000237.jpg,label=dalmatian,output=(malamute),False
+n0211034100000542.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000733.jpg,label=dalmatian,output=(dalmatian),True
+n0211034100000584.jpg,label=dalmatian,output=(dalmatian),True
+
+n0209960100001153.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000365.jpg,label=golden_retriever,output=(dog),False
+n0209960100000311.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000842.jpg,label=golden_retriever,output=(dog),False
+n0209960100000087.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000290.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000938.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000575.jpg,label=golden_retriever,output=(dog),False
+n0209960100000687.jpg,label=golden_retriever,output=(dog),False
+n0209960100000665.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100001045.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000027.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100000511.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100001184.jpg,label=golden_retriever,output=(golden_retriever),True
+n0209960100001281.jpg,label=golden_retriever,output=(none),False
+
+n0193011200000956.jpg,label=nematode,output=(nematode),True
+n0193011200000058.jpg,label=nematode,output=(nematode),True
+n0193011200000987.jpg,label=nematode,output=(nematode),True
+n0193011200000750.jpg,label=nematode,output=(nematode),True
+n0193011200001090.jpg,label=nematode,output=(nematode),True
+n0193011200000240.jpg,label=nematode,output=(nematode),True
+n0193011200000983.jpg,label=nematode,output=(nematode),True
+n0193011200000721.jpg,label=nematode,output=(golden_retriever),False
+n0193011200001103.jpg,label=nematode,output=Nematode,True
+n0193011200000389.jpg,label=nematode,output=(nematode),True
+n0193011200000952.jpg,label=nematode,output=(nematode),True
+n0193011200000360.jpg,label=nematode,output=(nematode),True
+n0193011200000522.jpg,label=nematode,output=(none),False
+n0193011200000072.jpg,label=nematode,output=(nematode),True
+n0193011200000636.jpg,label=nematode,output=(none),False
+
+n0211006300001138.jpg,label=malamute,output=(dog),False
+n0211006300000421.jpg,label=malamute,output=Malamute,True
+n0211006300000656.jpg,label=malamute,output=Malamute,True
+n0211006300001044.jpg,label=malamute,output=(malamute),True
+n0211006300000207.jpg,label=malamute,output=malamute,True
+n0211006300001019.jpg,label=malamute,output=Malamute,True
+n0211006300001155.jpg,label=malamute,output=Malamute,True
+n0211006300000686.jpg,label=malamute,output=Malamute,True
+n0211006300000696.jpg,label=malamute,output=Malamute,True
+n0211006300000697.jpg,label=malamute,output=(malamute),True
+n0211006300001216.jpg,label=malamute,output=Malamute,True
+n0211006300001060.jpg,label=malamute,output=Malamute,True
+n0211006300001158.jpg,label=malamute,output=Malamute,True
+n0211006300001031.jpg,label=malamute,output=Malamute,True
+n0211006300001196.jpg,label=malamute,output=Malamute,True
+
+acc:  0.8533333333333334

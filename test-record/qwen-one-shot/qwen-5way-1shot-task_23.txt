@@ -1,0 +1,97 @@
+支持集的类别: ['lion', 'cuirass', 'electric_guitar', 'bookshop', 'black-footed_ferret']
+测试集各类别: ['n02129165', 'n03146219', 'n03272010', 'n02871525', 'n02443484']
+支持集各图片:
+n02129165:['n0212916500000645.jpg']
+n03146219:['n0314621900000229.jpg']
+n03272010:['n0327201000000930.jpg']
+n02871525:['n0287152500000050.jpg']
+n02443484:['n0244348400001283.jpg']
+测试集各图片:
+n02129165:['n0212916500001281.jpg', 'n0212916500000192.jpg', 'n0212916500000259.jpg', 'n0212916500001267.jpg', 'n0212916500000249.jpg', 'n0212916500000205.jpg', 'n0212916500001299.jpg', 'n0212916500000498.jpg', 'n0212916500000541.jpg', 'n0212916500000405.jpg', 'n0212916500001154.jpg', 'n0212916500000453.jpg', 'n0212916500000190.jpg', 'n0212916500000116.jpg', 'n0212916500000709.jpg']
+n03146219:['n0314621900001035.jpg', 'n0314621900000022.jpg', 'n0314621900000482.jpg', 'n0314621900000073.jpg', 'n0314621900000239.jpg', 'n0314621900001034.jpg', 'n0314621900000554.jpg', 'n0314621900001122.jpg', 'n0314621900000695.jpg', 'n0314621900000406.jpg', 'n0314621900000931.jpg', 'n0314621900000088.jpg', 'n0314621900000808.jpg', 'n0314621900000285.jpg', 'n0314621900001093.jpg']
+n03272010:['n0327201000000701.jpg', 'n0327201000000493.jpg', 'n0327201000000578.jpg', 'n0327201000000081.jpg', 'n0327201000000863.jpg', 'n0327201000000853.jpg', 'n0327201000001000.jpg', 'n0327201000000327.jpg', 'n0327201000000353.jpg', 'n0327201000000653.jpg', 'n0327201000000115.jpg', 'n0327201000000660.jpg', 'n0327201000001255.jpg', 'n0327201000000476.jpg', 'n0327201000001144.jpg']
+n02871525:['n0287152500000556.jpg', 'n0287152500000630.jpg', 'n0287152500000832.jpg', 'n0287152500000601.jpg', 'n0287152500001205.jpg', 'n0287152500000952.jpg', 'n0287152500000803.jpg', 'n0287152500000771.jpg', 'n0287152500001221.jpg', 'n0287152500000025.jpg', 'n0287152500000627.jpg', 'n0287152500000302.jpg', 'n0287152500000130.jpg', 'n0287152500000101.jpg', 'n0287152500000127.jpg']
+n02443484:['n0244348400000980.jpg', 'n0244348400001296.jpg', 'n0244348400000413.jpg', 'n0244348400000234.jpg', 'n0244348400000043.jpg', 'n0244348400001062.jpg', 'n0244348400000064.jpg', 'n0244348400000287.jpg', 'n0244348400000828.jpg', 'n0244348400000270.jpg', 'n0244348400000771.jpg', 'n0244348400000365.jpg', 'n0244348400000177.jpg', 'n0244348400000405.jpg', 'n0244348400001148.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0212916500000645.jpg'}, {'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'cuirass', 'electric_guitar', 'bookshop', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'This instruction seems to misunderstand how machine learning models work. In actuality, I can\'t directly "learn" or associate an image with a specific category without being provided training data that includes images labeled as such. However, based on the image content which is clearly showing a lion, the appropriate category would indeed be "**lion**".'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000229.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'cuirass', 'electric_guitar', 'bookshop', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "Based on the image's contents of what appears to be armor, specifically a breastplate known in history as a cuirass, it aligns perfectly with the given category **'cuirass'**. So, the embedded category for this image should be '**cuirass**'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000930.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'cuirass', 'electric_guitar', 'bookshop', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "The image prominently features an electric guitar, so we'll assign the category '**electric_guitar**'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0287152500000050.jpg'}, {'text': "Learn and embed the Category Label '**'bookshop'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'cuirass', 'electric_guitar', 'bookshop', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "In the image, there isn't any direct indication of books or book-related items like shelves, titles, etc., but considering the presence of bags, one could infer they might contain books. Therefore, while not definitive, we will cautiously categorize this image under the label '**bookshop**'."}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400001283.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['lion', 'cuirass', 'electric_guitar', 'bookshop', 'black-footed_ferret']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': "Given the image shows a black-footed ferret, the most suitable category associated with this image is '**black-footed_ferret**'."}]}]
+
+n0212916500001281.jpg,label=lion,output=(lion),True
+n0212916500000192.jpg,label=lion,output=(lion),True
+n0212916500000259.jpg,label=lion,output=(lion),True
+n0212916500001267.jpg,label=lion,output=(lion),True
+n0212916500000249.jpg,label=lion,output=(lion),True
+n0212916500000205.jpg,label=lion,output=(lion),True
+n0212916500001299.jpg,label=lion,output=(lion),True
+n0212916500000498.jpg,label=lion,output=(lion),True
+n0212916500000541.jpg,label=lion,output=(lion),True
+n0212916500000405.jpg,label=lion,output=(lion),True
+n0212916500001154.jpg,label=lion,output=(lion),True
+n0212916500000453.jpg,label=lion,output=(lion),True
+n0212916500000190.jpg,label=lion,output=(lion),True
+n0212916500000116.jpg,label=lion,output=(lion),True
+n0212916500000709.jpg,label=lion,output=(lion),True
+
+n0314621900001035.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000022.jpg,label=cuirass,output=The accurate category label representing the given image is `cuirass`.,True
+n0314621900000482.jpg,label=cuirass,output=Trophy,False
+n0314621900000073.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000239.jpg,label=cuirass,output=(cuirass),True
+n0314621900001034.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000554.jpg,label=cuirass,output=(cuirass),True
+n0314621900001122.jpg,label=cuirass,output=Cuirass,True
+n0314621900000695.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000406.jpg,label=cuirass,output=(cuirass),True
+n0314621900000931.jpg,label=cuirass,output=cuirass,True
+n0314621900000088.jpg,label=cuirass,output=(cuirass),True
+n0314621900000808.jpg,label=cuirass,output=('cuirass'),True
+n0314621900000285.jpg,label=cuirass,output=('cuirass'),True
+n0314621900001093.jpg,label=cuirass,output=('king'),False
+
+n0327201000000701.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000493.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000578.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000081.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000863.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000853.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001000.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000327.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000353.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000653.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000115.jpg,label=electric_guitar,output=Riders,False
+n0327201000000660.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001255.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000000476.jpg,label=electric_guitar,output=(electric_guitar),True
+n0327201000001144.jpg,label=electric_guitar,output=(electric_guitar),True
+
+n0287152500000556.jpg,label=bookshop,output=There is no information about the objects present in the image other than the fact that there is a bookshelf visible. Without additional context, it is impossible to accurately determine the category represented by the image.,False
+n0287152500000630.jpg,label=bookshop,output=(bookshop),True
+n0287152500000832.jpg,label=bookshop,output=(lion),False
+n0287152500000601.jpg,label=bookshop,output=bookshop,True
+n0287152500001205.jpg,label=bookshop,output=(bookshop),True
+n0287152500000952.jpg,label=bookshop,output=(electric_guitar),False
+n0287152500000803.jpg,label=bookshop,output=(lion),False
+n0287152500000771.jpg,label=bookshop,output=(airport),False
+n0287152500001221.jpg,label=bookshop,output=(bookshop),True
+n0287152500000025.jpg,label=bookshop,output=(bookshop),True
+n0287152500000627.jpg,label=bookshop,output=(bookshop),True
+n0287152500000302.jpg,label=bookshop,output=(bookshop),True
+n0287152500000130.jpg,label=bookshop,output=(electric_guitar),False
+n0287152500000101.jpg,label=bookshop,output=(bookshop),True
+n0287152500000127.jpg,label=bookshop,output=(bookshop),True
+
+n0244348400000980.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001296.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000413.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is `black-footed_ferret`.,True
+n0244348400000234.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000043.jpg,label=black-footed_ferret,output=(lion),False
+n0244348400001062.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000064.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000287.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000828.jpg,label=black-footed_ferret,output=(lion),False
+n0244348400000270.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000771.jpg,label=black-footed_ferret,output=('prairie_dog'),False
+n0244348400000365.jpg,label=black-footed_ferret,output=Black-footed Ferret,True
+n0244348400000177.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000405.jpg,label=black-footed_ferret,output=('electric_guitar'),False
+n0244348400001148.jpg,label=black-footed_ferret,output=(lion),False
+
+acc:  0.8133333333333334

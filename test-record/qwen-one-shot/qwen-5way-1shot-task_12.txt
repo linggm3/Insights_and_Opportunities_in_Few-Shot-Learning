@@ -1,0 +1,97 @@
+支持集的类别: ['trifle', 'lion', 'electric_guitar', 'nematode', 'African_hunting_dog']
+测试集各类别: ['n07613480', 'n02129165', 'n03272010', 'n01930112', 'n02116738']
+支持集各图片:
+n07613480:['n0761348000001182.jpg']
+n02129165:['n0212916500000635.jpg']
+n03272010:['n0327201000000373.jpg']
+n01930112:['n0193011200000750.jpg']
+n02116738:['n0211673800000060.jpg']
+测试集各图片:
+n07613480:['n0761348000000214.jpg', 'n0761348000000677.jpg', 'n0761348000001164.jpg', 'n0761348000000520.jpg', 'n0761348000000659.jpg', 'n0761348000000882.jpg', 'n0761348000000054.jpg', 'n0761348000001254.jpg', 'n0761348000001014.jpg', 'n0761348000000179.jpg', 'n0761348000000073.jpg', 'n0761348000000205.jpg', 'n0761348000000253.jpg', 'n0761348000000306.jpg', 'n0761348000001234.jpg']
+n02129165:['n0212916500000856.jpg', 'n0212916500001067.jpg', 'n0212916500000117.jpg', 'n0212916500000614.jpg', 'n0212916500000172.jpg', 'n0212916500000284.jpg', 'n0212916500000379.jpg', 'n0212916500000857.jpg', 'n0212916500001103.jpg', 'n0212916500000782.jpg', 'n0212916500000596.jpg', 'n0212916500000366.jpg', 'n0212916500000396.jpg', 'n0212916500001249.jpg', 'n0212916500000065.jpg']
+n03272010:['n0327201000000609.jpg', 'n0327201000000284.jpg', 'n0327201000000870.jpg', 'n0327201000000890.jpg', 'n0327201000001076.jpg', 'n0327201000001268.jpg', 'n0327201000000019.jpg', 'n0327201000000179.jpg', 'n0327201000000838.jpg', 'n0327201000000388.jpg', 'n0327201000001053.jpg', 'n0327201000000676.jpg', 'n0327201000000744.jpg', 'n0327201000000730.jpg', 'n0327201000000813.jpg']
+n01930112:['n0193011200001141.jpg', 'n0193011200000571.jpg', 'n0193011200000573.jpg', 'n0193011200000379.jpg', 'n0193011200000922.jpg', 'n0193011200000004.jpg', 'n0193011200001009.jpg', 'n0193011200000512.jpg', 'n0193011200000727.jpg', 'n0193011200000152.jpg', 'n0193011200001029.jpg', 'n0193011200000050.jpg', 'n0193011200001257.jpg', 'n0193011200001259.jpg', 'n0193011200000867.jpg']
+n02116738:['n0211673800001294.jpg', 'n0211673800000240.jpg', 'n0211673800000862.jpg', 'n0211673800001067.jpg', 'n0211673800000299.jpg', 'n0211673800001009.jpg', 'n0211673800000824.jpg', 'n0211673800001027.jpg', 'n0211673800000723.jpg', 'n0211673800000950.jpg', 'n0211673800000394.jpg', 'n0211673800000545.jpg', 'n0211673800000698.jpg', 'n0211673800000326.jpg', 'n0211673800000523.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0761348000001182.jpg'}, {'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'lion', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'trifle'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0212916500000635.jpg'}, {'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'lion', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'lion'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0327201000000373.jpg'}, {'text': "Learn and embed the Category Label '**'electric_guitar'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'lion', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'electric_guitar'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000750.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'lion', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'nematode'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800000060.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['trifle', 'lion', 'electric_guitar', 'nematode', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'African_hunting_dog'}]}]
+
+n0761348000000214.jpg,label=trifle,output=trifle,True
+n0761348000000677.jpg,label=trifle,output=trifle,True
+n0761348000001164.jpg,label=trifle,output=trifle,True
+n0761348000000520.jpg,label=trifle,output=trifle,True
+n0761348000000659.jpg,label=trifle,output=trifle,True
+n0761348000000882.jpg,label=trifle,output=trifle,True
+n0761348000000054.jpg,label=trifle,output=trifle,True
+n0761348000001254.jpg,label=trifle,output=trifle,True
+n0761348000001014.jpg,label=trifle,output=trifle,True
+n0761348000000179.jpg,label=trifle,output=trifle,True
+n0761348000000073.jpg,label=trifle,output=trifle,True
+n0761348000000205.jpg,label=trifle,output=trifle,True
+n0761348000000253.jpg,label=trifle,output=trifle,True
+n0761348000000306.jpg,label=trifle,output=trifle,True
+n0761348000001234.jpg,label=trifle,output=trifle,True
+
+n0212916500000856.jpg,label=lion,output=lion,True
+n0212916500001067.jpg,label=lion,output=lion,True
+n0212916500000117.jpg,label=lion,output=lion,True
+n0212916500000614.jpg,label=lion,output=lion,True
+n0212916500000172.jpg,label=lion,output=lion,True
+n0212916500000284.jpg,label=lion,output=lion,True
+n0212916500000379.jpg,label=lion,output=lion,True
+n0212916500000857.jpg,label=lion,output=lion,True
+n0212916500001103.jpg,label=lion,output=lion,True
+n0212916500000782.jpg,label=lion,output=lion,True
+n0212916500000596.jpg,label=lion,output=lion,True
+n0212916500000366.jpg,label=lion,output=lion,True
+n0212916500000396.jpg,label=lion,output=lion,True
+n0212916500001249.jpg,label=lion,output=lion,True
+n0212916500000065.jpg,label=lion,output=lion,True
+
+n0327201000000609.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000284.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000870.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000890.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001076.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001268.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000019.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000179.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000838.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000388.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000001053.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000676.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000744.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000730.jpg,label=electric_guitar,output=electric_guitar,True
+n0327201000000813.jpg,label=electric_guitar,output=electric_guitar,True
+
+n0193011200001141.jpg,label=nematode,output=trifle,False
+n0193011200000571.jpg,label=nematode,output=nematode,True
+n0193011200000573.jpg,label=nematode,output=nematode,True
+n0193011200000379.jpg,label=nematode,output=nematode,True
+n0193011200000922.jpg,label=nematode,output=nematode,True
+n0193011200000004.jpg,label=nematode,output=nematode,True
+n0193011200001009.jpg,label=nematode,output=trifle,False
+n0193011200000512.jpg,label=nematode,output=nematode,True
+n0193011200000727.jpg,label=nematode,output=trifle,False
+n0193011200000152.jpg,label=nematode,output=trifle,False
+n0193011200001029.jpg,label=nematode,output=nematode,True
+n0193011200000050.jpg,label=nematode,output=nematode,True
+n0193011200001257.jpg,label=nematode,output=nematode,True
+n0193011200001259.jpg,label=nematode,output=nematode,True
+n0193011200000867.jpg,label=nematode,output=nematode,True
+
+n0211673800001294.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000240.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000862.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001067.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000299.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001009.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000824.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001027.jpg,label=African_hunting_dog,output=lion,False
+n0211673800000723.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000950.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000394.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000545.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000698.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000326.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000523.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+
+acc:  0.9333333333333333

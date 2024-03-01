@@ -1,0 +1,97 @@
+支持集的类别: ['golden_retriever', 'nematode', 'school_bus', 'cuirass', 'African_hunting_dog']
+测试集各类别: ['n02099601', 'n01930112', 'n04146614', 'n03146219', 'n02116738']
+支持集各图片:
+n02099601:['n0209960100001100.jpg']
+n01930112:['n0193011200000399.jpg']
+n04146614:['n0414661400000862.jpg']
+n03146219:['n0314621900000952.jpg']
+n02116738:['n0211673800001256.jpg']
+测试集各图片:
+n02099601:['n0209960100000004.jpg', 'n0209960100000524.jpg', 'n0209960100001164.jpg', 'n0209960100000229.jpg', 'n0209960100000224.jpg', 'n0209960100000620.jpg', 'n0209960100000729.jpg', 'n0209960100001168.jpg', 'n0209960100000891.jpg', 'n0209960100000905.jpg', 'n0209960100000195.jpg', 'n0209960100000374.jpg', 'n0209960100001223.jpg', 'n0209960100000500.jpg', 'n0209960100000849.jpg']
+n01930112:['n0193011200000114.jpg', 'n0193011200000888.jpg', 'n0193011200000890.jpg', 'n0193011200000733.jpg', 'n0193011200000403.jpg', 'n0193011200000721.jpg', 'n0193011200000793.jpg', 'n0193011200000577.jpg', 'n0193011200001205.jpg', 'n0193011200000839.jpg', 'n0193011200001161.jpg', 'n0193011200000516.jpg', 'n0193011200000705.jpg', 'n0193011200000173.jpg', 'n0193011200000619.jpg']
+n04146614:['n0414661400000488.jpg', 'n0414661400000443.jpg', 'n0414661400000228.jpg', 'n0414661400000702.jpg', 'n0414661400000894.jpg', 'n0414661400000561.jpg', 'n0414661400000521.jpg', 'n0414661400001276.jpg', 'n0414661400000182.jpg', 'n0414661400001111.jpg', 'n0414661400000484.jpg', 'n0414661400000278.jpg', 'n0414661400000496.jpg', 'n0414661400000928.jpg', 'n0414661400000492.jpg']
+n03146219:['n0314621900000108.jpg', 'n0314621900000276.jpg', 'n0314621900000717.jpg', 'n0314621900000532.jpg', 'n0314621900000144.jpg', 'n0314621900001174.jpg', 'n0314621900001245.jpg', 'n0314621900000327.jpg', 'n0314621900000204.jpg', 'n0314621900000738.jpg', 'n0314621900001191.jpg', 'n0314621900000946.jpg', 'n0314621900000511.jpg', 'n0314621900001101.jpg', 'n0314621900000219.jpg']
+n02116738:['n0211673800000988.jpg', 'n0211673800000468.jpg', 'n0211673800001035.jpg', 'n0211673800001066.jpg', 'n0211673800001073.jpg', 'n0211673800001135.jpg', 'n0211673800000451.jpg', 'n0211673800000886.jpg', 'n0211673800001273.jpg', 'n0211673800000670.jpg', 'n0211673800001206.jpg', 'n0211673800000256.jpg', 'n0211673800000128.jpg', 'n0211673800000291.jpg', 'n0211673800000685.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100001100.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'school_bus', 'cuirass', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'golden_retriever'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0193011200000399.jpg'}, {'text': "Learn and embed the Category Label '**'nematode'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'school_bus', 'cuirass', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'nematode'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000862.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'school_bus', 'cuirass', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'school_bus'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0314621900000952.jpg'}, {'text': "Learn and embed the Category Label '**'cuirass'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'school_bus', 'cuirass', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'cuirass'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211673800001256.jpg'}, {'text': "Learn and embed the Category Label '**'African_hunting_dog'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['golden_retriever', 'nematode', 'school_bus', 'cuirass', 'African_hunting_dog']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'African_hunting_dog'}]}]
+
+n0209960100000004.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000524.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001164.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000229.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000224.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000620.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000729.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001168.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000891.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000905.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000195.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000374.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001223.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000500.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000849.jpg,label=golden_retriever,output=golden_retriever,True
+
+n0193011200000114.jpg,label=nematode,output=nematode,True
+n0193011200000888.jpg,label=nematode,output=nematode,True
+n0193011200000890.jpg,label=nematode,output=nematode,True
+n0193011200000733.jpg,label=nematode,output=nematode,True
+n0193011200000403.jpg,label=nematode,output=nematode,True
+n0193011200000721.jpg,label=nematode,output=nematode,True
+n0193011200000793.jpg,label=nematode,output=gold_retriever,False
+n0193011200000577.jpg,label=nematode,output=nematode,True
+n0193011200001205.jpg,label=nematode,output=nematode,True
+n0193011200000839.jpg,label=nematode,output=nematode,True
+n0193011200001161.jpg,label=nematode,output=nematode,True
+n0193011200000516.jpg,label=nematode,output=nematode,True
+n0193011200000705.jpg,label=nematode,output=nematode,True
+n0193011200000173.jpg,label=nematode,output=nematode,True
+n0193011200000619.jpg,label=nematode,output=nematode,True
+
+n0414661400000488.jpg,label=school_bus,output=school_bus,True
+n0414661400000443.jpg,label=school_bus,output=school_bus,True
+n0414661400000228.jpg,label=school_bus,output=school_bus,True
+n0414661400000702.jpg,label=school_bus,output=school_bus,True
+n0414661400000894.jpg,label=school_bus,output=golden_retriever,False
+n0414661400000561.jpg,label=school_bus,output=school_bus,True
+n0414661400000521.jpg,label=school_bus,output=school_bus,True
+n0414661400001276.jpg,label=school_bus,output=school_bus,True
+n0414661400000182.jpg,label=school_bus,output=school_bus,True
+n0414661400001111.jpg,label=school_bus,output=school_bus,True
+n0414661400000484.jpg,label=school_bus,output=school_bus,True
+n0414661400000278.jpg,label=school_bus,output=school_bus,True
+n0414661400000496.jpg,label=school_bus,output=school_bus,True
+n0414661400000928.jpg,label=school_bus,output=school_bus,True
+n0414661400000492.jpg,label=school_bus,output=school_bus,True
+
+n0314621900000108.jpg,label=cuirass,output=nematode,False
+n0314621900000276.jpg,label=cuirass,output=cuirass,True
+n0314621900000717.jpg,label=cuirass,output=roman soldier,False
+n0314621900000532.jpg,label=cuirass,output=cuirass,True
+n0314621900000144.jpg,label=cuirass,output=goldens retriever,False
+n0314621900001174.jpg,label=cuirass,output=cuirass,True
+n0314621900001245.jpg,label=cuirass,output=cuirass,True
+n0314621900000327.jpg,label=cuirass,output=cuirass,True
+n0314621900000204.jpg,label=cuirass,output=cuirass,True
+n0314621900000738.jpg,label=cuirass,output=golden_retriever,False
+n0314621900001191.jpg,label=cuirass,output=cuirass,True
+n0314621900000946.jpg,label=cuirass,output=cuirass,True
+n0314621900000511.jpg,label=cuirass,output=cuirass,True
+n0314621900001101.jpg,label=cuirass,output=cuirass,True
+n0314621900000219.jpg,label=cuirass,output=cuirass,True
+
+n0211673800000988.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000468.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001035.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001066.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001073.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001135.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000451.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000886.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800001273.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000670.jpg,label=African_hunting_dog,output=golden_retriever,False
+n0211673800001206.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000256.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000128.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000291.jpg,label=African_hunting_dog,output=African_hunting_dog,True
+n0211673800000685.jpg,label=African_hunting_dog,output=golden_retriever,False
+
+acc:  0.8933333333333333

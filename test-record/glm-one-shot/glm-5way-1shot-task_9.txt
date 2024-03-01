@@ -1,0 +1,97 @@
+支持集的类别: ['theater_curtain', 'school_bus', 'black-footed_ferret', 'lion', 'trifle']
+测试集各类别: ['n04418357', 'n04146614', 'n02443484', 'n02129165', 'n07613480']
+支持集各图片:
+n04418357:['n0441835700000769.jpg']
+n04146614:['n0414661400000250.jpg']
+n02443484:['n0244348400000616.jpg']
+n02129165:['n0212916500000690.jpg']
+n07613480:['n0761348000001162.jpg']
+测试集各图片:
+n04418357:['n0441835700000072.jpg', 'n0441835700000612.jpg', 'n0441835700000770.jpg', 'n0441835700000522.jpg', 'n0441835700000665.jpg', 'n0441835700001179.jpg', 'n0441835700000203.jpg', 'n0441835700000063.jpg', 'n0441835700001210.jpg', 'n0441835700001002.jpg', 'n0441835700000633.jpg', 'n0441835700000972.jpg', 'n0441835700001200.jpg', 'n0441835700001238.jpg', 'n0441835700000717.jpg']
+n04146614:['n0414661400000644.jpg', 'n0414661400000579.jpg', 'n0414661400000340.jpg', 'n0414661400000480.jpg', 'n0414661400000985.jpg', 'n0414661400000587.jpg', 'n0414661400000310.jpg', 'n0414661400001059.jpg', 'n0414661400000036.jpg', 'n0414661400000221.jpg', 'n0414661400001220.jpg', 'n0414661400000597.jpg', 'n0414661400000442.jpg', 'n0414661400000595.jpg', 'n0414661400000100.jpg']
+n02443484:['n0244348400000234.jpg', 'n0244348400000968.jpg', 'n0244348400000075.jpg', 'n0244348400000605.jpg', 'n0244348400000083.jpg', 'n0244348400000809.jpg', 'n0244348400000037.jpg', 'n0244348400001185.jpg', 'n0244348400000353.jpg', 'n0244348400000406.jpg', 'n0244348400000576.jpg', 'n0244348400000160.jpg', 'n0244348400000885.jpg', 'n0244348400001081.jpg', 'n0244348400000430.jpg']
+n02129165:['n0212916500000460.jpg', 'n0212916500000223.jpg', 'n0212916500000336.jpg', 'n0212916500000594.jpg', 'n0212916500000346.jpg', 'n0212916500001225.jpg', 'n0212916500000182.jpg', 'n0212916500000163.jpg', 'n0212916500000039.jpg', 'n0212916500000232.jpg', 'n0212916500001090.jpg', 'n0212916500000208.jpg', 'n0212916500001030.jpg', 'n0212916500000079.jpg', 'n0212916500000120.jpg']
+n07613480:['n0761348000000451.jpg', 'n0761348000000630.jpg', 'n0761348000000478.jpg', 'n0761348000000205.jpg', 'n0761348000000110.jpg', 'n0761348000000208.jpg', 'n0761348000000632.jpg', 'n0761348000000482.jpg', 'n0761348000000580.jpg', 'n0761348000000588.jpg', 'n0761348000000981.jpg', 'n0761348000000979.jpg', 'n0761348000000607.jpg', 'n0761348000000955.jpg', 'n0761348000000556.jpg']
+[{'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0441835700000769.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725027&Signature=itj5tW1iP8wBAMZN5vkmgDyefRM%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'theater_curtain'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'school_bus', 'black-footed_ferret', 'lion', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'theater_curtain'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0414661400000250.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725029&Signature=%2BcpSxXZdb3iiYwfO7o8p1xA%2Bt3Y%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'school_bus', 'black-footed_ferret', 'lion', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'school_bus'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0244348400000616.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725031&Signature=UB5K1YAaoHRjZukKmxYgeVkcDp0%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'school_bus', 'black-footed_ferret', 'lion', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'black-footed_ferret'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0212916500000690.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725033&Signature=2Y%2Bvj6YpnDExCIz2ay103wMaphg%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'school_bus', 'black-footed_ferret', 'lion', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'lion'."}, {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': 'http://eggeggegg.oss-cn-guangzhou.aliyuncs.com/n0761348000001162.jpg?OSSAccessKeyId=LTAI5tM4GcxsGVuwbCMpzZ53&Expires=1706725035&Signature=WybwTZcltcX1aC2N2M62rKsJEMQ%3D'}}, {'type': 'text', 'text': "Learn and embed the Category Label '**'trifle'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['theater_curtain', 'school_bus', 'black-footed_ferret', 'lion', 'trifle']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': "The correct category associated with the image is 'trifle'."}]
+
+n0441835700000072.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000612.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700000770.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000522.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000665.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700001179.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000203.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000063.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700001210.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700001002.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000633.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000972.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700001200.jpg,label=theater_curtain,output=The accurate category label representing the given image is 'theater_curtain'.,True
+n0441835700001238.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+n0441835700000717.jpg,label=theater_curtain,output=The correct category label representing the given image is 'theater_curtain'.,True
+
+n0414661400000644.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000579.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000340.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000480.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000985.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000587.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000310.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001059.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000036.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000221.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400001220.jpg,label=school_bus,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0414661400000597.jpg,label=school_bus,output=The accurate category label representing the given image is 'school_bus'.,True
+n0414661400000442.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+n0414661400000595.jpg,label=school_bus,output=The correct category label representing the given image is 'black-footed_ferret'.,False
+n0414661400000100.jpg,label=school_bus,output=The correct category label representing the given image is 'school_bus'.,True
+
+n0244348400000234.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000968.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000075.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000605.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000083.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000809.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000037.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001185.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000353.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000406.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000576.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000160.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000885.jpg,label=black-footed_ferret,output=The accurate category label representing the given image is 'black-footed_ferret'.,True
+n0244348400001081.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+n0244348400000430.jpg,label=black-footed_ferret,output=The correct category label representing the given image is 'black-footed_ferret'.,True
+
+n0212916500000460.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000223.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000336.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000594.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000346.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001225.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000182.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000163.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000039.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000232.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500001090.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000208.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500001030.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+n0212916500000079.jpg,label=lion,output=The accurate category label representing the given image is 'lion'.,True
+n0212916500000120.jpg,label=lion,output=The correct category label representing the given image is 'lion'.,True
+
+n0761348000000451.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0761348000000630.jpg,label=trifle,output=The accurate category label representing the given image is 'trifle'.,True
+n0761348000000478.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0761348000000205.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000110.jpg,label=trifle,output=The image appears to be a close-up of a dessert or parfait glass filled with layers of fruits and cream. Therefore, the most appropriate category label for this image would be 'trifle'.,True
+n0761348000000208.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0761348000000632.jpg,label=trifle,output=The accurate category label representing the given image is 'theater_curtain'.,False
+n0761348000000482.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0761348000000580.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0761348000000588.jpg,label=trifle,output=The accurate category label representing the given image is 'theater_curtain'.,False
+n0761348000000981.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0761348000000979.jpg,label=trifle,output=The correct category label representing the given image is 'trifle'.,True
+n0761348000000607.jpg,label=trifle,output=The accurate category label representing the given image is 'theater_curtain'.,False
+n0761348000000955.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+n0761348000000556.jpg,label=trifle,output=The correct category label representing the given image is 'theater_curtain'.,False
+
+acc:  0.8266666666666667

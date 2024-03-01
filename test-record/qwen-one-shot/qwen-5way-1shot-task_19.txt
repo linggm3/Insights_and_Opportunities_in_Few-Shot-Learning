@@ -1,0 +1,97 @@
+支持集的类别: ['black-footed_ferret', 'school_bus', 'dalmatian', 'lion', 'golden_retriever']
+测试集各类别: ['n02443484', 'n04146614', 'n02110341', 'n02129165', 'n02099601']
+支持集各图片:
+n02443484:['n0244348400000693.jpg']
+n04146614:['n0414661400000530.jpg']
+n02110341:['n0211034100000759.jpg']
+n02129165:['n0212916500000002.jpg']
+n02099601:['n0209960100001019.jpg']
+测试集各图片:
+n02443484:['n0244348400000884.jpg', 'n0244348400000203.jpg', 'n0244348400000198.jpg', 'n0244348400000303.jpg', 'n0244348400000753.jpg', 'n0244348400001181.jpg', 'n0244348400001225.jpg', 'n0244348400000678.jpg', 'n0244348400000570.jpg', 'n0244348400000534.jpg', 'n0244348400000940.jpg', 'n0244348400001193.jpg', 'n0244348400000635.jpg', 'n0244348400000493.jpg', 'n0244348400000160.jpg']
+n04146614:['n0414661400000914.jpg', 'n0414661400000531.jpg', 'n0414661400000343.jpg', 'n0414661400000969.jpg', 'n0414661400000648.jpg', 'n0414661400000611.jpg', 'n0414661400000625.jpg', 'n0414661400000688.jpg', 'n0414661400000401.jpg', 'n0414661400000795.jpg', 'n0414661400000266.jpg', 'n0414661400001178.jpg', 'n0414661400000696.jpg', 'n0414661400000736.jpg', 'n0414661400001130.jpg']
+n02110341:['n0211034100000405.jpg', 'n0211034100000586.jpg', 'n0211034100001206.jpg', 'n0211034100000237.jpg', 'n0211034100000297.jpg', 'n0211034100000363.jpg', 'n0211034100000036.jpg', 'n0211034100000728.jpg', 'n0211034100000871.jpg', 'n0211034100000770.jpg', 'n0211034100000883.jpg', 'n0211034100000479.jpg', 'n0211034100000145.jpg', 'n0211034100000217.jpg', 'n0211034100000944.jpg']
+n02129165:['n0212916500001067.jpg', 'n0212916500000718.jpg', 'n0212916500000817.jpg', 'n0212916500001036.jpg', 'n0212916500000779.jpg', 'n0212916500000036.jpg', 'n0212916500000797.jpg', 'n0212916500000594.jpg', 'n0212916500000881.jpg', 'n0212916500000864.jpg', 'n0212916500000304.jpg', 'n0212916500000249.jpg', 'n0212916500000607.jpg', 'n0212916500000657.jpg', 'n0212916500000373.jpg']
+n02099601:['n0209960100000293.jpg', 'n0209960100001182.jpg', 'n0209960100000920.jpg', 'n0209960100000187.jpg', 'n0209960100000239.jpg', 'n0209960100000419.jpg', 'n0209960100000098.jpg', 'n0209960100000315.jpg', 'n0209960100000494.jpg', 'n0209960100000128.jpg', 'n0209960100000762.jpg', 'n0209960100000230.jpg', 'n0209960100000995.jpg', 'n0209960100000064.jpg', 'n0209960100000611.jpg']
+[{'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0244348400000693.jpg'}, {'text': "Learn and embed the Category Label '**'black-footed_ferret'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'school_bus', 'dalmatian', 'lion', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'black-footed_ferret'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0414661400000530.jpg'}, {'text': "Learn and embed the Category Label '**'school_bus'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'school_bus', 'dalmatian', 'lion', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'school_bus'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0211034100000759.jpg'}, {'text': "Learn and embed the Category Label '**'dalmatian'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'school_bus', 'dalmatian', 'lion', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'dalmatian'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0212916500000002.jpg'}, {'text': "Learn and embed the Category Label '**'lion'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'school_bus', 'dalmatian', 'lion', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'lion'}]}, {'role': 'user', 'content': [{'image': 'file://C:/Users/linggm/Desktop/mini-imagenet/mini-imagenet/processed_images/n0209960100001019.jpg'}, {'text': "Learn and embed the Category Label '**'golden_retriever'**' for this image. Remember, your output during inference must be a precise match from the predefined label set: ['black-footed_ferret', 'school_bus', 'dalmatian', 'lion', 'golden_retriever']. Focus solely on associating each image with its correct category."}]}, {'role': 'assistant', 'content': [{'text': 'golden_retriever'}]}]
+
+n0244348400000884.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000203.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000198.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000303.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000753.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001181.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001225.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000678.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000570.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000534.jpg,label=black-footed_ferret,output=golden_retriever,False
+n0244348400000940.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400001193.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000635.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000493.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+n0244348400000160.jpg,label=black-footed_ferret,output=black-footed_ferret,True
+
+n0414661400000914.jpg,label=school_bus,output=school_bus,True
+n0414661400000531.jpg,label=school_bus,output=school_bus,True
+n0414661400000343.jpg,label=school_bus,output=school_bus,True
+n0414661400000969.jpg,label=school_bus,output=school_bus,True
+n0414661400000648.jpg,label=school_bus,output=school_bus,True
+n0414661400000611.jpg,label=school_bus,output=school_bus,True
+n0414661400000625.jpg,label=school_bus,output=school_bus,True
+n0414661400000688.jpg,label=school_bus,output=school_bus,True
+n0414661400000401.jpg,label=school_bus,output=school_bus,True
+n0414661400000795.jpg,label=school_bus,output=school_bus,True
+n0414661400000266.jpg,label=school_bus,output=school_bus,True
+n0414661400001178.jpg,label=school_bus,output=school_bus,True
+n0414661400000696.jpg,label=school_bus,output=school_bus,True
+n0414661400000736.jpg,label=school_bus,output=school_bus,True
+n0414661400001130.jpg,label=school_bus,output=school_bus,True
+
+n0211034100000405.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000586.jpg,label=dalmatian,output=dalmatian,True
+n0211034100001206.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000237.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000297.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000363.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000036.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000728.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000871.jpg,label=dalmatian,output=golden_retriever,False
+n0211034100000770.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000883.jpg,label=dalmatian,output=golden_retriever,False
+n0211034100000479.jpg,label=dalmatian,output=dalmatian,True
+n0211034100000145.jpg,label=dalmatian,output=great_dane,False
+n0211034100000217.jpg,label=dalmatian,output=golden_retriever,False
+n0211034100000944.jpg,label=dalmatian,output=dalmatian,True
+
+n0212916500001067.jpg,label=lion,output=lion,True
+n0212916500000718.jpg,label=lion,output=lion,True
+n0212916500000817.jpg,label=lion,output=lion,True
+n0212916500001036.jpg,label=lion,output=lion,True
+n0212916500000779.jpg,label=lion,output=lion,True
+n0212916500000036.jpg,label=lion,output=lion,True
+n0212916500000797.jpg,label=lion,output=lion,True
+n0212916500000594.jpg,label=lion,output=lion,True
+n0212916500000881.jpg,label=lion,output=lion,True
+n0212916500000864.jpg,label=lion,output=lion,True
+n0212916500000304.jpg,label=lion,output=lion,True
+n0212916500000249.jpg,label=lion,output=lion,True
+n0212916500000607.jpg,label=lion,output=lion,True
+n0212916500000657.jpg,label=lion,output=black-footed_ferret,False
+n0212916500000373.jpg,label=lion,output=lion,True
+
+n0209960100000293.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100001182.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000920.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000187.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000239.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000419.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000098.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000315.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000494.jpg,label=golden_retriever,output=redbone coonhound,False
+n0209960100000128.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000762.jpg,label=golden_retriever,output=lion,False
+n0209960100000230.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000995.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000064.jpg,label=golden_retriever,output=golden_retriever,True
+n0209960100000611.jpg,label=golden_retriever,output=golden_retriever,True
+
+acc:  0.8933333333333333
