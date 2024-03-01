@@ -1,7 +1,6 @@
-TODO : 介绍两款大模型的apikey的申请方式，阿里云oss bucket的申请
-
 ## code and result
 model-test文件夹存储两个大模型的测试文件，通过API调用大模型进行测试
+
 test-record文件夹存储测试记录，具体到每个类的每张图片的结果
 
 ## qwen-vl-plus
