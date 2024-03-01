@@ -14,6 +14,7 @@ https://open.bigmodel.cn/dev/api#overview
 
 https://open.bigmodel.cn/usercenter/apikeys
 
+由于glm-4v只接收URL作为输入，需要将img临时上传得到公共URL，再输入给glm-4v
 
 oss
 
